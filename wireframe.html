@@ -1,0 +1,228 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Foundation</title>
+    <link rel="stylesheet" href="css/app.css"/>
+    <script src="bower_components/modernizr/modernizr.js"></script>
+
+    <style>
+        .hero img { width:100% }
+        /*.top-bar-section ul.left {width:100%}
+        .top-bar-section ul li {width:16.4%}*/
+        .emergency-alert { margin-bottom:0; }
+        .uthsc-footer-top { background:#074e68; padding: 40px 0;}
+        .uthsc-footer-top h4, .uthsc-footer-top p, .uthsc-footer-bottom h4, .uthsc-footer-bottom p { color:#fff; }
+        .uthsc-footer-bottom { background:#000; padding: 40px 0;}
+        .left img { padding-right:1em;}
+    </style>
+
+</head>
+<body>
+
+<!--
+1. Header
+2. Sticky Top Bar Navigation
+3. Emergency Alert Box
+4. Hero Image
+5. Page Heading
+6. Bread Crumbs
+7. Content Row 1
+8. Content Row 2
+9. Content Row 3
+10. Top Footer
+11. Bottom Footer
+-->
+
+<!--Header-->
+<div class="row">
+    <div class="large-12 columns">
+        <h1>Header</h1>
+    </div>
+</div>
+
+<!--Sticky Top Bar Navigation-->
+<div class="contain-to-grid sticky">
+    <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+            <li class="name"></li>
+            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="left">
+                <li class="has-dropdown">
+                    <a href="#">Dropdown 1</a>
+                    <ul class="dropdown">
+                        <li><a href="#">First link in dropdown</a></li>
+                        <li class="active"><a href="#">Active link in dropdown</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">Dropdown 2</a>
+                    <ul class="dropdown">
+                        <li><a href="#">First link in dropdown</a></li>
+                        <li class="active"><a href="#">Active link in dropdown</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">Dropdown 3</a>
+                    <ul class="dropdown">
+                        <li><a href="#">First link in dropdown</a></li>
+                        <li class="active"><a href="#">Active link in dropdown</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">Dropdown 4</a>
+                    <ul class="dropdown">
+                        <li><a href="#">First link in dropdown</a></li>
+                        <li class="active"><a href="#">Active link in dropdown</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">Dropdown 5</a>
+                    <ul class="dropdown">
+                        <li><a href="#">First link in dropdown</a></li>
+                        <li class="active"><a href="#">Active link in dropdown</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">Dropdown 6</a>
+                    <ul class="dropdown">
+                        <li><a href="#">First link in dropdown</a></li>
+                        <li class="active"><a href="#">Active link in dropdown</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+
+        </section>
+    </nav>
+</div>
+
+<!--Emergency Alert Box-->
+<div data-alert class="emergency-alert alert-box info">
+    <div class="row">
+        <div class="columns">
+            <h4>Emergency Alert</h4>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        </div>
+    </div>
+    <a href="#" class="close">&times;</a>
+</div>
+
+<!--Hero Image-->
+<div class="hero">
+    <img src="http://lorempixel.com/1200/300/city/" />
+</div>
+
+<!--Page Heading-->
+<div class="row">
+    <div class="large-12 columns">
+        <h2>Page Heading</h2>
+    </div>
+    </div>
+</div>
+
+<!--Bread Crumbs-->
+<div class="row">
+    <div class="large-12 columns">
+        <ul class="breadcrumbs">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li class="unavailable"><a href="#">Gene Splicing</a></li>
+            <li class="current"><a href="#">Cloning</a></li>
+        </ul>
+    </div>
+</div>
+
+<!--Content Row 1-->
+<div class="row">
+    <div class="large-12 columns">
+        <div class="panel">
+            <h3>Content Row 1 </h3>
+
+            <p>This is a full width row with a panel in it. </p>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</p>
+
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+
+        </div>
+    </div>
+</div>
+
+<!--Content Row 2-->
+<div class="row">
+    <div class="large-4 columns">
+        <h3>Content Row 2</h3>
+        <h5>One Third</h5>
+        <p><strong>This is a three column layout</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+    </div>
+
+    <div class="large-4 columns">
+        <h3>Content Row 2</h3>
+        <h5>One Third</h5>
+        <p><strong>This is a three column layout</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+    </div>
+
+    <div class="large-4 columns">
+        <h3>Content Row 2</h3>
+        <h5>One Third</h5>
+        <p><strong>This is a three column layout</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+    </div>
+</div>
+
+<!--Content Row 3-->
+<div class="row">
+    <div class="large-4 columns">
+        <h3>Content Row 3</h3>
+        <h5>One Third</h5>
+        <p><strong>This is a three column layout</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+    </div>
+
+    <div class="large-8 columns">
+        <h3>Content Row 3</h3>
+        <h5>Two Thirds</h5>
+        <div class="left">
+            <img src="http://lorempixel.com/200/200/city/" />
+        </div>
+
+        <p><strong>This is a three column layout</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+    </div>
+</div>
+
+<!--Top Footer-->
+<div class="uthsc-footer-top">
+    <div class="row">
+        <div class="medium-4 columns">
+            <h4>Contact Us</h4>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        </div>
+        <div class="medium-4 columns">
+            <h4>Links</h4>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        </div>
+        <div class="medium-4 columns">
+            <h4>Emergency</h4>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        </div>
+    </div>
+</div>
+
+<!--Bottom Footer-->
+<div class="uthsc-footer-bottom">
+    <div class="row">
+        <div class="medium-4 columns">
+            <h4>Footer</h4>
+        </div>
+    </div>
+</div>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/foundation/js/foundation.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
