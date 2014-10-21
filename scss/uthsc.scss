@@ -23,6 +23,12 @@
 .left img {margin-right:1em;}
 .right img {margin-left:1em;}
 
+// 01. Header
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.uthsc-header {
+  background: $uthsc-green;
+}
+
 // 02. Sticky Top Bar Navigation
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 /*.top-bar-section ul.left {width:100%}
