@@ -1,0 +1,46 @@
+@import "app";
+
+// Table of Contents
+// Foundation Settings
+//
+// 1. Header
+// 2. Sticky Top Bar Navigation
+// 3. Emergency Alert Box
+// 4. Hero Image
+// 5. Page Heading
+// 6. Bread Crumbs
+// 7. Content Row 1
+// 8. Content Row 2
+// 9. Content Row 3
+// 10. Top Footer
+// 11. Bottom Footer
+
+// 02. Sticky Top Bar Navigation
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+/*.top-bar-section ul.left {width:100%}
+.top-bar-section ul li {width:16.4%}*/
+
+// 03. Emergency Alert Box
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.emergency-alert { margin-bottom:0; }
+
+// 04. Hero Image
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.hero img { width:100% }
+
+// 10. Top Footer
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.uthsc-footer-top {
+  background:$uthsc-green;
+  padding: 40px 0;
+  h4, p { color:#fff; }
+}
+
+// 11. Bottom Footer
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.uthsc-footer-bottom {
+  background:#000;
+  padding: 40px 0;
+  h4, p { color:#fff; }
+  .left img { padding-right:1em;}
+}
