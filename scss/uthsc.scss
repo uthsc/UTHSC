@@ -3,6 +3,7 @@
 // Table of Contents
 // Foundation Settings
 //
+// a. Global
 // 1. Header
 // 2. Sticky Top Bar Navigation
 // 3. Emergency Alert Box
@@ -14,6 +15,13 @@
 // 9. Content Row 3
 // 10. Top Footer
 // 11. Bottom Footer
+
+// a. Global
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+/* Add padding to floated images */
+.left img {margin-right:1em;}
+.right img {margin-left:1em;}
 
 // 02. Sticky Top Bar Navigation
 // - - - - - - - - - - - - - - - - - - - - - - - - -
