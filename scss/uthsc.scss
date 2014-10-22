@@ -25,14 +25,17 @@
 
 // 01. Header
 // - - - - - - - - - - - - - - - - - - - - - - - - -
-.uthsc-header {
+#uthsc-header {
   background: $uthsc-green;
 }
 
 // 02. Sticky Top Bar Navigation
 // - - - - - - - - - - - - - - - - - - - - - - - - -
-/*.top-bar-section ul.left {width:100%}
-.top-bar-section ul li {width:16.4%}*/
+@media #{$large-up} {
+  .top-bar-section ul.left {width:100%}
+  .top-bar-section ul li {width:16.4%}
+}
+
 
 // 03. Emergency Alert Box
 // - - - - - - - - - - - - - - - - - - - - - - - - -
