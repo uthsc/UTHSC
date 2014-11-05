@@ -4,60 +4,131 @@
 // Foundation Settings
 //
 // a. Global
-// 1. Header
-// 2. Sticky Top Bar Navigation
-// 3. Emergency Alert Box
-// 4. Hero Image
-// 5. Page Heading
-// 6. Bread Crumbs
-// 7. Content Row 1
-// 8. Content Row 2
-// 9. Content Row 3
-// 10. Top Footer
-// 11. Bottom Footer
+
+// 01. Top Bar
+// 02. Header
+// 03. Breadcrumbs
+// 04. Main Navigation
+// 05. Emergency Alert Box
+// 06. Hero Image
+// 07. Page Heading
+// 08. Bread Crumbs
+// 09. Content Row 1
+// 10. Content Row 2
+// 11. Content Row 3
+// 12. Top Footer
+// 13. Bottom Footer
 
 // a. Global
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 /* Add padding to floated images */
-.left img {margin-right:1em;}
-.right img {margin-left:1em;}
+.left img {
+  margin-right: 1em;
+}
 
-// 01. Header
+.right img {
+  margin-left: 1em;
+}
+
+// 01. Top Bar
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+// 02. Header
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 #uthsc-header {
   background: $uthsc-green;
 }
 
-// 02. Sticky Top Bar Navigation
+// 03. Bread Crumbs
 // - - - - - - - - - - - - - - - - - - - - - - - - -
-@media #{$large-up} {
-  .top-bar-section ul.left {width:100%}
-  .top-bar-section ul li {width:16.4%}
+#breadcrumblabel {
+  display: inline;
 }
 
+#breadcrumbs {
+  background: #e6e6e6;
+  ol {
+    display: inline;
+  }
+  li {
+    display: inline;
 
-// 03. Emergency Alert Box
-// - - - - - - - - - - - - - - - - - - - - - - - - -
-.emergency-alert { margin-bottom:0; }
+    &:after {
+      content: ' > ';
+      color: gray;
+    }
+  }
+}
 
-// 04. Hero Image
+// 04. Main Navigation
 // - - - - - - - - - - - - - - - - - - - - - - - - -
-.hero img { width:100% }
+#uthsc-navigation {
+  background-color: $uthsc-green;
+
+  ul {
+    margin: 0;
+    li {
+      float: left;
+      list-style: none;
+      padding: .5em 0;
+      ul{
+        display:none;
+        margin-left:0;
+        padding-left:0;
+        li {
+          float: none;
+          font-size: .8em;
+          line-height:1.5em;
+          &:hover {
+            background: #000;
+          }
+        }
+      }
+    }
+  }
+
+  a {
+    padding: .3em;
+    //color:#fff;
+  }
+}
+
+.uthsc-navigation-column {
+  width: 16.4%;
+}
+
+// 05. Emergency Alert Box
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.emergency-alert {
+  margin-bottom: 0;
+}
+
+// 06. Hero Image
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.hero img {
+  width: 100%
+}
 
 // 10. Top Footer
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .uthsc-footer-top {
-  background:$uthsc-green;
+  background: $uthsc-green;
   padding: 40px 0;
-  h4, p { color:#fff; }
+  h4, p {
+    color: #fff;
+  }
 }
 
 // 11. Bottom Footer
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 .uthsc-footer-bottom {
-  background:#000;
+  background: #000;
   padding: 40px 0;
-  h4, p { color:#fff; }
-  .left img { padding-right:1em;}
+  h4, p {
+    color: #fff;
+  }
+  .left img {
+    padding-right: 1em;
+  }
 }
