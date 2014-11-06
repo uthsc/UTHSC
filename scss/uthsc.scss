@@ -31,6 +31,184 @@
   margin-left: 1em;
 }
 
+// 01. Mobile Navigation
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+#mobile-navigation{
+  position:fixed;
+  bottom:0;
+  z-index:500;
+  width:100%;
+  background: $uthsc-green;
+  height:2.5em;
+  padding:0;
+}
+.toggle-push-left {
+  margin:0;
+  max-width:50%;
+  padding:0;
+  background:none;
+  position:fixed;
+  height:2.5em;
+
+  left:0;
+
+}
+.toggle-push-right {
+  margin:0;
+  max-width:50%;
+  padding:0;
+  background:none;
+  position:fixed;
+  height:2.5em;
+
+  right:0;
+}
+
+// 01. Off Canvas Navigation
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+// From http://callmenick.com/2014/03/26/slide-and-push-menus-with-css3-transitions/
+#wrapper {
+  position: relative;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+section {
+  margin-bottom: 30px
+}
+
+section.toggle {
+  text-align: center
+}
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.offcanvas-nav {
+  &.menu {
+    position: fixed;
+    z-index: 20;
+    background-color: #67b5d1;
+    overflow: auto;
+    overflow-x: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      font-weight: 300;
+      color: #fff;
+    }
+  }
+
+  &.push-menu-left,
+  &.push-menu-right {
+    top: 0;
+    width: 300px;
+    height: 100%;
+
+    li {
+      display: block;
+      text-align: center;
+      border-bottom: solid 1px #3184a1;
+      border-top: solid 1px #b5dbe9;
+
+      &:first-child {
+        border-top: none
+      }
+
+      &:last-child {
+        border-bottom: none
+      }
+    }
+
+    a {
+      display: block;
+      padding: 10px;
+      font-size: 18px;
+    }
+
+    button.close-menu {
+      margin: 10px 0;
+      padding: 10px 30px;
+    }
+  }
+
+  &.push-menu-left {
+    left: -300px
+  }
+  &.push-menu-right {
+    right: -300px
+  }
+
+  @media all and (max-width: 330px) {
+    &.push-menu-left,
+    nav.push-menu-right {
+      top: 0;
+      width: 100%;
+    }
+    &.push-menu-left {
+      left: -100%
+    }
+    &.push-menu-right {
+      right: -100%
+    }
+  }
+}
+
+body{
+  &.pml-open nav.push-menu-left {
+    left: 0
+  }
+  &.pmr-open nav.push-menu-right {
+    right: 0
+  }
+  &.pml-open #wrapper {
+    left: 300px
+  }
+  &.pmr-open #wrapper {
+    left: -300px
+  }
+
+  @media all and (max-width: 330px) {
+    &.pml-open nav.push-menu-left {
+      left: 0
+    }
+    &.pmr-open nav.push-menu-right {
+      right: 0
+    }
+    &.pml-open #wrapper {
+      left: 100%
+    }
+    &.pmr-open #wrapper {
+      left: -100%
+    }
+  }
+}
+
+
+
+
 // 01. Top Bar
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -66,12 +244,25 @@
 #uthsc-navigation {
   background-color: $uthsc-green;
 
+  a {
+    color:#fff;
+  }
+
+  .uthsc-navigation-column{
+    //height:232px;
+    &:hover{
+      background: #00593A;
+    }
+  }
+
   ul {
     margin: 0;
     li {
       float: left;
       list-style: none;
       padding: .5em 0;
+      display:block;
+
       ul{
         display:none;
         margin-left:0;
