@@ -44,6 +44,4 @@
 			document.body.removeChild(mask);
 		} );
 	});
-
-
 })( window );
