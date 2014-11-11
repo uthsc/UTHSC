@@ -43,6 +43,9 @@
 
 <!-- Right Off Canvas Menu -->
 <nav class="offcanvas-nav menu push-menu-right">
+
+    <input type="text" placeholder="Search">
+
     <ul>
         <li><button class="close-menu">Close &rarr;</button></li>
         <li><a href="#">Broccoli</a></li>
@@ -69,7 +72,6 @@
     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
         rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
         explicabo.</p>
-
 </nav>
 
 <!--Off Canvas Wrapper-->
@@ -109,7 +111,7 @@
 
             <ul>
                 <li class="has-form">
-                    <input type="text" placeholder="Find Stuff">
+                    <input type="text" placeholder="Search">
                 </li>
             </ul>
         </section>
@@ -145,14 +147,14 @@
         <ul>
             <li class="uthsc-navigation-column">
                 <a href="#">Dropdown 1</a>
-                <ul>
+                <ul class="menu-links">
                     <li><a href="#">First link in dropdown</a></li>
                     <li class="active"><a href="#">Active link in dropdown</a></li>
                 </ul>
             </li>
             <li class="uthsc-navigation-column">
                 <a href="#">Dropdown 2</a>
-                <ul>
+                <ul class="menu-links">
                     <li><a href="#">First link in dropdown</a></li>
                     <li class="active"><a href="#">Active link in dropdown</a></li>
                     <li><a href="#">First link in dropdown</a></li>
@@ -161,7 +163,7 @@
             </li>
             <li class="uthsc-navigation-column">
                 <a href="#">Dropdown 3</a>
-                <ul>
+                <ul class="menu-links">
                     <li><a href="#">First link in dropdown</a></li>
                     <li class="active"><a href="#">Active link in dropdown</a></li>
                     <li><a href="#">First link in dropdown</a></li>
@@ -172,7 +174,7 @@
             </li>
             <li class="uthsc-navigation-column">
                 <a href="#">Dropdown 4</a>
-                <ul>
+                <ul class="menu-links">
                     <li><a href="#">First link in dropdown</a></li>
                     <li class="active"><a href="#">Active link in dropdown</a></li>
                     <li><a href="#">First link in dropdown</a></li>
@@ -181,14 +183,14 @@
             </li>
             <li class="uthsc-navigation-column">
                 <a href="#">Dropdown 5</a>
-                <ul>
+                <ul class="menu-links">
                     <li><a href="#">First link in dropdown</a></li>
                     <li class="active"><a href="#">Active link in dropdown</a></li>
                 </ul>
             </li>
             <li class="uthsc-navigation-column">
                 <a href="#">Dropdown 6</a>
-                <ul>
+                <ul class="menu-links">
                     <li><a href="#">First link in dropdown</a></li>
                     <li class="active"><a href="#">Active link in dropdown</a></li>
                 </ul>
@@ -351,62 +353,7 @@
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/foundation/js/foundation.min.js"></script>
 <script src="js/app.js"></script>
-<script>
-    var openTimer;
-    var closeTimer;
-    var endTimer;
-
-    jQuery(".uthsc-navigation-column").bind('mouseover', openSubMenu);
-    jQuery("#uthsc-navigation").bind('mouseleave', closeSubMenu);
-
-    function expandMenu() {
-        $('#uthsc-navigation ul li ul').stop(true, true).slideDown(400);
-    }
-
-    function collapseMenu() {
-        $('#uthsc-navigation ul li ul').stop(true, true).slideUp(400);
-    }
-
-    function clearTimer() {
-        clearTimeout(closeTimer);
-        clearTimeout(openTimer);
-    }
-
-    function openSubMenu() {
-        clearTimer();
-        openTimer = setTimeout(expandMenu, 400);
-    }
-
-    function closeSubMenu() {
-        clearTimer();
-        closeTimer = setTimeout(collapseMenu, 400);
-    }
-
-    $(document).ready(function () {
-        //Calculate the height of <header>
-        //Use outerHeight() instead of height() if have padding
-        var aboveHeight = $('#uthsc-header').outerHeight() + $('.top-bar').outerHeight() + $('#breadcrumbs').outerHeight();
-        //when scroll
-        $(window).scroll(function () {
-            //if scrolled down more than the header’s height
-            if ($(window).scrollTop() > aboveHeight) {
-                // if yes, add “fixed” class to the <nav>
-                // add padding top to the #content
-                //(value is same as the height of the nav)
-                $('#uthsc-navigation').addClass('fixed').css('top', '0').next()
-                        .css('padding-top', '60px');
-            } else {
-                // when scroll up or less than aboveHeight,
-                //remove the “fixed” class, and the padding-top
-                $('#uthsc-navigation').removeClass('fixed').next()
-                        .css('padding-top', '0');
-            }
-        });
-    });
-</script>
-
 <!-- js -->
-<script src="js/classie.js"></script>
-<script src="js/nav.js"></script>
+<script src="js/uthsc.min.js"></script>
 </body>
 </html>
