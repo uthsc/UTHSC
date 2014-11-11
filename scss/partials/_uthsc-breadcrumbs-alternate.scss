@@ -1,7 +1,15 @@
 #breadcrumbs {
-  ul {
+  ol {
+    list-style: none;
+    margin: 0;
     li{
-      list-style: none;
+      display: inline;
+      &:after {
+        content: ' > '
+      }
+      &:last-child:after {
+        content: ''
+      }
     }
   }
 }
