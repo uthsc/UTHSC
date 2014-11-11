@@ -1,0 +1,57 @@
+#uthsc-navigation {
+  background-color: $uthsc-green;
+
+  a {
+    color: #fff;
+  }
+
+  .uthsc-navigation-column {
+    border-right:1px solid black;
+    &:hover {
+      background: #006143;
+    }
+
+    &:first-child {
+      border-left:1px solid black;
+    }
+  }
+
+
+  ul {
+    margin: 0;
+    text-align: center;
+
+
+    li {
+      float: left;
+      list-style: none;
+      padding: .5em 0;
+      display: block;
+    }
+
+    &.menu-links {
+      display: none;
+      margin-left: 0;
+      padding-left: 0;
+      height: 200px;
+      text-align: left;
+      li {
+        float: none;
+        font-size: .8em;
+        line-height: 1.5em;
+        &:hover {
+          background: #000;
+        }
+      }
+    }
+  }
+
+  a {
+    padding: .3em;
+    //color:#fff;
+  }
+}
+
+.uthsc-navigation-column {
+  width: 16.66%;
+}
