@@ -1,47 +1,63 @@
 /**
  * The nav stuff
  */
-(function( window ){
-	
+(function( $ ){
+
 	'use strict';
 
-	var body = document.body,
+	var body = $('body'),
 		mask = document.createElement("div"),
-		togglePushLeft = document.querySelector( ".toggle-push-left" ),
-		togglePushRight = document.querySelector( ".toggle-push-right" ),
-		pushMenuLeft = document.querySelector( ".push-menu-left" ),
-		pushMenuRight = document.querySelector( ".push-menu-right" ),
+        wrapper = $( "#wrapper" ),
+		togglePushLeft = $( ".toggle-push-left" ),
+		togglePushRight = $( ".toggle-push-right" ),
+		pushMenuLeft = $( ".push-menu-left" ),
+		pushMenuRight = $( ".push-menu-right" ),
+        windowLocation,
 		activeNav
 	;
 	mask.className = "mask";
 
-	/* push menu left */
-	togglePushLeft.addEventListener( "click", function(){
-		classie.add( body, "pml-open" );
-		document.body.appendChild(mask);
-		activeNav = "pml-open";
-	} );
+    function getWindowLocation() {
+        var loc = body.scrollTop();
+        return loc;
+    }
 
-	/* push menu right */
-	togglePushRight.addEventListener( "click", function(){
-		classie.add( body, "pmr-open" );
-		document.body.appendChild(mask);
-		activeNav = "pmr-open";
-	} );
+    function scrollToLocation(location) {
+        body.scrollTop(location);
+    }
 
-	/* hide active menu if mask is clicked */
+    function toggleMenu(menuClass){
+        windowLocation = getWindowLocation();
+        body.addClass(menuClass);
+        document.body.appendChild(mask);
+        activeNav = menuClass;
+        //console.log(windowLocation);
+        scrollToLocation(0);
+    }
+
+    togglePushLeft.click(function(){
+        toggleMenu("pml-open");
+    });
+
+    togglePushRight.click(function(){
+        toggleMenu("pmr-open");
+    });
+
+    /* hide active menu if mask is clicked */
 	mask.addEventListener( "click", function(){
-		classie.remove( body, activeNav );
+
+		body.removeClass( activeNav );
 		activeNav = "";
 		document.body.removeChild(mask);
+        scrollToLocation(windowLocation)
 	} );
 
 	/* hide active menu if close menu button is clicked */
 	[].slice.call(document.querySelectorAll(".close-menu")).forEach(function(el,i){
 		el.addEventListener( "click", function(){
-			classie.remove( body, activeNav );
+			body.removeClass( activeNav );
 			activeNav = "";
 			document.body.removeChild(mask);
 		} );
 	});
-})( window );
+})( jQuery );
