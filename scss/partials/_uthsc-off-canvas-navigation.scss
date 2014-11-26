@@ -29,6 +29,40 @@ section.toggle {
   background: rgba(0, 0, 0, 0.8);
 }
 
+.pmr-open {
+  #wrapper {
+    position:fixed;
+    width: 100%;
+  }
+  .offcanvas-nav.push-menu-right {
+    position: absolute;
+  }
+  /*.menu-right {
+    top: 0;
+    width: 300px;
+    max-width: 85%;
+    height: 100%;
+  }*/
+}
+
+.pml-open {
+  #wrapper {
+    position:fixed;
+    width: 100%;
+  }
+  .offcanvas-nav.push-menu-left {
+    position: absolute;
+  }
+  /*.menu-right {
+    top: 0;
+    width: 300px;
+    max-width: 85%;
+    height: 100%;
+  }*/
+
+}
+
+
 .offcanvas-nav {
   &.menu {
     position: fixed;
@@ -41,6 +75,7 @@ section.toggle {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+    min-height:100%;
 
     ul {
       list-style-type: none;
@@ -56,9 +91,10 @@ section.toggle {
 
   &.push-menu-left,
   &.push-menu-right {
-    top: 0;
+    //top: 0;
     width: 300px;
-    height: 100%;
+    max-width:85%;
+    //height: 100%;
 
     li {
       display: block;
@@ -95,16 +131,16 @@ section.toggle {
   }
 
   @media all and (max-width: 330px) {
-    &.push-menu-left,
+    nav.push-menu-left,
     nav.push-menu-right {
       top: 0;
-      width: 100%;
+      width: 300px;
     }
     &.push-menu-left {
-      left: -100%
+      left: -300px
     }
     &.push-menu-right {
-      right: -100%
+      right: -300px
     }
   }
 }
@@ -138,3 +174,4 @@ body {
     }
   }
 }
+

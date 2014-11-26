@@ -33,7 +33,7 @@ $(document).ready(function () {
     //Use outerHeight() instead of height() if have padding
     var aboveHeight = $('#uthsc-header').outerHeight() + $('.top-bar').outerHeight() + $('#breadcrumbs').outerHeight();
     //when scroll
-    $(window).scroll(function () {
+    /*$(window).scroll(function () {
         //if scrolled down more than the header’s height
         if ($(window).scrollTop() > aboveHeight) {
             // if yes, add “fixed” class to the <nav>
@@ -47,5 +47,5 @@ $(document).ready(function () {
             $('#uthsc-navigation').removeClass('fixed').next()
                 .css('padding-top', '0');
         }
-    });
+    });*/
 });

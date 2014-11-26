@@ -1,29 +1,9 @@
 #mobile-navigation {
   position: fixed;
   bottom: 0;
-  z-index: 500;
-  width: 100%;
-  background: $uthsc-green;
-  height: 2.5em;
-  padding: 0;
-}
+  z-index: 1;
 
-.toggle-push-left {
-  margin: 0;
-  max-width: 50%;
-  padding: 0;
-  background: none;
-  position: fixed;
-  height: 2.5em;
-  left: 0;
-}
-
-.toggle-push-right {
-  margin: 0;
-  max-width: 50%;
-  padding: 0;
-  background: none;
-  position: fixed;
-  height: 2.5em;
-  right: 0;
+  button {
+    margin-bottom: 0;
+  }
 }
