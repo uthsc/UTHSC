@@ -1,9 +1,24 @@
 #mobile-navigation {
   position: fixed;
   bottom: 0;
-  z-index: 1;
+  z-index: 100;
+  left:0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 
   button {
     margin-bottom: 0;
+    width:50%;
   }
+}
+
+.pml-open #mobile-navigation{
+  left: 300px;
+}
+
+.pmr-open #mobile-navigation{
+  left: -300px;
 }

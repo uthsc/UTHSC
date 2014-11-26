@@ -162,7 +162,7 @@ if ( typeof define === 'function' && define.amd ) {
         body.addClass(menuClass);
         document.body.appendChild(mask);
         activeNav = menuClass;
-        //console.log(windowLocation);
+
         scrollToLocation(0);
     }
 
@@ -180,7 +180,8 @@ if ( typeof define === 'function' && define.amd ) {
 		body.removeClass( activeNav );
 		activeNav = "";
 		document.body.removeChild(mask);
-        scrollToLocation(windowLocation)
+        //console.log(windowLocation);
+        scrollToLocation(windowLocation);
 	} );
 
 	/* hide active menu if close menu button is clicked */
