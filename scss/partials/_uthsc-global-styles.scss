@@ -6,3 +6,13 @@
 .right img {
   margin-left: 1em;
 }
+
+div#wrapper{
+  padding-bottom: 50px;
+}
+
+@media #{$large-up} {
+  div#wrapper{
+    padding-bottom: 0px;
+  }
+}
