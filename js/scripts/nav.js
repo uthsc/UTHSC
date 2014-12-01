@@ -13,25 +13,42 @@
 		pushMenuLeft = $( ".push-menu-left" ),
 		pushMenuRight = $( ".push-menu-right" ),
         windowLocation,
+        loc,
 		activeNav
 	;
+
 	mask.className = "mask";
 
     function getWindowLocation() {
-        var loc = body.scrollTop();
+        loc = $(window).scrollTop();
         return loc;
     }
 
     function scrollToLocation(location) {
-        body.scrollTop(location);
+        //scroll to location
+        $(window).scrollTop(location);
+
+        //log location
+        //console.log('scrollTop location: ' + location);
     }
 
     function toggleMenu(menuClass){
+        //set window location
         windowLocation = getWindowLocation();
+
+        //log window location
+        //console.log('toggleMenu window location: ' + getWindowLocation());
+
+        //add menu class to body
         body.addClass(menuClass);
+
+        //append mask
         document.body.appendChild(mask);
+
+        //set active nav
         activeNav = menuClass;
 
+        //scroll to top of nav
         scrollToLocation(0);
     }
 
@@ -46,11 +63,23 @@
     /* hide active menu if mask is clicked */
 	mask.addEventListener( "click", function(){
 
-		body.removeClass( activeNav );
-		activeNav = "";
-		document.body.removeChild(mask);
+        //debug: log window location
         //console.log(windowLocation);
-        scrollToLocation(windowLocation);
+
+        //remove activeNav class from body
+        body.removeClass( activeNav );
+
+        //clear active nave variable
+        activeNav = "";
+
+        //remove mask
+        document.body.removeChild(mask);
+
+        //debug: log loc variable
+        //console.log('hide mask loc: ' + loc);
+
+        //scroll to loc
+        scrollToLocation(loc);
 	} );
 
 	/* hide active menu if close menu button is clicked */
