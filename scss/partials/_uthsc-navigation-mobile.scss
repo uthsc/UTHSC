@@ -22,5 +22,13 @@
 
 .pmr-open #mobile-navigation{
   left: -300px;
+}
 
+.bottom-nav-bar {
+    width: 100%;
+    height: 44px;
+    clear: left;
+    background: $uthsc-green;
+    text-align: center;
+    line-height: 44px;
 }
