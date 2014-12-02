@@ -5,8 +5,6 @@
 
     'use strict';
 
-		pushMenuLeft = $( ".push-menu-left" ),
-		pushMenuRight = $( ".push-menu-right" ),
     var body = $('body'),
         mask = document.createElement("div"),
         wrapper = $("#wrapper"),
