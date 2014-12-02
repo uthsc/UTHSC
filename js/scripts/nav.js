@@ -1,23 +1,22 @@
 /**
  * The nav stuff
  */
-(function( $ ){
+(function ($) {
 
-	'use strict';
+    'use strict';
 
-	var body = $('body'),
-		mask = document.createElement("div"),
-        wrapper = $( "#wrapper" ),
-		togglePushLeft = $( ".toggle-push-left" ),
-		togglePushRight = $( ".toggle-push-right" ),
 		pushMenuLeft = $( ".push-menu-left" ),
 		pushMenuRight = $( ".push-menu-right" ),
+    var body = $('body'),
+        mask = document.createElement("div"),
+        wrapper = $("#wrapper"),
+        togglePushLeft = $(".toggle-push-left"),
+        togglePushRight = $(".toggle-push-right"),
         windowLocation,
         loc,
-		activeNav
-	;
+        activeNav;
 
-	mask.className = "mask";
+    mask.className = "mask";
 
     function getWindowLocation() {
         loc = $(window).scrollTop();
@@ -32,7 +31,7 @@
         //console.log('scrollTop location: ' + location);
     }
 
-    function toggleMenu(menuClass){
+    function toggleMenu(menuClass) {
         //set window location
         windowLocation = getWindowLocation();
 
@@ -52,22 +51,12 @@
         scrollToLocation(0);
     }
 
-    togglePushLeft.click(function(){
-        toggleMenu("pml-open");
-    });
-
-    togglePushRight.click(function(){
-        toggleMenu("pmr-open");
-    });
-
-    /* hide active menu if mask is clicked */
-	mask.addEventListener( "click", function(){
-
+    function closeMenu() {
         //debug: log window location
         //console.log(windowLocation);
 
         //remove activeNav class from body
-        body.removeClass( activeNav );
+        body.removeClass(activeNav);
 
         //clear active nave variable
         activeNav = "";
@@ -80,14 +69,24 @@
 
         //scroll to loc
         scrollToLocation(loc);
-	} );
+    }
 
-	/* hide active menu if close menu button is clicked */
-	[].slice.call(document.querySelectorAll(".close-menu")).forEach(function(el,i){
-		el.addEventListener( "click", function(){
-			body.removeClass( activeNav );
-			activeNav = "";
-			document.body.removeChild(mask);
-		} );
-	});
-})( jQuery );
+    togglePushLeft.click(function () {
+        toggleMenu("pml-open");
+    });
+
+    togglePushRight.click(function () {
+        toggleMenu("pmr-open");
+    });
+
+    /* hide active menu if mask is clicked */
+    mask.addEventListener("click", function () {
+        closeMenu();
+    });
+
+    /* hide active menu if close button is clicked */
+    $(".close-menu").click(function () {
+        closeMenu();
+    });
+
+})(jQuery);
