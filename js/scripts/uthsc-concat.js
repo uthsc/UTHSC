@@ -2,7 +2,7 @@ var openTimer;
 var closeTimer;
 var endTimer;
 
-jQuery(".uthsc-navigation-column").bind('mouseover', openSubMenu);
+/*jQuery(".uthsc-navigation-column").bind('mouseover', openSubMenu);
 jQuery("#uthsc-navigation").bind('mouseleave', closeSubMenu);
 
 function expandMenu() {
@@ -11,7 +11,7 @@ function expandMenu() {
 
 function collapseMenu() {
     $('#uthsc-navigation ul li ul').stop(true, true).slideUp(400);
-}
+}*/
 
 function clearTimer() {
     clearTimeout(closeTimer);
@@ -19,21 +19,26 @@ function clearTimer() {
 }
 
 function openSubMenu() {
+    //$('#uthsc-navigation').addClass('uthsc-navigation-active');
     clearTimer();
     openTimer = setTimeout(expandMenu, 400);
 }
 
 function closeSubMenu() {
+    //$('#uthsc-navigation').removeClass('uthsc-navigation-active');
     clearTimer();
     closeTimer = setTimeout(collapseMenu, 400);
 }
 
+
+/*Fixed Navigation*/
+
 $(document).ready(function () {
     //Calculate the height of <header>
     //Use outerHeight() instead of height() if have padding
-    var aboveHeight = $('#uthsc-header').outerHeight() + $('.top-bar').outerHeight() + $('#breadcrumbs').outerHeight();
+    var aboveHeight = $('#uthsc-header').outerHeight() + $('#breadcrumbs').outerHeight() + 20;
     //when scroll
-    /*$(window).scroll(function () {
+    $(window).scroll(function () {
         //if scrolled down more than the header’s height
         if ($(window).scrollTop() > aboveHeight) {
             // if yes, add “fixed” class to the <nav>
@@ -47,7 +52,7 @@ $(document).ready(function () {
             $('#uthsc-navigation').removeClass('fixed').next()
                 .css('padding-top', '0');
         }
-    });*/
+    });
 });/*!
  * classie v1.0.0
  * class helper functions
@@ -152,10 +157,36 @@ if ( typeof define === 'function' && define.amd ) {
         return loc;
     }
 
-    function scrollToLocation(location) {
-        //scroll to location
-        $(window).scrollTop(location);
+    function waitForCss(whatever) {
+        wrapper.one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',
+            function (e) {
+                whatever
+                console.log(whatever);
+            });
     }
+
+    function scrollToLocation(location) {
+
+        //scroll without animation
+        //$('html, body').scrollTop(location);
+
+        $('html,body').animate({
+            scrollTop: location
+        },300)
+
+
+        //scroll with animation but supposedly wait for animation to finish
+        /*waitForCss(
+            $('html,body').animate({
+            scrollTop: location
+            },300)
+        )*/
+
+
+
+    }
+
+
 
     function toggleMenu(menuClass) {
         //set window location
@@ -164,17 +195,24 @@ if ( typeof define === 'function' && define.amd ) {
         //add menu class to body
         body.addClass(menuClass);
 
+        //scroll to top of nav
+        //scrollToLocation(0);
+
         //append mask
         document.body.appendChild(mask);
 
         //set active nav
         activeNav = menuClass;
 
-        //scroll to top of nav
         scrollToLocation(0);
+
+        //alert('finished');
     }
 
     function closeMenu() {
+        //debug: log window location
+        //console.log(windowLocation);
+
         //remove activeNav class from body
         body.removeClass(activeNav);
 
@@ -183,6 +221,9 @@ if ( typeof define === 'function' && define.amd ) {
 
         //remove mask
         document.body.removeChild(mask);
+
+        //debug: log loc variable
+        //console.log('hide mask loc: ' + loc);
 
         //scroll to loc
         scrollToLocation(loc);

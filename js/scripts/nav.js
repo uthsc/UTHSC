@@ -21,10 +21,36 @@
         return loc;
     }
 
-    function scrollToLocation(location) {
-        //scroll to location
-        $(window).scrollTop(location);
+    function waitForCss(whatever) {
+        wrapper.one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',
+            function (e) {
+                whatever
+                console.log(whatever);
+            });
     }
+
+    function scrollToLocation(location) {
+
+        //scroll without animation
+        //$('html, body').scrollTop(location);
+
+        $('html,body').animate({
+            scrollTop: location
+        },300)
+
+
+        //scroll with animation but supposedly wait for animation to finish
+        /*waitForCss(
+            $('html,body').animate({
+            scrollTop: location
+            },300)
+        )*/
+
+
+
+    }
+
+
 
     function toggleMenu(menuClass) {
         //set window location
@@ -33,17 +59,24 @@
         //add menu class to body
         body.addClass(menuClass);
 
+        //scroll to top of nav
+        //scrollToLocation(0);
+
         //append mask
         document.body.appendChild(mask);
 
         //set active nav
         activeNav = menuClass;
 
-        //scroll to top of nav
         scrollToLocation(0);
+
+        //alert('finished');
     }
 
     function closeMenu() {
+        //debug: log window location
+        //console.log(windowLocation);
+
         //remove activeNav class from body
         body.removeClass(activeNav);
 
@@ -52,6 +85,9 @@
 
         //remove mask
         document.body.removeChild(mask);
+
+        //debug: log loc variable
+        //console.log('hide mask loc: ' + loc);
 
         //scroll to loc
         scrollToLocation(loc);

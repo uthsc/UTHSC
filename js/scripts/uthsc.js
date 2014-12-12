@@ -2,7 +2,7 @@ var openTimer;
 var closeTimer;
 var endTimer;
 
-jQuery(".uthsc-navigation-column").bind('mouseover', openSubMenu);
+/*jQuery(".uthsc-navigation-column").bind('mouseover', openSubMenu);
 jQuery("#uthsc-navigation").bind('mouseleave', closeSubMenu);
 
 function expandMenu() {
@@ -11,7 +11,7 @@ function expandMenu() {
 
 function collapseMenu() {
     $('#uthsc-navigation ul li ul').stop(true, true).slideUp(400);
-}
+}*/
 
 function clearTimer() {
     clearTimeout(closeTimer);
@@ -19,21 +19,26 @@ function clearTimer() {
 }
 
 function openSubMenu() {
+    //$('#uthsc-navigation').addClass('uthsc-navigation-active');
     clearTimer();
     openTimer = setTimeout(expandMenu, 400);
 }
 
 function closeSubMenu() {
+    //$('#uthsc-navigation').removeClass('uthsc-navigation-active');
     clearTimer();
     closeTimer = setTimeout(collapseMenu, 400);
 }
 
+
+/*Fixed Navigation*/
+
 $(document).ready(function () {
     //Calculate the height of <header>
     //Use outerHeight() instead of height() if have padding
-    var aboveHeight = $('#uthsc-header').outerHeight() + $('.top-bar').outerHeight() + $('#breadcrumbs').outerHeight();
+    var aboveHeight = $('#uthsc-header').outerHeight() + $('#breadcrumbs').outerHeight() + 20;
     //when scroll
-    /*$(window).scroll(function () {
+    $(window).scroll(function () {
         //if scrolled down more than the header’s height
         if ($(window).scrollTop() > aboveHeight) {
             // if yes, add “fixed” class to the <nav>
@@ -47,5 +52,5 @@ $(document).ready(function () {
             $('#uthsc-navigation').removeClass('fixed').next()
                 .css('padding-top', '0');
         }
-    });*/
+    });
 });

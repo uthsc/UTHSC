@@ -82,9 +82,9 @@
 <div id="wrapper">
 
 <!--Mobile Navigation Menu-->
-<div id="mobile-navigation" class="row collapse hide-for-large-up">
-    <button class="nav-toggler toggle-push-left left">Menu 1</button>
-    <button class="nav-toggler toggle-push-right right">Menu 2</button>
+<div  id="mobile-navigation" class="hide-for-large-up">
+    <button class="nav-toggler toggle-push-left left">1</button>
+    <button class="nav-toggler toggle-push-right right">2</button>
 
     <?php
     if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) {
@@ -151,31 +151,19 @@
 
 <!--Main Navigation-->
 <nav role="navigation" id="uthsc-navigation" class="show-for-large-up">
-    <ul class="row collapse">
+    <ul class="row collapse" data-equalizer>
 
-        <li class=" uthsc-navigation-column small-2 columns">
-            <a href="#">Dropdown 1</a>
-            <ul class="menu-links">
+        <li class="uthsc-navigation-column small-2 columns">
+            <a href="#">Biomedical Education</a>
+            <ul data-equalizer-watch>
                 <li><a href="#">First link in dropdown</a></li>
                 <li class="active"><a href="#">Active link in dropdown</a></li>
             </ul>
         </li>
 
-        <li class=" uthsc-navigation-column small-2 columns">
-            <a href="#">Dropdown 2</a>
-            <ul class="menu-links">
-                <li><a href="#">First link in dropdown</a></li>
-                <li class="active"><a href="#">Active link in dropdown</a></li>
-                <li><a href="#">First link in dropdown</a></li>
-                <li class="active"><a href="#">Active link in dropdown</a></li>
-            </ul>
-        </li>
-
-        <li class=" uthsc-navigation-column small-2 columns">
-            <a href="#">Dropdown 3</a>
-            <ul class="menu-links">
-                <li><a href="#">First link in dropdown</a></li>
-                <li class="active"><a href="#">Active link in dropdown</a></li>
+        <li class="uthsc-navigation-column small-2 columns">
+            <a href="#">Molecular Sciences</a>
+            <ul data-equalizer-watch>
                 <li><a href="#">First link in dropdown</a></li>
                 <li class="active"><a href="#">Active link in dropdown</a></li>
                 <li><a href="#">First link in dropdown</a></li>
@@ -183,9 +171,11 @@
             </ul>
         </li>
 
-        <li class=" uthsc-navigation-column small-2 columns">
-            <a href="#">Dropdown 4</a>
-            <ul class="menu-links">
+        <li class="uthsc-navigation-column small-2 columns">
+            <a href="#">Faculty & Staff</a>
+            <ul data-equalizer-watch>
+                <li><a href="#">First link in dropdown link in dropdow link in dropdow</a></li>
+                <li class="active"><a href="#">Active link in dropdown</a></li>
                 <li><a href="#">First link in dropdown</a></li>
                 <li class="active"><a href="#">Active link in dropdown</a></li>
                 <li><a href="#">First link in dropdown</a></li>
@@ -193,17 +183,27 @@
             </ul>
         </li>
 
-        <li class=" uthsc-navigation-column small-2 columns">
+        <li class="uthsc-navigation-column small-2 columns">
+            <a href="#">Neuro Scientific</a>
+            <ul data-equalizer-watch>
+                <li><a href="#">First link in dropdown</a></li>
+                <li class="active"><a href="#">Active link in dropdown</a></li>
+                <li><a href="#">First link in dropdown</a></li>
+                <li class="active"><a href="#">Active link in dropdown</a></li>
+            </ul>
+        </li>
+
+        <li class="uthsc-navigation-column small-2 columns">
             <a href="#">Dropdown 5</a>
-            <ul class="menu-links">
+            <ul data-equalizer-watch>
                 <li><a href="#">First link in dropdown</a></li>
                 <li class="active"><a href="#">Active link in dropdown</a></li>
             </ul>
         </li>
 
-        <li class=" uthsc-navigation-column small-2 columns">
+        <li class="uthsc-navigation-column small-2 columns">
             <a href="#">Dropdown 6</a>
-            <ul class="menu-links">
+            <ul data-equalizer-watch>
                 <li><a href="#">First link in dropdown</a></li>
                 <li class="active"><a href="#">Active link in dropdown</a></li>
             </ul>
@@ -233,7 +233,6 @@
         <h2>Page Title</h2>
     </div>
 </div>
-
 
 <!--Content Row 1-->
 <div class="row">

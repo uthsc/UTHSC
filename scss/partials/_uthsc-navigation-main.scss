@@ -1,47 +1,57 @@
 #uthsc-navigation {
+
   background-color: $uthsc-green;
 
   a {
     color: #fff;
+    padding: .5em;
+    display:block;
   }
 
-  .uthsc-navigation-column {
-    border-right:1px solid black;
+  li {
+    list-style: none;
+  }
+
+  //Top Level Category List
+  & > ul > li {
+
+    text-align: center;
+    border-right: 1px solid black;
+
     &:hover {
       background: #006143;
     }
 
     &:first-child {
-      border-left:1px solid black;
+      border-left: 1px solid black;
+    }
+
+    & > a {
+      //background:red;
+      width:100%;
     }
   }
 
-  ul {
-    text-align: center;
-
+  //Inner Link List
+  & > ul > li > ul {
+    //display: none;
+    margin-left: 0;
+    padding-left: 0px;
+    //height: 200px; //What are we going to do about this? It can't be fixed height.
+    text-align: left;
     li {
-      list-style: none;
-      padding: .5em 0;
-    }
+      float: none;
+      font-size: .8em;
+      line-height: 1.5em;
 
-    &.menu-links {
-      display: none;
-      margin-left: 0;
-      padding-left: 0px;
-      height: 200px; //What are we going to do about this? It can't be fixed height.
-      text-align: left;
-      li {
-        float: none;
-        font-size: .8em;
-        line-height: 1.5em;
-        &:hover {
-          background: #000;
-        }
+      &:hover {
+        background: #000;
       }
     }
   }
 
-  a {
-    padding: 1em;
-  }
 }
+
+
+
+

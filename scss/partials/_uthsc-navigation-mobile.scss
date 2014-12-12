@@ -1,8 +1,9 @@
 #mobile-navigation {
   position: fixed;
   bottom: 0;
-  z-index: 100;
+  z-index: 1;
   left:0;
+  right: 0;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -17,10 +18,12 @@
 
 .pml-open #mobile-navigation{
   left: 300px;
+  right: -300px;
 
 }
 
 .pmr-open #mobile-navigation{
+  right: 300px;
   left: -300px;
 }
 
