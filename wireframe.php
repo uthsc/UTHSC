@@ -82,10 +82,9 @@
 <div id="wrapper">
 
 <!--Mobile Navigation Menu-->
-<div  id="mobile-navigation" class="row collapse hide-for-large-up">
+<div id="mobile-navigation" class="row collapse hide-for-large-up">
     <button class="nav-toggler toggle-push-left left">Menu 1</button>
     <button class="nav-toggler toggle-push-right right">Menu 2</button>
-
 
     <?php
     if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) {

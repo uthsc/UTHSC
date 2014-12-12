@@ -24,17 +24,11 @@
     function scrollToLocation(location) {
         //scroll to location
         $(window).scrollTop(location);
-
-        //log location
-        //console.log('scrollTop location: ' + location);
     }
 
     function toggleMenu(menuClass) {
         //set window location
         windowLocation = getWindowLocation();
-
-        //log window location
-        //console.log('toggleMenu window location: ' + getWindowLocation());
 
         //add menu class to body
         body.addClass(menuClass);
@@ -50,9 +44,6 @@
     }
 
     function closeMenu() {
-        //debug: log window location
-        //console.log(windowLocation);
-
         //remove activeNav class from body
         body.removeClass(activeNav);
 
@@ -61,9 +52,6 @@
 
         //remove mask
         document.body.removeChild(mask);
-
-        //debug: log loc variable
-        //console.log('hide mask loc: ' + loc);
 
         //scroll to loc
         scrollToLocation(loc);
