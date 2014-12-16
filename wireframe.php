@@ -150,20 +150,20 @@
 </nav>
 
 <!--Main Navigation-->
-<nav role="navigation" id="uthsc-navigation" class="show-for-large-up">
-    <ul class="row collapse" data-equalizer>
+<nav role="navigation" id="uthsc-navigation-alt" class="show-for-large-up">
+    <ul class="row collapse" data-equalizer data-uthscequalizer>
 
         <li class="uthsc-navigation-column small-2 columns">
-            <a href="#">Biomedical Education</a>
-            <ul data-equalizer-watch>
+            <a href="#" data-equalizer-watch>Biomedical Education</a>
+            <ul data-uthscequalizer-watch>
                 <li><a href="#">First link in dropdown</a></li>
                 <li class="active"><a href="#">Active link in dropdown</a></li>
             </ul>
         </li>
 
         <li class="uthsc-navigation-column small-2 columns">
-            <a href="#">Molecular Sciences</a>
-            <ul data-equalizer-watch>
+            <a href="#" data-equalizer-watch>Molecular Sciences</a>
+            <ul data-uthscequalizer-watch>
                 <li><a href="#">First link in dropdown</a></li>
                 <li class="active"><a href="#">Active link in dropdown</a></li>
                 <li><a href="#">First link in dropdown</a></li>
@@ -172,20 +172,26 @@
         </li>
 
         <li class="uthsc-navigation-column small-2 columns">
-            <a href="#">Faculty & Staff</a>
-            <ul data-equalizer-watch>
+            <a href="#" data-equalizer-watch>Faculty & Staff</a>
+            <ul data-uthscequalizer-watch>
                 <li><a href="#">First link in dropdown link in dropdow link in dropdow</a></li>
                 <li class="active"><a href="#">Active link in dropdown</a></li>
                 <li><a href="#">First link in dropdown</a></li>
                 <li class="active"><a href="#">Active link in dropdown</a></li>
                 <li><a href="#">First link in dropdown</a></li>
                 <li class="active"><a href="#">Active link in dropdown</a></li>
+                <li class="active"><a href="#">Active link in dropdown</a></li>
+                <li><a href="#">First link in dropdown</a></li>
+                <li class="active"><a href="#">Active link in dropdown</a></li>
+                <li class="active"><a href="#">Active link in dropdown</a></li>
+                <li><a href="#">First link in dropdown</a></li>
+                <li class="active"><a href="#">Active link in dropdown</a></li>
             </ul>
         </li>
 
         <li class="uthsc-navigation-column small-2 columns">
-            <a href="#">Neuro Scientific</a>
-            <ul data-equalizer-watch>
+            <a href="#" data-equalizer-watch>Neuro Scientific</a>
+            <ul data-uthscequalizer-watch>
                 <li><a href="#">First link in dropdown</a></li>
                 <li class="active"><a href="#">Active link in dropdown</a></li>
                 <li><a href="#">First link in dropdown</a></li>
@@ -194,16 +200,16 @@
         </li>
 
         <li class="uthsc-navigation-column small-2 columns">
-            <a href="#">Dropdown 5</a>
-            <ul data-equalizer-watch>
+            <a href="#" data-equalizer-watch>Dropdown 5</a>
+            <ul data-uthscequalizer-watch>
                 <li><a href="#">First link in dropdown</a></li>
                 <li class="active"><a href="#">Active link in dropdown</a></li>
             </ul>
         </li>
 
         <li class="uthsc-navigation-column small-2 columns">
-            <a href="#">Dropdown 6</a>
-            <ul data-equalizer-watch>
+            <a href="#" data-equalizer-watch>Dropdown 6</a>
+            <ul data-uthscequalizer-watch>
                 <li><a href="#">First link in dropdown</a></li>
                 <li class="active"><a href="#">Active link in dropdown</a></li>
             </ul>
@@ -360,7 +366,7 @@
 </div>
 
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/foundation/js/foundation.min.js"></script>
+<script src="js/uthsc.foundation.min.js"></script>
 <script src="js/app.js"></script>
 <!-- js -->
 <script src="js/uthsc.min.js"></script>
