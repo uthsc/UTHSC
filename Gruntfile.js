@@ -18,11 +18,17 @@ module.exports = function (grunt) {
 
         concat: {
             options: {
-                separator: ''
+                separator: '\n'
             },
+
             dist: {
-                src: ['js/scripts/uthsc.js','js/scripts/classie.js', 'js/scripts/nav.js'],
-                dest: 'js/scripts/uthsc-concat.js'
+                src: ['js/scripts/*.js'],
+                dest: 'js/uthsc.js'
+            },
+
+            foundation: {
+                src: ['bower_components/foundation/js/foundation.js','js/scripts/uthsc.equalizer.js'],
+                dest: 'js/uthsc.foundation.js'
             }
         },
 
@@ -32,9 +38,16 @@ module.exports = function (grunt) {
                     except: ['jQuery', 'Backbone']
                 }
             },
-            my_target: {
+
+            dist: {
                 files: {
-                    'js/uthsc.min.js': ['js/scripts/uthsc-concat.js']
+                    'js/uthsc.min.js': ['js/uthsc.js']
+                }
+            },
+
+            foundation: {
+                files: {
+                    'js/uthsc.foundation.min.js': ['js/uthsc.foundation.js']
                 }
             }
         },
@@ -54,13 +67,20 @@ module.exports = function (grunt) {
         }
     });
 
+    //load tasks
     grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
 
-    grunt.registerTask('concatenate', ['concat']);
-    grunt.registerTask('minify', ['uglify']);
-    grunt.registerTask('build', ['sass', 'concat', 'uglify']);
+    //foundation
+    grunt.registerTask('foundationConcatenate', ['concat:foundation']);
+    grunt.registerTask('foundationMinify', ['uglify:foundation']);
+    grunt.registerTask('foundation', ['foundationConcatenate','foundationMinify']);
+
+    //default
+    grunt.registerTask('concatenate', ['concat:dist']);
+    grunt.registerTask('minify', ['uglify:dist']);
+    grunt.registerTask('build', ['sass', 'concatenate', 'minify']);
     grunt.registerTask('default', ['build', 'watch']);
 }
