@@ -3,3 +3,7 @@
 /bower_components/*
 /node_modules/*
 /.idea/*
+/js/uthsc.js
+/js/uthsc.min.js
+/js/uthsc.foundation.js
+/js/uthsc.foundation.min.js
