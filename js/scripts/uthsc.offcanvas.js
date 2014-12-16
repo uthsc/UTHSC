@@ -41,16 +41,11 @@
 
         //scroll with animation but supposedly wait for animation to finish
         /*waitForCss(
-            $('html,body').animate({
-            scrollTop: location
-            },300)
-        )*/
-
-
-
+         $('html,body').animate({
+         scrollTop: location
+         },300)
+         )*/
     }
-
-
 
     function toggleMenu(menuClass) {
         //set window location
