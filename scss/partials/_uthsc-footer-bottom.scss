@@ -1,10 +1,46 @@
 .uthsc-footer-bottom {
-  background: darken( $uthsc-green, 10% );
-  padding: 40px 0;
+  background: darken($uthsc-green, 10%);
+  background: $charcoal;
+  padding: 0 0 44px;
+
   h4, p {
     color: #fff;
+    margin-bottom: 0;
   }
+
   .left img {
     padding-right: 1em;
+  }
+
+  .logo {
+    background: $uthsc-green;
+    padding: .5em;
+  }
+
+  .social-icon i {
+    padding: 11px;
+    &:hover {
+      color: $uthsc-orange;
+    }
+  }
+
+  .two-line-button-icon {
+    float: left;
+    padding-right: 0.4em;
+  }
+
+  .two-line-button-text {
+    float: right;
+    text-align: left;
+  }
+
+  .emergency {
+    background: $emergency;
+    color: $smoke;
+    margin-bottom: 0;
+    a {
+      font-weight: $font-weight-bold;
+      color: $silver;
+    }
   }
 }
