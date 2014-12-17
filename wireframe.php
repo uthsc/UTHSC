@@ -211,8 +211,8 @@
 
 <!--Mobile Navigation Menu-->
 <div id="mobile-navigation" class="hide-for-large-up">
-    <button class="nav-toggler toggle-push-left left">1</button>
-    <button class="nav-toggler toggle-push-right right">2</button>
+    <button class="nav-toggler toggle-push-left left"></button>
+    <button class="nav-toggler toggle-push-right right"></button>
 
     <?php
     if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) {
@@ -383,10 +383,9 @@
             <p>This is a full width row with a panel in it. </p>
 
             <p>Thanks to <a href="http://fortawesome.github.io/Font-Awesome/">Fontawesome <i class="fa fa-flag"></i></a>
-                we can use these handy icons anywhere. Here's an example of a <a href="">pdf link <i
-                        class="fa fa-file-pdf-o"></i></a>. Sed ut perspiciatis unde omnis iste natus error sit
-                voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                veritatis et quasi architecto beatae</p>
+                we can use these handy icons anywhere. Here's an example of a <a href="">pdf link <i class="fa fa-file-pdf-o"></i></a>. Sed ut <strong>perspiciatis</strong> unde omnis iste natus
+                error sit voluptatem accusantium doloremque laudantium, <strong>totam <em>rem</em> aperiam</strong>, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae</p>
 
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
                 rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
