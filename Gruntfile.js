@@ -83,4 +83,4 @@ module.exports = function (grunt) {
     grunt.registerTask('minify', ['uglify:dist']);
     grunt.registerTask('build', ['sass', 'concatenate', 'minify']);
     grunt.registerTask('default', ['build', 'watch']);
-}
+};
