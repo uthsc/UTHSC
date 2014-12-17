@@ -78,7 +78,7 @@ section.toggle {
     .mission-links {
       padding: 8px;
       /*background-color: $uthsc-green;*/
-      background-color: $uthsc-orange;
+      //background-color: $uthsc-orange;
       h2 {
         color: $white;
         text-align: center;
@@ -92,43 +92,42 @@ section.toggle {
       }
     }
 
-    .button.inverse {
-      background-color: $gainsboro;
-      color: $uthsc-green;
-      border-bottom: 1px solid $base;
-      text-align: left;
-      font-weight: bold;
-      margin-bottom: 0;
-      .fa {
-        padding: 0 14px 0 8px;
-        width: 44px;
-      }
-      &:nth-child(even) {
-        background: $smoke;
-      }
-      &:first-of-type {
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-      }
-      &:last-of-type {
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-      }
-    }
+    .button {
 
-    .button.menu {
-      margin: 0;
-      padding-left: 25px;
-      .fa {
-        width: 44px;
-      }
-    }
+      &.inverse {
+        background-color: $gainsboro;
+        color: $uthsc-green;
+        border-bottom: 1px solid $base;
+        text-align: left;
+        font-weight: bold;
+        margin-bottom: 0;
 
-    .uthsc-split-button-home.inverse {
-      background-color: $gainsboro;
-      color: $uthsc-green;
-      border-bottom: 1px solid $base;
-      font-weight: bold;
+        &.fa {
+          padding: 0 14px 0 8px;
+          width: 44px;
+        }
+
+        &:nth-child(even) {
+          background: $smoke;
+        }
+        &:first-of-type {
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+        }
+        &:last-of-type {
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+        }
+      }
+
+      &.menu {
+        margin: 0;
+        padding-left: 25px;
+
+        .fa {
+          width: 44px;
+        }
+      }
     }
 
     .uthsc-split-button.inverse {
@@ -148,34 +147,41 @@ section.toggle {
       margin: 0;
       width: 16%;
       z-index: 1001;
+
+      &.inverse {
+        background-color: $gainsboro;
+        color: $uthsc-green;
+        border-bottom: 1px solid $base;
+        font-weight: bold;
+      }
     }
-    /*uthsc-split-button-breadcrumb-links (end)*/
 
     .uthsc-split-button-breadcrumb-links {
       z-index: 1002;
-    }
-    .uthsc-split-button-breadcrumb-links a {
-      color: #222;
-      font-size: 0.75em;
-    }
 
-    .uthsc-split-button-breadcrumb-links li {
-      text-align: center;
-      border: none;
-
-      &:after {
-        content: "\f106";
-        font-family: fontawesome;
+      a {
+        color: #222;
+        font-size: 0.75em;
       }
 
-      &:last-child:after {
-        content: "";
-      }
-    }
+      li {
+        text-align: center;
+        border: none;
 
-    .uthsc-split-button-breadcrumb-links li:last-child a:before {
-      content: "Current Page: ";
-      font-weight: $font-weight-bold;
+        &:after {
+          content: "\f106";
+          font-family: fontawesome;
+        }
+
+        &:last-child:after {
+          content: "";
+        }
+      }
+
+      li:last-child a:before {
+        content: "Current Page: ";
+        font-weight: $font-weight-bold;
+      }
     }
 
     .uthsc-split-button-mission-links {
@@ -195,7 +201,6 @@ section.toggle {
         }
       }
     }
-    /*uthsc-split-button-mission-links (end)*/
 
     ol.uthsc-split-button-mission-links {
       border-bottom: 3px solid #006A4D;
