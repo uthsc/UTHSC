@@ -1,7 +1,42 @@
 .uthsc-footer-top {
-  background: $uthsc-green;
+  background: $silver;
   padding: 40px 0;
-  h4, p {
+
+  h3 {
     color: #fff;
   }
+}
+
+hr.tooltip-divider {
+  border: solid #555;
+  border-width: 3px 0 0;
+  clear: both;
+  margin: 3px 0;
+  height: 0;
+}
+
+.has-tip hr {
+  border: solid #555;
+  border-width: 3px 0 0;
+  clear: both;
+  margin: 3px 0;
+  height: 0;
+}
+
+h3 .fa-button {
+  top: .4rem;
+}
+
+.fa-button {
+  position: relative;
+  padding: 0 0 6px 0;
+  margin: 0 10px 0 -10px;
+}
+
+p .fa-button {
+  top: .2rem;
+}
+
+.call-buttons-box {
+  height: 320px;
 }
