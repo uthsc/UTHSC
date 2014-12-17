@@ -13,13 +13,13 @@
   button {
     margin-bottom: 0;
     width:50%;
+    height: 44px;
   }
 }
 
 .pml-open #mobile-navigation{
   left: 300px;
   right: -300px;
-
 }
 
 .pmr-open #mobile-navigation{
@@ -34,4 +34,28 @@
     background: $uthsc-green;
     text-align: center;
     line-height: 44px;
+    background-size: 89%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .93;
+    background-color: #006A4D;
+    opacity: .4;
+}
+.nav-toggler {
+    background: $uthsc-green;
+    height: 44px;
+}
+.toggle-push-left {
+    background-image: url("../images/2t.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+    border-right: 1px solid #5d5c5c;
+}
+.toggle-push-right {
+    background-image: url("../images/5t.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+    border-left: 1px solid #1e1e1e;
 }
