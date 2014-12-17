@@ -78,7 +78,7 @@ section.toggle {
     .mission-links {
       padding: 8px;
       /*background-color: $uthsc-green;*/
-      //background-color: $uthsc-orange;
+      background-color: $uthsc-orange;
       h2 {
         color: $white;
         text-align: center;
@@ -102,7 +102,7 @@ section.toggle {
         font-weight: bold;
         margin-bottom: 0;
 
-        &.fa {
+        .fa {
           padding: 0 14px 0 8px;
           width: 44px;
         }
@@ -257,7 +257,7 @@ section.toggle {
     }
 
     button.close-menu {
-      margin: 10px 0;
+      margin: 0;
       padding: 10px 30px;
       background-color: $jet;
     }
