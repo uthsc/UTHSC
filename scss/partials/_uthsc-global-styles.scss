@@ -7,12 +7,42 @@
   margin-left: 1em;
 }
 
-div#wrapper{
-  padding-bottom: 50px;
+div#wrapper {
+  padding-bottom: 44px;
+}
+
+body {
+  font-family: $body-font-family;
+  font-weight: $font-normal;
+  font-style: $font-normal;
+}
+
+p a {
+  font-weight: $font-weight-bold;
+}
+
+em {
+  font-style: $font-weight-italic;
+}
+
+strong {
+  font-weight: $font-weight-bold;
+
+  em {
+    font-weight: $font-weight-bold;
+    font-style: $font-weight-italic;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  & strong, em, strong em {
+    font-weight: $font-normal;
+    font-style: $font-normal;
+  }
 }
 
 @media #{$large-up} {
-  div#wrapper{
+  div#wrapper {
     padding-bottom: 0px;
   }
 }
