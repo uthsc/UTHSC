@@ -53,7 +53,7 @@ section.toggle {
   &.menu {
     position: fixed;
     z-index: 20;
-    background-color: #67b5d1;
+    background-color: $light-oil;
     overflow: auto;
     overflow-x: hidden;
     -webkit-transition: all 0.3s;
@@ -62,7 +62,129 @@ section.toggle {
     -o-transition: all 0.3s;
     transition: all 0.3s;
     min-height:100%;
-
+    /*Nic Changes*/
+.uthsc-split-button {
+    width: 86%;
+    font-size: 0.75em;
+    padding: 10px 0;
+    margin: 0;
+    height: 44px;
+    position: absolute;
+    right: 0;
+    z-index: 1000;
+}
+.mission-links {
+    padding: 8px;
+    /*background-color: $uthsc-green;*/
+    background-color: $uthsc-orange;
+    h2 {
+        color: $white;
+        text-align: center;
+        border: 2px solid $light-jet;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom: none;
+        margin-bottom: -9px;
+        padding: 5px 0 15px 0;
+        background-color: $oil;
+        }
+    }
+.button.inverse {
+    background-color: $gainsboro;
+    color: $uthsc-green;
+    border-bottom: 1px solid $base;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 0;
+    .fa {
+        padding: 0 14px 0 8px;
+        width: 44px;
+        }
+     &:nth-child(even) { background: $smoke; }
+     &:first-of-type {border-top-left-radius:10px;border-top-right-radius:10px;}
+     &:last-of-type {border-bottom-left-radius:10px;border-bottom-right-radius:10px;}
+}
+.button.menu {
+    margin: 0;
+    padding-left: 25px;
+        .fa {
+        width: 44px;
+        }
+    }
+.uthsc-split-button-home.inverse {
+background-color: $gainsboro;
+color: $uthsc-green;
+border-bottom: 1px solid $base;
+font-weight: bold;
+}
+.uthsc-split-button.inverse {
+background-color: $gainsboro;
+color: $uthsc-green;
+border-bottom: 1px solid $base;
+font-weight: bold;
+text-align: left;
+padding: 0 0 0 15px;
+font-size: 1em;
+}
+.uthsc-split-button-home {
+    border-right: 1px solid #aaaaaa;
+    display: inline-block;
+    height: 44px;
+    margin: 0;
+    width: 16%;
+    z-index: 1001;
+}
+/*uthsc-split-button-breadcrumb-links (end)*/
+.uthsc-split-button-breadcrumb-links {
+    z-index:1002;
+    }
+.uthsc-split-button-breadcrumb-links a {
+    color:#222;
+    font-size: 0.75em;
+    }
+.uthsc-split-button-breadcrumb-links li {
+    text-align: center;
+    border:none;
+    &:after {
+    content: "\f106";
+    font-family: fontawesome;
+}
+&:last-child:after {
+        content: "";
+        }
+    }
+.uthsc-split-button-breadcrumb-links li:last-child a:before {
+        content: "Current Page: ";
+        font-weight: $font-weight-bold;
+        }
+/*uthsc-split-button-breadcrumb-links (end)*/
+/*uthsc-split-button-mission-links*/
+.uthsc-split-button-mission-links {
+    z-index:1002;
+        a {
+            color:$smoke;
+            padding-left: 44px;
+        }
+        li {
+            text-align: left;
+            background-color: $jet;
+            color:$smoke;
+            border-bottom: 1px solid #006A4D;
+          /*Nic Changes*/
+            i {
+             float: left;
+             padding: 12px 17px;
+            }
+        }
+    }/*uthsc-split-button-mission-links (end)*/
+ol.uthsc-split-button-mission-links {
+            border-bottom: 3px solid #006A4D;
+            border: 0;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            overflow: hidden;
+        }
+    /*Nic Changes*/
     ul {
       list-style-type: none;
       margin: 0;
@@ -73,7 +195,17 @@ section.toggle {
       font-weight: 300;
       color: #fff;
     }
-  }
+    /*Nic Changes*/
+  p {
+    padding: 10px;
+    color: $white;
+    line-height: 1.25;
+    font-size: .75em;
+    background-color: $oil;
+    margin: 0;
+    }
+ }
+  /*Nic Changes*/
 
   &.push-menu-left,
   &.push-menu-right {
@@ -82,11 +214,12 @@ section.toggle {
     max-width:86%;
     //height: 100%;
 
+    /*Nic Changes*/
     li {
       display: block;
-      text-align: center;
-      border-bottom: solid 1px #3184a1;
-      border-top: solid 1px #b5dbe9;
+   text-align: left;
+   border-bottom: solid 1px $jet;
+      /*Nic Changes*/
 
       &:first-child {
         border-top: none
@@ -100,12 +233,19 @@ section.toggle {
     a {
       display: block;
       padding: 10px;
-      font-size: 18px;
+      /*Nic Changes*/
+   font-size: 1.15rem;
+      /*Nic Changes*/
     }
 
     button.close-menu {
       margin: 10px 0;
       padding: 10px 30px;
+      /*Nic Changes*/
+   background-color:    $jet;
+   /*position:absolute;
+   bottom:0;*/
+      /*Nic Changes*/
     }
   }
 
