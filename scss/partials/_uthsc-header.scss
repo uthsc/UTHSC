@@ -1,3 +1,31 @@
 #uthsc-header {
-  background: $uthsc-green;
+  background: $silver;
+  .search-bar {
+
+    list-style: outside none none;
+  }
+}
+
+.search-bar {
+  margin-top: 1em;
+}
+
+@media only screen and (max-width: 40em) {
+  .search-bar {
+    margin-top: 1em;
+  }
+  .small-collapse {
+    padding: 0;
+    margin: 0;
+    .columns {
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  .search-bar {
+    margin-top: 0;
+  }
 }

@@ -257,8 +257,13 @@
 
     <!--Banner-->
     <div class="row">
-        <div class="large-12 columns">
-            <h1 title="UTHSC"><img src="images/uthsc-wordmark.svg"/></h1>
+        <div class="medium-7 large-12 columns">
+            <h1 title="UTHSC"><img src="images/uthsc-logo-black-text.svg"/></h1>
+        </div>
+        <div class="medium-5 large-12 hide-for-large-up columns small-collapse">
+            <div class="search-bar has-form">
+                <input type="text" placeholder="Search">
+            </div>
         </div>
     </div>
 </header>
@@ -358,13 +363,13 @@
 
 <!--Hero Image-->
 <div class="hero">
-    <img src="images/city.jpg"/>
+    <img src="images/memphis-skyline.jpg"/>
 </div>
 
 <!--Page Heading-->
 <div class="row">
     <div class="large-12 columns">
-        <h2>Page Title</h2>
+        <h1>Page Title</h1>
     </div>
 </div>
 
