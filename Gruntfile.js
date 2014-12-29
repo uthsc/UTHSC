@@ -8,7 +8,8 @@ module.exports = function (grunt) {
             },
             dist: {
                 options: {
-                    outputStyle: 'compressed'
+                    outputStyle: 'expanded',
+                    sourceMap: true
                 },
                 files: {
                     'css/uthsc.css': 'scss/uthsc.scss'
