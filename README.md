@@ -17,7 +17,7 @@ git clone git@github.com:zurb/foundation-libsass-template.git
 npm install && bower install
 ```
 
-Run
+Next, run
 
 `grunt foundation`
 
