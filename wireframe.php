@@ -217,7 +217,11 @@
     <?php
     if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) {
         ?>
-        <div class="bottom-nav-bar">&copy UTHSC 2014</div>
+        <div class="bottom-nav-bar">
+            <?php
+            // echo '&copy UTHSC ', date("Y")
+            ?>
+        </div>
     <?php
     }
     ?>

@@ -28,18 +28,17 @@
 }
 
 .bottom-nav-bar {
-    width: 100%;
-    height: 44px;
-    clear: left;
-    background: $uthsc-green;
-    text-align: center;
-    line-height: 44px;
-    background-size: 89%;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: .93;
-    background-color: #006A4D;
-    opacity: .4;
+  width: 100%;
+  height: 44px;
+  clear: left;
+  background-image: url(../images/uthsc-logo-short-grey.svg);
+  text-align: center;
+  line-height: 44px;
+  background-size: 89%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: $uthsc-green;
+  opacity: 0.4;
 }
 .nav-toggler {
     background: $uthsc-green;
