@@ -40,7 +40,9 @@ h1, h2, h3, h4, h5, h6 {
     font-style: $font-normal;
   }
 }
-
+input[type='text'] {
+  font-size: 1em;
+}
 @media #{$large-up} {
   div#wrapper {
     padding-bottom: 0px;
