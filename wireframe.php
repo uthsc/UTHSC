@@ -179,6 +179,22 @@
             <ul class="menu-links">
                 <li><a href="#">First link in dropdown</a></li>
                 <li class="active"><a href="#">Active link in dropdown</a></li>
+        <li class="not-a-link"><a>Information for...</a>
+            <ul>
+                <li><a href="#">Students</a></li>
+                <li><a href="#">Faculty &amp; Staff</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#">Visitors</a></li>
+            </ul>
+        </li>
+        <li class="not-a-link"><a>Resources</a>
+            <ul>
+                <li><a href="#">Calendar</a></li>
+                <li><a href="#">Maps</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Career Opportunities</a></li>
+                <li><a href="#">Visit UTHSC</a></li>
+                <li><a href="#">Give to UTHSC</a></li>
             </ul>
         </li>
         <li><a href="#">Tomato</a></li>
