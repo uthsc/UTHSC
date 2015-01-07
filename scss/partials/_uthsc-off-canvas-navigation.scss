@@ -54,7 +54,7 @@ section.toggle {
   &.menu {
     position: fixed;
     z-index: 20;
-    background-color: $light-oil;
+    background-color: lighten($oil, 5%);
     overflow: auto;
     overflow-x: hidden;
     -webkit-transition: all 0.3s;
@@ -63,6 +63,17 @@ section.toggle {
     -o-transition: all 0.3s;
     transition: all 0.3s;
     min-height: 100%;
+
+    ul > li > ul {
+      background-color: lighten($oil, 10%);
+      li:first-of-type {
+        border-top: solid 1px $jet;
+      }
+      a, li .not-a-link {
+        padding-left: 30px;
+        font-size: 1em;
+      }
+    }
 
     .uthsc-split-button {
       width: 86%;
