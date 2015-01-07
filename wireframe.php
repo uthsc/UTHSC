@@ -485,35 +485,45 @@
                 rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
                 explicabo.</p>
         </div>
-        <div class="medium-4 columns footer-box hide-for-small"
-             style="border: 1px solid #dddddd; background-image:url(images/noise-pattern-with-subtle-cross-lines.png);"
-             data-equalizer-watch>
+        <div class="medium-4 columns footer-box hide-for-small" data-equalizer-watch>
+
+            <figure>
+
+        <span>
+         <img src="images/campus-arches.jpg" alt="the arches on union avenue" data-caption="testing" />
+        </span>
+
+                <figcaption>
+                    Caption for the above image.
+                </figcaption>
+
+            </figure>
 
         </div>
-    </div>
-    <!--<div class="row collapse">
-        <div id="emergency" class="small-8 columns small-centered">
-        <a href="#" data-reveal-id="emergency-modal" class="button emergency radius expand tiny">
-            <div class="show-for-small"><i class="fa fa-phone fa-flip-horizontal fa-3x"></i><h3> Emergency Numbers</h3></div>
-            <div class="hide-for-small"><h3><i class="fa fa-phone fa-flip-horizontal fa-2x fa-button"></i> Emergency Numbers</h3></div>
-            </a>
-        <div id="emergency-modal" class="reveal-modal" data-reveal>
+</div>
+<!--<div class="row collapse">
+    <div id="emergency" class="small-8 columns small-centered">
+    <a href="#" data-reveal-id="emergency-modal" class="button emergency radius expand tiny">
+        <div class="show-for-small"><i class="fa fa-phone fa-flip-horizontal fa-3x"></i><h3> Emergency Numbers</h3></div>
+        <div class="hide-for-small"><h3><i class="fa fa-phone fa-flip-horizontal fa-2x fa-button"></i> Emergency Numbers</h3></div>
+        </a>
+    <div id="emergency-modal" class="reveal-modal" data-reveal>
 
 
 
 
-            <h3><i class="fa fa-phone fa-flip-horizontal fa-2x fa-button"></i> Emergency Numbers</h3>
-                  <div class="tiny"><a class="button emergency expand" href="#" data-reveal-id="myModal1"><i class="fa fa-info-circle"></i> Medical/Behavioral</a></div>
-                        <div id="myModal1" class="reveal-modal text-center" data-reveal>
-                            <div class="call-buttons-box">
-                          <h2>Medical/Behavioral</h2>
-                          <hr />
-                              <h3 class="lead"><a class="button emergency" href="tel:911"><i class="fa fa-phone fa-2x fa-flip-horizontal fa-button"></i> 911</a></h3>
-                                <p>or Campus Police at</p>
-                              <h3><a class="button emergency" href="tel:901-448-4444"><i class="fa fa-phone fa-2x fa-flip-horizontal fa-button"></i> 901-448-4444</a></h3>
-                            </div>
-                                <p><a href="#" data-reveal-id="myModal6" class="secondary button label expand"><i class="fa fa-chevron-up fa-2x fa-button"></i> Previous Emergency Number</a>
-                                    <a href="#" data-reveal-id="myModal2" class="secondary button label expand"><i class="fa fa-chevron-down fa-2x fa-button"></i> Next Emergency Number&emsp;&emsp;</a></p>
+        <h3><i class="fa fa-phone fa-flip-horizontal fa-2x fa-button"></i> Emergency Numbers</h3>
+              <div class="tiny"><a class="button emergency expand" href="#" data-reveal-id="myModal1"><i class="fa fa-info-circle"></i> Medical/Behavioral</a></div>
+                    <div id="myModal1" class="reveal-modal text-center" data-reveal>
+                        <div class="call-buttons-box">
+                      <h2>Medical/Behavioral</h2>
+                      <hr />
+                          <h3 class="lead"><a class="button emergency" href="tel:911"><i class="fa fa-phone fa-2x fa-flip-horizontal fa-button"></i> 911</a></h3>
+                            <p>or Campus Police at</p>
+                          <h3><a class="button emergency" href="tel:901-448-4444"><i class="fa fa-phone fa-2x fa-flip-horizontal fa-button"></i> 901-448-4444</a></h3>
+                        </div>
+                            <p><a href="#" data-reveal-id="myModal6" class="secondary button label expand"><i class="fa fa-chevron-up fa-2x fa-button"></i> Previous Emergency Number</a>
+                                <a href="#" data-reveal-id="myModal2" class="secondary button label expand"><i class="fa fa-chevron-down fa-2x fa-button"></i> Next Emergency Number&emsp;&emsp;</a></p>
                           <a class="close-reveal-modal">&#215;</a>
                         </div>
 
