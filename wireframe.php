@@ -74,11 +74,11 @@
         class="f-dropdown mega uthsc-split-button-breadcrumb-links" role="menu" aria-hidden="false" tabindex="-1">
         <li><a href="/" title="Home"><i class="fa fa-level-up fa-2x fa-flip-horizontal" style="float: left;"></i> Back
                 to the Homepage</a></li>
-        <li><a href="products.html" title="Products">College of Medicine</a></li>
-        <li><a href="products.html" title="Products">Office of Medical Education</a></li>
-        <li><a href="products.html" title="Products">Clerkships</a></li>
-        <li><a href="products.html" title="Products">Core Clerkship Directors</a></li>
-        <li><a href="" class="current">Chattanooga</a></li>
+        <li><a href="#" title="College of Medicine">College of Medicine</a></li>
+        <li><a href="#" title="Office of Medical Education">Office of Medical Education</a></li>
+        <li><a href="#" title="Clerkships">Clerkships</a></li>
+        <li><a href="#" title="Core Clerkship Directors">Core Clerkship Directors</a></li>
+        <li><a href="#" class="current">Chattanooga</a></li>
     </ol>
     <input type="text" placeholder="Search" style="margin:0;">
     <button class="close-menu expand">&emsp; Close Menu &emsp;<i class="fa fa-chevron-right"></i></button>
@@ -174,11 +174,6 @@
     <ul>
         <li class="button menu"><i class="fa fa-gift"></i> Make a Gift</li>
         <li class="button menu"><i class="fa fa-road"></i> Take a Tour</li>
-        <li>
-            <a href="#">Dropdown 1</a>
-            <ul class="menu-links">
-                <li><a href="#">First link in dropdown</a></li>
-                <li class="active"><a href="#">Active link in dropdown</a></li>
         <li class="not-a-link"><a>Information for...</a>
             <ul>
                 <li><a href="#">Students</a></li>
@@ -197,29 +192,21 @@
                 <li><a href="#">Give to UTHSC</a></li>
             </ul>
         </li>
-        <li><a href="#">Tomato</a></li>
-        <li><a href="#">Cucumber</a></li>
-        <li><a href="#">Kale</a></li>
-        <li><a href="#">Celery</a></li>
-        <li><a href="#">Broccoli</a></li>
-        <li><a href="#">Tomato</a></li>
-        <li><a href="#">Cucumber</a></li>
-        <li><a href="#">Kale</a></li>
-        <li><a href="#">Celery</a></li>
-        <li><a href="#">Broccoli</a></li>
-        <li><a href="#">Tomato</a></li>
-        <li><a href="#">Cucumber</a></li>
-        <li><a href="#">Kale</a></li>
-        <li><a href="#">Celery</a></li>
-        <li><a href="#">Broccoli</a></li>
-        <li><a href="#">Tomato</a></li>
-        <li><a href="#">Cucumber</a></li>
-        <li><a href="#">Kale</a></li>
-        <li><a href="#">Celery</a></li>
     </ul>
     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
     <button class="close-menu expand">&emsp; Close Menu &emsp;<i class="fa fa-chevron-right"></i></button>
+    <?php
+    if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) {
+        ?>
+        <div class="bottom-nav-bar">
+            <?php
+            // echo '&copy UTHSC ', date("Y")
+            ?>
+        </div>
+    <?php
+    }
+    ?>
 </nav>
 
 <!--Off Canvas Wrapper-->
@@ -403,8 +390,10 @@
             <p>This is a full width row with a panel in it. </p>
 
             <p>Thanks to <a href="http://fortawesome.github.io/Font-Awesome/">Fontawesome <i class="fa fa-flag"></i></a>
-                we can use these handy icons anywhere. Here's an example of a <a href="">pdf link <i class="fa fa-file-pdf-o"></i></a>. Sed ut <strong>perspiciatis</strong> unde omnis iste natus
-                error sit voluptatem accusantium doloremque laudantium, <strong>totam <em>rem</em> aperiam</strong>, eaque ipsa
+                we can use these handy icons anywhere. Here's an example of a <a href="">pdf link <i
+                        class="fa fa-file-pdf-o"></i></a>. Sed ut <strong>perspiciatis</strong> unde omnis iste natus
+                error sit voluptatem accusantium doloremque laudantium, <strong>totam <em>rem</em> aperiam</strong>,
+                eaque ipsa
                 quae ab illo inventore veritatis et quasi architecto beatae</p>
 
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
