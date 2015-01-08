@@ -431,8 +431,11 @@
 
     <div class="large-4 columns">
         <h3>Content Row 2</h3>
-        <h5>One Third</h5>
-
+        <h5>UT President Joe DiPietro describes challenges facing higher ed and its role in preparing the workforce of the future</h5>
+        <figure class="left image-40">
+            <img src="http://news.uthsc.edu/wp-content/uploads/2014/09/Dr.-Dipietro2.jpg" alt="UT President Joe DiPietro addresses panel members about the role of higher education in workforce preparedness." data-caption="testing" />
+            <figcaption>UT President Joe DiPietro addresses panel members about the role of higher education in workforce preparedness.</figcaption>
+        </figure>
         <p><strong>This is a three column layout</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
             architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
@@ -446,7 +449,10 @@
     <div class="large-4 columns">
         <h3>Content Row 3</h3>
         <h5>One Third</h5>
-
+        <figure class="right image-40">
+            <img src="http://news.uthsc.edu/wp-content/uploads/2014/12/Top-Workplace-HomePageSlider.jpg" alt="the arches on union avenue" data-caption="testing" />
+            <figcaption>UTHSC named one of the 2014 Top Workplaces in Memphis.</figcaption>
+        </figure>
         <p><strong>This is a two column layout</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
             architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
@@ -480,50 +486,40 @@
         </div>
         <div class="medium-4 columns footer-box" data-equalizer-watch>
             <h4>Links</h4>
-
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
                 rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
                 explicabo.</p>
         </div>
         <div class="medium-4 columns footer-box hide-for-small" data-equalizer-watch>
-
             <figure>
-
-        <span>
-         <img src="images/campus-arches.jpg" alt="the arches on union avenue" data-caption="testing" />
-        </span>
-
-                <figcaption>
-                    Caption for the above image.
-                </figcaption>
-
+                <img src="images/campus-arches.jpg" alt="the arches on union avenue" data-caption="testing" />
+                <figcaption>Caption for the above image.</figcaption>
             </figure>
-
         </div>
-</div>
-<!--<div class="row collapse">
-    <div id="emergency" class="small-8 columns small-centered">
-    <a href="#" data-reveal-id="emergency-modal" class="button emergency radius expand tiny">
-        <div class="show-for-small"><i class="fa fa-phone fa-flip-horizontal fa-3x"></i><h3> Emergency Numbers</h3></div>
-        <div class="hide-for-small"><h3><i class="fa fa-phone fa-flip-horizontal fa-2x fa-button"></i> Emergency Numbers</h3></div>
-        </a>
-    <div id="emergency-modal" class="reveal-modal" data-reveal>
+    </div>
+    <!--<div class="row collapse">
+        <div id="emergency" class="small-8 columns small-centered">
+        <a href="#" data-reveal-id="emergency-modal" class="button emergency radius expand tiny">
+            <div class="show-for-small"><i class="fa fa-phone fa-flip-horizontal fa-3x"></i><h3> Emergency Numbers</h3></div>
+            <div class="hide-for-small"><h3><i class="fa fa-phone fa-flip-horizontal fa-2x fa-button"></i> Emergency Numbers</h3></div>
+            </a>
+        <div id="emergency-modal" class="reveal-modal" data-reveal>
 
 
 
 
-        <h3><i class="fa fa-phone fa-flip-horizontal fa-2x fa-button"></i> Emergency Numbers</h3>
-              <div class="tiny"><a class="button emergency expand" href="#" data-reveal-id="myModal1"><i class="fa fa-info-circle"></i> Medical/Behavioral</a></div>
-                    <div id="myModal1" class="reveal-modal text-center" data-reveal>
-                        <div class="call-buttons-box">
-                      <h2>Medical/Behavioral</h2>
-                      <hr />
-                          <h3 class="lead"><a class="button emergency" href="tel:911"><i class="fa fa-phone fa-2x fa-flip-horizontal fa-button"></i> 911</a></h3>
-                            <p>or Campus Police at</p>
-                          <h3><a class="button emergency" href="tel:901-448-4444"><i class="fa fa-phone fa-2x fa-flip-horizontal fa-button"></i> 901-448-4444</a></h3>
-                        </div>
-                            <p><a href="#" data-reveal-id="myModal6" class="secondary button label expand"><i class="fa fa-chevron-up fa-2x fa-button"></i> Previous Emergency Number</a>
-                                <a href="#" data-reveal-id="myModal2" class="secondary button label expand"><i class="fa fa-chevron-down fa-2x fa-button"></i> Next Emergency Number&emsp;&emsp;</a></p>
+            <h3><i class="fa fa-phone fa-flip-horizontal fa-2x fa-button"></i> Emergency Numbers</h3>
+                  <div class="tiny"><a class="button emergency expand" href="#" data-reveal-id="myModal1"><i class="fa fa-info-circle"></i> Medical/Behavioral</a></div>
+                        <div id="myModal1" class="reveal-modal text-center" data-reveal>
+                            <div class="call-buttons-box">
+                          <h2>Medical/Behavioral</h2>
+                          <hr />
+                              <h3 class="lead"><a class="button emergency" href="tel:911"><i class="fa fa-phone fa-2x fa-flip-horizontal fa-button"></i> 911</a></h3>
+                                <p>or Campus Police at</p>
+                              <h3><a class="button emergency" href="tel:901-448-4444"><i class="fa fa-phone fa-2x fa-flip-horizontal fa-button"></i> 901-448-4444</a></h3>
+                            </div>
+                                <p><a href="#" data-reveal-id="myModal6" class="secondary button label expand"><i class="fa fa-chevron-up fa-2x fa-button"></i> Previous Emergency Number</a>
+                                    <a href="#" data-reveal-id="myModal2" class="secondary button label expand"><i class="fa fa-chevron-down fa-2x fa-button"></i> Next Emergency Number&emsp;&emsp;</a></p>
                           <a class="close-reveal-modal">&#215;</a>
                         </div>
 
