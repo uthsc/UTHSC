@@ -431,8 +431,11 @@
 
     <div class="large-4 columns">
         <h3>Content Row 2</h3>
-        <h5>One Third</h5>
-
+        <h5>UT President Joe DiPietro describes challenges facing higher ed and its role in preparing the workforce of the future</h5>
+        <figure class="left image-40">
+            <img src="http://news.uthsc.edu/wp-content/uploads/2014/09/Dr.-Dipietro2.jpg" alt="UT President Joe DiPietro addresses panel members about the role of higher education in workforce preparedness." data-caption="testing" />
+            <figcaption>UT President Joe DiPietro addresses panel members about the role of higher education in workforce preparedness.</figcaption>
+        </figure>
         <p><strong>This is a three column layout</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
             architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
@@ -446,7 +449,10 @@
     <div class="large-4 columns">
         <h3>Content Row 3</h3>
         <h5>One Third</h5>
-
+        <figure class="right image-40">
+            <img src="http://news.uthsc.edu/wp-content/uploads/2014/12/Top-Workplace-HomePageSlider.jpg" alt="the arches on union avenue" data-caption="testing" />
+            <figcaption>UTHSC named one of the 2014 Top Workplaces in Memphis.</figcaption>
+        </figure>
         <p><strong>This is a two column layout</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
             architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
@@ -480,15 +486,15 @@
         </div>
         <div class="medium-4 columns footer-box" data-equalizer-watch>
             <h4>Links</h4>
-
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
                 rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
                 explicabo.</p>
         </div>
-        <div class="medium-4 columns footer-box hide-for-small"
-             style="border: 1px solid #dddddd; background-image:url(images/noise-pattern-with-subtle-cross-lines.png);"
-             data-equalizer-watch>
-
+        <div class="medium-4 columns footer-box hide-for-small" data-equalizer-watch>
+            <figure>
+                <img src="images/campus-arches.jpg" alt="the arches on union avenue" data-caption="testing" />
+                <figcaption>Caption for the above image.</figcaption>
+            </figure>
         </div>
     </div>
     <!--<div class="row collapse">
