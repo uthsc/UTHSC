@@ -144,6 +144,9 @@ $include-html-global-classes: $include-html-classes;
   $uthsc-grey-light       : #e9e3dc;
   $emergency              : #a52a2a;
 
+  $uthsc-first-bookend-color  : darken($uthsc-grey-light, 70%);
+  $uthsc-second-bookend-color : $uthsc-grey-light;
+
 
 
 // We use these as default colors throughout
