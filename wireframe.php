@@ -264,8 +264,8 @@
 
     <!--Banner-->
     <div class="row">
-        <div class="medium-7 large-12 columns">
-            <h1 title="UTHSC"><img src="images/uthsc-logo-black-text.svg"/></h1>
+        <div class="medium-7 large-8 large-centered columns">
+            <h1 title="UTHSC"><img src="images/uthsc-logo-black-text.svg" width="100%"/></h1>
         </div>
         <div class="medium-5 large-12 hide-for-large-up columns small-collapse">
             <div class="search-bar has-form">
