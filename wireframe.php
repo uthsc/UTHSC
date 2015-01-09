@@ -415,7 +415,7 @@
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
             architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
             odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-        <a href="#" class="button radius">Apply Now <i class="fa fa-graduation-cap"></i></a>
+        <a href="#" class="button secondary radius">Apply Now <i class="fa fa-graduation-cap"></i></a>
     </div>
 
     <div class="large-4 columns">

@@ -19,7 +19,7 @@
   .social-icon i {
     padding: 11px;
     &:hover {
-      color: $uthsc-orange;
+      color: $uthsc-call-to-action;
     }
   }
 
@@ -45,9 +45,12 @@
 
   .button.secondary {
     background-color:$silver;
+    color: $oil;
+
 
     &:hover {
-      background-color:$uthsc-orange;
+      background-color:$uthsc-call-to-action;
+      color: $white;
     }
 
   }
