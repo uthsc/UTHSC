@@ -2,9 +2,8 @@
   background: $uthsc-first-bookend-color;
   padding: 0 0 44px;
 
-  h4, p {
+  h1, h2, h3, h4, h5, h6, p {
     color: #fff;
-    margin-bottom: 0;
   }
 
   .left img {
@@ -32,20 +31,29 @@
     float: right;
     text-align: left;
   }
-
-  .emergency {
-    background: $emergency;
+  h3 i.fa {
+    position: relative;
+    bottom: -7px;
+  }
+  #emergency-mobile .button.alert.expand {
     color: $smoke;
     margin-bottom: 0;
     a {
       font-weight: $font-weight-bold;
       color: $silver;
     }
+    &:nth-child(n+2) {
+    border-top: solid 1px #910e16;
   }
-
+  }
+  .emergency-phone-icon {
+    left: 14px;
+    position: relative;
+    top: 12px;
+  }
   .button.secondary {
     background-color:$silver;
-    color: $oil;
+    color: $oil !important;
 
 
     &:hover {
@@ -53,6 +61,39 @@
       color: $white;
     }
 
+  }
+  hr.tooltip-divider {
+    border: solid #555;
+    border-width: 3px 0 0;
+    clear: both;
+    margin: 3px 0;
+    height: 0;
+  }
+
+  .has-tip hr {
+    border: solid #555;
+    border-width: 3px 0 0;
+    clear: both;
+    margin: 3px 0;
+    height: 0;
+  }
+
+  h3 .fa-button {
+    top: .4rem;
+  }
+
+  .fa-button {
+    position: relative;
+    padding: 0 0 6px 0;
+    margin: 0 10px 0 -10px;
+  }
+
+  p .fa-button {
+    top: .2rem;
+  }
+
+  .call-buttons-box {
+    height: 320px;
   }
 
 }
