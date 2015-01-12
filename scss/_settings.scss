@@ -145,9 +145,9 @@ $include-html-global-classes: $include-html-classes;
 //$emergency              : #a52a2a; this was the hex color for brown in the browser
   $emergency              : $uthsc-red-alert;
 
-  $uthsc-bookend-color        : $uthsc-grey-light;
-  $uthsc-first-bookend-color  : darken($uthsc-bookend-color, 70%);
-  $uthsc-second-bookend-color : $uthsc-bookend-color;
+//$uthsc-bookend-color        : $uthsc-grey-light;
+  $uthsc-first-bookend-color  : $oil; // darken($uthsc-bookend-color, 70%);
+  $uthsc-second-bookend-color : $silver; // $uthsc-bookend-color;
 
   $uthsc-call-to-action       : $uthsc-blue;
 
