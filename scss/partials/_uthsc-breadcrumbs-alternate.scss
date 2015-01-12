@@ -1,18 +1,32 @@
 #breadcrumbs {
+  .uthsc-home-icon-breadcrumbs {
+    margin-bottom: -3px;
+    position: relative;
+    top: 4px;
+    margin-left: -17px;
+  }
   ol {
     list-style: none;
-    margin: 0;
+    margin: 0 0 0.2em 0;
+    font-size: 0.9em;
     li{
       display: inline;
+      a {
+        color: $base;
+        &:hover {
+          color: $uthsc-bg-double-hover;
+        }
+      }
       &:after {
-        content: ' > '
+        content: '\f054';
+        font-family: fontawesome;
+        color: #BBBBBB;
+        margin: 0 1em 0 1.3em;
       }
       &:last-child:after {
         content: ''
       }
     }
   }
-
   background-color: $silver;
-  border-top: 1px solid $gainsboro;
 }

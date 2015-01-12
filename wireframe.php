@@ -280,6 +280,7 @@
         <div class="columns">
             <!--<p id="breadcrumblabel">You are here:</p>-->
             <ol aria-labelledby="breadcrumblabel">
+                <li><a href="index.html" title="Home"><i class="uthsc-home-icon-breadcrumbs fa fa-home fa-2x"></i></a></li>
                 <li><a href="index.html" title="Home">Section</a></li>
                 <li><a href="products.html" title="Products">Page Parent</a></li>
                 <li><a href="" class="current">Page Title</a></li>
