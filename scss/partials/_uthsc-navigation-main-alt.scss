@@ -16,14 +16,14 @@
   & > ul > li {
 
     text-align: center;
-    border-right: 1px solid black;
+    border-right: 1px solid $uthsc-bg-hover;
 
     &:hover {
       background: $uthsc-bg-hover;
     }
 
     &:first-child {
-      border-left: 1px solid black;
+      border-left: 1px solid $uthsc-bg-hover;
     }
 
     & > a {
