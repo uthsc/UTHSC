@@ -19,7 +19,7 @@
     border-right: 1px solid black;
 
     &:hover {
-      background: #004a2d;
+      background: $uthsc-bg-hover;
     }
 
     &:first-child {
@@ -47,7 +47,7 @@
       line-height: 1.5em;
 
       &:hover {
-        background: #000;
+        background: $uthsc-bg-double-hover;
       }
     }
   }

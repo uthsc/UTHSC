@@ -1,4 +1,4 @@
-#uthsc-navigation {
+#uthsc-navigation-alt {
 
   background-color: $uthsc-green;
 
@@ -19,7 +19,7 @@
     border-right: 1px solid black;
 
     &:hover {
-      background: #006143;
+      background: $uthsc-bg-hover;
     }
 
     &:first-child {
@@ -38,14 +38,16 @@
     margin-left: 0;
     padding-left: 0px;
     //height: 200px; //What are we going to do about this? It can't be fixed height.
+    //background: blue;
     text-align: left;
+
     li {
       float: none;
       font-size: .8em;
       line-height: 1.5em;
 
       &:hover {
-        background: #000;
+        background: $uthsc-bg-double-hover;
       }
     }
   }

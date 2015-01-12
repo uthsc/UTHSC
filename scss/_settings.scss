@@ -190,6 +190,7 @@ $include-html-global-classes: $include-html-classes;
 // $shiny-edge-color: rgba($white, .5);
 // $shiny-edge-active-color: rgba($black, .2);
 
+
 // d. Media Query Ranges
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -495,6 +496,12 @@ $include-html-global-classes: $include-html-classes;
 
 // We use these to control various hover effects.
 // $button-function-factor: -20%;
+   $button-function-factor: -20%;
+
+// Hovering an double hovering
+$uthsc-bg-hover: scale-color($primary-color, $lightness: $button-function-factor);
+$uthsc-bg-double-hover: scale-color($uthsc-bg-hover, $lightness: $button-function-factor);
+
 
 // We use these to control button border and hover styles.
 // $button-border-width: 0px;
