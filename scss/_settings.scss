@@ -144,9 +144,9 @@ $include-html-global-classes: $include-html-classes;
   $uthsc-grey-light       : #e9e3dc;
   $emergency              : #a52a2a;
 
-  $uthsc-bookend-color        : $uthsc-grey-light;
-  $uthsc-first-bookend-color  : darken($uthsc-bookend-color, 70%);
-  $uthsc-second-bookend-color : $uthsc-bookend-color;
+//$uthsc-bookend-color        : $uthsc-grey-light;
+  $uthsc-first-bookend-color  : $oil; // darken($uthsc-bookend-color, 70%);
+  $uthsc-second-bookend-color : $silver; // $uthsc-bookend-color;
 
 
 
