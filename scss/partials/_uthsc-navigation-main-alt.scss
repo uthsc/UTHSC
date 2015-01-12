@@ -25,7 +25,6 @@
     &:first-child {
       border-left: 1px solid $uthsc-bg-hover;
     }
-
     & > a {
       //background:red;
       width:100%;
@@ -46,10 +45,24 @@
       float: none;
       font-size: .8em;
       line-height: 1.5em;
+      font-weight: 300;
+      font-style: $font-weight-italic;
 
       &:hover {
         background: $uthsc-bg-double-hover;
       }
+    }
+    &:before {
+      content: "";
+      display: block;
+      height: 6px;
+      width: 50%;
+      margin-left: auto;
+      background: white;
+      margin-right: auto;
+      margin-bottom: 0.4em;
+      color: white !important;
+      opacity: 0.07;
     }
   }
 
