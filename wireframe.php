@@ -179,16 +179,20 @@
                 <li><a href="#">Faculty &amp; Staff</a></li>
                 <li><a href="#">Alumni</a></li>
                 <li><a href="#">Visitors</a></li>
+                <li><a href="#">Patients</a></li>
             </ul>
         </li>
-        <li class="not-a-link"><a>Resources</a>
+        <li class="not-a-link"><a><i class="fa fa-university"></i> Resources</a>
             <ul>
+                <li><a href="#">Banner</a></li>
+                <li><a href="#">Blackboard</a></li>
                 <li><a href="#">Calendar</a></li>
-                <li><a href="#">Maps</a></li>
-                <li><a href="#">News</a></li>
                 <li><a href="#">Career Opportunities</a></li>
-                <li><a href="#">Visit UTHSC</a></li>
-                <li><a href="#">Give to UTHSC</a></li>
+                <li><a href="#">iLogin</a></li>
+                <li><a href="#">Maps</a></li>
+                <li><a href="#">MyUT</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Webmail</a></li>
             </ul>
         </li>
     </ul>
@@ -245,19 +249,43 @@
             <ul>
                 <li><a href="#">Students</a></li>
                 <li><a href="#">Faculty &amp; Staff</a></li>
-                <li><a href="#">Alimni</a></li>
+                <li><a href="#">Alumni</a></li>
                 <li><a href="#">Visitors</a></li>
-
+                <li><a href="#">Patients</a></li>
             </ul>
         </section>
-
         <!-- Right Top Bar Section -->
         <section class="top-bar-section right">
 
             <ul>
+                <li class="has-dropdown">
+                    <a href="#"> Our Mission</a>
+                    <ul class="dropdown">
+                        <li><a href="#"><i class="fa fa-graduation-cap"></i>&emsp;&emsp;Education</a></li>
+                        <li><a href="#"><i class="fa fa-flask"></i>&emsp;&emsp;Research</a></li>
+                        <li><a href="#"><i class="fa fa-medkit"></i>&emsp;&emsp;Clinical Care</a></li>
+                        <li><a href="#"><i class="fa fa-globe"></i>&emsp;&emsp;Public Service</a></li>
+                        <li><a href="#"> Mission Statement</a></li>
+                    </ul>
+                </li>
+
+                <li class="has-dropdown">
+                    <a href="#"><i class="fa fa-university"></i> Resources</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Banner</a></li>
+                        <li><a href="#">Blackboard</a></li>
+                        <li><a href="#">Calendar</a></li>
+                        <li><a href="#">Career Opportunities</a></li>
+                        <li><a href="#">iLogin</a></li>
+                        <li><a href="#">Maps</a></li>
+                        <li><a href="#">MyUT</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Webmail</a></li>
+                    </ul>
+                </li>
                 <li class="button menu secondary label"><i class="fa fa-gift"></i> Make a Gift</li>
                 <li class="button menu label"><i class="fa fa-road"></i> Take a Tour</li>
-                <li class="has-form">
+                <li class="has-form search-bar-large">
                     <input type="text" placeholder="Search">
                 </li>
             </ul>
