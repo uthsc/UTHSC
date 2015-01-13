@@ -243,9 +243,10 @@
         <!-- Left Top Bar Section -->
         <section class="top-bar-section left">
             <ul>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
+                <li><a href="#">Students</a></li>
+                <li><a href="#">Faculty &amp; Staff</a></li>
+                <li><a href="#">Alimni</a></li>
+                <li><a href="#">Visitors</a></li>
 
             </ul>
         </section>
@@ -254,6 +255,8 @@
         <section class="top-bar-section right">
 
             <ul>
+                <li class="button menu secondary label"><i class="fa fa-gift"></i> Make a Gift</li>
+                <li class="button menu label"><i class="fa fa-road"></i> Take a Tour</li>
                 <li class="has-form">
                     <input type="text" placeholder="Search">
                 </li>
@@ -264,7 +267,7 @@
     <!--Banner-->
     <div class="row">
         <div class="medium-7 large-8 large-centered columns">
-            <h1 title="UTHSC"><img src="images/uthsc-logo-black-text.svg" width="100%"/></h1>
+            <img class="uthsc-logo" src="images/uthsc-logo-black-text.svg" width="100%"/>
         </div>
         <div class="medium-5 large-12 hide-for-large-up columns small-collapse">
             <div class="search-bar has-form">

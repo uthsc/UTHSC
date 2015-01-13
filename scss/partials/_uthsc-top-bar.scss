@@ -1,3 +1,6 @@
 .top-bar {
   background-color: $uthsc-first-bookend-color;
-}
+  .top-bar-section li:not(.has-form) a:not(.button):hover {
+      color: $uthsc-bg-double-hover;
+    }
+  }
