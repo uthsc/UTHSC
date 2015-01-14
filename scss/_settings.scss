@@ -130,19 +130,19 @@ $include-html-global-classes: $include-html-classes;
 // $black       : #000000;
 
 // UTHSC Colors
-  $uthsc-green            : #006a4d;
-  $uthsc-orange           : #f77f00;
-  $uthsc-green-success    : #3ea22f;
-  $uthsc-red-alert        : #b5121b;
-  $uthsc-yellow           : #e8cf00;
-  $uthsc-blue             : #00a5e3;
-  $uthsc-purple           : #7a68ae;
-  $uthsc-burnt-orange     : #b06010;
-  $uthsc-grey-dark        : #ced0b4;
-  $uthsc-grey-light       : #e9e3dc;
 
   $uthsc-call-to-action       : $uthsc-blue;
 
+   $uthsc-green            : #006a4d;
+   $uthsc-orange           : #f77f00;
+   $uthsc-green-success    : #3ea22f;
+   $uthsc-red-alert        : #b5121b;
+   $uthsc-yellow           : #e8cf00;
+   $uthsc-blue             : #00a5e3;
+   $uthsc-purple           : #7a68ae;
+   $uthsc-burnt-orange     : #b06010;
+   $uthsc-grey-dark        : #ced0b4;
+   $uthsc-grey-light       : #e9e3dc;
 
 // $emergency              : #a52a2a; this was the hex color for brown in the browser
    $emergency              : $uthsc-red-alert;
