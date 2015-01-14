@@ -494,9 +494,8 @@ $include-html-global-classes: $include-html-classes;
    $button-function-factor: -20%;
 
 // Hovering an double hovering
-$uthsc-bg-hover: scale-color($primary-color, $lightness: $button-function-factor);
-$uthsc-bg-double-hover: scale-color($secondary-color, $lightness: $button-function-factor);
-
+   $uthsc-bg-hover: scale-color($primary-color, $lightness: $button-function-factor);
+   $uthsc-bg-double-hover: scale-color($secondary-color, $lightness: $button-function-factor);
 
 // We use these to control button border and hover styles.
 // $button-border-width: 0px;
