@@ -295,7 +295,7 @@
     <!--Banner-->
     <div class="row">
         <div class="medium-7 large-8 large-centered columns">
-            <img class="uthsc-logo" src="images/uthsc-logo-black-text.svg" width="100%"/>
+            <img class="uthsc-logo" src="images/uthsc-logo-white-text.svg" width="100%"/>
         </div>
         <div class="medium-5 large-12 hide-for-large-up columns small-collapse">
             <div class="search-bar has-form">
