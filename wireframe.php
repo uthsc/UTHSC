@@ -259,7 +259,7 @@
 
             <ul>
                 <li class="has-dropdown">
-                    <a href="#"> Our Mission</a>
+                    <a class="button label" href="#"> Our Mission</a>
                     <ul class="dropdown">
                         <li><a href="#"><i class="fa fa-graduation-cap"></i>&emsp;&emsp;Education</a></li>
                         <li><a href="#"><i class="fa fa-flask"></i>&emsp;&emsp;Research</a></li>
@@ -270,7 +270,7 @@
                 </li>
 
                 <li class="has-dropdown">
-                    <a href="#"><i class="fa fa-university"></i> Resources</a>
+                    <a class="button label" href="#"><i class="fa fa-university"></i> Resources</a>
                     <ul class="dropdown">
                         <li><a href="#">Banner</a></li>
                         <li><a href="#">Blackboard</a></li>
@@ -284,7 +284,7 @@
                     </ul>
                 </li>
                 <li class="button menu secondary label"><i class="fa fa-gift"></i> Make a Gift</li>
-                <li class="button menu label"><i class="fa fa-road"></i> Take a Tour</li>
+                <li class="button top-bar-button label"><i class="fa fa-road"></i> Take a Tour</li>
                 <li class="has-form search-bar-large">
                     <input type="text" placeholder="Search">
                 </li>
