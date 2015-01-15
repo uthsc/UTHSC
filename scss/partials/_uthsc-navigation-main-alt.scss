@@ -19,7 +19,7 @@
     border-right: 1px solid $uthsc-bg-hover;
 
     &:hover {
-      background: $uthsc-bg-hover;
+      background-color: scale-color($primary-color, $lightness: -10%);
     }
 
     &:first-child {
