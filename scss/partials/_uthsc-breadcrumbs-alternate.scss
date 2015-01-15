@@ -12,7 +12,7 @@
     li{
       display: inline;
       a {
-        color: $base;
+        color: #BBBBBB;
         &:hover {
           color: $uthsc-bg-double-hover;
         }
@@ -28,5 +28,8 @@
       }
     }
   }
-  background-color: $silver;
+  //background-color: $silver;
+  background-color: scale-color($primary-color, $lightness: -10%);
+
+
 }
