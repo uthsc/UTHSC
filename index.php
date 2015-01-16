@@ -242,10 +242,10 @@
                 <li class="has-dropdown">
                     <a class="button label" href="#"> Our Mission</a>
                     <ul class="dropdown">
-                        <li><a href="#"><i class="fa fa-graduation-cap"></i>&emsp;&emsp;Education</a></li>
-                        <li><a href="#"><i class="fa fa-flask"></i>&emsp;&emsp;Research</a></li>
-                        <li><a href="#"><i class="fa fa-medkit"></i>&emsp;&emsp;Clinical Care</a></li>
-                        <li><a href="#"><i class="fa fa-globe"></i>&emsp;&emsp;Public Service</a></li>
+                        <li><a href="#"><i class="fa fa-graduation-cap"></i><span>Education</span></a></li>
+                        <li><a href="#"><i class="fa fa-flask"></i><span>Research</span></a></li>
+                        <li><a href="#"><i class="fa fa-medkit"></i><span>Clinical Care</span></a></li>
+                        <li><a href="#"><i class="fa fa-globe"></i><span>Public Service</span></a></li>
                         <li><a href="#"> Mission Statement</a></li>
                     </ul>
                 </li>
