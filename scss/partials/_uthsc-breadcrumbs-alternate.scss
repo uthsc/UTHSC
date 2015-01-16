@@ -15,6 +15,7 @@
         color: #BBBBBB;
         &:not(.current):hover {
           color: $uthsc-bg-double-hover;
+          text-shadow: 2px 1px 1px $light-oil;
         }
       }
       &:after {
