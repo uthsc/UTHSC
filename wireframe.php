@@ -89,87 +89,6 @@
         <a class="button inverse" href="/clinicalcare/"><i class="fa fa-medkit"></i> Clinical Care</a>
         <a class="button inverse" href="/publicservice/"><i class="fa fa-globe"></i> Public Service</a>
     </div>
-    <!--Education
-        <a class="button uthsc-split-button-home inverse" href="/education/"><i class="fa fa-graduation-cap"></i></a>
-        <button data-dropdown="mission-education" aria-controls="drop", aria-expanded="false" class="button dropdown uthsc-split-button inverse">Education</button><br>
-            <ol aria-labelledby="breadcrumblabel" id="mission-education" data-dropdown-content class="f-dropdown mega uthsc-split-button-mission-links inverse" role="menu" aria-hidden="false" tabindex="-1">
-                <li><i class="fa fa-level-up fa-flip-horizontal"></i><a href="/education/" title="Home">Go to the Education Site</a></li>
-                <li><a href="/dentistry/">Dentistry</a></li>
-                <li><a href="/grad/">Graduate Health Sciences</a></li>
-                <li><a href="/health-professions/">Health Professions</a></li>
-                <li><a href="/Medicine/">Medicine</a></li>
-                <li><a href="/nursing/">Nursing</a></li>
-                <li><a href="/pharmacy/">Pharmacy</a></li>
-            </ol>
-    Education (end)-->
-    <!--Research
-        <a class="button uthsc-split-button-home inverse" href="/research/"><i class="fa fa-flask"></i></a>
-        <button data-dropdown="mission-research" aria-controls="drop", aria-expanded="false" class="button dropdown uthsc-split-button inverse">Research</button><br>
-            <ol aria-labelledby="breadcrumblabel" id="mission-research" data-dropdown-content class="f-dropdown mega uthsc-split-button-mission-links inverse" role="menu" aria-hidden="false" tabindex="-1">
-                <li><i class="fa fa-level-up fa-flip-horizontal"></i><a href="/research/" title="Home">Go to the Research Site</a></li>
-                    <li><a href="/research/vc_research.php">Vice Chancellor for Research</a></li>
-                    <li><a href="/research/about.php">About Research at UTHSC</a></li>
-                    <li><a href="/research/research_administration/">Office of Research Administration</a></li>
-                    <li><a href="/research/research_compliance/">Office of Research Compliance</a></li>
-                    <li><a href="/research/research_administration/research_contracts/">Research Contracts</a></li>
-                    <li><a href="/research/research_programs/">Research Centers and Programs</a></li>
-                    <li><a href="/research/research_resources/">Research Resources</a></li>
-                    <li><a href="/postdoc/">Postdoctoral Office</a></li>
-                    <li><a href="/research/student_research_programs/">Student Research Programs</a></li>
-                    <li><a href="/research/utrf.php">Technology Transfer</a></li>
-                    <li><a href="/research/MathWorks/">MathWorks Software</a></li>
-            </ol>
-    Research (end)-->
-    <!--Clinical Care
-        <a class="button uthsc-split-button-home inverse" href="/clinicalcare/"><i class="fa fa-medkit"></i></a>
-        <button data-dropdown="mission-clinicalcare" aria-controls="drop", aria-expanded="false" class="button dropdown uthsc-split-button inverse">Clinical Care</button><br>
-            <ol aria-labelledby="breadcrumblabel" id="mission-clinicalcare" data-dropdown-content class="f-dropdown mega uthsc-split-button-mission-links inverse" role="menu" aria-hidden="false" tabindex="-1">
-                <li><i class="fa fa-level-up fa-flip-horizontal"></i><a href="/clinicalcare/" title="Home">Go to the Clinical Care Site</a></li>
-                <li><a href="http://www.utmedicalgroup.com/">UT Medical Group Home</a></li>
-                <li><a href="http://www.utmedicalgroup.com/AboutUs/">About UT Medical Group</a></li>
-                <li><a href="http://www.utmedicalgroup.com/Doctors/search.php">Find a Doctor</a></li>
-                <li><a href="http://www.utmedicalgroup.com/PatientResources/index.php?pgID=15">Patient Resources</a></li>
-                <li><a href="http://www.utmedicalgroup.com/Departments/">Specialties Offered</a></li>
-                <li><a href="/dentistry/patients/spec_clinics.php">Emergencies and Specialty Clinics</a></li>
-                <li><a href="/dentistry/patients/">General Information</a></li>
-                <li><a href="/dentistry/omds/">Oral &amp; Maxillofacial Diagnostic Services</a></li>
-                <li><a href="/dentistry/patients/screeningform.php">Patient Screening Form</a></li>
-                <li><a href="/dentistry/udp/">University Dental Practice</a></li>
-                <li><a href="http://www.methodisthealth.org/utmp/">UT Methodist Physicians Home</a></li>
-                <li><a href="http://www.methodisthealth.org/patients-guests/find-a-physician/">Find a Doctor</a></li>
-                <li><a href="http://www.methodisthealth.org/patients-guests/">Patient Resources</a></li>
-                <li><a href="http://www.methodisthealth.org/healthcare-services/">Specialties Offered</a></li>
-                <li><a href="http://www.lebonheur.org/ulps/">UT Le Bonheur Pediatric Specialists Home</a></li>
-                <li><a href="http://www.lebonheur.org/your-visit/search-for-a-le-bonheur-physician/">Find a Pediatric Specialists Physician</a></li>
-                <li><a href="http://www.lebonheur.org/your-visit/our-regional-and-specialty-clinics/">Locations</a></li>
-                <li><a href="http://www.lebonheur.org/ulps/">Specialties Offered</a></li>
-                <li><a href="/bcdd/services/">Boling Center for Developmental Disabilities</a></li>
-                <li><a href="http://www.campbellclinic.com/">Campbell Orthopedic Clinic</a></li>
-                <li><a href="/eye/patient_resources.php">Hamilton Eye Institute</a></li>
-                <li><a href="/transplant/">Methodist University Transplant Institute</a></li>
-                <li><a href="http://www.semmes-murphey.com/">Semmes-Murphey Neurologic &amp; Spine Institute</a></li>
-                <li><a href="http://www.westclinic.com/">The West Clinic</a></li>
-                <li><a href="/univheal/">University Health Services</a></li>
-                <li><a href="/allied/uth/">University Therapists</a></li>
-            </ol>
-    Clinical Care (end)-->
-    <!--Public Service
-        <a class="button uthsc-split-button-home inverse" href="/publicservice/"><i class="fa fa-globe"></i></a>
-        <button data-dropdown="mission-publicservice" aria-controls="drop", aria-expanded="false" class="button dropdown uthsc-split-button inverse">Public Service</button><br>
-            <ol aria-labelledby="breadcrumblabel" id="mission-publicservice" data-dropdown-content class="f-dropdown mega uthsc-split-button-mission-links" role="menu" aria-hidden="false" tabindex="-1">
-                <li><i class="fa fa-level-up fa-flip-horizontal"></i><a href="/publicservice/" title="Home">Go to the Public Service Site</a></li>
-                <li><a href="/fooddrive/">Campus Food Drive</a></li>
-                <li><a href="/heartwalk/">Heart Walk</a></li>
-                <li><a href="/unitedway/">United Way Campaign</a></li>
-                <li><a href="http://bbhsl.mecca.org/">Building Bridges to Health Science Literacy</a></li>
-                <li><a href="/HCP/">Health Career Programs</a></li>
-                <li><a href="/prevmed/health_promo.php">Preventive Medicine Community Health Promotion</a></li>
-                <li><a href="/publicservice/clinica_esperanza.pdf">Clinica Esperanza (Clinic of Hope)</a></li>
-                <li><a href="/CIAO/">Council for International &amp; Area Outreach (CIAO)</a></li>
-            </ol>
-    Public Service (end)-->
-    <!--Mission Links (end)-->
-
     <ul>
         <li class="button menu"><i class="fa fa-gift"></i> Make a Gift</li>
         <li class="button menu"><i class="fa fa-road"></i> Take a Tour</li>
@@ -387,18 +306,6 @@
         </li>
     </ul>
 </nav>
-
-<!--Emergency Alert Box-->
-<!--<div data-alert class="emergency-alert alert-box info">
-    <div class="row">
-        <div class="columns">
-            <h4>Emergency Alert</h4>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-        </div>
-    </div>
-    <a href="#" class="close">&times;</a>
-</div>-->
-
 <!--Hero Image-->
 <div class="hero">
     <img src="images/memphis-skyline.jpg"/>
@@ -528,104 +435,12 @@
             </figure>
         </div>
     </div>
-    <!--<div class="row collapse">
-        <div id="emergency" class="small-8 columns small-centered">
-        <a href="#" data-reveal-id="emergency-modal" class="button emergency radius expand tiny">
-            <div class="show-for-small"><i class="fa fa-phone fa-flip-horizontal fa-3x"></i><h3> Emergency Numbers</h3></div>
-            <div class="hide-for-small"><h3><i class="fa fa-phone fa-flip-horizontal fa-2x fa-button"></i> Emergency Numbers</h3></div>
-            </a>
-        <div id="emergency-modal" class="reveal-modal" data-reveal>
-
-
-
-
-            <h3><i class="fa fa-phone fa-flip-horizontal fa-2x fa-button"></i> Emergency Numbers</h3>
-                  <div class="tiny"><a class="button emergency expand" href="#" data-reveal-id="myModal1"><i class="fa fa-info-circle"></i> Medical/Behavioral</a></div>
-                        <div id="myModal1" class="reveal-modal text-center" data-reveal>
-                            <div class="call-buttons-box">
-                          <h2>Medical/Behavioral</h2>
-                          <hr />
-                              <h3 class="lead"><a class="button emergency" href="tel:911"><i class="fa fa-phone fa-2x fa-flip-horizontal fa-button"></i> 911</a></h3>
-                                <p>or Campus Police at</p>
-                              <h3><a class="button emergency" href="tel:901-448-4444"><i class="fa fa-phone fa-2x fa-flip-horizontal fa-button"></i> 901-448-4444</a></h3>
-                            </div>
-                                <p><a href="#" data-reveal-id="myModal6" class="secondary button label expand"><i class="fa fa-chevron-up fa-2x fa-button"></i> Previous Emergency Number</a>
-                                    <a href="#" data-reveal-id="myModal2" class="secondary button label expand"><i class="fa fa-chevron-down fa-2x fa-button"></i> Next Emergency Number&emsp;&emsp;</a></p>
-                          <a class="close-reveal-modal">&#215;</a>
-                        </div>
-
-                  <div class="tiny"><a class="button emergency expand" href="#" data-reveal-id="myModal2"><i class="fa fa-info-circle"></i> Medical Urgent Care</a></div>
-                        <div id="myModal2" class="reveal-modal text-center" data-reveal>
-                            <div class="call-buttons-box">
-                          <h2>Medical Urgent Care</h2>
-                          <hr />
-                          <h3 class="lead"><a class="button emergency" href="tel:901-448-5630"><i class="fa fa-phone fa-2x fa-flip-horizontal fa-button"></i> 901-448-5630</a></h3>
-                            </div>
-                                <p><a href="#" data-reveal-id="myModal1" class="secondary button label expand"><i class="fa fa-chevron-up fa-2x fa-button"></i> Previous Emergency Number</a>
-                                <a href="#" data-reveal-id="myModal3" class="secondary button label expand"><i class="fa fa-chevron-down fa-2x fa-button"></i> Next Emergency Number&emsp;&emsp;</a></p>
-                          <a class="close-reveal-modal">&#215;</a>
-                        </div>
-
-                  <div class="tiny"><a class="button emergency expand" href="#" data-reveal-id="myModal3"><i class="fa fa-info-circle"></i> Behavioral Health Urgent Care</a></div>
-                        <div id="myModal3" class="reveal-modal text-center" data-reveal>
-                            <div class="call-buttons-box">
-                          <h2>Behavioral Health Urgent Care</h2>
-                          <hr />
-                          <h3 class="lead"><a class="button emergency" href="tel:901-448-5064"><i class="fa fa-phone fa-2x fa-flip-horizontal fa-button"></i> 901-448-5064</a></h3>
-                            </div>
-                                <p><a href="#" data-reveal-id="myModal2" class="secondary button label expand"><i class="fa fa-chevron-up fa-2x fa-button"></i> Previous Emergency Number</a>
-                                <a href="#" data-reveal-id="myModal4" class="secondary button label expand"><i class="fa fa-chevron-down fa-2x fa-button"></i> Next Emergency Number&emsp;&emsp;</a></p>
-                          <a class="close-reveal-modal">&#215;</a>
-                        </div>
-
-                  <div class="tiny"><a class="button emergency expand" href="#" data-reveal-id="myModal4"><i class="fa fa-info-circle"></i> Student Assistance Program</a></div>
-                        <div id="myModal4" class="reveal-modal text-center" data-reveal>
-                            <div class="call-buttons-box">
-                          <h2>Student Assistance Program (SAP)</h2>
-                          <hr />
-                          <h3 class="lead"><a class="button emergency" href="tel:800-327-2255"><i class="fa fa-phone fa-2x fa-flip-horizontal fa-button"></i> 800-327-2255<br />(Option 3)</a></h3>
-                            </div>
-                                <p><a href="#" data-reveal-id="myModal3" class="secondary button label expand"><i class="fa fa-chevron-up fa-2x fa-button"></i> Previous Emergency Number</a>
-                                <a href="#" data-reveal-id="myModal5" class="secondary button label expand"><i class="fa fa-chevron-down fa-2x fa-button"></i> Next Emergency Number&emsp;&emsp;</a></p>
-                          <a class="close-reveal-modal">&#215;</a>
-                        </div>
-
-                  <div class="tiny"><a class="button emergency expand" href="#" data-reveal-id="myModal5"><i class="fa fa-info-circle"></i> Employee Assistance Program</a></div>
-                        <div id="myModal5" class="reveal-modal text-center" data-reveal>
-                            <div class="call-buttons-box">
-                          <h2>Employee Assistance Program (EAP)</h2>
-                          <hr />
-                          <h3 class="lead"><a class="button emergency" href="tel:855-437-3486"><i class="fa fa-phone fa-2x fa-flip-horizontal fa-button"></i> 855-437-3486</a></h3>
-                            </div>
-                                <p><a href="#" data-reveal-id="myModal4" class="secondary button label expand"><i class="fa fa-chevron-up fa-2x fa-button"></i> Previous Emergency Number</a>
-                                <a href="#" data-reveal-id="myModal6" class="secondary button label expand"><i class="fa fa-chevron-down fa-2x fa-button"></i> Next Emergency Number&emsp;&emsp;</a></p>
-                          <a class="close-reveal-modal">&#215;</a>
-                        </div>
-
-                  <div class="tiny"><a class="button emergency expand" href="#" data-reveal-id="myModal6"><i class="fa fa-info-circle"></i> After Hours Medical/Behavioral</a></div>
-                        <div id="myModal6" class="reveal-modal text-center" data-reveal>
-                            <div class="call-buttons-box">
-                          <h2>After Hours Medical/Behavioral<br />Available (24/7)</h2>
-                          <hr />
-                          <h3 class="lead"><a class="button emergency" href="tel:901-541-5654"><i class="fa fa-phone fa-2x fa-flip-horizontal fa-button"></i> 901-541-5654</a></h3>
-                            </div>
-                                <p><a href="#" data-reveal-id="myModal5" class="secondary button label expand"><i class="fa fa-chevron-up fa-2x fa-button"></i> Previous Emergency Number</a>
-                                <a href="#" data-reveal-id="myModal1" class="secondary button label expand"><i class="fa fa-chevron-down fa-2x fa-button"></i> Next Emergency Number&emsp;&emsp;</a></p>
-                          <a class="close-reveal-modal">&#215;</a>
-                        </div>
-
-                          <a class="close-reveal-modal">&#215;</a>
-
-        </div>
-        </div>
-    </div>-->
 </div>
 
 <!--Bottom Footer-->
 <div class="uthsc-footer-bottom">
     <div class="row collapse">
         <div class="columns text-center">
-            <!--<img class="logo show-for-small" src="images/uthsc-logo-white-text.svg" width="100%" />-->
             <br/>
 
             <p>&copy; <?php echo date("Y") ?> The University of Tennessee<br/>Health Science Center<br/>
