@@ -13,7 +13,7 @@
       display: inline;
       a {
         color: #BBBBBB;
-        &:hover {
+        &:not(.current):hover {
           color: $uthsc-bg-double-hover;
         }
       }
