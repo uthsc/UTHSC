@@ -62,6 +62,17 @@
         <li><a href="#">Celery</a></li>
     </ul>
     <button class="close-menu expand"><i class="fa fa-chevron-left"></i> Close Menu &emsp;</button>
+    <?php
+    if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) {
+        ?>
+        <div class="bottom-nav-bar-off-canvas">
+            <?php
+            // echo '&copy UTHSC ', date("Y")
+            ?>
+        </div>
+    <?php
+    }
+    ?>
 </nav>
 
 <!-- Right Off Canvas Menu -->
@@ -120,7 +131,7 @@
     <?php
     if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) {
         ?>
-        <div class="bottom-nav-bar">
+        <div class="bottom-nav-bar-off-canvas">
             <?php
             // echo '&copy UTHSC ', date("Y")
             ?>
