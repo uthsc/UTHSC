@@ -116,8 +116,6 @@
             </ul>
         </li>
     </ul>
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
     <button class="close-menu expand">&emsp; Close Menu &emsp;<i class="fa fa-chevron-right"></i></button>
     <?php
     if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) {
