@@ -186,7 +186,7 @@ section.toggle {
       }
 
       li:last-child a:before {
-        content: "Current Page: ";
+        content: "Current Page";
         font-weight: $font-weight-bold;
       }
     }

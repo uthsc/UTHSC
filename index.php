@@ -46,7 +46,7 @@
         <li><a href="products.html" title="Products">Office of Medical Education</a></li>
         <li><a href="products.html" title="Products">Clerkships</a></li>
         <li><a href="products.html" title="Products">Core Clerkship Directors</a></li>
-        <li><a href="" class="current">Chattanooga</a></li>
+        <li><a href="" class="current"></a></li>
     </ol>
     <input type="text" placeholder="Search" style="margin:0;">
 
@@ -78,7 +78,7 @@
         <li><a href="#" title="Office of Medical Education">Office of Medical Education</a></li>
         <li><a href="#" title="Clerkships">Clerkships</a></li>
         <li><a href="#" title="Core Clerkship Directors">Core Clerkship Directors</a></li>
-        <li><a href="#" class="current">Chattanooga</a></li>
+        <li><a href="#" class="current"></a></li>
     </ol>
     <input type="text" placeholder="Search" style="margin:0;">
     <button class="close-menu expand">&emsp; Close Menu &emsp;<i class="fa fa-chevron-right"></i></button>
