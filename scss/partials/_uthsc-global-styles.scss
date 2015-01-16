@@ -53,13 +53,8 @@ figure {
   margin: 0;
   figcaption {
     padding: 5px;
-    color: $monsoon;
     font-size: 0.85em;
     font-family: "Open Sans";
-  }
-  &:hover {
-    border: 1px solid #777;
-    font-weight: bold;
   }
 }
 input[type='text'] {
