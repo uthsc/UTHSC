@@ -13,7 +13,10 @@
       display: inline;
       a {
         color: #BBBBBB;
-        &:not(.current):hover {
+        &:not(.current):not(.home-icon):hover {
+          color: $white;
+        }
+        &.home-icon:hover {
           color: $uthsc-bg-double-hover;
           text-shadow: 2px 1px 1px $light-oil;
         }
