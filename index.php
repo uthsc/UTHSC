@@ -296,6 +296,7 @@
                 </li>
                 <li><a href="index.html" title="Go to the Section Homepage">Section</a></li>
                 <li><a href="products.html" title="Go to the Page Parent">Page Parent</a></li>
+                <li class="not-a-link"><a class="current">Current Page</a></li>
             </ol>
         </div>
     </div>
