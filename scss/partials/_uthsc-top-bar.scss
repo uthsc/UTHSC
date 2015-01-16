@@ -3,7 +3,7 @@
   .top-bar-section li:not(.has-form) a:hover, .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button), .top-bar-section li:hover {
       background-color: $uthsc-bg-double-hover;
     }
-  .top-bar-section .has-dropdown > a, .top-bar-section .has-dropdown > a {
+  .top-bar-section .has-dropdown > a {
     background-color: $oil;
     &:hover {
       background-color: $uthsc-bg-double-hover;
