@@ -36,12 +36,11 @@
 <nav class="offcanvas-nav menu push-menu-left">
     <!--mobile Breadcrumbs-->
     <a class="button uthsc-split-button-home" href="/"><i class="fa fa-home"></i></a>
-    <button data-dropdown="breadcrumbs-left" aria-controls="drop"
-    , aria-expanded="false" class="button dropdown uthsc-split-button">Breadcrumbs Back Home</button><br>
     <ol aria-labelledby="breadcrumblabel" id="breadcrumbs-left" data-dropdown-content
         class="f-dropdown mega uthsc-split-button-breadcrumb-links" role="menu" aria-hidden="false" tabindex="-1">
         <li><a href="/" title="Home"><i class="fa fa-level-up fa-2x fa-flip-horizontal" style="float: left;"></i> Back
                 to the Homepage</a></li>
+    <button data-dropdown="breadcrumbs-left" aria-controls="drop" aria-expanded="false" class="button dropdown uthsc-split-button">Breadcrumbs Back Home</button>
         <li><a href="products.html" title="Products">College of Medicine</a></li>
         <li><a href="products.html" title="Products">Office of Medical Education</a></li>
         <li><a href="products.html" title="Products">Clerkships</a></li>
@@ -131,12 +130,11 @@
 <nav class="offcanvas-nav menu push-menu-right">
     <!--mobile Breadcrumbs-->
     <a class="button uthsc-split-button-home" href="/"><i class="fa fa-home"></i></a>
-    <button data-dropdown="breadcrumbs-right" aria-controls="drop"
-    , aria-expanded="false" class="button dropdown uthsc-split-button">Breadcrumbs Back Home</button><br>
     <ol aria-labelledby="breadcrumblabel" id="breadcrumbs-right" data-dropdown-content
         class="f-dropdown mega uthsc-split-button-breadcrumb-links" role="menu" aria-hidden="false" tabindex="-1">
         <li><a href="/" title="Home"><i class="fa fa-level-up fa-2x fa-flip-horizontal" style="float: left;"></i> Back
                 to the Homepage</a></li>
+    <button data-dropdown="breadcrumbs-right" aria-controls="drop" aria-expanded="false" class="button dropdown uthsc-split-button">Breadcrumbs Back Home</button>
         <li><a href="#" title="College of Medicine">College of Medicine</a></li>
         <li><a href="#" title="Office of Medical Education">Office of Medical Education</a></li>
         <li><a href="#" title="Clerkships">Clerkships</a></li>
