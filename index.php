@@ -376,7 +376,7 @@
 </nav>
 <!--Hero Image-->
 <div class="hero">
-    <img src="images/memphis-skyline.jpg"/>
+    <img src="images/memphis-skyline.jpg" />
 </div>
 
 <!--Page Heading-->
