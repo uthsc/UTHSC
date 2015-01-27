@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="css/uthsc.css"/>
     <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400italic,700italic,300,700,300italic,400'
-          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400italic,700italic,300,700,300italic,400' rel='stylesheet' type='text/css'>
     <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
@@ -36,11 +35,12 @@
 <nav class="offcanvas-nav menu push-menu-left">
     <!--mobile Breadcrumbs-->
     <a class="button uthsc-split-button-home" href="/"><i class="fa fa-home"></i></a>
-    <ol aria-labelledby="breadcrumblabel" id="breadcrumbs-left" data-dropdown-content
-        class="f-dropdown mega uthsc-split-button-breadcrumb-links" role="menu" aria-hidden="false" tabindex="-1">
-        <li><a href="/" title="Home"><i class="fa fa-level-up fa-2x fa-flip-horizontal" style="float: left;"></i> Back
-                to the Homepage</a></li>
     <button data-dropdown="breadcrumbs-left" aria-controls="drop" aria-expanded="false" class="button dropdown uthsc-split-button">Breadcrumbs Back Home</button>
+    <br>
+    <ol aria-labelledby="breadcrumblabel" id="breadcrumbs-left" data-dropdown-content class="f-dropdown mega uthsc-split-button-breadcrumb-links" role="menu" aria-hidden="false" tabindex="-1">
+        <li>
+            <a href="/" title="Home"><i class="fa fa-level-up fa-2x fa-flip-horizontal" style="float: left;"></i> Back to the Homepage</a>
+        </li>
         <li><a href="products.html" title="Products">College of Medicine</a></li>
         <li><a href="products.html" title="Products">Office of Medical Education</a></li>
         <li><a href="products.html" title="Products">Clerkships</a></li>
@@ -52,13 +52,13 @@
     <button class="close-menu expand"><i class="fa fa-chevron-left"></i> Close Menu &emsp;</button>
     <ul>
         <li class="not-a-link"><a>Menu Dropdown 0ne</a>
-        <ul>
-            <li><a href="#">First Item in Dropdown</a></li>
-            <li><a href="#">Second Item in Dropdown</a></li>
-            <li><a href="#">Third Item in Dropdown</a></li>
-            <li><a href="#">Fourth Item in Dropdown</a></li>
-            <li><a href="#">Fifth Item in Dropdown</a></li>
-        </ul>
+            <ul>
+                <li><a href="#">First Item in Dropdown</a></li>
+                <li><a href="#">Second Item in Dropdown</a></li>
+                <li><a href="#">Third Item in Dropdown</a></li>
+                <li><a href="#">Fourth Item in Dropdown</a></li>
+                <li><a href="#">Fifth Item in Dropdown</a></li>
+            </ul>
         </li>
         <li class="not-a-link"><a>Menu Dropdown Two</a>
             <ul>
@@ -130,11 +130,12 @@
 <nav class="offcanvas-nav menu push-menu-right">
     <!--mobile Breadcrumbs-->
     <a class="button uthsc-split-button-home" href="/"><i class="fa fa-home"></i></a>
-    <ol aria-labelledby="breadcrumblabel" id="breadcrumbs-right" data-dropdown-content
-        class="f-dropdown mega uthsc-split-button-breadcrumb-links" role="menu" aria-hidden="false" tabindex="-1">
-        <li><a href="/" title="Home"><i class="fa fa-level-up fa-2x fa-flip-horizontal" style="float: left;"></i> Back
-                to the Homepage</a></li>
     <button data-dropdown="breadcrumbs-right" aria-controls="drop" aria-expanded="false" class="button dropdown uthsc-split-button">Breadcrumbs Back Home</button>
+    <br>
+    <ol aria-labelledby="breadcrumblabel" id="breadcrumbs-right" data-dropdown-content class="f-dropdown mega uthsc-split-button-breadcrumb-links" role="menu" aria-hidden="false" tabindex="-1">
+        <li>
+            <a href="/" title="Home"><i class="fa fa-level-up fa-2x fa-flip-horizontal" style="float: left;"></i> Back to the Homepage</a>
+        </li>
         <li><a href="#" title="College of Medicine">College of Medicine</a></li>
         <li><a href="#" title="Office of Medical Education">Office of Medical Education</a></li>
         <li><a href="#" title="Clerkships">Clerkships</a></li>
@@ -264,9 +265,7 @@
                 </li>
                 <li class="button menu secondary label"><i class="fa fa-gift"></i> Make a Gift</li>
                 <li class="button top-bar-button label"><i class="fa fa-road"></i> Take a Tour</li>
-                <li class="has-form search-bar-large">
-                    <input type="text" placeholder="Search">
-                </li>
+                <li class="has-form search-bar-large"><input type="text" placeholder="Search"></li>
             </ul>
         </section>
     </nav>
@@ -290,7 +289,8 @@
         <div class="columns">
             <!--<p id="breadcrumblabel">You are here:</p>-->
             <ol aria-labelledby="breadcrumblabel">
-                <li><a href="index.html" class="home-icon" title="Go to the UTHSC Homepage"><i class="uthsc-home-icon-breadcrumbs fa fa-home fa-2x"></i></a>
+                <li>
+                    <a href="index.html" class="home-icon" title="Go to the UTHSC Homepage"><i class="uthsc-home-icon-breadcrumbs fa fa-home fa-2x"></i></a>
                 </li>
                 <li><a href="index.html" title="Go to the Section Homepage">Section</a></li>
                 <li><a href="products.html" title="Go to the Page Parent">Page Parent</a></li>
@@ -374,7 +374,7 @@
 </nav>
 <!--Hero Image-->
 <div class="hero">
-    <img src="images/memphis-skyline.jpg" />
+    <img src="images/memphis-skyline.jpg"/>
 </div>
 
 <!--Page Heading-->
@@ -393,16 +393,15 @@
 
             <p>This is a full width row with a panel in it. </p>
 
-            <p>Thanks to <a href="http://fortawesome.github.io/Font-Awesome/">Fontawesome <i class="fa fa-flag"></i></a>
-                we can use these handy icons anywhere. Here's an example of a <a href="">pdf link <i
-                        class="fa fa-file-pdf-o"></i></a>. Sed ut <strong>perspiciatis</strong> unde omnis iste natus
-                error sit voluptatem accusantium doloremque laudantium, <strong>totam <em>rem</em> aperiam</strong>,
-                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</p>
+            <p>Thanks to <a href="http://fortawesome.github.io/Font-Awesome/">Fontawesome
+                    <i class="fa fa-flag"></i></a> we can use these handy icons anywhere. Here's an example of a
+                <a href="">pdf link <i class="fa fa-file-pdf-o"></i></a>. Sed ut
+                <strong>perspiciatis</strong> unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                <strong>totam
+                    <em>rem</em> aperiam</strong>, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
+            </p>
 
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
 
         </div>
     </div>
@@ -414,10 +413,9 @@
         <h3>Content Row 2</h3>
         <h5>One Third</h5>
 
-        <p><strong>This is a three column layout</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-            odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        <p>
+            <strong>This is a three column layout</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+        </p>
         <a href="#" class="button secondary radius">Apply Now <i class="fa fa-graduation-cap"></i></a>
     </div>
 
@@ -425,29 +423,25 @@
         <h3>Content Row 2</h3>
         <h5>One Third</h5>
 
-        <p><strong>This is a three column layout</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-            odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        <p>
+            <strong>This is a three column layout</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+        </p>
         <a href="#" class="button radius">Academic Calendar <i class="fa fa-calendar"></i></a>
     </div>
 
     <div class="large-4 columns">
         <h3>Content Row 2</h3>
-        <h5>UT President Joe DiPietro describes challenges facing higher ed and its role in preparing the workforce of
-            the future</h5>
+        <h5>UT President Joe DiPietro describes challenges facing higher ed and its role in preparing the workforce of the future</h5>
         <figure class="left image-40">
             <img src="http://news.uthsc.edu/wp-content/uploads/2014/09/Dr.-Dipietro2.jpg"
                  alt="UT President Joe DiPietro addresses panel members about the role of higher education in workforce preparedness."
-                 data-caption="testing"/>
-            <figcaption>UT President Joe DiPietro addresses panel members about the role of higher education in
-                workforce preparedness.
+                />
+            <figcaption>UT President Joe DiPietro addresses panel members about the role of higher education in workforce preparedness.
             </figcaption>
         </figure>
-        <p><strong>This is a three column layout</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-            odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        <p>
+            <strong>This is a three column layout</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+        </p>
         <a href="#" class="button radius">Get Directions <i class="fa fa-map-marker"></i></a>
     </div>
 </div>
@@ -459,13 +453,12 @@
         <h5>One Third</h5>
         <figure class="right image-40">
             <img src="http://news.uthsc.edu/wp-content/uploads/2014/12/Top-Workplace-HomePageSlider.jpg"
-                 alt="the arches on union avenue" data-caption="testing"/>
+                 alt="the arches on union avenue"/>
             <figcaption>UTHSC named one of the 2014 Top Workplaces in Memphis.</figcaption>
         </figure>
-        <p><strong>This is a two column layout</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-            odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        <p>
+            <strong>This is a two column layout</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+        </p>
     </div>
 
     <div class="large-8 columns">
@@ -476,10 +469,9 @@
             <img src="images/bridge.jpg"/>
         </div>
 
-        <p><strong>This is a two column layout</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-            architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-            odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        <p>
+            <strong>This is a two column layout</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+        </p>
     </div>
 </div>
 
@@ -489,20 +481,16 @@
         <div class="medium-4 columns footer-box" data-equalizer-watch>
             <h4>Contact Us</h4>
 
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                explicabo.</p>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
         </div>
         <div class="medium-4 columns footer-box" data-equalizer-watch>
             <h4>Links</h4>
 
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                explicabo.</p>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
         </div>
         <div class="medium-4 columns footer-box hide-for-small" data-equalizer-watch>
             <figure>
-                <img src="images/campus-arches.jpg" alt="the arches on union avenue" data-caption="testing"/>
+                <img src="images/campus-arches.jpg" alt="the arches on union avenue"/>
                 <figcaption>Caption for the above image.</figcaption>
             </figure>
         </div>
@@ -515,12 +503,9 @@
         <div class="columns text-center">
             <br/>
 
-            <p>&copy; <?php echo date("Y") ?> The University of Tennessee<br/>Health Science Center<br/>
-                Memphis, Tennessee 38163<br/>
-                Main: 901-448-5500<br/>
-                TDD: 901-448-7382</p>
-            <br/>
-            <a href="mailto:webmaster@uthsc.edu" class="button radius secondary tiny"><i
+            <p>&copy; <?php echo date("Y") ?> The University of Tennessee<br/>Health Science Center<br/> Memphis, Tennessee 38163<br/> Main: 901-448-5500<br/> TDD: 901-448-7382
+            </p>
+            <br/> <a href="mailto:webmaster@uthsc.edu" class="button radius secondary tiny"><i
                     class="fa fa-envelope fa-3x two-line-button-icon"></i><span class="two-line-button-text">Email<br/>Webmaster</span></a>
 
             <a href="/password/" class="button radius secondary tiny"><i
@@ -545,8 +530,7 @@
 
 
             <h3 class="text-center"><i class="fa fa-phone fa-flip-horizontal fa-2x"></i> Emergency Numbers</h3>
-            <a href="#" data-reveal-id="myModal1" class="button alert expand"><i class="fa fa-info-circle"></i>
-                Medical/Behavioral</a>
+            <a href="#" data-reveal-id="myModal1" class="button alert expand"><i class="fa fa-info-circle"></i> Medical/Behavioral</a>
 
             <div id="myModal1" class="reveal-modal text-center" data-reveal>
                 <div class="call-buttons-box">
@@ -566,8 +550,7 @@
                             class="fa fa-chevron-down fa-2x fa-button"></i> Next Emergency Number&emsp;&emsp;</a></p>
                 <a class="close-reveal-modal">&#215;</a>
             </div>
-            <a href="#" data-reveal-id="myModal2" class="button alert expand"><i class="fa fa-info-circle"></i> Medical
-                Urgent Care</a>
+            <a href="#" data-reveal-id="myModal2" class="button alert expand"><i class="fa fa-info-circle"></i> Medical Urgent Care</a>
 
             <div id="myModal2" class="reveal-modal text-center" data-reveal>
                 <div class="call-buttons-box">
@@ -582,8 +565,7 @@
                             class="fa fa-chevron-down fa-2x fa-button"></i> Next Emergency Number&emsp;&emsp;</a></p>
                 <a class="close-reveal-modal">&#215;</a>
             </div>
-            <a href="#" data-reveal-id="myModal3" class="button alert expand"><i class="fa fa-info-circle"></i>
-                Behavioral Health Urgent Care</a>
+            <a href="#" data-reveal-id="myModal3" class="button alert expand"><i class="fa fa-info-circle"></i> Behavioral Health Urgent Care</a>
 
             <div id="myModal3" class="reveal-modal text-center" data-reveal>
                 <div class="call-buttons-box">
@@ -598,8 +580,7 @@
                             class="fa fa-chevron-down fa-2x fa-button"></i> Next Emergency Number&emsp;&emsp;</a></p>
                 <a class="close-reveal-modal">&#215;</a>
             </div>
-            <a href="#" data-reveal-id="myModal4" class="button alert expand"><i class="fa fa-info-circle"></i> Student
-                Assistance Program</a>
+            <a href="#" data-reveal-id="myModal4" class="button alert expand"><i class="fa fa-info-circle"></i> Student Assistance Program</a>
 
             <div id="myModal4" class="reveal-modal text-center" data-reveal>
                 <div class="call-buttons-box">
@@ -615,8 +596,7 @@
                             class="fa fa-chevron-down fa-2x fa-button"></i> Next Emergency Number&emsp;&emsp;</a></p>
                 <a class="close-reveal-modal">&#215;</a>
             </div>
-            <a href="#" data-reveal-id="myModal5" class="button alert expand"><i class="fa fa-info-circle"></i> Employee
-                Assistance Program</a>
+            <a href="#" data-reveal-id="myModal5" class="button alert expand"><i class="fa fa-info-circle"></i> Employee Assistance Program</a>
 
             <div id="myModal5" class="reveal-modal text-center" data-reveal>
                 <div class="call-buttons-box">
@@ -631,8 +611,7 @@
                             class="fa fa-chevron-down fa-2x fa-button"></i> Next Emergency Number&emsp;&emsp;</a></p>
                 <a class="close-reveal-modal">&#215;</a>
             </div>
-            <a href="#" data-reveal-id="myModal6" class="button alert expand"><i class="fa fa-info-circle"></i> After
-                Hours Medical/Behavioral</a>
+            <a href="#" data-reveal-id="myModal6" class="button alert expand"><i class="fa fa-info-circle"></i> After Hours Medical/Behavioral</a>
 
             <div id="myModal6" class="reveal-modal text-center" data-reveal>
                 <div class="call-buttons-box">
@@ -654,8 +633,7 @@
                     <div class="columns large-5 medium-4 text-right emergency-phone-icon"><i
                             class="fa fa-phone fa-flip-horizontal fa-3x"></i></div>
                     <div class="columns large-7 medium-8 text-left"><h4>Emergency<br/>Numbers</h4></div>
-                    <div class="columns small-12">Call 911 or Campus Police at 901-448-4444<br/>
-                        More Emergency Information
+                    <div class="columns small-12">Call 911 or Campus Police at 901-448-4444<br/> More Emergency Information
                     </div>
                 </a>
             </div>
