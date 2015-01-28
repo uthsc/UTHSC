@@ -37,7 +37,7 @@
     <a class="button uthsc-split-button-home" href="/"><i class="fa fa-home"></i></a>
     <button data-dropdown="breadcrumbs-left" aria-controls="drop" aria-expanded="false" class="button dropdown uthsc-split-button">Breadcrumbs Back Home</button>
     <br>
-    <ol aria-labelledby="breadcrumblabel" id="breadcrumbs-left" data-dropdown-content class="f-dropdown mega uthsc-split-button-breadcrumb-links" role="menu" aria-hidden="false" tabindex="-1">
+    <ol aria-labelledby="breadcrumblabel" id="breadcrumbs-left" data-dropdown-content="data-dropdown-content" class="f-dropdown mega uthsc-split-button-breadcrumb-links" role="menu" aria-hidden="false" tabindex="-1">
         <li>
             <a href="/" title="Home"><i class="fa fa-level-up fa-2x fa-flip-horizontal" style="float: left;"></i> Back to the Homepage</a>
         </li>
@@ -132,7 +132,7 @@
     <a class="button uthsc-split-button-home" href="/"><i class="fa fa-home"></i></a>
     <button data-dropdown="breadcrumbs-right" aria-controls="drop" aria-expanded="false" class="button dropdown uthsc-split-button">Breadcrumbs Back Home</button>
     <br>
-    <ol aria-labelledby="breadcrumblabel" id="breadcrumbs-right" data-dropdown-content class="f-dropdown mega uthsc-split-button-breadcrumb-links" role="menu" aria-hidden="false" tabindex="-1">
+    <ol aria-labelledby="breadcrumblabel" id="breadcrumbs-right" data-dropdown-content="data-dropdown-content" class="f-dropdown mega uthsc-split-button-breadcrumb-links" role="menu" aria-hidden="false" tabindex="-1">
         <li>
             <a href="/" title="Home"><i class="fa fa-level-up fa-2x fa-flip-horizontal" style="float: left;"></i> Back to the Homepage</a>
         </li>
@@ -217,7 +217,7 @@
 <header id="uthsc-header">
 
     <!--Top Bar Navigation-->
-    <nav class="top-bar show-for-large-up" data-topbar role="navigation">
+    <nav class="top-bar show-for-large-up" data-topbar="data-topbar" role="navigation">
         <ul class="title-area">
             <li class="name"></li>
             <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
@@ -302,11 +302,11 @@
 
 <!--Main Navigation-->
 <nav role="navigation" id="uthsc-navigation-alt" class="show-for-large-up">
-    <ul class="row collapse" data-equalizer data-uthscequalizer>
+    <ul class="row collapse" data-equalizer="data-equalizer" data-uthscequalizer="data-uthscequalizer">
 
         <li class="uthsc-navigation-column small-2 columns">
-            <a href="#" data-equalizer-watch>Menu Dropdown 0ne</a>
-            <ul data-uthscequalizer-watch>
+            <a href="#" data-equalizer-watch="data-equalizer-watch">Menu Dropdown 0ne</a>
+            <ul data-uthscequalizer-watch="data-uthscequalizer-watch">
                 <li><a href="#">First Item in Dropdown</a></li>
                 <li><a href="#">Second Item in Dropdown</a></li>
                 <li><a href="#">Third Item in Dropdown</a></li>
@@ -315,8 +315,8 @@
             </ul>
         </li>
         <li class="uthsc-navigation-column small-2 columns">
-            <a href="#" data-equalizer-watch>Menu Dropdown Two</a>
-            <ul data-uthscequalizer-watch>
+            <a href="#" data-equalizer-watch="data-equalizer-watch">Menu Dropdown Two</a>
+            <ul data-uthscequalizer-watch="data-uthscequalizer-watch">
                 <li><a href="#">First Item in Dropdown</a></li>
                 <li><a href="#">Second Item in Dropdown</a></li>
                 <li><a href="#">Third Item in Dropdown That Goes to Two Lines</a></li>
@@ -324,8 +324,8 @@
             </ul>
         </li>
         <li class="uthsc-navigation-column small-2 columns">
-            <a href="#" data-equalizer-watch>Menu Dropdown Three</a>
-            <ul data-uthscequalizer-watch>
+            <a href="#" data-equalizer-watch="data-equalizer-watch">Menu Dropdown Three</a>
+            <ul data-uthscequalizer-watch="data-uthscequalizer-watch">
                 <li><a href="#">First Item in Dropdown</a></li>
                 <li><a href="#">Second Item in Dropdown</a></li>
                 <li><a href="#">Third Item in Dropdown</a></li>
@@ -340,8 +340,8 @@
             </ul>
         </li>
         <li class="uthsc-navigation-column small-2 columns">
-            <a href="#" data-equalizer-watch>Menu Dropdown Four</a>
-            <ul data-uthscequalizer-watch>
+            <a href="#" data-equalizer-watch="data-equalizer-watch">Menu Dropdown Four</a>
+            <ul data-uthscequalizer-watch="data-uthscequalizer-watch">
                 <li><a href="#">First Item in Dropdown</a></li>
                 <li><a href="#">Second Item in Dropdown</a></li>
                 <li><a href="#">Third Item in Dropdown</a></li>
@@ -352,14 +352,14 @@
             </ul>
         </li>
         <li class="uthsc-navigation-column small-2 columns">
-            <a href="#" data-equalizer-watch>Menu Dropdown Five</a>
-            <ul data-uthscequalizer-watch>
+            <a href="#" data-equalizer-watch="data-equalizer-watch">Menu Dropdown Five</a>
+            <ul data-uthscequalizer-watch="data-uthscequalizer-watch">
                 <li><a href="#">First Item in Dropdown</a></li>
             </ul>
         </li>
         <li class="uthsc-navigation-column small-2 columns">
-            <a href="#" data-equalizer-watch>Menu Dropdown Six</a>
-            <ul data-uthscequalizer-watch>
+            <a href="#" data-equalizer-watch="data-equalizer-watch">Menu Dropdown Six</a>
+            <ul data-uthscequalizer-watch="data-uthscequalizer-watch">
                 <li><a href="#">First Item in Dropdown</a></li>
                 <li><a href="#">Second Item in Dropdown</a></li>
                 <li><a href="#">Third Item in Dropdown</a></li>
@@ -477,18 +477,18 @@
 
 <!--Top Footer-->
 <div class="uthsc-footer-top">
-    <div class="row" data-equalizer>
-        <div class="medium-4 columns footer-box" data-equalizer-watch>
+    <div class="row" data-equalizer="data-equalizer">
+        <div class="medium-4 columns footer-box" data-equalizer-watch="data-equalizer-watch">
             <h4>Contact Us</h4>
 
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
         </div>
-        <div class="medium-4 columns footer-box" data-equalizer-watch>
+        <div class="medium-4 columns footer-box" data-equalizer-watch="data-equalizer-watch">
             <h4>Links</h4>
 
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
         </div>
-        <div class="medium-4 columns footer-box hide-for-small" data-equalizer-watch>
+        <div class="medium-4 columns footer-box hide-for-small" data-equalizer-watch="data-equalizer-watch">
             <figure>
                 <img src="images/campus-arches.jpg" alt="the arches on union avenue"/>
                 <figcaption>Caption for the above image.</figcaption>
@@ -532,7 +532,7 @@
             <h3 class="text-center"><i class="fa fa-phone fa-flip-horizontal fa-2x"></i> Emergency Numbers</h3>
             <a href="#" data-reveal-id="myModal1" class="button alert expand"><i class="fa fa-info-circle"></i> Medical/Behavioral</a>
 
-            <div id="myModal1" class="reveal-modal text-center" data-reveal>
+            <div id="myModal1" class="reveal-modal text-center" data-reveal="data-reveal">
                 <div class="call-buttons-box">
                     <h2>Medical/Behavioral</h2>
                     <hr/>
@@ -552,7 +552,7 @@
             </div>
             <a href="#" data-reveal-id="myModal2" class="button alert expand"><i class="fa fa-info-circle"></i> Medical Urgent Care</a>
 
-            <div id="myModal2" class="reveal-modal text-center" data-reveal>
+            <div id="myModal2" class="reveal-modal text-center" data-reveal="data-reveal">
                 <div class="call-buttons-box">
                     <h2>Medical Urgent Care</h2>
                     <hr/>
@@ -567,7 +567,7 @@
             </div>
             <a href="#" data-reveal-id="myModal3" class="button alert expand"><i class="fa fa-info-circle"></i> Behavioral Health Urgent Care</a>
 
-            <div id="myModal3" class="reveal-modal text-center" data-reveal>
+            <div id="myModal3" class="reveal-modal text-center" data-reveal="data-reveal">
                 <div class="call-buttons-box">
                     <h2>Behavioral Health Urgent Care</h2>
                     <hr/>
@@ -582,7 +582,7 @@
             </div>
             <a href="#" data-reveal-id="myModal4" class="button alert expand"><i class="fa fa-info-circle"></i> Student Assistance Program</a>
 
-            <div id="myModal4" class="reveal-modal text-center" data-reveal>
+            <div id="myModal4" class="reveal-modal text-center" data-reveal="data-reveal">
                 <div class="call-buttons-box">
                     <h2>Student Assistance Program (SAP)</h2>
                     <hr/>
@@ -598,7 +598,7 @@
             </div>
             <a href="#" data-reveal-id="myModal5" class="button alert expand"><i class="fa fa-info-circle"></i> Employee Assistance Program</a>
 
-            <div id="myModal5" class="reveal-modal text-center" data-reveal>
+            <div id="myModal5" class="reveal-modal text-center" data-reveal="data-reveal">
                 <div class="call-buttons-box">
                     <h2>Employee Assistance Program (EAP)</h2>
                     <hr/>
@@ -613,7 +613,7 @@
             </div>
             <a href="#" data-reveal-id="myModal6" class="button alert expand"><i class="fa fa-info-circle"></i> After Hours Medical/Behavioral</a>
 
-            <div id="myModal6" class="reveal-modal text-center" data-reveal>
+            <div id="myModal6" class="reveal-modal text-center" data-reveal="data-reveal">
                 <div class="call-buttons-box">
                     <h2>After Hours Medical/Behavioral<br/>Available (24/7)</h2>
                     <hr/>
