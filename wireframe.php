@@ -4,11 +4,11 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>UTHSC Redesign</title>
-    <link rel="stylesheet" href="css/uthsc.css"/>
-    <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="_resources/2015/css/uthsc.css"/>
+    <link rel="stylesheet" href="_resources/2015/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400italic,700italic,300,700,300italic,400' rel='stylesheet' type='text/css'>
-    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="_resources/2015/js/modernizr.js"></script>
 </head>
 <body>
 
@@ -164,7 +164,7 @@
                 <li><a href="#">Patients</a></li>
             </ul>
         </li>
-        <li class="not-a-link"><a><i class="fa fa-university"></i> Resources</a>
+        <li class="not-a-link"><a><i class="fa fa-university"></i> _resources</a>
             <ul>
                 <li><a href="#">Banner</a></li>
                 <li><a href="#">Blackboard</a></li>
@@ -250,7 +250,7 @@
                 </li>
 
                 <li class="has-dropdown">
-                    <a class="button label" href="#"><i class="fa fa-university"></i> Resources</a>
+                    <a class="button label" href="#"><i class="fa fa-university"></i> _resources</a>
                     <ul class="dropdown">
                         <li><a href="#">Banner</a></li>
                         <li><a href="#">Blackboard</a></li>
@@ -273,7 +273,7 @@
     <!--Banner-->
     <div class="row">
         <div class="medium-7 large-8 large-centered columns">
-            <img class="uthsc-logo" src="images/uthsc-logo-white-text.svg" width="100%"/>
+            <img class="uthsc-logo" src="_resources/2015/images/uthsc-logo-white-text.svg" width="100%"/>
         </div>
         <div class="medium-5 large-12 hide-for-large-up columns small-collapse">
             <div class="search-bar has-form">
@@ -374,7 +374,7 @@
 </nav>
 <!--Hero Image-->
 <div class="hero">
-    <img src="images/memphis-skyline.jpg"/>
+    <img src="_resources/2015/images/memphis-skyline.jpg"/>
 </div>
 
 <!--Page Heading-->
@@ -466,7 +466,7 @@
         <h5>Two Thirds</h5>
 
         <div class="left">
-            <img src="images/bridge.jpg"/>
+            <img src="_resources/2015/images/bridge.jpg"/>
         </div>
 
         <p>
@@ -491,7 +491,7 @@
         </div>
         <div class="medium-4 columns footer-box hide-for-small" data-equalizer-watch="data-equalizer-watch">
             <figure>
-                <img src="images/campus-arches.jpg" alt="the arches on union avenue"/>
+                <img src="_resources/2015/images/campus-arches.jpg" alt="the arches on union avenue"/>
                 <figcaption>Caption for the above image.</figcaption>
             </figure>
         </div>
@@ -645,10 +645,10 @@
 
 </div>
 
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="js/uthsc.foundation.min.js"></script>
-<script src="js/app.js"></script>
+<script src="_resources/2015/js/jquery.min.js"></script>
+<script src="_resources/2015/js/uthsc.foundation.min.js"></script>
+<script>(function($){$(document).foundation();})(jQuery);</script>
 <!-- js -->
-<script src="js/uthsc.min.js"></script>
+<script src="_resources/2015/js/uthsc.min.js"></script>
 </body>
 </html>
