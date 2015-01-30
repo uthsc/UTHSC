@@ -475,6 +475,7 @@
     </div>
 </div>
 
+<footer>
 <!--Top Footer-->
 <div class="uthsc-footer-top">
     <div class="row" data-equalizer="data-equalizer">
@@ -640,6 +641,8 @@
         </div>
     </div>
 </div>
+</footer>
+
 </div>
 
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
