@@ -648,7 +648,6 @@
 <script src="_resources/2015/js/jquery.min.js"></script>
 <script src="_resources/2015/js/uthsc.foundation.min.js"></script>
 <script>(function($){$(document).foundation();})(jQuery);</script>
-<!-- js -->
 <script src="_resources/2015/js/uthsc.min.js"></script>
 </body>
 </html>
