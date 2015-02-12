@@ -53,17 +53,32 @@ module.exports = function (grunt) {
             }
         },
 
+        copy: {
+            main: {
+                files: [
+                    {src: ['js/uthsc.foundation.min.js'], dest: '_resources/2015/js/uthsc.foundation.min.js'},
+                    {src: ['js/uthsc.min.js'], dest: '_resources/2015/js/uthsc.min.js'},
+                    {src: ['bower_components/modernizr/modernizr.js'], dest: '_resources/2015/js/modernizr.js'},
+                    {src: ['bower_components/jquery/dist/jquery.min.js'], dest: '_resources/2015/js/jquery.min.js'},
+                    {src: ['bower_components/fontawesome/css/font-awesome.min.css'], dest: '_resources/2015/css/font-awesome.min.css'},
+                    {src: ['css/uthsc.css'], dest: '_resources/2015/css/uthsc.css'},
+                    {expand: true, src: ['bower_components/fontawesome/fonts/**'], dest: '_resources/2015/fonts/', flatten: true, filter: 'isFile' },
+                    {expand: true, src: ['images/**'], dest: '_resources/2015/images/', flatten: true, filter: 'isFile' }
+                ]
+            }
+        },
+
         watch: {
             grunt: {files: ['Gruntfile.js']},
 
             sass: {
                 files: 'scss/**/*.scss',
-                tasks: ['sass']
+                tasks: ['sass', 'copy']
             },
 
             uglify: {
                 files: 'js/scripts/**/*.js',
-                tasks: ['concat','uglify']
+                tasks: ['concat','uglify', 'copy']
             }
         }
     });
@@ -73,6 +88,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-copy');
+
+    grunt.registerTask('copyResources',['copy']);
 
     //foundation
     grunt.registerTask('foundationConcatenate', ['concat:foundation']);
