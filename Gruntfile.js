@@ -6,13 +6,21 @@ module.exports = function (grunt) {
             options: {
                 includePaths: ['bower_components/foundation/scss']
             },
-            dist: {
+            dev: {
                 options: {
                     outputStyle: 'expanded',
                     sourceMap: true
                 },
                 files: {
                     'css/uthsc.css': 'scss/uthsc.scss'
+                }
+            },
+            dist: {
+                options: {
+                    outputStyle: 'compressed'
+                },
+                files: {
+                    'css/uthsc.css': 'scss/uthsc.min.scss'
                 }
             }
         },
@@ -54,18 +62,27 @@ module.exports = function (grunt) {
         },
 
         copy: {
-            main: {
-                files: [
-                    {src: ['js/uthsc.foundation.min.js'], dest: '_resources/2015/js/uthsc.foundation.min.js'},
-                    {src: ['js/uthsc.min.js'], dest: '_resources/2015/js/uthsc.min.js'},
-                    {src: ['bower_components/modernizr/modernizr.js'], dest: '_resources/2015/js/modernizr.js'},
-                    {src: ['bower_components/jquery/dist/jquery.min.js'], dest: '_resources/2015/js/jquery.min.js'},
-                    {src: ['bower_components/fontawesome/css/font-awesome.min.css'], dest: '_resources/2015/css/font-awesome.min.css'},
-                    {src: ['css/uthsc.css'], dest: '_resources/2015/css/uthsc.css'},
-                    {expand: true, src: ['bower_components/fontawesome/fonts/**'], dest: '_resources/2015/fonts/', flatten: true, filter: 'isFile' },
-                    {expand: true, src: ['images/**'], dest: '_resources/2015/images/', flatten: true, filter: 'isFile' }
-                ]
-            }
+            css: {
+                src: ['css/uthsc.css'], 
+                dest: '_resources/2015/css/uthsc.css'
+            },
+            images: {
+                expand: true, 
+                src: ['images/**'], 
+                dest: '_resources/2015/images/', 
+                flatten: true, 
+                filter: 'isFile'
+            },
+            js: [
+                {src: ['js/uthsc.foundation.min.js'], dest: '_resources/2015/js/uthsc.foundation.min.js'},
+                {src: ['js/uthsc.min.js'], dest: '_resources/2015/js/uthsc.min.js'},
+                {src: ['bower_components/modernizr/modernizr.js'], dest: '_resources/2015/js/modernizr.js'},
+                {src: ['bower_components/jquery/dist/jquery.min.js'], dest: '_resources/2015/js/jquery.min.js'},
+            ],
+            fonts: [
+                {src: ['bower_components/fontawesome/css/font-awesome.min.css'], dest: '_resources/2015/css/font-awesome.min.css'},
+                {expand: true, src: ['bower_components/fontawesome/fonts/**'], dest: '_resources/2015/fonts/', flatten: true, filter: 'isFile' }
+            ]
         },
 
         watch: {
@@ -73,12 +90,11 @@ module.exports = function (grunt) {
 
             sass: {
                 files: 'scss/**/*.scss',
-                tasks: ['sass', 'copy']
+                tasks: ['sass']
             },
-
             uglify: {
                 files: 'js/scripts/**/*.js',
-                tasks: ['concat','uglify', 'copy']
+                tasks: ['concat','uglify']
             }
         }
     });
@@ -90,7 +106,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-copy');
 
-    grunt.registerTask('copyResources',['copy']);
+    //copy files to resources
+    grunt.registerTask('copyResources',['copy:css','copy:js','copy:images','copy:font']);
 
     //foundation
     grunt.registerTask('foundationConcatenate', ['concat:foundation']);
@@ -100,6 +117,6 @@ module.exports = function (grunt) {
     //default
     grunt.registerTask('concatenate', ['concat:dist']);
     grunt.registerTask('minify', ['uglify:dist']);
-    grunt.registerTask('build', ['sass', 'concatenate', 'minify']);
+    grunt.registerTask('build', ['sass:dev', 'concatenate', 'minify']);
     grunt.registerTask('default', ['build', 'watch']);
 };
