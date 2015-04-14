@@ -2,6 +2,20 @@ module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
+        jade: {
+            compile: {
+                options: {
+                    pretty:true,
+                    data: {
+                        debug: false
+                    }
+                },
+                files: {
+                    "index.php": ["index.jade"]
+                }
+            }
+        },
+
         sass: {
             options: {
                 includePaths: ['bower_components/foundation/scss']
@@ -105,6 +119,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-contrib-jade');
+
 
     //copy files to resources
     grunt.registerTask('copyResources',['copy:css','copy:js','copy:images','copy:font']);
