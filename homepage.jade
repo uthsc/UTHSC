@@ -171,6 +171,63 @@ html.no-js(lang="en")
             // Hero Image
             .hero.hide-for-small: img(src='images/memphis-skyline.jpg')
 
+            // tabs
+            .row.show-for-small-down
+                .columns.small-centered
+                    ul.tabs.homepage(data-tab='', role='tablist')
+                        li.tab-title.active.text-center(role='presentational'): a(href='#panel2-1', role='tab', tabindex='0', aria-selected='true', controls='panel2-1'): i.fa.fa-graduation-cap.fa-2x
+                        li.tab-title.text-center(role='presentational'): a(href='#panel2-2', role='tab', tabindex='0', aria-selected='false', controls='panel2-2'): i.fa.fa-flask.fa-2x
+                        li.tab-title.text-center(role='presentational'): a(href='#panel2-3', role='tab', tabindex='0', aria-selected='false', controls='panel2-3'): i.fa.fa-medkit.fa-2x
+                        li.tab-title.text-center(role='presentational'): a(href='#panel2-4', role='tab', tabindex='0', aria-selected='false', controls='panel2-4'): i.fa.fa-globe.fa-2x
+                    .tabs-content
+                        section#panel2-1.content.active(role='tabpanel', aria-hidden='false')
+                            .row
+                                 .columns.mission-image
+                                    img(src='http://placehold.it/580x120&text=[Education%20image]' alt='xxxx')
+                                .columns.mission-name
+                                    h2 Education
+                                 .columns.mission-content
+                                    p Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.
+                                    .button.small Button 1
+                                    .button.small Button 2
+                                    .button.small Button 3
+                                    .button.small Button 4
+                        section#panel2-2.content(role='tabpanel', aria-hidden='true')
+                            .row
+                                 .columns.mission-image
+                                    img(src='http://placehold.it/580x120&text=[Research%20image]' alt='xxxx')
+                                .columns.mission-name
+                                    h2 Research
+                                 .columns.mission-content
+                                    p Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.
+                                    .button.small Button 1
+                                    .button.small Button 2
+                                    .button.small Button 3
+                                    .button.small Button 4
+                        section#panel2-3.content(role='tabpanel', aria-hidden='true')
+                            .row
+                                 .columns.mission-image
+                                    img(src='http://placehold.it/580x120&text=[Clinical%20Care%20image]' alt='xxxx')
+                                .columns.mission-name
+                                    h2 Clinical Care
+                                 .columns.mission-content
+                                    p Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.
+                                    .button.small Button 1
+                                    .button.small Button 2
+                                    .button.small Button 3
+                                    .button.small Button 4
+                        section#panel2-4.content(role='tabpanel', aria-hidden='true')
+                            .row
+                                 .columns.mission-image
+                                    img(src='http://placehold.it/580x120&text=[Public%20Service%20image]' alt='xxxx')
+                                .columns.mission-name
+                                    h2 Public Service
+                                 .columns.mission-content
+                                    p Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.
+                                    .button.small Button 1
+                                    .button.small Button 2
+                                    .button.small Button 3
+                                    .button.small Button 4
 
             footer
             // Bottom Footer
