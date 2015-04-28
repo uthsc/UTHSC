@@ -76,6 +76,7 @@ module.exports = function (grunt) {
         },
 
         copy: {
+
             css: {
                 src: ['css/uthsc.css'],
                 dest: '_resources/2015/css/uthsc.css'
@@ -87,16 +88,21 @@ module.exports = function (grunt) {
                 flatten: true,
                 filter: 'isFile'
             },
-            js: [
-                {src: ['js/uthsc.foundation.min.js'], dest: '_resources/2015/js/uthsc.foundation.min.js'},
-                {src: ['js/uthsc.min.js'], dest: '_resources/2015/js/uthsc.min.js'},
-                {src: ['bower_components/modernizr/modernizr.js'], dest: '_resources/2015/js/modernizr.js'},
-                {src: ['bower_components/jquery/dist/jquery.min.js'], dest: '_resources/2015/js/jquery.min.js'},
-            ],
-            fonts: [
-                {src: ['bower_components/fontawesome/css/font-awesome.min.css'], dest: '_resources/2015/css/font-awesome.min.css'},
-                {expand: true, src: ['bower_components/fontawesome/fonts/**'], dest: '_resources/2015/fonts/', flatten: true, filter: 'isFile' }
-            ]
+            js: {
+                files: [
+                    {src: ['js/uthsc.foundation.min.js'], dest: '_resources/2015/js/uthsc.foundation.min.js'},
+                    {src: ['js/uthsc.min.js'], dest: '_resources/2015/js/uthsc.min.js'},
+                    {src: ['bower_components/modernizr/modernizr.js'], dest: '_resources/2015/js/modernizr.js'},
+                    {src: ['bower_components/jquery/dist/jquery.min.js'], dest: '_resources/2015/js/jquery.min.js'}
+                ]
+            },
+            fonts: {
+                files: [
+                    {src: ['bower_components/fontawesome/css/font-awesome.min.css'], dest: '_resources/2015/css/font-awesome.min.css'},
+                    {expand: true, src: ['bower_components/fontawesome/fonts/**'], dest: '_resources/2015/fonts/', flatten: true, filter: 'isFile' }
+                ]
+            }
+
         },
 
         watch: {
@@ -109,6 +115,10 @@ module.exports = function (grunt) {
             uglify: {
                 files: 'js/scripts/**/*.js',
                 tasks: ['concat','uglify']
+            },
+            jade: {
+                files: '*.jade',
+                tasks: ['jade']
             }
         }
     });
@@ -123,16 +133,22 @@ module.exports = function (grunt) {
 
 
     //copy files to resources
-    grunt.registerTask('copyResources',['copy:css','copy:js','copy:images','copy:font']);
+    grunt.registerTask('copyResources',['copy:css','copy:js','copy:images','copy:fonts']);
 
     //foundation
     grunt.registerTask('foundationConcatenate', ['concat:foundation']);
     grunt.registerTask('foundationMinify', ['uglify:foundation']);
     grunt.registerTask('foundation', ['foundationConcatenate','foundationMinify']);
 
-    //default
+
+    //dev
     grunt.registerTask('concatenate', ['concat:dist']);
     grunt.registerTask('minify', ['uglify:dist']);
-    grunt.registerTask('build', ['sass:dev', 'concatenate', 'minify']);
-    grunt.registerTask('default', ['build', 'watch']);
+    grunt.registerTask('dev', ['sass:dev', 'concatenate', 'minify', 'jade']);
+
+    //build
+    grunt.registerTask('build', ['foundation','copyResources', 'dev' ]);
+
+    //default
+    grunt.registerTask('default', ['dev', 'watch']);
 };

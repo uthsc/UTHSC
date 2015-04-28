@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UTHSC Navigation</title>
-    <link rel="stylesheet" type="text/css" href="css/uthsc.css">
-    <link rel="stylesheet" type="text/css" href="bower_components/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="_resources/2015/css/uthsc.css">
+    <link rel="stylesheet" type="text/css" href="_resources/2015/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:400italic,700italic,300,700,300italic,400">
-    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="_resources/2015/js/modernizr.js"></script>
   </head>
   <!--1. Left Off Canvas Menu-->
   <!--1. Right Off Canvas Menu-->
@@ -213,7 +213,7 @@
         </nav>
         <!--Banner-->
         <div class="row">
-          <div class="medium-7 large-8 large-centered columns"><img src="images/uthsc-logo-white-text.svg" width="100%" class="uthsc-logo"></div>
+          <div class="medium-7 large-8 large-centered columns"><img src="_resources/2015/images/uthsc-logo-white-text.svg" width="100%" class="uthsc-logo"></div>
           <div class="medium-5 large-12 hide-for-large-up columns small-collapse">
             <div class="search-bar has-form">
               <input type="text" placeholder="Search">
@@ -301,7 +301,7 @@
         </ul>
       </nav>
       <!-- Hero Image-->
-      <div class="hero"><img src="images/memphis-skyline.jpg"></div>
+      <div class="hero"><img src="_resources/2015/images/memphis-skyline.jpg"></div>
       <!-- Page Heading-->
       <div class="row">
         <div class="large-12 columns">
@@ -351,7 +351,7 @@
             <div class="large-8 columns">
               <h3>Content Row 3</h3>
               <h5>Two Thirds</h5>
-              <div class="left"><img src="images/bridge.jpg"></div>
+              <div class="left"><img src="_resources/2015/images/bridge.jpg"></div>
               <p><strong>This is a two column layout</strong> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
             </div>
           </div>
@@ -370,7 +370,7 @@
               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
             </div>
             <div data-equalizer-watch="data-equalizer-watch" class="medium-4 columns footer-box hide-for-small">
-              <figure><img src="images/campus-arches.jpg" alt="the arches on union avenue">
+              <figure><img src="_resources/2015/images/campus-arches.jpg" alt="the arches on union avenue">
                 <figcaption>Caption for the above image.</figcaption>
               </figure>
             </div>
@@ -458,9 +458,9 @@
         </div>
       </footer>
     </div>
-    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="js/uthsc.foundation.min.js"></script>
+    <script type="text/javascript" src="_resources/2015/js/jquery.min.js"></script>
+    <script type="text/javascript" src="_resources/2015/js/uthsc.foundation.min.js"></script>
     <script type="text/javascript">(function($){$(document).foundation();})(jQuery);</script>
-    <script src="js/uthsc.min.js"></script>
+    <script src="_resources/2015/js/uthsc.min.js"></script>
   </body>
 </html>
