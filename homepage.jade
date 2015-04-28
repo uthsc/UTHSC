@@ -25,7 +25,6 @@ html.no-js(lang="en")
     //1. Content Row 3
     //1. Top Footer
     //1. Bottom Footer
-    body
         //Left Off Canvas Menu
         nav.offcanvas-nav.menu.push-menu-left
             a.button.uthsc-split-button-home(href='/'): i.fa.fa-home
@@ -104,6 +103,7 @@ html.no-js(lang="en")
             | <?php if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) { ?>
             .bottom-nav-bar-off-canvas
             | <?php } ?>
+    body.homepage
 
         //Right Off Canvas Menu
         nav.offcanvas-nav.menu.push-menu-right
