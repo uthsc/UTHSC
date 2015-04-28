@@ -39,7 +39,7 @@
         <li><a href="" class="current"></a></li>
       </ol>
       <input type="text" placeholder="Search" style="margin:0;">
-      <button class="close-menu expand">Close Menu &emsp;<i class="fa fa-chevron-left"></i></button>
+      <button class="close-menu expand"><i class="fa fa-chevron-left"></i>&emsp; Close Menu</button>
       <ul>
         <li class="not-a-link"><a>Menu Dropdown One</a>
           <ul>
@@ -102,20 +102,14 @@
           </ul>
         </li>
       </ul>
-      <button class="close-menu expand">Close Menu<i class="fa fa-chevron-left"></i></button><?php
-      if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) {
-        echo '<div class="bottom-nav-bar-off-canvas">';
-        // echo '&copy UTHSC ', date("Y");
-        echo '</div>';
-      }
-      ?>
+      <button class="close-menu expand"><i class="fa fa-chevron-left"></i>&emsp; Close Menu</button><?php if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) { ?>
+      <div class="bottom-nav-bar-off-canvas"></div><?php } ?>
     </nav>
     <!--Right Off Canvas Menu-->
     <nav class="offcanvas-nav menu push-menu-right"><a href="/" class="button uthsc-split-button-home"><i class="fa fa-home"></i></a>
       <button data-dropdown="breadcrumbs-right" aria-controls="drop" aria-expanded="false" class="button dropdown uthsc-split-button">Breadcrumbs Back Home</button><br>
       <ol id="breadcrumbs-right" aria-labelledby="breadcrumblabel" data-dropdown-content="data-dropdown-content" role="menu" aria-hidden="false" tabindex="-1" class="f-dropdown mega uthsc-split-button-breadcrumb-links">
-        <li><a href="/" title="Home"><i style="float: left;" class="fa fa-level-up fa-2x fa-flip-horizontal">
-              <Back>to the Homepage</Back></i></a></li>
+        <li><a href="/" title="Home"><i style="float: left;" class="fa fa-level-up fa-2x fa-flip-horizontal"></i>Back to the Homepage</a></li>
         <li><a href="#" title="College of Medicine">College of Medicine</a></li>
         <li><a href="#" title="Office of Medical Education">Office of Medical Education</a></li>
         <li><a href="#" title="Clerkships">Clerkships</a></li>
@@ -127,20 +121,21 @@
         <!-- Mission Links-->
       </button>
       <div class="mission-links">
-        <h2>Mission</h2><a href="/education/" class="button inverse">Education<i class="fa fa-graduation-cap"></i></a><a href="/research/" class="button inverse">Research<i class="fa fa-flask"></i></a><a href="/clinicalcare/" class="button inverse">Clinical Care<i class="fa fa-medkit"></i></a><a href="/publicservice/" class="button inverse">Public Service<i class="fa fa-globe"></i></a>
+        <h2>Mission</h2><a href="/education/" class="button inverse"><i class="fa fa-graduation-cap"></i>Education</a><a href="/research/" class="button inverse"><i class="fa fa-flask"></i>Research</a><a href="/clinicalcare/" class="button inverse"><i class="fa fa-medkit"></i>Clinical Care</a><a href="/publicservice/" class="button inverse"><i class="fa fa-globe"></i>Public Service</a>
       </div>
       <ul>
-        <li class="button menu"><i class="fa fa-gift">Make a Gift</i></li>
-        <li class="button menu"><i class="fa fa-road">Take a Tour</i></li>
-        <li class="not-a-link"><a>Information for...</a></li>
-        <ul>
-          <li><a href="#">Students</a></li>
-          <li><a href="#">Faculty &amp; Staff</a></li>
-          <li><a href="#">Alumni</a></li>
-          <li><a href="#">Visitors</a></li>
-          <li><a href="#">Patients</a></li>
-        </ul>
-        <li class="not-a-link"><a><i class="fa fa-university">Resources</i></a>
+        <li class="button menu"><i class="fa fa-gift"></i>Make a Gift</li>
+        <li class="button menu"><i class="fa fa-road"></i>Take a Tour</li>
+        <li class="not-a-link"><a>Information for...</a>
+          <ul>
+            <li><a href="#">Students</a></li>
+            <li><a href="#">Faculty &amp; Staff</a></li>
+            <li><a href="#">Alumni</a></li>
+            <li><a href="#">Visitors</a></li>
+            <li><a href="#">Patients</a></li>
+          </ul>
+        </li>
+        <li class="not-a-link"><a><i class="fa fa-university"> Resources</i></a>
           <ul>
             <li><a href="#">Banner</a></li>
             <li><a href="#">Blackboard</a></li>
@@ -154,19 +149,15 @@
           </ul>
         </li>
       </ul>
-      <button class="close-menu expand">Menu &emsp;<i class="fa fa-chevron-rightClose"></i></button><?php
-      if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) {
-       echo '<div class="bottom-nav-bar-off-canvas">';
-       // echo '&copy UTHSC ', date("Y");
-       echo '</div>';
-      }
-      ?>
+      <button class="close-menu expand">Close Menu &emsp;<i class="fa fa-chevron-right"></i></button><?php if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) { ?>
+      <div class="bottom-nav-bar-off-canvas"></div><?php } ?>
     </nav>
     <!--Off Canvas Wrapper-->
     <div id="wrapper">
       <div id="mobile-navigation" class="hide-for-large-up">
         <button class="nav-toggler toggle-push-left left"></button>
-        <button class="nav-toggler toggle-push-right right"></button>
+        <button class="nav-toggler toggle-push-right right"></button><?php if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) { ?>
+        <div class="bottom-nav-bar"></div><?php } ?>
       </div>
       <!--Header-->
       <header id="uthsc-header">

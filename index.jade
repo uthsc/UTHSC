@@ -40,8 +40,9 @@ html.no-js(lang="en")
                 li: a(href='products.html' title='Products') Core Clerkship Directors
                 li: a.current(href='')
             input(type='text' placeholder='Search' style='margin:0;')
-            button.close-menu.expand Close Menu &emsp;
+            button.close-menu.expand
                 i.fa.fa-chevron-left
+                | &emsp; Close Menu
             ul
                 li.not-a-link
                     a Menu Dropdown One
@@ -97,15 +98,12 @@ html.no-js(lang="en")
                         li: a(href='#') Sixth Item in Dropdown
                         li: a(href='#') Seventh Item in Dropdown
                         li: a(href='#') Eighth Item in Dropdown
-            button.close-menu.expand Close Menu
+            button.close-menu.expand
                 i.fa.fa-chevron-left
-            |<?php
-            |if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) {
-            |   echo '<div class="bottom-nav-bar-off-canvas">';
-            |   // echo '&copy UTHSC ', date("Y");
-            |   echo '</div>';
-            |}
-            |?>
+                | &emsp; Close Menu
+            | <?php if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) { ?>
+            .bottom-nav-bar-off-canvas
+            | <?php } ?>
 
         //Right Off Canvas Menu
         nav.offcanvas-nav.menu.push-menu-right
@@ -116,8 +114,8 @@ html.no-js(lang="en")
             br
             ol#breadcrumbs-right.f-dropdown.mega.uthsc-split-button-breadcrumb-links(aria-labelledby='breadcrumblabel', data-dropdown-content='data-dropdown-content', role='menu', aria-hidden='false', tabindex='-1')
                 li: a(href='/', title='Home')
-                  i.fa.fa-level-up.fa-2x.fa-flip-horizontal(style='float: left;')
-                      Back to the Homepage
+                    i.fa.fa-level-up.fa-2x.fa-flip-horizontal(style='float: left;')
+                    | Back to the Homepage
                 li: a(href='#', title='College of Medicine') College of Medicine
                 li: a(href='#', title='Office of Medical Education') Office of Medical Education
                 li: a(href='#', title='Clerkships') Clerkships
@@ -129,27 +127,35 @@ html.no-js(lang="en")
                 // Mission Links
             .mission-links
                 h2 Mission
-                a.button.inverse(href='/education/') Education
+                a.button.inverse(href='/education/')
                     i.fa.fa-graduation-cap
-                a.button.inverse(href='/research/') Research
+                    | Education
+                a.button.inverse(href='/research/')
                     i.fa.fa-flask
-                a.button.inverse(href='/clinicalcare/') Clinical Care
+                    | Research
+                a.button.inverse(href='/clinicalcare/')
                     i.fa.fa-medkit
-                a.button.inverse(href='/publicservice/') Public Service
+                    | Clinical Care
+                a.button.inverse(href='/publicservice/')
                     i.fa.fa-globe
+                    | Public Service
             ul
-                li.button.menu: i.fa.fa-gift Make a Gift
-                li.button.menu: i.fa.fa-road Take a Tour
+                li.button.menu
+                    i.fa.fa-gift
+                    | Make a Gift
+                li.button.menu
+                    i.fa.fa-road
+                    | Take a Tour
                 li.not-a-link
                     a Information for...
-                ul
-                    li: a(href='#') Students
-                    li: a(href='#') Faculty &amp; Staff
-                    li: a(href='#') Alumni
-                    li: a(href='#') Visitors
-                    li: a(href='#') Patients
+                    ul
+                        li: a(href='#') Students
+                        li: a(href='#') Faculty &amp; Staff
+                        li: a(href='#') Alumni
+                        li: a(href='#') Visitors
+                        li: a(href='#') Patients
                 li.not-a-link
-                    a: i.fa.fa-university Resources
+                    a: i.fa.fa-university  Resources
                     ul
                         li: a(href='#') Banner
                         li: a(href='#') Blackboard
@@ -160,21 +166,21 @@ html.no-js(lang="en")
                         li: a(href='#') MyUT
                         li: a(href='#') News
                         li: a(href='#') Webmail
-            button.close-menu.expand Menu &emsp;
-                i.fa.fa-chevron-rightClose
-            |<?php
-            |if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) {
-            |  echo '<div class="bottom-nav-bar-off-canvas">';
-            |  // echo '&copy UTHSC ', date("Y");
-            |  echo '</div>';
-            |}
-            |?>
+            button.close-menu.expand Close Menu &emsp;
+                i.fa.fa-chevron-right
+            | <?php if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) { ?>
+            .bottom-nav-bar-off-canvas
+            | <?php } ?>
 
         //Off Canvas Wrapper
         #wrapper
             #mobile-navigation.hide-for-large-up
                 button.nav-toggler.toggle-push-left.left
                 button.nav-toggler.toggle-push-right.right
+                | <?php if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) { ?>
+                .bottom-nav-bar
+                | <?php } ?>
+
             //Header
             header#uthsc-header
                 //Top Bar Navigation
@@ -604,4 +610,3 @@ html.no-js(lang="en")
         script(type='text/javascript').
             (function($){$(document).foundation();})(jQuery);
         script(src='js/uthsc.min.js')
-            
