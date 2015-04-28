@@ -40,8 +40,9 @@ html.no-js(lang="en")
                 li: a(href='products.html' title='Products') Core Clerkship Directors
                 li: a.current(href='')
             input(type='text' placeholder='Search' style='margin:0;')
-            button.close-menu.expand Close Menu &emsp;
+            button.close-menu.expand
                 i.fa.fa-chevron-left
+                | &emsp; Close Menu
             ul
                 li.not-a-link
                     a Menu Dropdown One
@@ -97,8 +98,9 @@ html.no-js(lang="en")
                         li: a(href='#') Sixth Item in Dropdown
                         li: a(href='#') Seventh Item in Dropdown
                         li: a(href='#') Eighth Item in Dropdown
-            button.close-menu.expand Close Menu
+            button.close-menu.expand
                 i.fa.fa-chevron-left
+                | &emsp; Close Menu
             | <?php if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) { ?>
             .bottom-nav-bar-off-canvas
             | <?php } ?>
