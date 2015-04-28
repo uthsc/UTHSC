@@ -173,191 +173,195 @@ html.no-js(lang="en")
 
 
             footer
+            // Bottom Footer
+            .uthsc-footer-bottom
+                .row.collapse
+                    .columns.text-center
+                        br
+                        p
+                            | &copy; <?php echo date("Y") ?> The University of Tennessee
                             br
-                            p
-                                | &copy; <?php echo date("Y") ?> The University of Tennessee
-                                br
-                                | Health Science Center
-                                br
-                                |  Memphis, Tennessee 38163
-                                br
-                                |  Main: 901-448-5500
-                                br
-                                |  TDD: 901-448-7382
+                            | Health Science Center
                             br
+                            |  Memphis, Tennessee 38163
+                            br
+                            |  Main: 901-448-5500
+                            br
+                            |  TDD: 901-448-7382
+                        br
 
-                            a.button.radius.secondary.tiny(href='mailto:webmaster@uthsc.edu')
-                                i.fa.fa-envelope.fa-3x.two-line-button-icon
-                                span.two-line-button-text
-                                    | Email
-                                    br
-                                    | Webmaster
+                        a.button.radius.secondary.tiny(href='mailto:webmaster@uthsc.edu')
+                            i.fa.fa-envelope.fa-3x.two-line-button-icon
+                            span.two-line-button-text
+                                | Email
+                                br
+                                | Webmaster
+                        = "\n"
+                        a.button.radius.secondary.tiny(href='/password/')
+                            i.fa.fa-key.fa-3x.two-line-button-icon
+                            span.two-line-button-text
+                                | Edit
+                                br
+                                | Password
+                        br
+                        .social-icon
                             = "\n"
-                            a.button.radius.secondary.tiny(href='/password/')
-                                i.fa.fa-key.fa-3x.two-line-button-icon
-                                span.two-line-button-text
-                                    | Edit
-                                    br
-                                    | Password
-                            br
-                            .social-icon
-                                = "\n"
-                                a(href='http://facebook.com/uthsc'): i.fa.fa-facebook.fa-2x.fa-inverse
-                                = "\n"
-                                a(href='http://twitter.com/uthsc'): i.fa.fa-twitter.fa-2x.fa-inverse
-                                = "\n"
-                                a(href='http://instagram.com/uthsc'): i.fa.fa-instagram.fa-2x.fa-inverse
-                                = "\n"
-                                a(href='http://linkedin.com/company/university-of-tennessee-health-science-center'): i.fa.fa-linkedin.fa-2x.fa-inverse
-                                = "\n"
-                                a(href='http://pinterest.com/uthsc/'): i.fa.fa-youtube.fa-2x.fa-inverse
-                                = "\n"
-                                a(href='http://youtube.com/user/uthsc'): i.fa.fa-pinterest.fa-2x.fa-inverse
+                            a(href='http://facebook.com/uthsc'): i.fa.fa-facebook.fa-2x.fa-inverse
+                            = "\n"
+                            a(href='http://twitter.com/uthsc'): i.fa.fa-twitter.fa-2x.fa-inverse
+                            = "\n"
+                            a(href='http://instagram.com/uthsc'): i.fa.fa-instagram.fa-2x.fa-inverse
+                            = "\n"
+                            a(href='http://linkedin.com/company/university-of-tennessee-health-science-center'): i.fa.fa-linkedin.fa-2x.fa-inverse
+                            = "\n"
+                            a(href='http://pinterest.com/uthsc/'): i.fa.fa-youtube.fa-2x.fa-inverse
+                            = "\n"
+                            a(href='http://youtube.com/user/uthsc'): i.fa.fa-pinterest.fa-2x.fa-inverse
 
-                            br
-                    .row.collapse
-                        #emergency-mobile.columns.small-12.show-for-small
-                            h3.text-center
-                                i.fa.fa-phone.fa-flip-horizontal.fa-2x
-                                |  Emergency Numbers
-                            a.button.alert.expand(href='#', data-reveal-id='myModal1')
-                                i.fa.fa-info-circle
-                                |  Medical/Behavioral
-                            #myModal1.reveal-modal.text-center(data-reveal='data-reveal')
-                                .call-buttons-box
-                                    h2 Medical/Behavioral
-                                    hr
-                                    h3.lead
-                                        a.button.emergency(href='tel:911')
-                                            i.fa.fa-phone.fa-2x.fa-flip-horizontal.fa-button
-                                            |  911
-                                    p or Campus Police at
-                                    h3
-                                        a.button.emergency(href='tel:901-448-4444')
-                                            i.fa.fa-phone.fa-2x.fa-flip-horizontal.fa-button
-                                            |  901-448-4444
-                                p
-                                    a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal6')
-                                        i.fa.fa-chevron-up.fa-2x.fa-button
-                                        |  Previous Emergency Number
-                                    a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal2')
-                                        i.fa.fa-chevron-down.fa-2x.fa-button
-                                        |  Next Emergency Number
-                                a.close-reveal-modal ×
-                            a.button.alert.expand(href='#', data-reveal-id='myModal2')
-                                i.fa.fa-info-circle
-                                |  Medical Urgent Care
-                            #myModal2.reveal-modal.text-center(data-reveal='data-reveal')
-                                .call-buttons-box
-                                    h2 Medical Urgent Care
-                                    hr
-                                    h3.lead
-                                        a.button.emergency(href='tel:901-448-5630')
-                                            i.fa.fa-phone.fa-2x.fa-flip-horizontal.fa-button
-                                            |  901-448-5630
-                                p
-                                    a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal1')
-                                        i.fa.fa-chevron-up.fa-2x.fa-button
-                                        |  Previous Emergency Number
-                                    a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal3')
-                                        i.fa.fa-chevron-down.fa-2x.fa-button
-                                        |  Next Emergency Number
-                                a.close-reveal-modal ×
-                            a.button.alert.expand(href='#', data-reveal-id='myModal3')
-                                i.fa.fa-info-circle
-                                |  Behavioral Health Urgent Care
-                            #myModal3.reveal-modal.text-center(data-reveal='data-reveal')
-                                .call-buttons-box
-                                    h2 Behavioral Health Urgent Care
-                                    hr
-                                    h3.lead
-                                        a.button.emergency(href='tel:901-448-5064')
-                                            i.fa.fa-phone.fa-2x.fa-flip-horizontal.fa-button
-                                            |  901-448-5064
-                                p
-                                    a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal2')
-                                        i.fa.fa-chevron-up.fa-2x.fa-button
-                                        |  Previous Emergency Number
-                                    a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal4')
-                                        i.fa.fa-chevron-down.fa-2x.fa-button
-                                        |  Next Emergency Number
-                                a.close-reveal-modal ×
-                            a.button.alert.expand(href='#', data-reveal-id='myModal4')
-                                i.fa.fa-info-circle
-                                |  Student Assistance Program
-                            #myModal4.reveal-modal.text-center(data-reveal='data-reveal')
-                                .call-buttons-box
-                                    h2 Student Assistance Program (SAP)
-                                    hr
-                                    h3.lead
-                                        a.button.emergency(href='tel:800-327-2255')
-                                            i.fa.fa-phone.fa-2x.fa-flip-horizontal.fa-button
-                                            |  800-327-2255
-                                            br
-                                            | (Option 3)
-                                p
-                                    a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal3')
-                                        i.fa.fa-chevron-up.fa-2x.fa-button
-                                        |  Previous Emergency Number
-                                    a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal5')
-                                        i.fa.fa-chevron-down.fa-2x.fa-button
-                                        |  Next Emergency Number
-                                a.close-reveal-modal ×
-                            a.button.alert.expand(href='#', data-reveal-id='myModal5')
-                                i.fa.fa-info-circle
-                                |  Employee Assistance Program
-                            #myModal5.reveal-modal.text-center(data-reveal='data-reveal')
-                                .call-buttons-box
-                                    h2 Employee Assistance Program (EAP)
-                                    hr
-                                    h3.lead
-                                        a.button.emergency(href='tel:855-437-3486')
-                                            i.fa.fa-phone.fa-2x.fa-flip-horizontal.fa-button
-                                            |  855-437-3486
-                                p
-                                    a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal4')
-                                        i.fa.fa-chevron-up.fa-2x.fa-button
-                                        |  Previous Emergency Number
-                                    a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal6')
-                                        i.fa.fa-chevron-down.fa-2x.fa-button
-                                        |  Next Emergency Number
-                                a.close-reveal-modal ×
-                            a.button.alert.expand(href='#', data-reveal-id='myModal6')
-                                i.fa.fa-info-circle
-                                |  After Hours Medical/Behavioral
-                            #myModal6.reveal-modal.text-center(data-reveal='data-reveal')
-                                .call-buttons-box
-                                    h2
-                                        | After Hours Medical/Behavioral
+                        br
+                .row.collapse
+                    #emergency-mobile.columns.small-12.show-for-small
+                        h3.text-center
+                            i.fa.fa-phone.fa-flip-horizontal.fa-2x
+                            |  Emergency Numbers
+                        a.button.alert.expand(href='#', data-reveal-id='myModal1')
+                            i.fa.fa-info-circle
+                            |  Medical/Behavioral
+                        #myModal1.reveal-modal.text-center(data-reveal='data-reveal')
+                            .call-buttons-box
+                                h2 Medical/Behavioral
+                                hr
+                                h3.lead
+                                    a.button.emergency(href='tel:911')
+                                        i.fa.fa-phone.fa-2x.fa-flip-horizontal.fa-button
+                                        |  911
+                                p or Campus Police at
+                                h3
+                                    a.button.emergency(href='tel:901-448-4444')
+                                        i.fa.fa-phone.fa-2x.fa-flip-horizontal.fa-button
+                                        |  901-448-4444
+                            p
+                                a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal6')
+                                    i.fa.fa-chevron-up.fa-2x.fa-button
+                                    |  Previous Emergency Number
+                                a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal2')
+                                    i.fa.fa-chevron-down.fa-2x.fa-button
+                                    |  Next Emergency Number
+                            a.close-reveal-modal ×
+                        a.button.alert.expand(href='#', data-reveal-id='myModal2')
+                            i.fa.fa-info-circle
+                            |  Medical Urgent Care
+                        #myModal2.reveal-modal.text-center(data-reveal='data-reveal')
+                            .call-buttons-box
+                                h2 Medical Urgent Care
+                                hr
+                                h3.lead
+                                    a.button.emergency(href='tel:901-448-5630')
+                                        i.fa.fa-phone.fa-2x.fa-flip-horizontal.fa-button
+                                        |  901-448-5630
+                            p
+                                a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal1')
+                                    i.fa.fa-chevron-up.fa-2x.fa-button
+                                    |  Previous Emergency Number
+                                a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal3')
+                                    i.fa.fa-chevron-down.fa-2x.fa-button
+                                    |  Next Emergency Number
+                            a.close-reveal-modal ×
+                        a.button.alert.expand(href='#', data-reveal-id='myModal3')
+                            i.fa.fa-info-circle
+                            |  Behavioral Health Urgent Care
+                        #myModal3.reveal-modal.text-center(data-reveal='data-reveal')
+                            .call-buttons-box
+                                h2 Behavioral Health Urgent Care
+                                hr
+                                h3.lead
+                                    a.button.emergency(href='tel:901-448-5064')
+                                        i.fa.fa-phone.fa-2x.fa-flip-horizontal.fa-button
+                                        |  901-448-5064
+                            p
+                                a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal2')
+                                    i.fa.fa-chevron-up.fa-2x.fa-button
+                                    |  Previous Emergency Number
+                                a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal4')
+                                    i.fa.fa-chevron-down.fa-2x.fa-button
+                                    |  Next Emergency Number
+                            a.close-reveal-modal ×
+                        a.button.alert.expand(href='#', data-reveal-id='myModal4')
+                            i.fa.fa-info-circle
+                            |  Student Assistance Program
+                        #myModal4.reveal-modal.text-center(data-reveal='data-reveal')
+                            .call-buttons-box
+                                h2 Student Assistance Program (SAP)
+                                hr
+                                h3.lead
+                                    a.button.emergency(href='tel:800-327-2255')
+                                        i.fa.fa-phone.fa-2x.fa-flip-horizontal.fa-button
+                                        |  800-327-2255
                                         br
-                                        | Available (24/7)
-                                    hr
-                                    h3.lead
-                                        a.button.emergency(href='tel:901-541-5654')
-                                            i.fa.fa-phone.fa-2x.fa-flip-horizontal.fa-button
-                                            |  901-541-5654
-                                p
-                                    a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal5')
-                                        i.fa.fa-chevron-up.fa-2x.fa-button
-                                        |  Previous Emergency Number
-                                    a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal1')
-                                        i.fa.fa-chevron-down.fa-2x.fa-button
-                                        |  Next Emergency Number
-                                a.close-reveal-modal ×
-                        #emergency-desktop.medium-5.medium-centered.columns.hide-for-small
-                            .row
-                                a.button.alert.radius.expand(href='/univheal/emergencies.php')
-                                    .columns.large-5.medium-4.text-right.emergency-phone-icon
-                                        i.fa.fa-phone.fa-flip-horizontal.fa-3x
-                                    .columns.large-7.medium-8.text-left
-                                        h4
-                                            | Emergency
-                                            br
-                                            | Numbers
-                                    .columns.small-12
-                                        | Call 911 or Campus Police at 901-448-4444
+                                        | (Option 3)
+                            p
+                                a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal3')
+                                    i.fa.fa-chevron-up.fa-2x.fa-button
+                                    |  Previous Emergency Number
+                                a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal5')
+                                    i.fa.fa-chevron-down.fa-2x.fa-button
+                                    |  Next Emergency Number
+                            a.close-reveal-modal ×
+                        a.button.alert.expand(href='#', data-reveal-id='myModal5')
+                            i.fa.fa-info-circle
+                            |  Employee Assistance Program
+                        #myModal5.reveal-modal.text-center(data-reveal='data-reveal')
+                            .call-buttons-box
+                                h2 Employee Assistance Program (EAP)
+                                hr
+                                h3.lead
+                                    a.button.emergency(href='tel:855-437-3486')
+                                        i.fa.fa-phone.fa-2x.fa-flip-horizontal.fa-button
+                                        |  855-437-3486
+                            p
+                                a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal4')
+                                    i.fa.fa-chevron-up.fa-2x.fa-button
+                                    |  Previous Emergency Number
+                                a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal6')
+                                    i.fa.fa-chevron-down.fa-2x.fa-button
+                                    |  Next Emergency Number
+                            a.close-reveal-modal ×
+                        a.button.alert.expand(href='#', data-reveal-id='myModal6')
+                            i.fa.fa-info-circle
+                            |  After Hours Medical/Behavioral
+                        #myModal6.reveal-modal.text-center(data-reveal='data-reveal')
+                            .call-buttons-box
+                                h2
+                                    | After Hours Medical/Behavioral
+                                    br
+                                    | Available (24/7)
+                                hr
+                                h3.lead
+                                    a.button.emergency(href='tel:901-541-5654')
+                                        i.fa.fa-phone.fa-2x.fa-flip-horizontal.fa-button
+                                        |  901-541-5654
+                            p
+                                a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal5')
+                                    i.fa.fa-chevron-up.fa-2x.fa-button
+                                    |  Previous Emergency Number
+                                a.secondary.button.tiny.expand(href='#', data-reveal-id='myModal1')
+                                    i.fa.fa-chevron-down.fa-2x.fa-button
+                                    |  Next Emergency Number
+                            a.close-reveal-modal ×
+                    #emergency-desktop.medium-5.medium-centered.columns.hide-for-small
+                        .row
+                            a.button.alert.radius.expand(href='/univheal/emergencies.php')
+                                .columns.large-5.medium-4.text-right.emergency-phone-icon
+                                    i.fa.fa-phone.fa-flip-horizontal.fa-3x
+                                .columns.large-7.medium-8.text-left
+                                    h4
+                                        | Emergency
                                         br
-                                        |  More Emergency Information
+                                        | Numbers
+                                .columns.small-12
+                                    | Call 911 or Campus Police at 901-448-4444
+                                    br
+                                    |  More Emergency Information
 
         script(type='text/javascript', src='_resources/2015/js/jquery.min.js')
         script(type='text/javascript', src='_resources/2015/js/uthsc.foundation.min.js')
