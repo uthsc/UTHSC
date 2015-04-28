@@ -99,13 +99,9 @@ html.no-js(lang="en")
                         li: a(href='#') Eighth Item in Dropdown
             button.close-menu.expand Close Menu
                 i.fa.fa-chevron-left
-            |<?php
-            |if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) {
-            |   echo '<div class="bottom-nav-bar-off-canvas">';
-            |   // echo '&copy UTHSC ', date("Y");
-            |   echo '</div>';
-            |}
-            |?>
+            | <?php if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) { ?>
+            .bottom-nav-bar-off-canvas
+            | <?php } ?>
 
         //Right Off Canvas Menu
         nav.offcanvas-nav.menu.push-menu-right
@@ -170,19 +166,19 @@ html.no-js(lang="en")
                         li: a(href='#') Webmail
             button.close-menu.expand Close Menu &emsp;
                 i.fa.fa-chevron-right
-            | <?php
-            | if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) {
-            | ?>
-            div.bottom-nav-bar-off-canvas
-            | <?php
-            | }
-            | ?>
+            | <?php if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) { ?>
+            .bottom-nav-bar-off-canvas
+            | <?php } ?>
 
         //Off Canvas Wrapper
         #wrapper
             #mobile-navigation.hide-for-large-up
                 button.nav-toggler.toggle-push-left.left
                 button.nav-toggler.toggle-push-right.right
+                | <?php if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) { ?>
+                .bottom-nav-bar
+                | <?php } ?>
+
             //Header
             header#uthsc-header
                 //Top Bar Navigation
