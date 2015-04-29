@@ -28,3 +28,12 @@ ul.tabs.homepage li {
   margin-top: -2.5rem;
   margin-left: -1.3rem;
 }
+.homepage #mobile-navigation {
+  button {
+    width:100%;
+  }
+}
+.homepage .toggle-push-right {
+  background-image: url("../images/full-width-menu-button.png");
+  background-repeat: no-repeat;
+}
