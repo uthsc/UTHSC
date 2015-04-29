@@ -1,13 +1,10 @@
 .homepage {
   .tabs dd > a, .tabs .tab-title > a {
     padding: 0;
-    background-color: $white;
-    color: $base;
     padding-bottom: .75rem;
   }
-  .tabs dd.active a, .tabs .tab-title.active a {
-    color: $uthsc-blue;
-    margin: 0 10px;
+  h2.tab-header {
+    color: $secondary-color;
   }
   ul.tabs li {
     width: 25%;

@@ -157,6 +157,9 @@
             <section id="panel2-1" role="tabpanel" aria-hidden="false" class="content active">
               <div class="row">
                 <div class="columns mission-image"><img src="http://placehold.it/580x120&amp;text=[Education%20image]" alt="xxxx"></div>
+                <div class="columns mission-name">
+                  <h2 class="tab-header">Education</h2>
+                </div>
                 <div class="columns mission-content">
                   <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
                   <div class="button small">Button 1</div>
@@ -169,6 +172,9 @@
             <section id="panel2-2" role="tabpanel" aria-hidden="true" class="content">
               <div class="row">
                 <div class="columns mission-image"><img src="http://placehold.it/580x120&amp;text=[Research%20image]" alt="xxxx"></div>
+                <div class="columns mission-name">
+                  <h2 class="tab-header">Research</h2>
+                </div>
                 <div class="columns mission-content">
                   <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
                   <div class="button small">Button 1</div>
@@ -181,6 +187,9 @@
             <section id="panel2-3" role="tabpanel" aria-hidden="true" class="content">
               <div class="row">
                 <div class="columns mission-image"><img src="http://placehold.it/580x120&amp;text=[Clinical%20Care%20image]" alt="xxxx"></div>
+                <div class="columns mission-name">
+                  <h2 class="tab-header">Clinical Care</h2>
+                </div>
                 <div class="columns mission-content">
                   <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
                   <div class="button small">Button 1</div>
@@ -193,6 +202,9 @@
             <section id="panel2-4" role="tabpanel" aria-hidden="true" class="content">
               <div class="row">
                 <div class="columns mission-image"><img src="http://placehold.it/580x120&amp;text=[Public%20Service%20image]" alt="xxxx"></div>
+                <div class="columns mission-name">
+                  <h2 class="tab-header">Public Service</h2>
+                </div>
                 <div class="columns mission-content">
                   <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
                   <div class="button small">Button 1</div>
