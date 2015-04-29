@@ -1,0 +1,30 @@
+.tabs.homepage dd > a, .tabs.homepage .tab-title > a {
+  padding: 0;
+  background-color: $white;
+  color: $base;
+  padding-bottom: .75rem;
+}
+.tabs dd.active a, .tabs .tab-title.active a {
+  background-color: #FFFFFF;
+  color: $uthsc-blue;
+  border-bottom: 2px solid white;
+  margin:0 10px -2px;
+}
+ul.tabs.homepage li {
+  width: 25%;
+  padding-top: 1rem;
+}
+.tabs-content {
+  border: 2px solid #00a5e3;
+  background-color: #f5f5f5;
+}
+.tabs-content .columns:not(.mission-image) {
+  padding: 0 2rem;
+}
+.columns.mission-image {
+  margin-top: -15px;
+}
+.columns.mission-name {
+  margin-top: -2.5rem;
+  margin-left: -1.3rem;
+}
