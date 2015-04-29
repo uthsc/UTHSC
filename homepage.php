@@ -147,7 +147,7 @@
       <!-- tabs-->
       <div class="row show-for-small-down">
         <div class="columns small-centered">
-          <ul data-tab="" role="tablist" class="tabs homepage">
+          <ul data-tab="" role="tablist" class="tabs">
             <li role="presentational" class="tab-title active text-center"><a href="#panel2-1" role="tab" tabindex="0" aria-selected="true" controls="panel2-1"><i class="fa fa-graduation-cap fa-2x"></i></a></li>
             <li role="presentational" class="tab-title text-center"><a href="#panel2-2" role="tab" tabindex="0" aria-selected="false" controls="panel2-2"><i class="fa fa-flask fa-2x"></i></a></li>
             <li role="presentational" class="tab-title text-center"><a href="#panel2-3" role="tab" tabindex="0" aria-selected="false" controls="panel2-3"><i class="fa fa-medkit fa-2x"></i></a></li>
