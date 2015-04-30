@@ -1,4 +1,7 @@
 .homepage {
+  .tabs {
+    margin-top: -2px;
+  }
   .tabs dd > a, .tabs .tab-title > a {
     padding: 0;
     padding-bottom: .75rem;
@@ -9,6 +12,17 @@
   ul.tabs li {
     width: 25%;
     padding-top: 1rem;
+    &.tab-title.active {
+      background-color: $white-smoke;
+      position: relative;
+      top: 2px;
+      border: 2px solid #00a5e3;
+      border-bottom: none;
+      border-top:none;
+      a {
+        background-color: transparent;
+      }
+    }
   }
   .tabs-content {
     border: 2px solid #00a5e3;
