@@ -217,6 +217,38 @@
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="columns small-12 medium-4 panel">
+          <h2><i class="fa fa-calendar fa-2x">Events</i></h2>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="columns small-12 medium-4 panel">
+          <h2><i class="fa fa-newspaper-o fa-2x">News</i></h2>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="columns small-12 medium-4 panel">
+          <h2><i class="fa fa-bar-chart fa-2x">Quick Facts</i></h2>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
       <footer></footer>
       <!-- Bottom Footer-->
       <div class="uthsc-footer-bottom">
