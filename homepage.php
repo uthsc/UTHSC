@@ -219,27 +219,26 @@
       </div>
       <div class="row">
         <div class="columns small-12 medium-4 panel">
-          <h2><i class="fa fa-calendar fa-2x">Events</i></h2>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
+          <h3><i class="fa fa-calendar fa-2x"> Events</i></h3>
+          <ul><?php readfile("http://events.uthsc.edu/widgets/template_all-info-bulleted.php?category=27&return_limit=5"); ?></ul>
         </div>
         <div class="columns small-12 medium-4 panel">
-          <h2><i class="fa fa-newspaper-o fa-2x">News</i></h2>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
+          <h3><i class="fa fa-newspaper-o fa-2x"> News</i></h3><?php
+          if (file_get_contents('http://news.uthsc.edu/news-html/more-links.php')){
+          $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links.php');
+          if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){
+          echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
+          } else {
+          echo $news_output;
+          }
+          //echo $news_output;
+          } else {
+          echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
+          }
+          ?>
         </div>
         <div class="columns small-12 medium-4 panel">
-          <h2><i class="fa fa-bar-chart fa-2x">Quick Facts</i></h2>
+          <h3><i class="fa fa-bar-chart fa-2x"> Quick Facts</i></h3>
           <ul>
             <li></li>
             <li></li>

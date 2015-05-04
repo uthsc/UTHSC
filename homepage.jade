@@ -231,14 +231,10 @@ html.no-js(lang="en")
 
             .row
                 .columns.small-12.medium-4.panel
-                    h2
-                        i.fa.fa-calendar.fa-2x Events
+                    h3
+                        i.fa.fa-calendar.fa-2x  Events
                     ul
-                        li
-                        li
-                        li
-                        li
-                        li
+                        | <?php readfile("http://events.uthsc.edu/widgets/template_all-info-bulleted.php?category=27&return_limit=5"); ?>
                 .columns.small-12.medium-4.panel
                     h2
                         i.fa.fa-newspaper-o.fa-2x News
