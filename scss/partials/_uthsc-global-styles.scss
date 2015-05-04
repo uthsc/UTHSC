@@ -21,8 +21,10 @@ body {
   font-weight: $font-normal;
   font-style: $font-normal;
 }
-
-p a {
+li a {
+  font-weight: normal;
+}
+p a, li a:not(nav) {
   font-weight: $font-weight-bold;
 }
 
