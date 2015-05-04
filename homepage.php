@@ -142,8 +142,55 @@
           </div>
         </div>
       </header>
-      <!-- Hero Image-->
-      <div class="hero hide-for-small"><img src="images/memphis-skyline.jpg"></div>
+      <!-- Hero Images-->
+      <div class="hide-for-small">
+        <div class="hero"><img src="images/memphis-skyline.jpg"></div>
+        <!-- Mission Sets-->
+        <!-- Education-->
+        <div class="hero"><img src="http://placehold.it/2000x600&amp;text=[Education%20image]" alt="xxxx"></div>
+        <div class="row">
+          <div class="columns">
+            <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
+            <div class="button small">Button 1</div>
+            <div class="button small">Button 2</div>
+            <div class="button small">Button 3</div>
+            <div class="button small">Button 4</div>
+          </div>
+        </div>
+        <!-- Research-->
+        <div class="hero"><img src="http://placehold.it/2000x600&amp;text=[Research%20image]" alt="xxxx"></div>
+        <div class="row">
+          <div class="columns">
+            <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
+            <div class="button small">Button 1</div>
+            <div class="button small">Button 2</div>
+            <div class="button small">Button 3</div>
+            <div class="button small">Button 4</div>
+          </div>
+        </div>
+        <!-- Clinical Care-->
+        <div class="hero"><img src="http://placehold.it/2000x600&amp;text=[Clinical%20Care%20image]" alt="xxxx"></div>
+        <div class="row">
+          <div class="columns">
+            <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
+            <div class="button small">Button 1</div>
+            <div class="button small">Button 2</div>
+            <div class="button small">Button 3</div>
+            <div class="button small">Button 4</div>
+          </div>
+        </div>
+        <!-- Public Service-->
+        <div class="hero"><img src="http://placehold.it/2000x600&amp;text=[Public%20Service%20image]" alt="xxxx"></div>
+        <div class="row">
+          <div class="columns">
+            <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
+            <div class="button small">Button 1</div>
+            <div class="button small">Button 2</div>
+            <div class="button small">Button 3</div>
+            <div class="button small">Button 4</div>
+          </div>
+        </div>
+      </div>
       <!-- tabs-->
       <div class="row show-for-small-down">
         <div class="columns small-centered">
@@ -217,12 +264,12 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="columns small-12 medium-4 panel">
+      <div data-equalizer="data-equalizer" class="row">
+        <div data-equalizer-watch="data-equalizer-watch" class="columns small-12 medium-6 large-3 panel">
           <h3><i class="fa fa-calendar fa-2x"> Events</i></h3>
           <ul><?php readfile("http://events.uthsc.edu/widgets/template_all-info-bulleted.php?category=27&return_limit=5"); ?></ul>
         </div>
-        <div class="columns small-12 medium-4 panel">
+        <div data-equalizer-watch="data-equalizer-watch" class="columns small-12 medium-6 large-3 panel">
           <h3><i class="fa fa-newspaper-o fa-2x"> News</i></h3><?php
           if (file_get_contents('http://news.uthsc.edu/news-html/more-links.php')){
           $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links.php');
@@ -237,15 +284,8 @@
           }
           ?>
         </div>
-        <div class="columns small-12 medium-4 panel">
-          <h3><i class="fa fa-bar-chart fa-2x"> Quick Facts</i></h3>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
+        <div data-equalizer-watch="data-equalizer-watch" class="columns small-12 medium-12 large-6 panel">
+          <h3><i class="fa fa-bar-chart fa-2x"> Quick Facts</i></h3><img src="_resources/2015/images/graphic.jpg" alt="infographic">
         </div>
       </div>
       <footer></footer>
