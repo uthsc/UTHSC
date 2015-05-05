@@ -149,41 +149,36 @@
         <!-- Education-->
         <div class="hero"><img src="http://placehold.it/2000x600&amp;text=[Education%20image]" alt="xxxx"></div>
         <div class="row">
-          <div class="columns">
+          <div class="columns medium-8">
             <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
-            <div class="button small">Button 1</div>
-            <div class="button small">Button 2</div>
-            <div class="button small">Button 3</div>
-            <div class="button small">Button 4</div>
           </div>
+          <div class="columns medium-4"><iframe src="http://widget.websta.me/in/uthsc/?s=100&w=2&h=2&b=1&p=5" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:230px; height: 230px" ></iframe> <!-- websta - web.stagram.com --></div>
         </div>
         <!-- Research-->
         <div class="hero"><img src="http://placehold.it/2000x600&amp;text=[Research%20image]" alt="xxxx"></div>
         <div class="row">
-          <div class="columns">
+          <div class="columns medium-8">
             <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
-            <div class="button small">Button 1</div>
-            <div class="button small">Button 2</div>
-            <div class="button small">Button 3</div>
-            <div class="button small">Button 4</div>
           </div>
+          <div class="columns medium-4"><a data-dnt="true" href="https://twitter.com/uthsc" data-widget-id="595570516766883840" class="twitter-timeline">Tweets by @uthsc
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></a></div>
         </div>
         <!-- Clinical Care-->
         <div class="hero"><img src="http://placehold.it/2000x600&amp;text=[Clinical%20Care%20image]" alt="xxxx"></div>
         <div class="row">
-          <div class="columns">
+          <div class="columns medium-8">
             <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
-            <div class="button small">Button 1</div>
-            <div class="button small">Button 2</div>
-            <div class="button small">Button 3</div>
-            <div class="button small">Button 4</div>
           </div>
+          <div class="colums medium-4"><a data-pin-do="embedUser" href="http://www.pinterest.com/uthsc/" data-pin-scale-width="60" data-pin-scale-height="200" data-pin-board-width="200">Visit UTHSC&apos;s profile on Pinterest.
+              <script type="text/javascript" async="" defer="" src="//assets.pinterest.com/js/pinit.js"></script></a></div>
         </div>
         <!-- Public Service-->
         <div class="hero"><img src="http://placehold.it/2000x600&amp;text=[Public%20Service%20image]" alt="xxxx"></div>
         <div class="row">
-          <div class="columns">
+          <div class="columns medium-8">
             <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
+          </div>
+          <div class="columns medium-4">
             <div class="button small">Button 1</div>
             <div class="button small">Button 2</div>
             <div class="button small">Button 3</div>
