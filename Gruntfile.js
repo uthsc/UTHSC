@@ -11,7 +11,7 @@ module.exports = function (grunt) {
                     }
                 },
                 files: {
-                    "index.php": ["index.jade"],
+                    "template.php": ["template.jade"],
                     "homepage.php": ["homepage.jade"]
                 }
             }
