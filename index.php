@@ -144,10 +144,10 @@
       </header>
       <!-- Hero Images-->
       <div class="hide-for-small">
-        <div class="hero"><img src="_resources/2015/images/memphis-skyline.jpg"></div>
+        <div class="fullscreen"></div>
         <!-- Mission Sets-->
         <!-- Education-->
-        <div class="hero"><img src="http://placehold.it/2000x600&amp;text=[Education%20image]" alt="xxxx"></div>
+        <div class="hero"><img src="http://placehold.it/2000x600&amp;text=[Education+image+2000x600]" alt="xxxx"></div>
         <div class="row">
           <div class="columns medium-8">
             <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
@@ -155,7 +155,7 @@
           <div class="columns medium-4"><iframe src="http://widget.websta.me/in/uthsc/?s=100&w=2&h=2&b=1&p=5" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:230px; height: 230px" ></iframe> <!-- websta - web.stagram.com --></div>
         </div>
         <!-- Research-->
-        <div class="hero"><img src="http://placehold.it/2000x600&amp;text=[Research%20image]" alt="xxxx"></div>
+        <div class="hero"><img src="http://placehold.it/2000x500&amp;text=[Research+image+2000x500]" alt="xxxx"></div>
         <div class="row">
           <div class="columns medium-8">
             <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
@@ -164,7 +164,7 @@
               <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></a></div>
         </div>
         <!-- Clinical Care-->
-        <div class="hero"><img src="http://placehold.it/2000x600&amp;text=[Clinical%20Care%20image]" alt="xxxx"></div>
+        <div class="hero"><img src="http://placehold.it/2000x400&amp;text=[Clinical+Care+image+2000x400]" alt="xxxx"></div>
         <div class="row">
           <div class="columns medium-8">
             <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
@@ -173,7 +173,7 @@
               <script type="text/javascript" async="" defer="" src="//assets.pinterest.com/js/pinit.js"></script></a></div>
         </div>
         <!-- Public Service-->
-        <div class="hero"><img src="http://placehold.it/2000x600&amp;text=[Public%20Service%20image]" alt="xxxx"></div>
+        <div class="hero"><img src="http://placehold.it/2000x300&amp;text=[Public+Service+image+2000x300]" alt="xxxx"></div>
         <div class="row">
           <div class="columns medium-8">
             <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
@@ -186,6 +186,7 @@
           </div>
         </div>
       </div>
+      <hr>
       <!-- tabs-->
       <div class="row show-for-small-down">
         <div class="columns small-centered">
@@ -259,6 +260,7 @@
           </div>
         </div>
       </div>
+      <!-- Extras Row-->
       <div data-equalizer="data-equalizer" class="row">
         <div data-equalizer-watch="data-equalizer-watch" class="columns small-12 medium-6 large-3 panel">
           <h3><i class="fa fa-calendar fa-2x"> Events</i></h3>

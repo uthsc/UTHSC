@@ -43,4 +43,10 @@
     background-image: url("../images/full-width-menu-button.png");
     background-repeat: no-repeat;
   }
+  .fullscreen {
+    width: 100%;
+    height: calc(100vh - 105px);
+    background-image: url("../images/memphis-skyline.jpg");
+    background-size: cover;
+  }
 }
