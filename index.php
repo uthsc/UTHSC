@@ -144,7 +144,7 @@
       </header>
       <!-- Hero Images-->
       <div class="hide-for-small">
-        <div class="hero"><img src="images/memphis-skyline.jpg"></div>
+        <div class="hero"><img src="_resources/2015/images/memphis-skyline.jpg"></div>
         <!-- Mission Sets-->
         <!-- Education-->
         <div class="hero"><img src="http://placehold.it/2000x600&amp;text=[Education%20image]" alt="xxxx"></div>
