@@ -268,32 +268,87 @@ html.no-js(lang="en")
                 // Education
                 .hero: img(src='http://placehold.it/2000x600&text=[Education+image+2000x600]' alt='xxxx')
                 .row
-                    .columns.medium-8
+                    .columns.medium-4.panel(data-equalizer-watch="data-equalizer-watch")
+                        h3
+                            i.fa.fa-calendar.fa-2x  Education News
+                        | <?php
+                        | if (file_get_contents('http://news.uthsc.edu/news-html/more-links-education.php')){
+                        | $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links-education.php');
+                        | if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){
+                        | echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
+                        | } else {
+                        | echo $news_output;
+                        | }
+                        | //echo $news_output;
+                        | } else {
+                        | echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
+                        | }
+                        | ?>
+                    .columns.medium-8(data-equalizer-watch="data-equalizer-watch")
                         p Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.
-                    .columns.medium-4
                 // Research
                 .hero: img(src='http://placehold.it/2000x500&text=[Research+image+2000x500]' alt='xxxx')
                 .row
-                    .columns.medium-8
+                    .columns.medium-4.panel(data-equalizer-watch="data-equalizer-watch")
+                        h3
+                            i.fa.fa-calendar.fa-2x  Research News
+                        | <?php
+                        | if (file_get_contents('http://news.uthsc.edu/news-html/more-links-research.php')){
+                        | $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links-research.php');
+                        | if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){
+                        | echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
+                        | } else {
+                        | echo $news_output;
+                        | }
+                        | //echo $news_output;
+                        | } else {
+                        | echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
+                        | }
+                        | ?>
+                    .columns.medium-8(data-equalizer-watch="data-equalizer-watch")
                         p Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.
-                    .columns.medium-4
                 // Clinical Care
                 .hero: img(src='http://placehold.it/2000x400&text=[Clinical+Care+image+2000x400]' alt='xxxx')
                 .row
-                    .columns.medium-8
+                    .columns.medium-4.panel(data-equalizer-watch="data-equalizer-watch")
+                        h3
+                            i.fa.fa-calendar.fa-2x  Clinical Care News
+                        | <?php
+                        | if (file_get_contents('http://news.uthsc.edu/news-html/more-links-clinical-care.php')){
+                        | $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links-clinical-care.php');
+                        | if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){
+                        | echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
+                        | } else {
+                        | echo $news_output;
+                        | }
+                        | //echo $news_output;
+                        | } else {
+                        | echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
+                        | }
+                        | ?>
+                    .columns.medium-8(data-equalizer-watch="data-equalizer-watch")
                         p Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.
-                    .colums.medium-4
-
                 // Public Service
                 .hero: img(src='http://placehold.it/2000x300&text=[Public+Service+image+2000x300]' alt='xxxx')
                 .row
-                    .columns.medium-8
+                    .columns.medium-4.panel(data-equalizer-watch="data-equalizer-watch")
+                        h3
+                            i.fa.fa-calendar.fa-2x  Public Service News
+                        | <?php
+                        | if (file_get_contents('http://news.uthsc.edu/news-html/more-links-public-service.php')){
+                        | $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links-public-service.php');
+                        | if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){
+                        | echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
+                        | } else {
+                        | echo $news_output;
+                        | }
+                        | //echo $news_output;
+                        | } else {
+                        | echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
+                        | }
+                        | ?>
+                    .columns.medium-8(data-equalizer-watch="data-equalizer-watch")
                         p Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.
-                    .columns.medium-4
-                        .button.small Button 1
-                        .button.small Button 2
-                        .button.small Button 3
-                        .button.small Button 4
             hr
             // Social Row
             .row.collapse.text-center(data-equalizer="data-equalizer")

@@ -260,38 +260,89 @@
         <!-- Education-->
         <div class="hero"><img src="http://placehold.it/2000x600&amp;text=[Education+image+2000x600]" alt="xxxx"></div>
         <div class="row">
-          <div class="columns medium-8">
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel">
+            <h3><i class="fa fa-calendar fa-2x"> Education News</i></h3><?php
+            if (file_get_contents('http://news.uthsc.edu/news-html/more-links-education.php')){
+            $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links-education.php');
+            if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){
+            echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
+            } else {
+            echo $news_output;
+            }
+            //echo $news_output;
+            } else {
+            echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
+            }
+            ?>
+          </div>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">
             <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
           </div>
-          <div class="columns medium-4"></div>
         </div>
         <!-- Research-->
         <div class="hero"><img src="http://placehold.it/2000x500&amp;text=[Research+image+2000x500]" alt="xxxx"></div>
         <div class="row">
-          <div class="columns medium-8">
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel">
+            <h3><i class="fa fa-calendar fa-2x"> Research News</i></h3><?php
+            if (file_get_contents('http://news.uthsc.edu/news-html/more-links-research.php')){
+            $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links-research.php');
+            if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){
+            echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
+            } else {
+            echo $news_output;
+            }
+            //echo $news_output;
+            } else {
+            echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
+            }
+            ?>
+          </div>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">
             <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
           </div>
-          <div class="columns medium-4"></div>
         </div>
         <!-- Clinical Care-->
         <div class="hero"><img src="http://placehold.it/2000x400&amp;text=[Clinical+Care+image+2000x400]" alt="xxxx"></div>
         <div class="row">
-          <div class="columns medium-8">
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel">
+            <h3><i class="fa fa-calendar fa-2x"> Clinical Care News</i></h3><?php
+            if (file_get_contents('http://news.uthsc.edu/news-html/more-links-clinical-care.php')){
+            $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links-clinical-care.php');
+            if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){
+            echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
+            } else {
+            echo $news_output;
+            }
+            //echo $news_output;
+            } else {
+            echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
+            }
+            ?>
+          </div>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">
             <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
           </div>
-          <div class="colums medium-4"></div>
         </div>
         <!-- Public Service-->
         <div class="hero"><img src="http://placehold.it/2000x300&amp;text=[Public+Service+image+2000x300]" alt="xxxx"></div>
         <div class="row">
-          <div class="columns medium-8">
-            <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel">
+            <h3><i class="fa fa-calendar fa-2x"> Public Service News</i></h3><?php
+            if (file_get_contents('http://news.uthsc.edu/news-html/more-links-public-service.php')){
+            $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links-public-service.php');
+            if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){
+            echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
+            } else {
+            echo $news_output;
+            }
+            //echo $news_output;
+            } else {
+            echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
+            }
+            ?>
           </div>
-          <div class="columns medium-4">
-            <div class="button small">Button 1</div>
-            <div class="button small">Button 2</div>
-            <div class="button small">Button 3</div>
-            <div class="button small">Button 4</div>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">
+            <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
           </div>
         </div>
       </div>
