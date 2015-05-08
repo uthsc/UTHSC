@@ -26,7 +26,18 @@
   <!--1. Content Row 3-->
   <!--1. Top Footer-->
   <!--1. Bottom Footer-->
-  <body class="homepage">
+  <body class="homepage"></body>
+  <div id="fb-root">
+    <script>
+      (function (d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=168560461625";
+          fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <!--Right Off Canvas Menu-->
     <nav class="offcanvas-nav menu push-menu-right"><a href="/" class="button uthsc-split-button-home"><i class="fa fa-home"></i></a>
       <button data-dropdown="breadcrumbs-right" aria-controls="drop" aria-expanded="false" class="button dropdown uthsc-split-button">Breadcrumbs Back Home</button><br>
@@ -252,7 +263,7 @@
           <div class="columns medium-8">
             <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
           </div>
-          <div class="columns medium-4"><iframe src="http://widget.websta.me/in/uthsc/?s=100&w=2&h=2&b=1&p=5" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:230px; height: 230px" ></iframe> <!-- websta - web.stagram.com --></div>
+          <div class="columns medium-4"></div>
         </div>
         <!-- Research-->
         <div class="hero"><img src="http://placehold.it/2000x500&amp;text=[Research+image+2000x500]" alt="xxxx"></div>
@@ -260,8 +271,7 @@
           <div class="columns medium-8">
             <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
           </div>
-          <div class="columns medium-4"><a data-dnt="true" href="https://twitter.com/uthsc" data-widget-id="595570516766883840" class="twitter-timeline">Tweets by @uthsc
-              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></a></div>
+          <div class="columns medium-4"></div>
         </div>
         <!-- Clinical Care-->
         <div class="hero"><img src="http://placehold.it/2000x400&amp;text=[Clinical+Care+image+2000x400]" alt="xxxx"></div>
@@ -269,8 +279,7 @@
           <div class="columns medium-8">
             <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
           </div>
-          <div class="colums medium-4"><a data-pin-do="embedUser" href="http://www.pinterest.com/uthsc/" data-pin-scale-width="60" data-pin-scale-height="200" data-pin-board-width="200">Visit UTHSC&apos;s profile on Pinterest.
-              <script type="text/javascript" async="" defer="" src="//assets.pinterest.com/js/pinit.js"></script></a></div>
+          <div class="colums medium-4"></div>
         </div>
         <!-- Public Service-->
         <div class="hero"><img src="http://placehold.it/2000x300&amp;text=[Public+Service+image+2000x300]" alt="xxxx"></div>
@@ -287,6 +296,28 @@
         </div>
       </div>
       <hr>
+      <!-- Social Row-->
+      <div data-equalizer="data-equalizer" class="row collapse text-center">
+        <div data-equalizer-watch="data-equalizer-watch" style="padding:1.25rem;" class="columns medium-4 panel">
+          <h5><i class="fa fa-facebook fa-2x"> Facebook</i></h5>
+          <div data-href="https://www.facebook.com/uthsc" data-width="500" data-hide-cover="true" data-show-facepile="false" data-show-posts="true" class="fb-page">
+            <div class="fb-xfbml-parse-ignore">
+              <blockquote cite="https://www.facebook.com/uthsc"><a href="https://www.facebook.com/uthsc">University of Tennessee Health Science Center</a></blockquote>
+            </div>
+          </div>
+        </div>
+        <div data-equalizer-watch="data-equalizer-watch" style="padding:1.25rem;" class="columns medium-3 panel">
+          <h5><i class="fa fa-twitter fa-2x"> Twitter</i></h5><a data-dnt="true" href="https://twitter.com/uthsc" data-widget-id="595570516766883840" class="twitter-timeline">Tweets by @uthsc
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></a>
+        </div>
+        <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 panel">
+          <h6><i class="fa fa-instagram fa-2x"> Instagram</i></h6><iframe src="http://widget.websta.me/in/uthsc/?s=100&w=2&h=2&b=1&p=5" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:230px; height: 230px" ></iframe> <!-- websta - web.stagram.com -->
+        </div>
+        <div data-equalizer-watch="data-equalizer-watch" class="columns medium-2 panel">
+          <h5><i class="fa fa-pinterest fa-2x"> Pintrist</i></h5><a data-pin-do="embedUser" href="http://www.pinterest.com/uthsc/" data-pin-scale-width="60" data-pin-scale-height="200" data-pin-board-width="200">Visit UTHSC&apos;s profile on Pinterest.
+            <script type="text/javascript" async="" defer="" src="//assets.pinterest.com/js/pinit.js"></script></a>
+        </div>
+      </div>
       <footer></footer>
       <!-- Bottom Footer-->
       <div class="uthsc-footer-bottom">
@@ -373,5 +404,5 @@
     <script type="text/javascript" src="_resources/2015/js/uthsc.foundation.min.js"></script>
     <script type="text/javascript">(function($){$(document).foundation();})(jQuery);</script>
     <script src="_resources/2015/js/uthsc.min.js"></script>
-  </body>
+  </div>
 </html>
