@@ -182,7 +182,7 @@ html.no-js(lang="en")
             // Fullscreen image
             .hide-for-small
                 .fullscreen
-                    div(data-magellan-expedition='fixed')
+                    div.magellan(data-magellan-expedition='fixed')
                         dl.sub-nav
                             dd(data-magellan-arrival='education')
                                 a(href='#education')
@@ -594,5 +594,15 @@ html.no-js(lang="en")
         script(type='text/javascript', src='_resources/2015/js/jquery.min.js')
         script(type='text/javascript', src='_resources/2015/js/uthsc.foundation.min.js')
         script(type='text/javascript').
-            (function($){$(document).foundation();})(jQuery);
+            (function($){
+                $(document).foundation({
+                    "magellan-expedition": {
+                        active_class: 'gellin', // specify the class used for active sections
+                        threshold: 1000, // how many pixels until the magellan bar sticks, 0 = auto
+                        throttle_delay: 50, // calculation throttling to increase framerate
+                        fixed_top: 120, // top distance in pixels assigend to the fixed element on scroll
+                        offset_by_height: true // whether to offset the destination by the expedition height. Usually you want this to be true, unless your expedition is on the side.
+                    }
+                });
+            })(jQuery);
         script(src='_resources/2015/js/uthsc.min.js')

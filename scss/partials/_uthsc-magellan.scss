@@ -1,0 +1,28 @@
+.homepage {
+  .magellan {
+    background-color: transparent;
+    text-align: center;
+    padding: 0;
+    .sub-nav {
+      width: 84vw;
+      margin-left: 18vw;
+      dd {
+        width: 16vw;
+        margin: 0;
+        text-shadow: 1px 1px 1px black;
+        &.gellin a {
+          color: #00a5e3 !important;
+          background-color: transparent !important;
+        }
+      }
+      a {
+        color: $ghost;
+        padding: 0;
+        &:hover {
+          color: #737373 !important;
+          text-shadow: 0 0 0 !important;
+        }
+      }
+    }
+  }
+}

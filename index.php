@@ -156,7 +156,7 @@
       <!-- Fullscreen image-->
       <div class="hide-for-small">
         <div class="fullscreen">
-          <div data-magellan-expedition="fixed">
+          <div data-magellan-expedition="fixed" class="magellan">
             <dl class="sub-nav">
               <dd data-magellan-arrival="education"><a href="#education"><i class="fa fa-graduation-cap fa-5x"></i><br>Education</a></dd>
               <dd data-magellan-arrival="research"><a href="#research"><i class="fa fa-flask fa-5x"></i><br>Research</a></dd>
@@ -267,7 +267,7 @@
       <!-- Hero Images for Mission Sets-->
       <div class="hide-for-small">
         <!-- Education-->
-        <div id="education" class="hero"><img src="http://placehold.it/2000x600&amp;text=[Education+image+2000x600]" alt="xxxx" data-magellan-destination="education"></div>
+        <div id="education" class="hero"><img src="http://placehold.it/2000x400&amp;text=[Education+image]" alt="xxxx" data-magellan-destination="education"></div>
         <div class="row">
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel">
             <h3><i class="fa fa-calendar fa-2x"> Education News</i></h3><?php
@@ -289,7 +289,7 @@
           </div>
         </div>
         <!-- Research-->
-        <div class="hero"><img src="http://placehold.it/2000x500&amp;text=[Research+image+2000x500]" alt="xxxx"></div>
+        <div id="research" class="hero"><img src="http://placehold.it/2000x400&amp;text=[Research+image]" alt="xxxx" data-magellan-destination="research"></div>
         <div class="row">
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel">
             <h3><i class="fa fa-calendar fa-2x"> Research News</i></h3><?php
@@ -311,7 +311,7 @@
           </div>
         </div>
         <!-- Clinical Care-->
-        <div class="hero"><img src="http://placehold.it/2000x400&amp;text=[Clinical+Care+image+2000x400]" alt="xxxx"></div>
+        <div id="clinical-care" class="hero"><img src="http://placehold.it/2000x400&amp;text=[Clinical+Care+image]" alt="xxxx" , data-magellan-destination="clinical-care"></div>
         <div class="row">
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel">
             <h3><i class="fa fa-calendar fa-2x"> Clinical Care News</i></h3><?php
@@ -333,7 +333,7 @@
           </div>
         </div>
         <!-- Public Service-->
-        <div class="hero"><img src="http://placehold.it/2000x300&amp;text=[Public+Service+image+2000x300]" alt="xxxx"></div>
+        <div id="public-service" class="hero"><img src="http://placehold.it/2000x400&amp;text=[Public+Service+image]" alt="xxxx" , data-magellan-destination="public-service"></div>
         <div class="row">
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel">
             <h3><i class="fa fa-calendar fa-2x"> Public Service News</i></h3><?php
@@ -462,7 +462,19 @@
     </div>
     <script type="text/javascript" src="_resources/2015/js/jquery.min.js"></script>
     <script type="text/javascript" src="_resources/2015/js/uthsc.foundation.min.js"></script>
-    <script type="text/javascript">(function($){$(document).foundation();})(jQuery);</script>
+    <script type="text/javascript">
+      (function($){
+          $(document).foundation({
+              "magellan-expedition": {
+                  active_class: 'gellin', // specify the class used for active sections
+                  threshold: 1000, // how many pixels until the magellan bar sticks, 0 = auto
+                  throttle_delay: 50, // calculation throttling to increase framerate
+                  fixed_top: 120, // top distance in pixels assigend to the fixed element on scroll
+                  offset_by_height: true // whether to offset the destination by the expedition height. Usually you want this to be true, unless your expedition is on the side.
+              }
+          });
+      })(jQuery);
+    </script>
     <script src="_resources/2015/js/uthsc.min.js"></script>
   </div>
 </html>
