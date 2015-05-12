@@ -28,11 +28,11 @@ html.no-js(lang="en")
     body
         //Left Off Canvas Menu
         nav.offcanvas-nav.menu.push-menu-left
-            a.button.uthsc-split-button-home(href='/'): i.fa.fa-home
+            a.button.uthsc-split-button-home(href='index.php'): i.fa.fa-home
             button.button.dropdown.uthsc-split-button(data-dropdown='breadcrumbs-left' aria-controls='drop' aria-expanded='false') Breadcrumbs Back Home
             br
             ol.f-dropdown.mega.uthsc-split-button-breadcrumb-links(aria-labelledby='breadcrumblabel' id='breadcrumbs-left' data-dropdown-content='data-dropdown-content' role='menu' aria-hidden='false' tabindex='-1')
-                li: a(href='/' title='Home') Back to the Homepage
+                li: a(href='index.php' title='Home') Back to the Homepage
                         i.fa.fa-level-up.fa-2x.fa-flip-horizontal(style='float: left;')
                 li: a(href='products.html' title='Products') College of Medicine
                 li: a(href='products.html' title='Products') Office of Medical Education
@@ -108,12 +108,12 @@ html.no-js(lang="en")
         //Right Off Canvas Menu
         nav.offcanvas-nav.menu.push-menu-right
 
-            a.button.uthsc-split-button-home(href='/')
+            a.button.uthsc-split-button-home(href='index.php')
                 i.fa.fa-home
             button.button.dropdown.uthsc-split-button(data-dropdown='breadcrumbs-right', aria-controls='drop', aria-expanded='false') Breadcrumbs Back Home
             br
             ol#breadcrumbs-right.f-dropdown.mega.uthsc-split-button-breadcrumb-links(aria-labelledby='breadcrumblabel', data-dropdown-content='data-dropdown-content', role='menu', aria-hidden='false', tabindex='-1')
-                li: a(href='/', title='Home')
+                li: a(href='index.php', title='Home')
                     i.fa.fa-level-up.fa-2x.fa-flip-horizontal(style='float: left;')
                     | Back to the Homepage
                 li: a(href='#', title='College of Medicine') College of Medicine
@@ -253,7 +253,7 @@ html.no-js(lang="en")
                         .columns
                             //p#breadcrumblabel You are here:</p>
                             ol(aria-labelledby='breadcrumblabel')
-                                li: a.home-icon(href='index.html', title='Go to the UTHSC Homepage')
+                                li: a.home-icon(href='index.php', title='Go to the UTHSC Homepage')
                                         i.uthsc-home-icon-breadcrumbs.fa.fa-home.fa-2x
                                 li: a(href='index.html', title='Go to the Section Homepage') Section
                                 li: a(href='products.html', title='Go to the Page Parent') Page Parent

@@ -57,8 +57,8 @@
         <h2>Mission</h2><a href="/education/" class="button inverse"><i class="fa fa-graduation-cap"></i>Education</a><a href="/research/" class="button inverse"><i class="fa fa-flask"></i>Research</a><a href="/clinicalcare/" class="button inverse"><i class="fa fa-medkit"></i>Clinical Care</a><a href="/publicservice/" class="button inverse"><i class="fa fa-globe"></i>Public Service</a>
       </div>
       <ul>
-        <li class="button menu"><i class="fa fa-gift"></i>Make a Gift</li>
-        <li class="button menu"><i class="fa fa-road"></i>Take a Tour</li>
+        <li class="button menu"><a href="#"><i class="fa fa-gift"></i>Make a Gift</a></li>
+        <li class="button menu"><a href="template.php"><i class="fa fa-road"></i>Take a Tour</a></li>
         <li class="not-a-link"><a>Information for...</a>
           <ul>
             <li><a href="#">Students</a></li>
@@ -136,7 +136,7 @@
                 </ul>
               </li>
               <li class="button menu secondary label"><i class="fa fa-gift"></i> Make a Gift</li>
-              <li class="button top-bar-button label"><i class="fa fa-road"></i> Take a Tour</li>
+              <li><a href="template.php" class="button top-bar-button label"><i class="fa fa-road"></i> Take a Tour</a></li>
               <li class="has-form search-bar-large">
                 <input type="text" placeholder="Search">
               </li>
@@ -155,9 +155,18 @@
       </header>
       <!-- Fullscreen image-->
       <div class="hide-for-small">
-        <div class="fullscreen"></div>
+        <div class="fullscreen">
+          <div data-magellan-expedition="fixed">
+            <dl class="sub-nav">
+              <dd data-magellan-arrival="education"><a href="#education"><i class="fa fa-graduation-cap fa-5x"></i><br>Education</a></dd>
+              <dd data-magellan-arrival="research"><a href="#research"><i class="fa fa-flask fa-5x"></i><br>Research</a></dd>
+              <dd data-magellan-arrival="clinical-care"><a href="#clinical-care"><i class="fa fa-medkit fa-5x"></i><br>Clinical Care</a></dd>
+              <dd data-magellan-arrival="public-service"><a href="#public-service"><i class="fa fa-globe fa-5x"></i><br>Public Service</a></dd>
+            </dl>
+          </div>
+        </div>
+        <!-- tabs-->
       </div>
-      <!-- tabs-->
       <div class="row show-for-small-down">
         <div class="columns small-centered">
           <ul data-tab="" role="tablist" class="tabs">
@@ -258,7 +267,7 @@
       <!-- Hero Images for Mission Sets-->
       <div class="hide-for-small">
         <!-- Education-->
-        <div class="hero"><img src="http://placehold.it/2000x600&amp;text=[Education+image+2000x600]" alt="xxxx"></div>
+        <div id="education" class="hero"><img src="http://placehold.it/2000x600&amp;text=[Education+image+2000x600]" alt="xxxx" data-magellan-destination="education"></div>
         <div class="row">
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel">
             <h3><i class="fa fa-calendar fa-2x"> Education News</i></h3><?php

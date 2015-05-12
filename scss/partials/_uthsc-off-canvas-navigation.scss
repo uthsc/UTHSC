@@ -48,7 +48,11 @@ section.toggle {
     position: absolute;
   }
 }
-
+#fb-root > nav > ul > li:not(.not-a-link) > a {
+  font-size: inherit;
+  padding: 0;
+  font-weight: inherit;
+}
 .offcanvas-nav {
 
   &.menu {

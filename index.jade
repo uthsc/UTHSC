@@ -72,11 +72,13 @@ html.no-js(lang="en")
                     | Public Service
             ul
                 li.button.menu
-                    i.fa.fa-gift
-                    | Make a Gift
+                    a(href='#')
+                        i.fa.fa-gift
+                        | Make a Gift
                 li.button.menu
-                    i.fa.fa-road
-                    | Take a Tour
+                    a(href='template.php')
+                        i.fa.fa-road
+                        | Take a Tour
                 li.not-a-link
                     a Information for...
                     ul
@@ -165,9 +167,10 @@ html.no-js(lang="en")
                             li.button.menu.secondary.label
                                 i.fa.fa-gift
                                 |  Make a Gift
-                            li.button.top-bar-button.label
-                                i.fa.fa-road
-                                |  Take a Tour
+                            li
+                                a.button.top-bar-button.label(href='template.php')
+                                    i.fa.fa-road
+                                    |  Take a Tour
                             li.has-form.search-bar-large: input(type='text', placeholder='Search')
                 //Banner
                 .row

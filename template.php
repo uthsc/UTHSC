@@ -28,10 +28,10 @@
   <!--1. Bottom Footer-->
   <body>
     <!--Left Off Canvas Menu-->
-    <nav class="offcanvas-nav menu push-menu-left"><a href="/" class="button uthsc-split-button-home"><i class="fa fa-home"></i></a>
+    <nav class="offcanvas-nav menu push-menu-left"><a href="index.php" class="button uthsc-split-button-home"><i class="fa fa-home"></i></a>
       <button data-dropdown="breadcrumbs-left" aria-controls="drop" aria-expanded="false" class="button dropdown uthsc-split-button">Breadcrumbs Back Home</button><br>
       <ol aria-labelledby="breadcrumblabel" id="breadcrumbs-left" data-dropdown-content="data-dropdown-content" role="menu" aria-hidden="false" tabindex="-1" class="f-dropdown mega uthsc-split-button-breadcrumb-links">
-        <li><a href="/" title="Home">Back to the Homepage<i style="float: left;" class="fa fa-level-up fa-2x fa-flip-horizontal"></i></a></li>
+        <li><a href="index.php" title="Home">Back to the Homepage<i style="float: left;" class="fa fa-level-up fa-2x fa-flip-horizontal"></i></a></li>
         <li><a href="products.html" title="Products">College of Medicine</a></li>
         <li><a href="products.html" title="Products">Office of Medical Education</a></li>
         <li><a href="products.html" title="Products">Clerkships</a></li>
@@ -106,10 +106,10 @@
       <div class="bottom-nav-bar-off-canvas"></div><?php } ?>
     </nav>
     <!--Right Off Canvas Menu-->
-    <nav class="offcanvas-nav menu push-menu-right"><a href="/" class="button uthsc-split-button-home"><i class="fa fa-home"></i></a>
+    <nav class="offcanvas-nav menu push-menu-right"><a href="index.php" class="button uthsc-split-button-home"><i class="fa fa-home"></i></a>
       <button data-dropdown="breadcrumbs-right" aria-controls="drop" aria-expanded="false" class="button dropdown uthsc-split-button">Breadcrumbs Back Home</button><br>
       <ol id="breadcrumbs-right" aria-labelledby="breadcrumblabel" data-dropdown-content="data-dropdown-content" role="menu" aria-hidden="false" tabindex="-1" class="f-dropdown mega uthsc-split-button-breadcrumb-links">
-        <li><a href="/" title="Home"><i style="float: left;" class="fa fa-level-up fa-2x fa-flip-horizontal"></i>Back to the Homepage</a></li>
+        <li><a href="index.php" title="Home"><i style="float: left;" class="fa fa-level-up fa-2x fa-flip-horizontal"></i>Back to the Homepage</a></li>
         <li><a href="#" title="College of Medicine">College of Medicine</a></li>
         <li><a href="#" title="Office of Medical Education">Office of Medical Education</a></li>
         <li><a href="#" title="Clerkships">Clerkships</a></li>
@@ -226,7 +226,7 @@
             <div class="columns">
               <!--p#breadcrumblabel You are here:</p>-->
               <ol aria-labelledby="breadcrumblabel">
-                <li><a href="index.html" title="Go to the UTHSC Homepage" class="home-icon"><i class="uthsc-home-icon-breadcrumbs fa fa-home fa-2x"></i></a></li>
+                <li><a href="index.php" title="Go to the UTHSC Homepage" class="home-icon"><i class="uthsc-home-icon-breadcrumbs fa fa-home fa-2x"></i></a></li>
                 <li><a href="index.html" title="Go to the Section Homepage">Section</a></li>
                 <li><a href="products.html" title="Go to the Page Parent">Page Parent</a></li>
                 <li class="not-a-link"><a class="current">Current Page</a></li>
