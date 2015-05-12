@@ -182,7 +182,30 @@ html.no-js(lang="en")
             // Fullscreen image
             .hide-for-small
                 .fullscreen
-            // tabs
+                    div(data-magellan-expedition='fixed')
+                        dl.sub-nav
+                            dd(data-magellan-arrival='education')
+                                a(href='#education')
+                                    i.fa.fa-graduation-cap.fa-5x
+                                    br
+                                    | Education
+                            dd(data-magellan-arrival='research')
+                                a(href='#research')
+                                    i.fa.fa-flask.fa-5x
+                                    br
+                                    | Research
+                            dd(data-magellan-arrival='clinical-care')
+                                a(href='#clinical-care')
+                                    i.fa.fa-medkit.fa-5x
+                                    br
+                                    | Clinical Care
+                            dd(data-magellan-arrival='public-service')
+                                a(href='#public-service')
+                                    i.fa.fa-globe.fa-5x
+                                    br
+                                    | Public Service
+
+                // tabs
             .row.show-for-small-down
                 .columns.small-centered
                     ul.tabs(data-tab='', role='tablist')
@@ -269,7 +292,7 @@ html.no-js(lang="en")
             // Hero Images for Mission Sets
             .hide-for-small
                 // Education
-                .hero: img(src='http://placehold.it/2000x600&text=[Education+image+2000x600]' alt='xxxx')
+                #education.hero: img(src='http://placehold.it/2000x600&text=[Education+image+2000x600]' alt='xxxx', data-magellan-destination='education')
                 .row
                     .columns.medium-4.panel(data-equalizer-watch="data-equalizer-watch")
                         h3
