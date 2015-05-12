@@ -267,7 +267,7 @@
       <!-- Hero Images for Mission Sets-->
       <div class="hide-for-small">
         <!-- Education-->
-        <div id="education" class="hero"><img src="http://placehold.it/2000x400&amp;text=[Education+image]" alt="xxxx" data-magellan-destination="education"></div>
+        <div id="education" class="hero"><img src="_resources/2015/images/mission-education.jpg" alt="xxxx" data-magellan-destination="education"></div>
         <div class="row">
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel">
             <h3><i class="fa fa-calendar fa-2x"> Education News</i></h3><?php
