@@ -156,13 +156,22 @@
       <!-- Fullscreen image-->
       <div class="hide-for-small">
         <div class="fullscreen">
+          <div style="height: 65%;"></div>
           <div data-magellan-expedition="fixed" class="magellan">
             <dl class="sub-nav">
-              <dd data-magellan-arrival="education"><a href="#education"><i class="fa fa-graduation-cap fa-5x"></i><br>Education</a></dd>
-              <dd data-magellan-arrival="research"><a href="#research"><i class="fa fa-flask fa-5x"></i><br>Research</a></dd>
-              <dd data-magellan-arrival="clinical-care"><a href="#clinical-care"><i class="fa fa-medkit fa-5x"></i><br>Clinical Care</a></dd>
-              <dd data-magellan-arrival="public-service"><a href="#public-service"><i class="fa fa-globe fa-5x"></i><br>Public Service</a></dd>
+              <dd data-magellan-arrival="education"><a href="#education"><i class="fa fa-graduation-cap fa-5x"></i>
+                  <p class="subheader">Education</p></a></dd>
+              <dd data-magellan-arrival="research"><a href="#research"><i class="fa fa-flask fa-5x"></i>
+                  <p class="subheader">Research</p></a></dd>
+              <dd data-magellan-arrival="clinical-care"><a href="#clinical-care"><i class="fa fa-medkit fa-5x"></i>
+                  <p class="subheader">Clinical Care</p></a></dd>
+              <dd data-magellan-arrival="public-service"><a href="#public-service"><i class="fa fa-globe fa-5x"></i>
+                  <p class="subheader">Public Service</p></a></dd>
             </dl>
+          </div>
+          <div class="row">
+            <div class="columns text-center"><a href="#about">
+                <p style="color:white;" class="more-chevron">More<br><i class="fa fa-chevron-down fa-2x"></i></p></a></div>
           </div>
         </div>
         <!-- tabs-->
@@ -240,7 +249,7 @@
         </div>
       </div>
       <!-- About Row-->
-      <div data-equalizer="data-equalizer" class="row">
+      <div data-equalizer="data-equalizer" id="about" class="row">
         <div data-equalizer-watch="data-equalizer-watch" class="columns small-12 medium-6 large-3 panel">
           <h3><i class="fa fa-calendar fa-2x"> Events</i></h3>
           <ul><?php readfile("http://events.uthsc.edu/widgets/template_all-info-bulleted.php?category=27&return_limit=5"); ?></ul>
@@ -467,10 +476,10 @@
           $(document).foundation({
               "magellan-expedition": {
                   active_class: 'gellin', // specify the class used for active sections
-                  threshold: 1000, // how many pixels until the magellan bar sticks, 0 = auto
+                  threshold: 700, // how many pixels until the magellan bar sticks, 0 = auto
                   throttle_delay: 50, // calculation throttling to increase framerate
-                  fixed_top: 120, // top distance in pixels assigend to the fixed element on scroll
-                  offset_by_height: true // whether to offset the destination by the expedition height. Usually you want this to be true, unless your expedition is on the side.
+                  fixed_top: 25, // top distance in pixels assigend to the fixed element on scroll
+                  offset_by_height: false // whether to offset the destination by the expedition height. Usually you want this to be true, unless your expedition is on the side.
               }
           });
       })(jQuery);

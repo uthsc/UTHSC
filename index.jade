@@ -200,7 +200,13 @@ html.no-js(lang="en")
                             dd(data-magellan-arrival='public-service')
                                 a(href='#public-service')
                                     i.fa.fa-globe.fa-5x
+                                    p.subheader Public Service
+                    .row
+                        .columns.text-center
+                            a(href="#about")
+                                p.more-chevron(style="color:white;") More
                                     br
+                                    i.fa.fa-chevron-down.fa-2x
                 // tabs
             .row.show-for-small-down
                 .columns.small-centered
@@ -259,7 +265,7 @@ html.no-js(lang="en")
                                     .button.small Button 3
                                     .button.small Button 4
             // About Row
-            .row(data-equalizer="data-equalizer")
+            .row(data-equalizer="data-equalizer")#about
                 .columns.small-12.medium-6.large-3.panel(data-equalizer-watch="data-equalizer-watch")
                     h3
                         i.fa.fa-calendar.fa-2x  Events
