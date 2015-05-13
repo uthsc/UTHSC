@@ -14,6 +14,11 @@
           color: #00a5e3 !important;
           background-color: transparent !important;
         }
+      p.subheader {
+        font-size: 2vw;
+        font-weight: bold;
+        color: inherit;
+      }
       }
       a {
         color: $ghost;
