@@ -374,7 +374,7 @@
           <h6><i class="fa fa-instagram fa-2x"> Instagram</i></h6><iframe src="http://widget.websta.me/in/uthsc/?s=100&w=2&h=2&b=1&p=5" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:230px; height: 230px" ></iframe> <!-- websta - web.stagram.com -->
         </div>
         <div data-equalizer-watch="data-equalizer-watch" class="columns medium-2 panel">
-          <h5><i class="fa fa-pinterest fa-2x"> Pintrist</i></h5><a data-pin-do="embedUser" href="http://www.pinterest.com/uthsc/" data-pin-scale-width="60" data-pin-scale-height="200" data-pin-board-width="200">Visit UTHSC&apos;s profile on Pinterest.
+          <h5><i class="fa fa-pinterest fa-2x"> Pinterest</i></h5><a data-pin-do="embedUser" href="http://www.pinterest.com/uthsc/" data-pin-scale-width="60" data-pin-scale-height="200" data-pin-board-width="200">Visit UTHSC&apos;s profile on Pinterest.
             <script type="text/javascript" async="" defer="" src="//assets.pinterest.com/js/pinit.js"></script></a>
         </div>
       </div>
