@@ -600,10 +600,10 @@ html.no-js(lang="en")
                 $(document).foundation({
                     "magellan-expedition": {
                         active_class: 'gellin', // specify the class used for active sections
-                        threshold: 1000, // how many pixels until the magellan bar sticks, 0 = auto
+                        threshold: 700, // how many pixels until the magellan bar sticks, 0 = auto
                         throttle_delay: 50, // calculation throttling to increase framerate
-                        fixed_top: 120, // top distance in pixels assigend to the fixed element on scroll
-                        offset_by_height: true // whether to offset the destination by the expedition height. Usually you want this to be true, unless your expedition is on the side.
+                        fixed_top: 25, // top distance in pixels assigend to the fixed element on scroll
+                        offset_by_height: false // whether to offset the destination by the expedition height. Usually you want this to be true, unless your expedition is on the side.
                     }
                 });
             })(jQuery);
