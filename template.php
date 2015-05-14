@@ -36,7 +36,7 @@
         <li><a href="products.html" title="Products">Office of Medical Education</a></li>
         <li><a href="products.html" title="Products">Clerkships</a></li>
         <li><a href="products.html" title="Products">Core Clerkship Directors</a></li>
-        <li><a href="" class="current"></a></li>
+        <li><a href="#"><strong>Current Page</strong></a></li>
       </ol>
       <input type="text" placeholder="Search" style="margin:0;">
       <button class="close-menu expand"><i class="fa fa-chevron-left"></i>&emsp; Close Menu</button>
@@ -114,7 +114,7 @@
         <li><a href="#" title="Office of Medical Education">Office of Medical Education</a></li>
         <li><a href="#" title="Clerkships">Clerkships</a></li>
         <li><a href="#" title="Core Clerkship Directors">Core Clerkship Directors</a></li>
-        <li><a href="#" class="current"></a></li>
+        <li><a href="#"><strong>Current Page</strong></a></li>
       </ol>
       <input type="text" placeholder="Search" style="margin:0;">
       <button class="close-menu expand">Close Menu &emsp;<i class="fa fa-chevron-right"></i>

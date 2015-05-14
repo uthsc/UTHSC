@@ -47,7 +47,7 @@
         <li><a href="#" title="Office of Medical Education">Office of Medical Education</a></li>
         <li><a href="#" title="Clerkships">Clerkships</a></li>
         <li><a href="#" title="Core Clerkship Directors">Core Clerkship Directors</a></li>
-        <li><a href="#" class="current"></a></li>
+        <li><a href="#"><strong>Current Page</strong></a></li>
       </ol>
       <input type="text" placeholder="Search" style="margin:0;">
       <button class="close-menu expand">Close Menu &emsp;<i class="fa fa-chevron-right"></i>
@@ -482,6 +482,13 @@
                   offset_by_height: false // whether to offset the destination by the expedition height. Usually you want this to be true, unless your expedition is on the side.
               }
           });
+          $(document).foundation({
+              equalizer: {
+                  // Specify if Equalizer should make elements equal height once they become stacked.
+                  equalize_on_stack: true
+              }
+          });
+          
       })(jQuery);
     </script>
     <script src="_resources/2015/js/uthsc.min.js"></script>
