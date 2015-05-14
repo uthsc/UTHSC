@@ -188,11 +188,6 @@ section.toggle {
           content: "";
         }
       }
-
-      li:last-child a:before {
-        content: "Current Page";
-        font-weight: $font-weight-bold;
-      }
     }
 
     .uthsc-split-button-mission-links {
