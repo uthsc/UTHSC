@@ -14,10 +14,20 @@
           color: $uthsc-blue !important;
           background-color: transparent !important;
         }
-      p.subheader {
-        font-size: 1.5vw;
+        &.to-top {
+          float:right;
+          margin-top: 1.5vh;
+          p.subheader {
+            font-size: 1vw;
+          }
+        }
+      p {
         font-weight: bold;
         color: inherit;
+        margin-bottom: 0;
+        &.subheader {
+          font-size: 1.5vw;
+        }
       }
       }
       a {
