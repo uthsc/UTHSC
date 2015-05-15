@@ -296,21 +296,22 @@ html.no-js(lang="en")
                 #education.hero: img(src='_resources/2015/images/mission-education.jpg' alt='xxxx', data-magellan-destination='education')
                 .row
                     .columns.medium-4.panel(data-equalizer-watch="data-equalizer-watch")
-                        h3
-                            i.fa.fa-calendar.fa-2x  Education News
-                        | <?php
-                        | if (file_get_contents('http://news.uthsc.edu/news-html/more-links-education.php')){
-                        | $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links-education.php');
-                        | if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){
-                        | echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
-                        | } else {
-                        | echo $news_output;
-                        | }
-                        | //echo $news_output;
-                        | } else {
-                        | echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
-                        | }
-                        | ?>
+                        .row.news-box
+                            .columns
+                                h3
+                                    i.fa.fa-newspaper-o.fa-2x  News
+                            .columns
+                                figure
+                                    img(src='http://news.uthsc.edu/wp-content/uploads/2015/05/Michael-Carter-HomePageSlider.jpg' alt='xxxx')
+                                p University Distinguished Professor Michael Carter Receives 2015 Lifetime Achievement Award from National Organization of Nurse Practitioner Faculties
+                            .columns.medium-12.large-4
+                                figure
+                                    img(src='http://news.uthsc.edu/wp-content/uploads/2015/04/Valerie-Arnold-Cropped-Reduced.jpg' alt='xxxx')
+                            .columns.medium-12.large-8
+                                p Valerie K. Arnold, MD, of UTHSC Inducted into the American College of Psychiatrists
+                            .columns.medium-12.large-4
+                                figure
+                                    img(src='http://news.uthsc.edu/wp-content/uploads/2015/04/Rosie-Riley-HomePageSlider.jpg' alt='xxxx')
                     .columns.medium-8(data-equalizer-watch="data-equalizer-watch")
                         p Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.
                 // Research

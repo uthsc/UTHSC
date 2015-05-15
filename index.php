@@ -277,19 +277,24 @@
         <div id="education" class="hero"><img src="_resources/2015/images/mission-education.jpg" alt="xxxx" data-magellan-destination="education"></div>
         <div class="row">
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel">
-            <h3><i class="fa fa-calendar fa-2x"> Education News</i></h3><?php
-            if (file_get_contents('http://news.uthsc.edu/news-html/more-links-education.php')){
-            $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links-education.php');
-            if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){
-            echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
-            } else {
-            echo $news_output;
-            }
-            //echo $news_output;
-            } else {
-            echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
-            }
-            ?>
+            <div class="row news-box">
+              <div class="columns">
+                <h3><i class="fa fa-newspaper-o fa-2x"> News</i></h3>
+              </div>
+              <div class="columns">
+                <figure><img src="http://news.uthsc.edu/wp-content/uploads/2015/05/Michael-Carter-HomePageSlider.jpg" alt="xxxx"></figure>
+                <p>University Distinguished Professor Michael Carter Receives 2015 Lifetime Achievement Award from National Organization of Nurse Practitioner Faculties</p>
+              </div>
+              <div class="columns medium-12 large-4">
+                <figure><img src="http://news.uthsc.edu/wp-content/uploads/2015/04/Valerie-Arnold-Cropped-Reduced.jpg" alt="xxxx"></figure>
+              </div>
+              <div class="columns medium-12 large-8">
+                <p>Valerie K. Arnold, MD, of UTHSC Inducted into the American College of Psychiatrists</p>
+              </div>
+              <div class="columns medium-12 large-4">
+                <figure><img src="http://news.uthsc.edu/wp-content/uploads/2015/04/Rosie-Riley-HomePageSlider.jpg" alt="xxxx"></figure>
+              </div>
+            </div>
           </div>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">
             <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
