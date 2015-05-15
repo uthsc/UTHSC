@@ -168,8 +168,7 @@
               <dd data-magellan-arrival="public-service"><a href="#public-service"><i class="fa fa-globe fa-3x"></i>
                   <p class="subheader">Public Service</p></a></dd>
               <dd data-magellan-arrival="top" class="to-top"><a href="#top"><i class="fa fa-arrow-circle-up fa-2x"></i>
-                  <p class="subheader show-for-large-up">To Top</p>
-                  <p class="show-for-medium-down">To Top</p></a></dd>
+                  <p class="subheader">To Top</p></a></dd>
             </dl>
           </div>
           <div class="row">
