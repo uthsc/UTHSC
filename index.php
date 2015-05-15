@@ -159,13 +159,13 @@
           <div style="height: 65%;"></div>
           <div data-magellan-expedition="fixed" class="magellan">
             <dl class="sub-nav">
-              <dd data-magellan-arrival="education"><a href="#education"><i class="fa fa-graduation-cap fa-5x"></i>
+              <dd data-magellan-arrival="education"><a href="#education"><i class="fa fa-graduation-cap fa-3x"></i>
                   <p class="subheader">Education</p></a></dd>
-              <dd data-magellan-arrival="research"><a href="#research"><i class="fa fa-flask fa-5x"></i>
+              <dd data-magellan-arrival="research"><a href="#research"><i class="fa fa-flask fa-3x"></i>
                   <p class="subheader">Research</p></a></dd>
-              <dd data-magellan-arrival="clinical-care"><a href="#clinical-care"><i class="fa fa-medkit fa-5x"></i>
+              <dd data-magellan-arrival="clinical-care"><a href="#clinical-care"><i class="fa fa-medkit fa-3x"></i>
                   <p class="subheader">Clinical Care</p></a></dd>
-              <dd data-magellan-arrival="public-service"><a href="#public-service"><i class="fa fa-globe fa-5x"></i>
+              <dd data-magellan-arrival="public-service"><a href="#public-service"><i class="fa fa-globe fa-3x"></i>
                   <p class="subheader">Public Service</p></a></dd>
             </dl>
           </div>
@@ -250,11 +250,7 @@
       </div>
       <!-- About Row-->
       <div data-equalizer="data-equalizer" id="about" class="row">
-        <div data-equalizer-watch="data-equalizer-watch" class="columns small-12 medium-6 large-3 panel">
-          <h3><i class="fa fa-calendar fa-2x"> Events</i></h3>
-          <ul><?php readfile("http://events.uthsc.edu/widgets/template_all-info-bulleted.php?category=27&return_limit=5"); ?></ul>
-        </div>
-        <div data-equalizer-watch="data-equalizer-watch" class="columns small-12 medium-6 large-3 panel">
+        <div data-equalizer-watch="data-equalizer-watch" class="columns small-12 medium-6 panel">
           <h3><i class="fa fa-newspaper-o fa-2x"> News</i></h3><?php
           if (file_get_contents('http://news.uthsc.edu/news-html/more-links.php')){
           $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links.php');
@@ -269,7 +265,7 @@
           }
           ?>
         </div>
-        <div data-equalizer-watch="data-equalizer-watch" class="columns small-12 medium-12 large-6 panel">
+        <div data-equalizer-watch="data-equalizer-watch" class="columns small-12 medium-6 panel">
           <h3><i class="fa fa-bar-chart fa-2x"> Quick Facts</i></h3><img src="_resources/2015/images/graphic.jpg" alt="infographic">
         </div>
       </div>
