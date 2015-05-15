@@ -294,6 +294,9 @@
               <div class="columns medium-12 large-4">
                 <figure><img src="http://news.uthsc.edu/wp-content/uploads/2015/04/Rosie-Riley-HomePageSlider.jpg" alt="xxxx"></figure>
               </div>
+              <div class="columns medium-12 large-8">
+                <p>Former Marine, UTHSC Pharmacy Student Earns Doctorate Same Month That Daughter Earns Bachelor’s Degree</p>
+              </div>
             </div>
           </div>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">
