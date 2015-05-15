@@ -476,19 +476,8 @@
           $(document).foundation({
               "magellan-expedition": {
                   active_class: 'gellin', // specify the class used for active sections
-                  threshold: 700, // how many pixels until the magellan bar sticks, 0 = auto
-                  throttle_delay: 50, // calculation throttling to increase framerate
-                  fixed_top: 25, // top distance in pixels assigend to the fixed element on scroll
-                  offset_by_height: false // whether to offset the destination by the expedition height. Usually you want this to be true, unless your expedition is on the side.
               }
           });
-          $(document).foundation({
-              equalizer: {
-                  // Specify if Equalizer should make elements equal height once they become stacked.
-                  equalize_on_stack: true
-              }
-          });
-          
       })(jQuery);
     </script>
     <script src="_resources/2015/js/uthsc.min.js"></script>
