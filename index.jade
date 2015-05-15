@@ -266,12 +266,7 @@ html.no-js(lang="en")
                                     .button.small Button 4
             // About Row
             .row(data-equalizer="data-equalizer")#about
-                .columns.small-12.medium-6.large-3.panel(data-equalizer-watch="data-equalizer-watch")
-                    h3
-                        i.fa.fa-calendar.fa-2x  Events
-                    ul
-                        | <?php readfile("http://events.uthsc.edu/widgets/template_all-info-bulleted.php?category=27&return_limit=5"); ?>
-                .columns.small-12.medium-6.large-3.panel(data-equalizer-watch="data-equalizer-watch")
+                .columns.small-12.medium-6.panel(data-equalizer-watch="data-equalizer-watch")
                     h3
                         i.fa.fa-newspaper-o.fa-2x  News
                     | <?php
@@ -287,7 +282,7 @@ html.no-js(lang="en")
                     | echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
                     | }
                     | ?>
-                .columns.small-12.medium-12.large-6.panel(data-equalizer-watch="data-equalizer-watch")
+                .columns.small-12.medium-6.panel(data-equalizer-watch="data-equalizer-watch")
                     h3
                         i.fa.fa-bar-chart.fa-2x  Quick Facts
                     img(src="_resources/2015/images/graphic.jpg" alt="infographic")
