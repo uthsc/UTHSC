@@ -275,29 +275,35 @@
       <div class="hide-for-small">
         <!-- Education-->
         <div id="education" class="hero"><img src="_resources/2015/images/mission-education.jpg" alt="xxxx" data-magellan-destination="education"></div>
-        <div class="row">
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel">
-            <div class="row news-box">
+        <div data-equalizer="data-equalizer" class="row">
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel news-box">
+            <div class="row">
               <div class="columns">
                 <h3><i class="fa fa-newspaper-o fa-2x"> News</i></h3>
               </div>
-              <div class="columns">
-                <figure><img src="http://news.uthsc.edu/wp-content/uploads/2015/05/Michael-Carter-HomePageSlider.jpg" alt="xxxx"></figure>
-                <p>University Distinguished Professor Michael Carter Receives 2015 Lifetime Achievement Award from National Organization of Nurse Practitioner Faculties</p>
-              </div>
-              <div class="columns medium-12 large-4">
-                <figure><img src="http://news.uthsc.edu/wp-content/uploads/2015/04/Valerie-Arnold-Cropped-Reduced.jpg" alt="xxxx"></figure>
-              </div>
-              <div class="columns medium-12 large-8">
-                <p>Valerie K. Arnold, MD, of UTHSC Inducted into the American College of Psychiatrists</p>
-              </div>
-              <div class="columns medium-12 large-4">
-                <figure><img src="http://news.uthsc.edu/wp-content/uploads/2015/04/Rosie-Riley-HomePageSlider.jpg" alt="xxxx"></figure>
-              </div>
-              <div class="columns medium-12 large-8">
-                <p>Former Marine, UTHSC Pharmacy Student Earns Doctorate Same Month That Daughter Earns Bachelor’s Degree</p>
-              </div>
-            </div>
+            </div><a>
+              <div class="row panel">
+                <div class="columns">
+                  <figure><img src="http://placehold.it/1000/b06010/ffffff&amp;text=Education+News+Image" alt="xxxx"></figure>
+                  <p>University Distinguished Professor Michael Carter Receives 2015 Lifetime Achievement Award from National Organization of Nurse Practitioner Faculties</p>
+                </div>
+              </div></a><a>
+              <div class="row panel">
+                <div class="columns medium-12 large-4">
+                  <figure><img src="http://placehold.it/1000/ced0b4/ffffff&amp;text=EduImage" alt="xxxx"></figure>
+                </div>
+                <div class="columns medium-12 large-8">
+                  <p>Valerie K. Arnold, MD, of UTHSC Inducted into the American College of Psychiatrists</p>
+                </div>
+              </div></a><a>
+              <div class="row panel">
+                <div class="columns medium-12 large-4">
+                  <figure><img src="http://placehold.it/1000/7a68ae/ffffff&amp;text=EduImage" alt="xxxx"></figure>
+                </div>
+                <div class="columns medium-12 large-8">
+                  <p>Former Marine, UTHSC Pharmacy Student Earns Doctorate Same Month That Daughter Earns Bachelor’s Degree</p>
+                </div>
+              </div></a>
           </div>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">
             <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>

@@ -51,4 +51,18 @@
     background-position-y: 50%;
     background-repeat: no-repeat;
   }
-} 
+  .news-box {
+    a:nth-child(odd) > div {
+      background-color: $gainsboro;
+    }
+    .panel {
+      padding: 0.5rem;
+      p {
+        margin-bottom: 0;
+      }
+    }
+    .columns {
+      padding: 0 0.5rem 0 0;
+    }
+  }
+}
