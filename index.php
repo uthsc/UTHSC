@@ -26,18 +26,19 @@
   <!--1. Content Row 3-->
   <!--1. Top Footer-->
   <!--1. Bottom Footer-->
-  <body id="top" data-magellan-destination="top" class="homepage"></body>
-  <div id="fb-root">
-    <script>
-      (function (d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s);
-          js.id = id;
-          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=168560461625";
-          fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
+  <body id="top" data-magellan-destination="top" class="homepage">
+    <div id="fb-root">
+      <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=168560461625";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+    </div>
     <!--Right Off Canvas Menu-->
     <nav class="offcanvas-nav menu push-menu-right"><a href="/" class="button uthsc-split-button-home"><i class="fa fa-home"></i></a>
       <button data-dropdown="breadcrumbs-right" aria-controls="drop" aria-expanded="false" class="button dropdown uthsc-split-button">Breadcrumbs Back Home</button><br>
@@ -281,13 +282,13 @@
               <div class="columns">
                 <h3><i class="fa fa-newspaper-o fa-2x"> News</i></h3>
               </div>
-            </div><a>
+            </div><a href="http://news.uthsc.edu/university-distinguished-professor-michael-carter-receives-2015-lifetime-achievement-award-from-national-organization-of-nurse-practitioner-faculties/">
               <div class="row panel">
                 <div class="columns">
                   <figure><img src="http://placehold.it/1000/b06010/ffffff&amp;text=Education+News+Image" alt="xxxx"></figure>
                   <p>University Distinguished Professor Michael Carter Receives 2015 Lifetime Achievement Award from National Organization of Nurse Practitioner Faculties</p>
                 </div>
-              </div></a><a>
+              </div></a><a href="http://news.uthsc.edu/valerie-k-arnold-md-of-uthsc-inducted-into-the-american-college-of-psychiatrists/">
               <div class="row panel">
                 <div class="columns medium-12 large-4">
                   <figure><img src="http://placehold.it/1000/ced0b4/ffffff&amp;text=EduImage" alt="xxxx"></figure>
@@ -295,18 +296,18 @@
                 <div class="columns medium-12 large-8">
                   <p>Valerie K. Arnold, MD, of UTHSC Inducted into the American College of Psychiatrists</p>
                 </div>
-              </div></a><a>
+              </div></a><a href="http://news.uthsc.edu/uthsc-graduates-698-health-care-professionals-in-may/">
               <div class="row panel">
                 <div class="columns medium-12 large-4">
                   <figure><img src="http://placehold.it/1000/7a68ae/ffffff&amp;text=EduImage" alt="xxxx"></figure>
                 </div>
                 <div class="columns medium-12 large-8">
-                  <p>Former Marine, UTHSC Pharmacy Student Earns Doctorate Same Month That Daughter Earns Bachelor’s Degree</p>
+                  <p>UTHSC Graduates 698 Health Care Professionals in May</p>
                 </div>
               </div></a>
           </div>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">
-            <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
+            <pNam>volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</pNam>
           </div>
         </div>
         <!-- Research-->
@@ -493,5 +494,5 @@
       })(jQuery);
     </script>
     <script src="_resources/2015/js/uthsc.min.js"></script>
-  </div>
+  </body>
 </html>
