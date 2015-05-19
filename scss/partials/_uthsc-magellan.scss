@@ -4,7 +4,6 @@
     text-align: center;
     padding: 0;
     .sub-nav {
-      width: 84vw;
       margin-left: 18vw;
       padding-top: 1.1vh;
       dd {
@@ -17,6 +16,7 @@
         &.to-top {
           float:right;
           margin-top: 1.5vh;
+          width: 8vw;
           p.subheader {
             font-size: 0.9rem;
           }
