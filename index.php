@@ -172,10 +172,6 @@
                   <p class="subheader">To Top</p></a></dd>
             </dl>
           </div>
-          <div class="row">
-            <div class="columns text-center"><a href="#about">
-                <p style="color:white;" class="more-chevron">More<br><i class="fa fa-chevron-down fa-2x"></i></p></a></div>
-          </div>
         </div>
         <!-- tabs-->
       </div>
