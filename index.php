@@ -272,11 +272,13 @@
       <div class="hide-for-small">
         <!-- Education-->
         <div id="education" class="hero"><img src="_resources/2015/images/mission-education.jpg" alt="xxxx" data-magellan-destination="education"></div>
+        <div class="hero-name-stripe"></div>
         <div data-equalizer="data-equalizer" class="row">
+          <h2 class="hero-text">Education</h2>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel news-box">
             <div class="row">
               <div class="columns">
-                <h3><i class="fa fa-newspaper-o fa-2x"> News</i></h3>
+                <h3><i class="fa fa-newspaper-o fa-2x"> News<br><span>for Education</span></i></h3>
               </div>
             </div><a href="http://news.uthsc.edu/university-distinguished-professor-michael-carter-receives-2015-lifetime-achievement-award-from-national-organization-of-nurse-practitioner-faculties/">
               <div class="row panel">
@@ -307,10 +309,12 @@
           </div>
         </div>
         <!-- Research-->
-        <div id="research" class="hero"><img src="http://placehold.it/2000x400&amp;text=[Research+image]" alt="xxxx" data-magellan-destination="research"></div>
-        <div class="row">
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel">
-            <h3><i class="fa fa-calendar fa-2x"> Research News</i></h3><?php
+        <div id="research" class="hero"><img src="_resources/2015/images/mission-research.jpg" alt="xxxx" data-magellan-destination="research"></div>
+        <div class="hero-name-stripe"></div>
+        <div data-equalizer="data-equalizer" class="row">
+          <h2 class="hero-text">Research</h2>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel news-box">
+            <h3><i class="fa fa-calendar fa-2x"> News<br><span>for Research</span></i></h3><?php
             if (file_get_contents('http://news.uthsc.edu/news-html/more-links-research.php')){
             $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links-research.php');
             if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){
@@ -329,10 +333,12 @@
           </div>
         </div>
         <!-- Clinical Care-->
-        <div id="clinical-care" class="hero"><img src="http://placehold.it/2000x400&amp;text=[Clinical+Care+image]" alt="xxxx" , data-magellan-destination="clinical-care"></div>
-        <div class="row">
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel">
-            <h3><i class="fa fa-calendar fa-2x"> Clinical Care News</i></h3><?php
+        <div id="clinical-care" class="hero"><img src="_resources/2015/images/mission-clinical-care.jpg" alt="xxxx" , data-magellan-destination="clinical-care"></div>
+        <div class="hero-name-stripe"></div>
+        <div data-equalizer="data-equalizer" class="row">
+          <h2 class="hero-text">Clinical Care</h2>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel news-box">
+            <h3><i class="fa fa-calendar fa-2x"> News<br><span>for Clinical Care</span></i></h3><?php
             if (file_get_contents('http://news.uthsc.edu/news-html/more-links-clinical-care.php')){
             $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links-clinical-care.php');
             if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){
@@ -351,10 +357,12 @@
           </div>
         </div>
         <!-- Public Service-->
-        <div id="public-service" class="hero"><img src="http://placehold.it/2000x400&amp;text=[Public+Service+image]" alt="xxxx" , data-magellan-destination="public-service"></div>
-        <div class="row">
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel">
-            <h3><i class="fa fa-calendar fa-2x"> Public Service News</i></h3><?php
+        <div id="public-service" class="hero"><img src="_resources/2015/images/mission-public-service.jpg" alt="xxxx" , data-magellan-destination="public-service"></div>
+        <div class="hero-name-stripe"></div>
+        <div data-equalizer="data-equalizer" class="row">
+          <h2 class="hero-text">Public Service</h2>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel news-box">
+            <h3><i class="fa fa-calendar fa-2x"> News<br><span>for Public Service</span></i></h3><?php
             if (file_get_contents('http://news.uthsc.edu/news-html/more-links-public-service.php')){
             $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links-public-service.php');
             if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){

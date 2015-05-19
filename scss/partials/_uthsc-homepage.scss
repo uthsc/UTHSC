@@ -65,4 +65,17 @@
       padding: 0 0.5rem 0 0;
     }
   }
+  .hero-name-stripe {
+    height: 7vh;
+    background-color: rgba(0,106,77,0.7);
+    position: relative;
+    bottom: 7vh;
+  }
+  h2.hero-text {
+    font-size: 7vh;
+    color: white;
+    position: relative;
+    bottom: 16vh;
+    margin-bottom: -17vh;
+  }
 }
