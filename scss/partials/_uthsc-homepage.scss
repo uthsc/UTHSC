@@ -52,6 +52,12 @@
     background-repeat: no-repeat;
   }
   .news-box {
+    h3 span {
+      font-size: 0.35em;
+      font-style: italic;
+      color: #999;
+      float: right;
+    }
     a:nth-child(odd) > div {
       background-color: $gainsboro;
     }
