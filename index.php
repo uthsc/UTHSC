@@ -50,8 +50,8 @@
         <li><a href="#" title="Core Clerkship Directors">Core Clerkship Directors</a></li>
         <li><a href="#"><strong>Current Page</strong></a></li>
       </ol>
-      <div class="search-bar has-form">
-        <input type="text" class="search"><a href="#" class="button secondary tiny mobile"><i class="fa fa-search"></i></a>
+      <div class="search-bar has-form mobile">
+        <input type="text" class="search"><a href="#" class="button secondary tiny"><i class="fa fa-search"></i></a>
       </div>
       <button class="close-menu expand">Close Menu &emsp;<i class="fa fa-chevron-right"></i>
         <!-- Mission Links-->
@@ -150,8 +150,8 @@
         <div class="row">
           <div class="medium-7 large-8 large-centered columns"><img src="_resources/2015/images/uthsc-logo-white-text.svg" width="100%" class="uthsc-logo"></div>
           <div class="medium-5 large-12 hide-for-large-up columns small-collapse">
-            <div class="search-bar has-form">
-              <input type="text" class="search"><a href="#" class="button tiny tablet"><i class="fa fa-search"></i></a>
+            <div class="search-bar has-form tablet">
+              <input type="text" class="search"><a href="#" class="button tiny"><i class="fa fa-search"></i></a>
             </div>
           </div>
         </div>

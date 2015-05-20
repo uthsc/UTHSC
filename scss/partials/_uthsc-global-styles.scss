@@ -78,18 +78,21 @@ li.has-form.search-bar-large, .search-bar.has-form {
     width: 80%;
     float: left;
   }
+  &.mobile input.search{
+    margin: 0;
+  }
+  &.mobile a.button.tiny {
+    background-color: $monsoon;
+    padding: 7px 0 8px;
+    margin:0;
+  }
+  &.tablet a.button.tiny {
+    background-color: $monsoon;
+    padding: 12px 0;
+    margin:0;
+  }
   a {
     width: 20%;
     float: left;
-  }
-}
-a.button.tiny {
-  &.mobile {
-    background-color: $monsoon;
-    padding: 7px 0 8px;
-  }
-  &.tablet {
-    background-color: $monsoon;
-    padding: 12px 0;
   }
 }
