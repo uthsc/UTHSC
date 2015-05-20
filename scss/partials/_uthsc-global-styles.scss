@@ -72,3 +72,24 @@ input[type='text'] {
     width: 100%;
   }
 }
+
+li.has-form.search-bar-large, .search-bar.has-form {
+  input.search {
+    width: 80%;
+    float: left;
+  }
+  a {
+    width: 20%;
+    float: left;
+  }
+}
+a.button.tiny {
+  &.mobile {
+    background-color: $monsoon;
+    padding: 7px 0 8px;
+  }
+  &.tablet {
+    background-color: $monsoon;
+    padding: 12px 0;
+  }
+}

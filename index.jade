@@ -52,7 +52,10 @@ html.no-js(lang="en")
                 li: a(href='#', title='Clerkships') Clerkships
                 li: a(href='#', title='Core Clerkship Directors') Core Clerkship Directors
                 li: a(href='#'): strong Current Page
-            input(type='text', placeholder='Search', style='margin:0;')
+            .search-bar.has-form
+                input.search(type='text')
+                a.button.secondary.tiny.mobile(href="#")
+                    i.fa.fa-search
             button.close-menu.expand Close Menu &emsp;
                 i.fa.fa-chevron-right
                 // Mission Links
@@ -171,14 +174,19 @@ html.no-js(lang="en")
                                 a.button.top-bar-button.label(href='template.php')
                                     i.fa.fa-road
                                     |  Take a Tour
-                            li.has-form.search-bar-large: input(type='text', placeholder='Search')
+                            li.has-form.search-bar-large
+                                input.search(type='text')
+                                a.button.tiny(href="#")
+                                    i.fa.fa-search
                 //Banner
                 .row
                     .medium-7.large-8.large-centered.columns
                         img.uthsc-logo(src='_resources/2015/images/uthsc-logo-white-text.svg', width='100%')
                     .medium-5.large-12.hide-for-large-up.columns.small-collapse
                         .search-bar.has-form
-                            input(type='text', placeholder='Search')
+                            input.search(type='text')
+                            a.button.tiny.tablet(href="#")
+                                i.fa.fa-search
             // Fullscreen image
             .hide-for-small
                 .fullscreen
