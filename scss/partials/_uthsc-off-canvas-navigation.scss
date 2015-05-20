@@ -107,7 +107,7 @@ section.toggle {
       }
     }
 
-    .button {
+    .button, {
 
       &.inverse {
         background-color: $gainsboro;
@@ -133,14 +133,19 @@ section.toggle {
 
       &.menu {
         margin: 0;
-        padding-left: 25px;
+        padding: 0 0 0 17px;
 
         .fa {
-          width: 44px;
+          width: 37px;
         }
       }
     }
-
+    li.not-a-link.menu > a {
+      padding: 7px 7px 7px 28px;
+    }
+    li.not-a-link.menu > a > i {
+      padding-right: 13px;
+    }
     .uthsc-split-button.inverse {
       background-color: $gainsboro;
       color: $uthsc-green;

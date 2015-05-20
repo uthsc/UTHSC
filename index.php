@@ -71,7 +71,7 @@
             <li><a href="#">Patients</a></li>
           </ul>
         </li>
-        <li class="not-a-link"><a><i class="fa fa-university"> Resources</i></a>
+        <li class="not-a-link menu"><a><i class="fa fa-university">&emsp; Resources</i></a>
           <ul>
             <li><a href="#">Banner</a></li>
             <li><a href="#">Blackboard</a></li>
