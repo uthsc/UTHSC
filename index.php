@@ -91,7 +91,7 @@
     <!--Off Canvas Wrapper-->
     <div id="wrapper">
       <div id="mobile-navigation" class="hide-for-large-up">
-        <button class="nav-toggler toggle-push-right right"></button><?php if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) { ?>
+        <button class="nav-toggler toggle-push-right"></button><?php if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) { ?>
         <div class="bottom-nav-bar"></div><?php } ?>
       </div>
       <!--Header-->
@@ -295,9 +295,7 @@
                 </div>
               </div></a>
           </div>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">
-            <pNam>volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</pNam>
-          </div>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
         </div>
         <!-- Research-->
         <div id="research" class="hero"><img src="_resources/2015/images/mission-research.jpg" alt="xxxx" data-magellan-destination="research"></div>
@@ -305,23 +303,31 @@
         <div data-equalizer="data-equalizer" class="row">
           <h2 class="hero-text">Research</h2>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel news-box">
-            <h3><i class="fa fa-calendar fa-2x"> News<br><span>for Research</span></i></h3><?php
-            if (file_get_contents('http://news.uthsc.edu/news-html/more-links-research.php')){
-            $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links-research.php');
-            if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){
-            echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
-            } else {
-            echo $news_output;
-            }
-            //echo $news_output;
-            } else {
-            echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
-            }
-            ?>
+            <h3><i class="fa fa-calendar fa-2x"> News<br><span>for Research</span></i></h3><a href="http://news.uthsc.edu/university-distinguished-professor-michael-carter-receives-2015-lifetime-achievement-award-from-national-organization-of-nurse-practitioner-faculties/">
+              <div class="row panel">
+                <div class="columns">
+                  <figure><img src="http://placehold.it/1000/b06010/ffffff&amp;text=Education+News+Image" alt="xxxx"></figure>
+                  <p>University Distinguished Professor Michael Carter Receives 2015 Lifetime Achievement Award from National Organization of Nurse Practitioner Faculties</p>
+                </div>
+              </div></a><a href="http://news.uthsc.edu/valerie-k-arnold-md-of-uthsc-inducted-into-the-american-college-of-psychiatrists/">
+              <div class="row panel">
+                <div class="columns medium-12 large-4">
+                  <figure><img src="http://placehold.it/1000/ced0b4/ffffff&amp;text=EduImage" alt="xxxx"></figure>
+                </div>
+                <div class="columns medium-12 large-8">
+                  <p>Valerie K. Arnold, MD, of UTHSC Inducted into the American College of Psychiatrists</p>
+                </div>
+              </div></a><a href="http://news.uthsc.edu/uthsc-graduates-698-health-care-professionals-in-may/">
+              <div class="row panel">
+                <div class="columns medium-12 large-4">
+                  <figure><img src="http://placehold.it/1000/7a68ae/ffffff&amp;text=EduImage" alt="xxxx"></figure>
+                </div>
+                <div class="columns medium-12 large-8">
+                  <p>UTHSC Graduates 698 Health Care Professionals in May</p>
+                </div>
+              </div></a>
           </div>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">
-            <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
-          </div>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
         </div>
         <!-- Clinical Care-->
         <div id="clinical-care" class="hero"><img src="_resources/2015/images/mission-clinical-care.jpg" alt="xxxx" , data-magellan-destination="clinical-care"></div>
@@ -329,23 +335,31 @@
         <div data-equalizer="data-equalizer" class="row">
           <h2 class="hero-text">Clinical Care</h2>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel news-box">
-            <h3><i class="fa fa-calendar fa-2x"> News<br><span>for Clinical Care</span></i></h3><?php
-            if (file_get_contents('http://news.uthsc.edu/news-html/more-links-clinical-care.php')){
-            $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links-clinical-care.php');
-            if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){
-            echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
-            } else {
-            echo $news_output;
-            }
-            //echo $news_output;
-            } else {
-            echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
-            }
-            ?>
+            <h3><i class="fa fa-calendar fa-2x"> News<br><span>for Clinical Care</span></i></h3><a href="http://news.uthsc.edu/university-distinguished-professor-michael-carter-receives-2015-lifetime-achievement-award-from-national-organization-of-nurse-practitioner-faculties/">
+              <div class="row panel">
+                <div class="columns">
+                  <figure><img src="http://placehold.it/1000/b06010/ffffff&amp;text=Education+News+Image" alt="xxxx"></figure>
+                  <p>University Distinguished Professor Michael Carter Receives 2015 Lifetime Achievement Award from National Organization of Nurse Practitioner Faculties</p>
+                </div>
+              </div></a><a href="http://news.uthsc.edu/valerie-k-arnold-md-of-uthsc-inducted-into-the-american-college-of-psychiatrists/">
+              <div class="row panel">
+                <div class="columns medium-12 large-4">
+                  <figure><img src="http://placehold.it/1000/ced0b4/ffffff&amp;text=EduImage" alt="xxxx"></figure>
+                </div>
+                <div class="columns medium-12 large-8">
+                  <p>Valerie K. Arnold, MD, of UTHSC Inducted into the American College of Psychiatrists</p>
+                </div>
+              </div></a><a href="http://news.uthsc.edu/uthsc-graduates-698-health-care-professionals-in-may/">
+              <div class="row panel">
+                <div class="columns medium-12 large-4">
+                  <figure><img src="http://placehold.it/1000/7a68ae/ffffff&amp;text=EduImage" alt="xxxx"></figure>
+                </div>
+                <div class="columns medium-12 large-8">
+                  <p>UTHSC Graduates 698 Health Care Professionals in May</p>
+                </div>
+              </div></a>
           </div>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">
-            <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
-          </div>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
         </div>
         <!-- Public Service-->
         <div id="public-service" class="hero"><img src="_resources/2015/images/mission-public-service.jpg" alt="xxxx" , data-magellan-destination="public-service"></div>
@@ -353,23 +367,31 @@
         <div data-equalizer="data-equalizer" class="row">
           <h2 class="hero-text">Public Service</h2>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel news-box">
-            <h3><i class="fa fa-calendar fa-2x"> News<br><span>for Public Service</span></i></h3><?php
-            if (file_get_contents('http://news.uthsc.edu/news-html/more-links-public-service.php')){
-            $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links-public-service.php');
-            if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){
-            echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
-            } else {
-            echo $news_output;
-            }
-            //echo $news_output;
-            } else {
-            echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
-            }
-            ?>
+            <h3><i class="fa fa-calendar fa-2x"> News<br><span>for Public Service</span></i></h3><a href="http://news.uthsc.edu/university-distinguished-professor-michael-carter-receives-2015-lifetime-achievement-award-from-national-organization-of-nurse-practitioner-faculties/">
+              <div class="row panel">
+                <div class="columns">
+                  <figure><img src="http://placehold.it/1000/b06010/ffffff&amp;text=Education+News+Image" alt="xxxx"></figure>
+                  <p>University Distinguished Professor Michael Carter Receives 2015 Lifetime Achievement Award from National Organization of Nurse Practitioner Faculties</p>
+                </div>
+              </div></a><a href="http://news.uthsc.edu/valerie-k-arnold-md-of-uthsc-inducted-into-the-american-college-of-psychiatrists/">
+              <div class="row panel">
+                <div class="columns medium-12 large-4">
+                  <figure><img src="http://placehold.it/1000/ced0b4/ffffff&amp;text=EduImage" alt="xxxx"></figure>
+                </div>
+                <div class="columns medium-12 large-8">
+                  <p>Valerie K. Arnold, MD, of UTHSC Inducted into the American College of Psychiatrists</p>
+                </div>
+              </div></a><a href="http://news.uthsc.edu/uthsc-graduates-698-health-care-professionals-in-may/">
+              <div class="row panel">
+                <div class="columns medium-12 large-4">
+                  <figure><img src="http://placehold.it/1000/7a68ae/ffffff&amp;text=EduImage" alt="xxxx"></figure>
+                </div>
+                <div class="columns medium-12 large-8">
+                  <p>UTHSC Graduates 698 Health Care Professionals in May</p>
+                </div>
+              </div></a>
           </div>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">
-            <p>Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</p>
-          </div>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
         </div>
       </div>
       <hr>

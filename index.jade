@@ -241,8 +241,7 @@ html.no-js(lang="en")
                                         img(src='http://placehold.it/1000/7a68ae/ffffff&text=EduImage' alt='xxxx')
                                 .columns.medium-12.large-8
                                     p UTHSC Graduates 698 Health Care Professionals in May
-                    .columns.medium-8(data-equalizer-watch="data-equalizer-watch")
-                        pNam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.
+                    .columns.medium-8(data-equalizer-watch="data-equalizer-watch") Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.
                 // Research
                 #research.hero: img(src='_resources/2015/images/mission-research.jpg' alt='xxxx', data-magellan-destination='research')
                 .hero-name-stripe
@@ -252,21 +251,24 @@ html.no-js(lang="en")
                         h3
                             i.fa.fa-calendar.fa-2x  News<br>
                                 span for Research
-                        | <?php
-                        | if (file_get_contents('http://news.uthsc.edu/news-html/more-links-research.php')){
-                        | $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links-research.php');
-                        | if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){
-                        | echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
-                        | } else {
-                        | echo $news_output;
-                        | }
-                        | //echo $news_output;
-                        | } else {
-                        | echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
-                        | }
-                        | ?>
-                    .columns.medium-8(data-equalizer-watch="data-equalizer-watch")
-                        p Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.
+                        a(href='http://news.uthsc.edu/university-distinguished-professor-michael-carter-receives-2015-lifetime-achievement-award-from-national-organization-of-nurse-practitioner-faculties/'): .row.panel
+                                .columns
+                                    figure
+                                        img(src='http://placehold.it/1000/b06010/ffffff&text=Education+News+Image' alt='xxxx')
+                                    p University Distinguished Professor Michael Carter Receives 2015 Lifetime Achievement Award from National Organization of Nurse Practitioner Faculties
+                        a(href='http://news.uthsc.edu/valerie-k-arnold-md-of-uthsc-inducted-into-the-american-college-of-psychiatrists/'): .row.panel
+                                .columns.medium-12.large-4
+                                    figure
+                                        img(src='http://placehold.it/1000/ced0b4/ffffff&text=EduImage' alt='xxxx')
+                                .columns.medium-12.large-8
+                                    p Valerie K. Arnold, MD, of UTHSC Inducted into the American College of Psychiatrists
+                        a(href='http://news.uthsc.edu/uthsc-graduates-698-health-care-professionals-in-may/'): .row.panel
+                                .columns.medium-12.large-4
+                                    figure
+                                        img(src='http://placehold.it/1000/7a68ae/ffffff&text=EduImage' alt='xxxx')
+                                .columns.medium-12.large-8
+                                    p UTHSC Graduates 698 Health Care Professionals in May
+                    .columns.medium-8(data-equalizer-watch="data-equalizer-watch") Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.
                 // Clinical Care
                 #clinical-care.hero: img(src='_resources/2015/images/mission-clinical-care.jpg' alt='xxxx', , data-magellan-destination='clinical-care')
                 .hero-name-stripe
@@ -276,21 +278,24 @@ html.no-js(lang="en")
                         h3
                             i.fa.fa-calendar.fa-2x  News<br>
                                 span for Clinical Care
-                        | <?php
-                        | if (file_get_contents('http://news.uthsc.edu/news-html/more-links-clinical-care.php')){
-                        | $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links-clinical-care.php');
-                        | if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){
-                        | echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
-                        | } else {
-                        | echo $news_output;
-                        | }
-                        | //echo $news_output;
-                        | } else {
-                        | echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
-                        | }
-                        | ?>
-                    .columns.medium-8(data-equalizer-watch="data-equalizer-watch")
-                        p Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.
+                        a(href='http://news.uthsc.edu/university-distinguished-professor-michael-carter-receives-2015-lifetime-achievement-award-from-national-organization-of-nurse-practitioner-faculties/'): .row.panel
+                                .columns
+                                    figure
+                                        img(src='http://placehold.it/1000/b06010/ffffff&text=Education+News+Image' alt='xxxx')
+                                    p University Distinguished Professor Michael Carter Receives 2015 Lifetime Achievement Award from National Organization of Nurse Practitioner Faculties
+                        a(href='http://news.uthsc.edu/valerie-k-arnold-md-of-uthsc-inducted-into-the-american-college-of-psychiatrists/'): .row.panel
+                                .columns.medium-12.large-4
+                                    figure
+                                        img(src='http://placehold.it/1000/ced0b4/ffffff&text=EduImage' alt='xxxx')
+                                .columns.medium-12.large-8
+                                    p Valerie K. Arnold, MD, of UTHSC Inducted into the American College of Psychiatrists
+                        a(href='http://news.uthsc.edu/uthsc-graduates-698-health-care-professionals-in-may/'): .row.panel
+                                .columns.medium-12.large-4
+                                    figure
+                                        img(src='http://placehold.it/1000/7a68ae/ffffff&text=EduImage' alt='xxxx')
+                                .columns.medium-12.large-8
+                                    p UTHSC Graduates 698 Health Care Professionals in May
+                    .columns.medium-8(data-equalizer-watch="data-equalizer-watch") Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.
                 // Public Service
                 #public-service.hero: img(src='_resources/2015/images/mission-public-service.jpg' alt='xxxx', , data-magellan-destination='public-service')
                 .hero-name-stripe
@@ -300,21 +305,24 @@ html.no-js(lang="en")
                         h3
                             i.fa.fa-calendar.fa-2x  News<br>
                                 span for Public Service
-                        | <?php
-                        | if (file_get_contents('http://news.uthsc.edu/news-html/more-links-public-service.php')){
-                        | $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links-public-service.php');
-                        | if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){
-                        | echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
-                        | } else {
-                        | echo $news_output;
-                        | }
-                        | //echo $news_output;
-                        | } else {
-                        | echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
-                        | }
-                        | ?>
-                    .columns.medium-8(data-equalizer-watch="data-equalizer-watch")
-                        p Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.
+                        a(href='http://news.uthsc.edu/university-distinguished-professor-michael-carter-receives-2015-lifetime-achievement-award-from-national-organization-of-nurse-practitioner-faculties/'): .row.panel
+                                .columns
+                                    figure
+                                        img(src='http://placehold.it/1000/b06010/ffffff&text=Education+News+Image' alt='xxxx')
+                                    p University Distinguished Professor Michael Carter Receives 2015 Lifetime Achievement Award from National Organization of Nurse Practitioner Faculties
+                        a(href='http://news.uthsc.edu/valerie-k-arnold-md-of-uthsc-inducted-into-the-american-college-of-psychiatrists/'): .row.panel
+                                .columns.medium-12.large-4
+                                    figure
+                                        img(src='http://placehold.it/1000/ced0b4/ffffff&text=EduImage' alt='xxxx')
+                                .columns.medium-12.large-8
+                                    p Valerie K. Arnold, MD, of UTHSC Inducted into the American College of Psychiatrists
+                        a(href='http://news.uthsc.edu/uthsc-graduates-698-health-care-professionals-in-may/'): .row.panel
+                                .columns.medium-12.large-4
+                                    figure
+                                        img(src='http://placehold.it/1000/7a68ae/ffffff&text=EduImage' alt='xxxx')
+                                .columns.medium-12.large-8
+                                    p UTHSC Graduates 698 Health Care Professionals in May
+                    .columns.medium-8(data-equalizer-watch="data-equalizer-watch") Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.
             hr
             // Social Row
             .row.collapse.text-center(data-equalizer="data-equalizer")
