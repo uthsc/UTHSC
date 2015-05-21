@@ -12,7 +12,8 @@ module.exports = function (grunt) {
                 },
                 files: {
                     "template.php": ["template.jade"],
-                    "index.php": ["index.jade"]
+                    "index.php": ["index.jade"],
+                    "template-files/right-off-canvas-menu.php": ["template-files/right-off-canvas-menu.jade"]
                 }
             }
         },
