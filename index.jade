@@ -204,20 +204,9 @@ html.no-js(lang="en")
             .row(data-equalizer="data-equalizer")#about
                 .columns.small-12.medium-6.panel(data-equalizer-watch="data-equalizer-watch")
                     h3
-                        i.fa.fa-newspaper-o.fa-2x  News
-                    | <?php
-                    | if (file_get_contents('http://news.uthsc.edu/news-html/more-links.php')){
-                    | $news_output = file_get_contents('http://news.uthsc.edu/news-html/more-links.php');
-                    | if (trim($news_output) == '<h1>Error establishing a database connection</h1>'){
-                    | echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
-                    | } else {
-                    | echo $news_output;
-                    | }
-                    | //echo $news_output;
-                    | } else {
-                    | echo'<p style="padding:4px;">Our connection to the <a href="http://news.uthsc.edu/">UTHSC News</a> site is currently down. Please check back later for news. This may be due to routine maintenance or unforeseen technical problems. Whatever the issue, we can assure you that we are working hard to bring the connection back up.</p>';
-                    | }
-                    | ?>
+                        i.fa.fa-newspaper-o.fa-2x  Events
+                    ul
+                        | <?php readfile("http://events.uthsc.edu/widgets/template_all-info-bulleted.php?category=27&return_limit=5"); ?>
                 .columns.small-12.medium-6.panel(data-equalizer-watch="data-equalizer-watch")
                     h3
                         i.fa.fa-bar-chart.fa-2x  Quick Facts
