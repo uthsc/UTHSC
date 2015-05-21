@@ -44,13 +44,24 @@
     background-repeat: no-repeat;
   }
   .fullscreen {
-    width: 100%;
     height: calc(90vh - 105px);
-    background-image: url("../images/campus-flags.jpg");
+    background-image: url("../images/fullscreen-students.jpg");
     background-size: cover;
-    background-position-y: 50%;
+    background-position-x: 100%;
+    background-position-y: 80%;
     background-repeat: no-repeat;
   }
+// Flags
+//  .fullscreen {
+//    width: 100%;
+//    height: calc(90vh - 105px);
+//    background-image: url("../images/campus-flags.jpg");
+//    background-size: cover;
+//    background-position-y: 50%;
+//    background-repeat: no-repeat;
+//  }
+
+
   .news-box {
     h3 span {
       font-size: 0.35em;
