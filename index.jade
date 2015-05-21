@@ -37,77 +37,8 @@ html.no-js(lang="en")
                     fjs.parentNode.insertBefore(js, fjs);
                 }(document, 'script', 'facebook-jssdk'));
         //Right Off Canvas Menu
-        nav.offcanvas-nav.menu.push-menu-right
 
-            a.button.uthsc-split-button-home(href='/')
-                i.fa.fa-home
-            button.button.dropdown.uthsc-split-button(data-dropdown='breadcrumbs-right', aria-controls='drop', aria-expanded='false') Breadcrumbs Back Home
-            br
-            ol#breadcrumbs-right.f-dropdown.mega.uthsc-split-button-breadcrumb-links(aria-labelledby='breadcrumblabel', data-dropdown-content='data-dropdown-content', role='menu', aria-hidden='false', tabindex='-1')
-                li: a(href='/', title='Home')
-                    i.fa.fa-level-up.fa-2x.fa-flip-horizontal(style='float: left;')
-                    | Back to the Homepage
-                li: a(href='#', title='College of Medicine') College of Medicine
-                li: a(href='#', title='Office of Medical Education') Office of Medical Education
-                li: a(href='#', title='Clerkships') Clerkships
-                li: a(href='#', title='Core Clerkship Directors') Core Clerkship Directors
-                li: a(href='#'): strong Current Page
-            .search-bar.has-form.mobile
-                input.search(type='text')
-                a.button.secondary.tiny(href="#")
-                    i.fa.fa-search
-            button.close-menu.expand Close Menu &emsp;
-                i.fa.fa-chevron-right
-                // Mission Links
-            .mission-links
-                h2 Mission
-                a.button.inverse(href='/education/')
-                    i.fa.fa-graduation-cap
-                    | Education
-                a.button.inverse(href='/research/')
-                    i.fa.fa-flask
-                    | Research
-                a.button.inverse(href='/clinicalcare/')
-                    i.fa.fa-medkit
-                    | Clinical Care
-                a.button.inverse(href='/publicservice/')
-                    i.fa.fa-globe
-                    | Public Service
-            ul
-                li.button.menu
-                    a(href='#')
-                        i.fa.fa-gift
-                        | Make a Gift
-                li.button.menu
-                    a(href='template.php')
-                        i.fa.fa-road
-                        | Take a Tour
-                li.not-a-link
-                    a Information for...
-                    ul
-                        li: a(href='#') Students
-                        li: a(href='#') Faculty &amp; Staff
-                        li: a(href='#') Alumni
-                        li: a(href='#') Visitors
-                        li: a(href='#') Patients
-                li.not-a-link.menu
-                    a: i.fa.fa-university &emsp; Resources
-                    ul
-                        li: a(href='#') Banner
-                        li: a(href='#') Blackboard
-                        li: a(href='#') Calendar
-                        li: a(href='#') Career Opportunities
-                        li: a(href='#') iLogin
-                        li: a(href='#') Maps
-                        li: a(href='#') MyUT
-                        li: a(href='#') News
-                        li: a(href='#') Webmail
-            button.close-menu.expand Close Menu &emsp;
-                i.fa.fa-chevron-right
-            | <?php if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) { ?>
-            .bottom-nav-bar-off-canvas
-            | <?php } ?>
-
+        | <?php include("template-files/right-off-canvas-menu.php"); ?>
         //Off Canvas Wrapper
         #wrapper
             #mobile-navigation.hide-for-large-up
