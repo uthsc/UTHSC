@@ -260,64 +260,64 @@
         <div class="hero-name-stripe"></div>
         <div data-equalizer="data-equalizer" class="row">
           <h2 class="hero-text">Education</h2>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 news-box">
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 news-box">
             <div class="row">
-              <div class="columns small-2"><i class="fa fa-newspaper-o fa-3x"></i></div>
-              <div class="columns small-10">
+              <div class="columns small-3"><i class="fa fa-newspaper-o fa-3x"></i></div>
+              <div class="columns small-9">
                 <h2 class="news-box-h2">News <br><span class="news-box-for">for Education</span></h2>
               </div>
               <div class="columns small-12"><?php readfile("http://newsclone.uthsc.edu/news-html/redesign-news-education.php"); ?></div>
             </div>
           </div>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-9">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
         </div>
         <!-- Research-->
         <div id="research" class="hero"><img src="_resources/2015/images/mission-research.jpg" alt="xxxx" data-magellan-destination="research"></div>
         <div class="hero-name-stripe"></div>
         <div data-equalizer="data-equalizer" class="row">
           <h2 class="hero-text">Research</h2>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 news-box">
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 news-box">
             <div class="row">
-              <div class="columns small-2"><i class="fa fa-newspaper-o fa-3x"></i></div>
-              <div class="columns small-10">
+              <div class="columns small-3"><i class="fa fa-newspaper-o fa-3x"></i></div>
+              <div class="columns small-9">
                 <h2 class="news-box-h2">News <br><span class="news-box-for">for Research</span></h2>
               </div>
               <div class="columns small-12"></div>
             </div><?php readfile("http://newsclone.uthsc.edu/news-html/redesign-news-research.php"); ?>
           </div>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-9">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
         </div>
         <!-- Clinical Care-->
         <div id="clinical-care" class="hero"><img src="_resources/2015/images/mission-clinical-care.jpg" alt="xxxx" , data-magellan-destination="clinical-care"></div>
         <div class="hero-name-stripe"></div>
         <div data-equalizer="data-equalizer" class="row">
           <h2 class="hero-text">Clinical Care</h2>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 news-box">
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 news-box">
             <div class="row">
-              <div class="columns small-2"><i class="fa fa-newspaper-o fa-3x"></i></div>
-              <div class="columns small-10">
+              <div class="columns small-3"><i class="fa fa-newspaper-o fa-3x"></i></div>
+              <div class="columns small-9">
                 <h2 class="news-box-h2">News <br><span class="news-box-for">for Clinical Care</span></h2>
               </div>
               <div class="columns small-12"></div>
             </div><?php readfile("http://newsclone.uthsc.edu/news-html/redesign-news-clinical-care.php"); ?>
           </div>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-9">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
         </div>
         <!-- Public Service-->
         <div id="public-service" class="hero"><img src="_resources/2015/images/mission-public-service.jpg" alt="xxxx" , data-magellan-destination="public-service"></div>
         <div class="hero-name-stripe"></div>
         <div data-equalizer="data-equalizer" class="row">
           <h2 class="hero-text">Public Service</h2>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 news-box">
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 news-box">
             <div class="row">
-              <div class="columns small-2"><i class="fa fa-newspaper-o fa-3x"></i></div>
-              <div class="columns small-10">
+              <div class="columns small-3"><i class="fa fa-newspaper-o fa-3x"></i></div>
+              <div class="columns small-9">
                 <h2 class="news-box-h2">News <br><span class="news-box-for">for Public Service</span></h2>
               </div>
               <div class="columns small-12"></div>
             </div><?php readfile("http://newsclone.uthsc.edu/news-html/redesign-news-public-service.php"); ?>
           </div>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-9">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
         </div>
       </div>
       <hr>
@@ -431,7 +431,7 @@
       (function($){
           $(document).foundation({
               "magellan-expedition": {
-                  active_class: 'gellin', // specify the class used for active sections
+                  active_class: 'gellin' // specify the class used for active sections
               }
           });
       })(jQuery);
