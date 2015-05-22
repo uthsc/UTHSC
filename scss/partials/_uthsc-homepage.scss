@@ -74,14 +74,25 @@
         margin-top: -10px;
       }
     }
-    a:nth-child(odd) > div {
-      background-color: $gainsboro;
+    .row {
+      padding: 5px;
     }
-    .panel {
-      padding: 0.5rem;
-      p {
-        margin-bottom: 0;
+    a {
+      & .row:hover {
+        background-color: $gainsboro;
       }
+    &:not(:last-child):after {
+        content: "";
+        display: block;
+        height: 1px;
+        width: 90%;
+        margin: 8px;
+        background: #ccc;
+    }
+    }
+    p {
+      margin-bottom: 0;
+      font-size: .9rem;
     }
     .columns {
       padding: 0 0.5rem 0 0;
