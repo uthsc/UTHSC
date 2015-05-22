@@ -63,11 +63,16 @@
 
 
   .news-box {
-    h3 span {
-      font-size: 0.35em;
-      font-style: italic;
-      color: #999;
-      float: right;
+    h2 {
+        font-size: 2.4rem;
+        margin-top: -8px;
+      .news-box-for {
+        font-style: italic;
+        font-size: 1rem;
+        float: left;
+        padding-left: 50px;
+        margin-top: -10px;
+      }
     }
     a:nth-child(odd) > div {
       background-color: $gainsboro;

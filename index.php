@@ -159,7 +159,7 @@
       <!-- Fullscreen image-->
       <div class="hide-for-small">
         <div class="fullscreen">
-          <div style="height: 65%;"></div>
+          <div style="height: 38%;"></div>
           <div data-magellan-expedition="fixed" class="magellan">
             <dl class="sub-nav">
               <dd data-magellan-arrival="education"><a href="#education"><i class="fa fa-graduation-cap fa-3x"></i>
@@ -246,7 +246,7 @@
       <!-- About Row-->
       <div data-equalizer="data-equalizer" id="about" class="row">
         <div data-equalizer-watch="data-equalizer-watch" class="columns small-12 medium-6 panel">
-          <h3><i class="fa fa-newspaper-o fa-2x"> Events</i></h3>
+          <h3><i class="fa fa-calendar fa-2x"> Events</i></h3>
           <ul><?php readfile("http://events.uthsc.edu/widgets/template_all-info-bulleted.php?category=27&return_limit=5"); ?></ul>
         </div>
         <div data-equalizer-watch="data-equalizer-watch" class="columns small-12 medium-6 panel">
@@ -260,34 +260,14 @@
         <div class="hero-name-stripe"></div>
         <div data-equalizer="data-equalizer" class="row">
           <h2 class="hero-text">Education</h2>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel news-box">
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 news-box">
             <div class="row">
-              <div class="columns">
-                <h3><i class="fa fa-newspaper-o fa-2x"> News<br><span>for Education</span></i></h3>
+              <div class="columns small-2"><i class="fa fa-newspaper-o fa-3x"></i></div>
+              <div class="columns small-10">
+                <h2 class="news-box-h2">News <br><span class="news-box-for">for Education</span></h2>
               </div>
-            </div><a href="http://news.uthsc.edu/university-distinguished-professor-michael-carter-receives-2015-lifetime-achievement-award-from-national-organization-of-nurse-practitioner-faculties/">
-              <div class="row panel">
-                <div class="columns">
-                  <figure><img src="http://placehold.it/1000/b06010/ffffff&amp;text=Education+News+Image" alt="xxxx"></figure>
-                  <p>University Distinguished Professor Michael Carter Receives 2015 Lifetime Achievement Award from National Organization of Nurse Practitioner Faculties</p>
-                </div>
-              </div></a><a href="http://news.uthsc.edu/valerie-k-arnold-md-of-uthsc-inducted-into-the-american-college-of-psychiatrists/">
-              <div class="row panel">
-                <div class="columns medium-12 large-4">
-                  <figure><img src="http://placehold.it/1000/ced0b4/ffffff&amp;text=EduImage" alt="xxxx"></figure>
-                </div>
-                <div class="columns medium-12 large-8">
-                  <p>Valerie K. Arnold, MD, of UTHSC Inducted into the American College of Psychiatrists</p>
-                </div>
-              </div></a><a href="http://news.uthsc.edu/uthsc-graduates-698-health-care-professionals-in-may/">
-              <div class="row panel">
-                <div class="columns medium-12 large-4">
-                  <figure><img src="http://placehold.it/1000/7a68ae/ffffff&amp;text=EduImage" alt="xxxx"></figure>
-                </div>
-                <div class="columns medium-12 large-8">
-                  <p>UTHSC Graduates 698 Health Care Professionals in May</p>
-                </div>
-              </div></a>
+              <div class="columns small-12"><?php readfile("http://newsclone.uthsc.edu/news-html/redesign-news-education.php"); ?></div>
+            </div>
           </div>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
         </div>
@@ -296,30 +276,14 @@
         <div class="hero-name-stripe"></div>
         <div data-equalizer="data-equalizer" class="row">
           <h2 class="hero-text">Research</h2>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel news-box">
-            <h3><i class="fa fa-calendar fa-2x"> News<br><span>for Research</span></i></h3><a href="http://news.uthsc.edu/university-distinguished-professor-michael-carter-receives-2015-lifetime-achievement-award-from-national-organization-of-nurse-practitioner-faculties/">
-              <div class="row panel">
-                <div class="columns">
-                  <figure><img src="http://placehold.it/1000/b06010/ffffff&amp;text=Education+News+Image" alt="xxxx"></figure>
-                  <p>University Distinguished Professor Michael Carter Receives 2015 Lifetime Achievement Award from National Organization of Nurse Practitioner Faculties</p>
-                </div>
-              </div></a><a href="http://news.uthsc.edu/valerie-k-arnold-md-of-uthsc-inducted-into-the-american-college-of-psychiatrists/">
-              <div class="row panel">
-                <div class="columns medium-12 large-4">
-                  <figure><img src="http://placehold.it/1000/ced0b4/ffffff&amp;text=EduImage" alt="xxxx"></figure>
-                </div>
-                <div class="columns medium-12 large-8">
-                  <p>Valerie K. Arnold, MD, of UTHSC Inducted into the American College of Psychiatrists</p>
-                </div>
-              </div></a><a href="http://news.uthsc.edu/uthsc-graduates-698-health-care-professionals-in-may/">
-              <div class="row panel">
-                <div class="columns medium-12 large-4">
-                  <figure><img src="http://placehold.it/1000/7a68ae/ffffff&amp;text=EduImage" alt="xxxx"></figure>
-                </div>
-                <div class="columns medium-12 large-8">
-                  <p>UTHSC Graduates 698 Health Care Professionals in May</p>
-                </div>
-              </div></a>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 news-box">
+            <div class="row">
+              <div class="columns small-2"><i class="fa fa-newspaper-o fa-3x"></i></div>
+              <div class="columns small-10">
+                <h2 class="news-box-h2">News <br><span class="news-box-for">for Research</span></h2>
+              </div>
+              <div class="columns small-12"></div>
+            </div><?php readfile("http://newsclone.uthsc.edu/news-html/redesign-news-research.php"); ?>
           </div>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
         </div>
@@ -328,30 +292,14 @@
         <div class="hero-name-stripe"></div>
         <div data-equalizer="data-equalizer" class="row">
           <h2 class="hero-text">Clinical Care</h2>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel news-box">
-            <h3><i class="fa fa-calendar fa-2x"> News<br><span>for Clinical Care</span></i></h3><a href="http://news.uthsc.edu/university-distinguished-professor-michael-carter-receives-2015-lifetime-achievement-award-from-national-organization-of-nurse-practitioner-faculties/">
-              <div class="row panel">
-                <div class="columns">
-                  <figure><img src="http://placehold.it/1000/b06010/ffffff&amp;text=Education+News+Image" alt="xxxx"></figure>
-                  <p>University Distinguished Professor Michael Carter Receives 2015 Lifetime Achievement Award from National Organization of Nurse Practitioner Faculties</p>
-                </div>
-              </div></a><a href="http://news.uthsc.edu/valerie-k-arnold-md-of-uthsc-inducted-into-the-american-college-of-psychiatrists/">
-              <div class="row panel">
-                <div class="columns medium-12 large-4">
-                  <figure><img src="http://placehold.it/1000/ced0b4/ffffff&amp;text=EduImage" alt="xxxx"></figure>
-                </div>
-                <div class="columns medium-12 large-8">
-                  <p>Valerie K. Arnold, MD, of UTHSC Inducted into the American College of Psychiatrists</p>
-                </div>
-              </div></a><a href="http://news.uthsc.edu/uthsc-graduates-698-health-care-professionals-in-may/">
-              <div class="row panel">
-                <div class="columns medium-12 large-4">
-                  <figure><img src="http://placehold.it/1000/7a68ae/ffffff&amp;text=EduImage" alt="xxxx"></figure>
-                </div>
-                <div class="columns medium-12 large-8">
-                  <p>UTHSC Graduates 698 Health Care Professionals in May</p>
-                </div>
-              </div></a>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 news-box">
+            <div class="row">
+              <div class="columns small-2"><i class="fa fa-newspaper-o fa-3x"></i></div>
+              <div class="columns small-10">
+                <h2 class="news-box-h2">News <br><span class="news-box-for">for Clinical Care</span></h2>
+              </div>
+              <div class="columns small-12"></div>
+            </div><?php readfile("http://newsclone.uthsc.edu/news-html/redesign-news-clinical-care.php"); ?>
           </div>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
         </div>
@@ -360,30 +308,14 @@
         <div class="hero-name-stripe"></div>
         <div data-equalizer="data-equalizer" class="row">
           <h2 class="hero-text">Public Service</h2>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 panel news-box">
-            <h3><i class="fa fa-calendar fa-2x"> News<br><span>for Public Service</span></i></h3><a href="http://news.uthsc.edu/university-distinguished-professor-michael-carter-receives-2015-lifetime-achievement-award-from-national-organization-of-nurse-practitioner-faculties/">
-              <div class="row panel">
-                <div class="columns">
-                  <figure><img src="http://placehold.it/1000/b06010/ffffff&amp;text=Education+News+Image" alt="xxxx"></figure>
-                  <p>University Distinguished Professor Michael Carter Receives 2015 Lifetime Achievement Award from National Organization of Nurse Practitioner Faculties</p>
-                </div>
-              </div></a><a href="http://news.uthsc.edu/valerie-k-arnold-md-of-uthsc-inducted-into-the-american-college-of-psychiatrists/">
-              <div class="row panel">
-                <div class="columns medium-12 large-4">
-                  <figure><img src="http://placehold.it/1000/ced0b4/ffffff&amp;text=EduImage" alt="xxxx"></figure>
-                </div>
-                <div class="columns medium-12 large-8">
-                  <p>Valerie K. Arnold, MD, of UTHSC Inducted into the American College of Psychiatrists</p>
-                </div>
-              </div></a><a href="http://news.uthsc.edu/uthsc-graduates-698-health-care-professionals-in-may/">
-              <div class="row panel">
-                <div class="columns medium-12 large-4">
-                  <figure><img src="http://placehold.it/1000/7a68ae/ffffff&amp;text=EduImage" alt="xxxx"></figure>
-                </div>
-                <div class="columns medium-12 large-8">
-                  <p>UTHSC Graduates 698 Health Care Professionals in May</p>
-                </div>
-              </div></a>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 news-box">
+            <div class="row">
+              <div class="columns small-2"><i class="fa fa-newspaper-o fa-3x"></i></div>
+              <div class="columns small-10">
+                <h2 class="news-box-h2">News <br><span class="news-box-for">for Public Service</span></h2>
+              </div>
+              <div class="columns small-12"></div>
+            </div><?php readfile("http://newsclone.uthsc.edu/news-html/redesign-news-public-service.php"); ?>
           </div>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-8">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
         </div>
@@ -504,6 +436,7 @@
           });
       })(jQuery);
     </script>
+    <script type="text/javascript">$(document).foundation('equalizer', 'reflow');</script>
     <script src="_resources/2015/js/uthsc.min.js"></script>
   </body>
 </html>
