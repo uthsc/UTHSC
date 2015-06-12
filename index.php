@@ -266,7 +266,7 @@
               <div class="columns small-9">
                 <h2 class="news-box-h2">News <br><span class="news-box-for">for Education</span></h2>
               </div>
-              <div class="columns small-12"><?php readfile("http://newsclone.uthsc.edu/news-html/redesign-news-education.php"); ?></div>
+              <div class="columns small-12"><?php readfile("http://news.uthsc.edu/news-html/redesign-news-education.php"); ?></div>
             </div>
           </div>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-9">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
@@ -283,7 +283,7 @@
                 <h2 class="news-box-h2">News <br><span class="news-box-for">for Research</span></h2>
               </div>
               <div class="columns small-12"></div>
-            </div><?php readfile("http://newsclone.uthsc.edu/news-html/redesign-news-research.php"); ?>
+            </div><?php readfile("http://news.uthsc.edu/news-html/redesign-news-research.php"); ?>
           </div>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-9">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
         </div>
@@ -299,7 +299,7 @@
                 <h2 class="news-box-h2">News <br><span class="news-box-for">for Clinical Care</span></h2>
               </div>
               <div class="columns small-12"></div>
-            </div><?php readfile("http://newsclone.uthsc.edu/news-html/redesign-news-clinical-care.php"); ?>
+            </div><?php readfile("http://news.uthsc.edu/news-html/redesign-news-clinical-care.php"); ?>
           </div>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-9">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
         </div>
@@ -315,7 +315,7 @@
                 <h2 class="news-box-h2">News <br><span class="news-box-for">for Public Service</span></h2>
               </div>
               <div class="columns small-12"></div>
-            </div><?php readfile("http://newsclone.uthsc.edu/news-html/redesign-news-public-service.php"); ?>
+            </div><?php readfile("http://news.uthsc.edu/news-html/redesign-news-public-service.php"); ?>
           </div>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-9">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
         </div>
