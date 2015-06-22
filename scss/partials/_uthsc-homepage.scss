@@ -137,4 +137,46 @@
     letter-spacing: 6px;
     font-size: 1rem;
   }
+  .event-list p:before {
+    content: '\f073\ ';
+    font-family: fontawesome;
+  }
+  .event-list p {
+    font-size: 11px;
+  }
+  .inline-list {
+    margin: 0 !important;
+  }
+  blockquote {
+    font-family: monospace;
+    font-size: 3rem;
+    letter-spacing: 6px;
+    line-height: 2.75rem !important;
+  }
+  #events {
+    margin: 1.7rem auto;
+  }
+  .event-date {
+    border: 1px solid #bbb;
+    padding: .5rem;
+    width: 4.5rem;
+    height: 4.4rem;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 1.7rem;
+    border-radius: 7px;
+    background-color: lightgrey;
+    color: #444;
+    font-weight: bold;
+    float: left;
+    margin-right: 0.7rem;
+  }
+  .events p {
+    margin: 0;
+    line-height: 1.2rem;
+    font-size: .85rem;
+  }
+  p.event-title {
+    padding-top: 0.5rem;
+  }
 }
