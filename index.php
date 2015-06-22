@@ -243,17 +243,89 @@
           </div>
         </div>
       </div>
-      <!-- About Row-->
-      <div data-equalizer="data-equalizer" id="about" class="row">
-        <div data-equalizer-watch="data-equalizer-watch" class="columns small-12 medium-6 panel">
-          <h3><i class="fa fa-calendar fa-2x"> Events</i></h3>
-          <ul><?php readfile("http://events.uthsc.edu/widgets/template_all-info-bulleted.php?category=27&return_limit=5"); ?></ul>
+      <div id="about">
+        <div id="numbers" data-equalizer="data-equalizer" class="row text-center">
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3">
+            <h2>4<i class="fa fa-map-marker"></i></h2>
+            <p>Campuses</p>
+            <p>in Tennessee<br><a href="#">Memphis |</a><a href="#"> Knoxville |</a><a href="#"> Nashville |</a><a href="#"> Chattanooga</a></p>
+          </div>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3">
+            <h2>100+</h2>
+            <p>Clinical &amp; Educational</p>
+            <p>sites across the state of<br><span>Tennessee</span></p>
+          </div>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3">
+            <h2>17th</h2>
+            <p>College of Pharmacy</p>
+            <p>Ranking in the<br><span>U.S.</span></p>
+          </div>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3">
+            <h2>#1</h2>
+            <p>UT School</p>
+            <p>in the city of<br><span>Memphis</span></p>
+          </div>
         </div>
-        <div data-equalizer-watch="data-equalizer-watch" class="columns small-12 medium-6 panel">
-          <h3><i class="fa fa-bar-chart fa-2x"> Quick Facts</i></h3><img src="_resources/2015/images/graphic.jpg" alt="infographic">
+        <div class="row">
+          <div class="columns small-centered medium-8 large-7">
+            <div class="row">
+              <div class="columns medium-6"><a class="button large expand"><i class="fa fa-road"> Take a Tour</i></a></div>
+              <div class="columns medium-6"><a class="button large expand"><i class="fa fa-clock-o"> Schedule a Visit</i></a></div>
+            </div>
+          </div>
         </div>
+        <div class="row">
+          <div class="columns small-centered medium-9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d52195.518026446356!2d-89.99658658306379!3d35.15113676523933!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1434487876316" width="100%" height="275" frameborder="0" style="border:0"></iframe>
+          </div>
+        </div>
+        <div id="events" class="row">
+          <div class="columns medium-3 events">
+            <div class="event-date"><span>JUN</span><br><span>16</span></div>
+            <p class="event-title"><a href="http://events.uthsc.edu/events/index.php?com=detail&amp;eID=2369">Film Series-The Soloist</a></p>
+            <p class="event-time">5:30pm - 8:00pm</p>
+            <p class="event-location"><a data-dropdown="location-drop1" aria-controls="location-drop1" aria-expanded="false">Location</a></p>
+            <div id="location-drop1" data-dropdown-content aria-hidden="true" tabindex="-1" class="f-dropdown content">
+              <p>Benjamin Hooks Library</p><br>3030 Poplar<br>Memphis, TN 38111
+            </div>
+          </div>
+          <div class="columns medium-3 events">
+            <div class="event-date"><span>JUN</span><br><span>16</span></div>
+            <p class="event-title"><a href="http://events.uthsc.edu/events/index.php?com=detail&amp;eID=2369">Film Series-The Soloist</a></p>
+            <p class="event-time">5:30pm - 8:00pm</p>
+            <p class="event-location"><a data-dropdown="location-drop2" aria-controls="location-drop2" aria-expanded="false">Location</a></p>
+            <div id="location-drop2" data-dropdown-content aria-hidden="true" tabindex="-1" class="f-dropdown content">
+              <p>Benjamin Hooks Library</p><br>3030 Poplar<br>Memphis, TN 38111
+            </div>
+          </div>
+          <div class="columns medium-3 events">
+            <div class="event-date"><span>JUN</span><br><span>16</span></div>
+            <p class="event-title"><a href="http://events.uthsc.edu/events/index.php?com=detail&amp;eID=2369">Film Series-The Soloist</a></p>
+            <p class="event-time">5:30pm - 8:00pm</p>
+            <p class="event-location"><a data-dropdown="location-drop3" aria-controls="location-drop3" aria-expanded="false">Location</a></p>
+            <div id="location-drop3" data-dropdown-content aria-hidden="true" tabindex="-1" class="f-dropdown content">
+              <p>Benjamin Hooks Library</p><br>3030 Poplar<br>Memphis, TN 38111
+            </div>
+          </div>
+          <div class="columns medium-3 events">
+            <div class="event-date"><span>JUN</span><br><span>16</span></div>
+            <p class="event-title"><a href="http://events.uthsc.edu/events/index.php?com=detail&amp;eID=2369">Film Series-The Soloist</a></p>
+            <p class="event-time">5:30pm - 8:00pm</p>
+            <p class="event-location"><a data-dropdown="location-drop4" aria-controls="location-drop4" aria-expanded="false">Location</a></p>
+            <div id="location-drop4" data-dropdown-content aria-hidden="true" tabindex="-1" class="f-dropdown content">
+              <p>Benjamin Hooks Library</p><br>3030 Poplar<br>Memphis, TN 38111
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="columns small-centered small-8">
+            <blockquote>Could the design processes we&rsquo;ve come to rely on, particularly in relation to responsive design, have hindered our creativity?
+              <cite>Andrew Clarke</cite>
+            </blockquote>
+          </div>
+        </div>
+        <!-- Hero Images for Mission Sets-->
       </div>
-      <!-- Hero Images for Mission Sets-->
       <div class="hide-for-small">
         <!-- Education-->
         <div id="education" class="hero"><img src="_resources/2015/images/mission-education.jpg" alt="xxxx" data-magellan-destination="education"></div>
