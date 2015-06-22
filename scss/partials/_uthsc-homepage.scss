@@ -112,4 +112,29 @@
     margin-bottom: -17vh;
     left: -5vw;
   }
+  #numbers h2 {
+    font-weight: bolder;
+    font-size: 4rem;
+    font-family: inherit;
+    line-height: 5rem;
+    margin-bottom: 0;
+    letter-spacing: -2px;
+    color: #ced0b4;
+    margin:0;
+  }
+  #numbers p {
+    font-size: 0.75rem;
+    font-weight: lighter;
+  }
+  #numbers p:first-of-type {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  #numbers span {
+    font-weight: bold;
+    color: #b06010;
+    letter-spacing: 6px;
+    font-size: 1rem;
+  }
 }
