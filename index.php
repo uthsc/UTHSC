@@ -245,25 +245,29 @@
       </div>
       <div id="about">
         <div id="numbers" data-equalizer="data-equalizer" class="row text-center">
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3">
-            <h2>4<i class="fa fa-map-marker"></i></h2>
-            <p>Campuses</p>
-            <p>in Tennessee<br><a href="#">Memphis |</a><a href="#"> Knoxville |</a><a href="#"> Nashville |</a><a href="#"> Chattanooga</a></p>
-          </div>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3">
-            <h2>100+</h2>
-            <p>Clinical &amp; Educational</p>
-            <p>sites across the state of<br><span>Tennessee</span></p>
-          </div>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3">
-            <h2>17th</h2>
-            <p>College of Pharmacy</p>
-            <p>Ranking in the<br><span>U.S.</span></p>
-          </div>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3">
+          <div data-equalizer-watch="data-equalizer-watch" class="columns numbers foam-hand medium-3">
             <h2>#1</h2>
             <p>UT School</p>
             <p>in the city of<br><span>Memphis</span></p>
+          </div>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-6">
+            <div class="row numbers tennessee">
+              <div class="columns medium-6">
+                <h2>4<i class="fa fa-map-marker"></i></h2>
+                <p>Campuses</p>
+                <p><a href="#">Memphis |</a><a href="#"> Knoxville |</a><a href="#"> Nashville |</a><a href="#"> Chattanooga</a></p>
+              </div>
+              <div class="columns medium-6">
+                <h2>100+</h2>
+                <p>Clinical &amp<br>Educational Sites</p>
+              </div>
+            </div>
+            <p><span style="position: relative; top: -2.7rem;">Across Tennessee</span></p>
+          </div>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 numbers pharmacy">
+            <h2>17th</h2>
+            <p>College of Pharmacy</p>
+            <p>Ranking in the<br><span>U.S.</span></p>
           </div>
         </div>
         <div class="row">

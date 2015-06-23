@@ -179,4 +179,16 @@
   p.event-title {
     padding-top: 0.5rem;
   }
+  .numbers{
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    margin: 1.5rem 0px !important;
+    &.pharmacy {
+      background: url("http://uthsc.edu/test/redesign/nwinn1/_resources/2015/images/numbers-pharmacy-seal.png");
+    }
+    &.foam-hand {
+      background: url("http://uthsc.edu/test/redesign/nwinn1/_resources/2015/images/numbers-foam-hand.png");
+    }
+  }
 }
