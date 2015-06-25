@@ -279,8 +279,9 @@
           </div>
         </div>
         <div class="row">
-          <div class="columns small-centered medium-9">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d52195.518026446356!2d-89.99658658306379!3d35.15113676523933!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1434487876316" width="100%" height="275" frameborder="0" style="border:0"></iframe>
+          <div class="columns small-centered medium-7">
+            <div class="map-cover"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d52195.518026446356!2d-89.996586!3d35.151136!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1434487876316" width="100%" height="275" frameborder="0" style="border:0"></iframe>
           </div>
         </div>
         <div id="events" class="row">
@@ -322,8 +323,9 @@
           </div>
         </div>
         <div class="row">
-          <div class="columns small-centered small-8">
-            <blockquote>Could the design processes we&rsquo;ve come to rely on, particularly in relation to responsive design, have hindered our creativity?
+          <div class="columns small-centered small-10">
+            <blockquote>
+              <p><span class="quotemarks"></span>Could the design processes we&rsquo;ve come to rely on, particularly in relation to responsive design, have hindered our creativity?</p>
               <cite>Andrew Clarke</cite>
             </blockquote>
           </div>
@@ -340,12 +342,69 @@
             <div class="row">
               <div class="columns small-3"><i class="fa fa-newspaper-o fa-3x"></i></div>
               <div class="columns small-9">
-                <h2 class="news-box-h2">News <br><span class="news-box-for">for Education</span></h2>
+                <h2 class="news-box-h2">News<br><span class="news-box-for">for Education</span></h2>
               </div>
               <div class="columns small-12"><?php readfile("http://news.uthsc.edu/news-html/redesign-news-education.php"); ?></div>
             </div>
           </div>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-9">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-9"><img src="_resources/2015/images/numbers.png">
+            <hr style="width: 80%;margin: 3% 10%;">
+            <h2>Students</h2>
+            <div class="row">
+              <div class="columns medium-4">
+                <h3>Future</h3>
+                <ul>
+                  <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                  <li><a href="#">Aliquam tincidunt mauris eu risus.</a></li>
+                  <li><a href="#">Vestibulum auctor dapibus neque.</a></li>
+                  <li><a href="#">Nunc dignissim risus id metus.</a></li>
+                  <li><a href="#">Cras ornare tristique elit.</a></li>
+                  <li><a href="#">Vivamus vestibulum nulla nec ante.</a></li>
+                  <li><a href="#">Praesent placerat risus quis eros.</a></li>
+                </ul>
+              </div>
+              <div class="columns medium-4">
+                <h3>Current</h3>
+                <ul>
+                  <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                  <li><a href="#">Aliquam tincidunt mauris eu risus.</a></li>
+                  <li><a href="#">Vestibulum auctor dapibus neque.</a></li>
+                  <li><a href="#">Nunc dignissim risus id metus.</a></li>
+                  <li><a href="#">Cras ornare tristique elit.</a></li>
+                  <li><a href="#">Vivamus vestibulum nulla nec ante.</a></li>
+                  <li><a href="#">Praesent placerat risus quis eros.</a></li>
+                </ul>
+              </div>
+              <div class="columns medium-4">
+                <h3>Residents</h3>
+                <ul>
+                  <li><a href="#">Cras iaculis ultricies nulla.</a></li>
+                  <li><a href="#">Donec quis dui at dolor tempor interdum.</a></li>
+                  <li><a href="#">Vivamus molestie gravida turpis.</a></li>
+                  <li><a href="#">Fusce lobortis lorem at ipsum semper sagittis.</a></li>
+                  <li><a href="#">Nam convallis pellentesque nisl.</a></li>
+                  <li><a href="#">Integer malesuada commodo nulla.</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="colleges" class="hero panel">
+          <div class="row colleges">
+            <div class="columns">
+              <h2>Colleges</h2>
+            </div>
+            <div class="columns">
+              <ul class="colleges-grid">
+                <li><img src="_resources/2015/images/cod1.jpg" onmouseover="this.src='_resources/2015/images/cod2.jpg'" onmouseout="this.src='_resources/2015/images/cod1.jpg'"></li>
+                <li><img src="_resources/2015/images/cghs1.jpg" onmouseover="this.src='_resources/2015/images/cghs2.jpg'" onmouseout="this.src='_resources/2015/images/cghs1.jpg'"></li>
+                <li><img src="_resources/2015/images/chp1.jpg" onmouseover="this.src='_resources/2015/images/chp2.jpg'" onmouseout="this.src='_resources/2015/images/chp1.jpg'"></li>
+                <li><img src="_resources/2015/images/com1.jpg" onmouseover="this.src='_resources/2015/images/com2.jpg'" onmouseout="this.src='_resources/2015/images/com1.jpg'"></li>
+                <li><img src="_resources/2015/images/con1.jpg" onmouseover="this.src='_resources/2015/images/con2.jpg'" onmouseout="this.src='_resources/2015/images/con1.jpg'"></li>
+                <li><img src="_resources/2015/images/cop1.jpg" onmouseover="this.src='_resources/2015/images/cop2.jpg'" onmouseout="this.src='_resources/2015/images/cop1.jpg'"></li>
+              </ul>
+            </div>
+          </div>
         </div>
         <!-- Research-->
         <div id="research" class="hero"><img src="_resources/2015/images/mission-research.jpg" alt="xxxx" data-magellan-destination="research"></div>
@@ -356,7 +415,7 @@
             <div class="row">
               <div class="columns small-3"><i class="fa fa-newspaper-o fa-3x"></i></div>
               <div class="columns small-9">
-                <h2 class="news-box-h2">News <br><span class="news-box-for">for Research</span></h2>
+                <h2 class="news-box-h2">News<br><span class="news-box-for">for Research</span></h2>
               </div>
               <div class="columns small-12"></div>
             </div><?php readfile("http://news.uthsc.edu/news-html/redesign-news-research.php"); ?>
@@ -372,7 +431,7 @@
             <div class="row">
               <div class="columns small-3"><i class="fa fa-newspaper-o fa-3x"></i></div>
               <div class="columns small-9">
-                <h2 class="news-box-h2">News <br><span class="news-box-for">for Clinical Care</span></h2>
+                <h2 class="news-box-h2">News<br><span class="news-box-for">for Clinical Care</span></h2>
               </div>
               <div class="columns small-12"></div>
             </div><?php readfile("http://news.uthsc.edu/news-html/redesign-news-clinical-care.php"); ?>
@@ -388,7 +447,7 @@
             <div class="row">
               <div class="columns small-3"><i class="fa fa-newspaper-o fa-3x"></i></div>
               <div class="columns small-9">
-                <h2 class="news-box-h2">News <br><span class="news-box-for">for Public Service</span></h2>
+                <h2 class="news-box-h2">News<br><span class="news-box-for">for Public Service</span></h2>
               </div>
               <div class="columns small-12"></div>
             </div><?php readfile("http://news.uthsc.edu/news-html/redesign-news-public-service.php"); ?>
