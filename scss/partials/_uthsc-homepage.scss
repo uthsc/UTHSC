@@ -147,10 +147,30 @@
     margin: 0 !important;
   }
   blockquote {
-    font-family: monospace;
-    font-size: 3rem;
-    letter-spacing: 6px;
-    line-height: 2.75rem !important;
+    border-left: 0;
+    p {
+      font-family: monospace;
+      font-size: 2.5vw;
+      letter-spacing: 0;
+      line-height: 5.5vw !important;
+      @media #{$small-only} {
+        font-size: 5vw;
+      }
+      span:first-of-type:before {
+        font-family: fontawesome;
+        content: "\f10d";
+        padding: 0 4vw;
+        font-size: 9vw;
+        float: left;
+        line-height: 12vw;
+        margin: 0;
+        height: 9vw;
+        color: $gainsboro;
+      }
+    }
+    cite {
+      text-align: right;
+    }
   }
 
   #events {
