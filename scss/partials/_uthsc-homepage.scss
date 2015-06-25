@@ -18,7 +18,7 @@
       top: 2px;
       border: 2px solid #00a5e3;
       border-bottom: none;
-      border-top:none;
+      border-top: none;
       a {
         background-color: transparent;
       }
@@ -51,21 +51,20 @@
     background-position-y: 80%;
     background-repeat: no-repeat;
   }
-// Flags
-//  .fullscreen {
-//    width: 100%;
-//    height: calc(90vh - 105px);
-//    background-image: url("../images/campus-flags.jpg");
-//    background-size: cover;
-//    background-position-y: 50%;
-//    background-repeat: no-repeat;
-//  }
-
+  // Flags
+  //  .fullscreen {
+  //    width: 100%;
+  //    height: calc(90vh - 105px);
+  //    background-image: url("../images/campus-flags.jpg");
+  //    background-size: cover;
+  //    background-position-y: 50%;
+  //    background-repeat: no-repeat;
+  //  }
 
   .news-box {
     h2 {
-        font-size: 2.4rem;
-        margin-top: -8px;
+      font-size: 2.4rem;
+      margin-top: -8px;
       .news-box-for {
         font-style: italic;
         font-size: 1rem;
@@ -81,14 +80,14 @@
       & .row:hover {
         background-color: $gainsboro;
       }
-    &:not(:last-child):after {
+      &:not(:last-child):after {
         content: "";
         display: block;
         height: 1px;
         width: 90%;
         margin: 8px;
         background: #ccc;
-    }
+      }
     }
     p {
       margin-bottom: 0;
@@ -100,7 +99,7 @@
   }
   .hero-name-stripe {
     height: 7vh;
-    background-color: rgba(0,106,77,0.7);
+    background-color: rgba(0, 106, 77, 0.7);
     position: relative;
     bottom: 7vh;
   }
@@ -120,7 +119,7 @@
     margin-bottom: 0;
     letter-spacing: -2px;
     color: #ced0b4;
-    margin:0;
+    margin: 0;
   }
   #numbers p {
     font-size: 0.75rem;
@@ -153,6 +152,7 @@
     letter-spacing: 6px;
     line-height: 2.75rem !important;
   }
+
   #events {
     margin: 1.7rem auto;
   }
@@ -179,7 +179,7 @@
   p.event-title {
     padding-top: 0.5rem;
   }
-  .numbers{
+  .numbers {
     background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
