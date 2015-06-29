@@ -284,44 +284,7 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d52195.518026446356!2d-89.996586!3d35.151136!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1434487876316" width="100%" height="275" frameborder="0" style="border:0"></iframe>
           </div>
         </div>
-        <div id="events" class="row">
-          <div class="columns medium-3 events">
-            <div class="event-date"><span>JUN</span><br><span>16</span></div>
-            <p class="event-title"><a href="http://events.uthsc.edu/events/index.php?com=detail&amp;eID=2369">Film Series-The Soloist</a></p>
-            <p class="event-time">5:30pm - 8:00pm</p>
-            <p class="event-location"><a data-dropdown="location-drop1" aria-controls="location-drop1" aria-expanded="false">Location</a></p>
-            <div id="location-drop1" data-dropdown-content aria-hidden="true" tabindex="-1" class="f-dropdown content">
-              <p>Benjamin Hooks Library</p><br>3030 Poplar<br>Memphis, TN 38111
-            </div>
-          </div>
-          <div class="columns medium-3 events">
-            <div class="event-date"><span>JUN</span><br><span>16</span></div>
-            <p class="event-title"><a href="http://events.uthsc.edu/events/index.php?com=detail&amp;eID=2369">Film Series-The Soloist</a></p>
-            <p class="event-time">5:30pm - 8:00pm</p>
-            <p class="event-location"><a data-dropdown="location-drop2" aria-controls="location-drop2" aria-expanded="false">Location</a></p>
-            <div id="location-drop2" data-dropdown-content aria-hidden="true" tabindex="-1" class="f-dropdown content">
-              <p>Benjamin Hooks Library</p><br>3030 Poplar<br>Memphis, TN 38111
-            </div>
-          </div>
-          <div class="columns medium-3 events">
-            <div class="event-date"><span>JUN</span><br><span>16</span></div>
-            <p class="event-title"><a href="http://events.uthsc.edu/events/index.php?com=detail&amp;eID=2369">Film Series-The Soloist</a></p>
-            <p class="event-time">5:30pm - 8:00pm</p>
-            <p class="event-location"><a data-dropdown="location-drop3" aria-controls="location-drop3" aria-expanded="false">Location</a></p>
-            <div id="location-drop3" data-dropdown-content aria-hidden="true" tabindex="-1" class="f-dropdown content">
-              <p>Benjamin Hooks Library</p><br>3030 Poplar<br>Memphis, TN 38111
-            </div>
-          </div>
-          <div class="columns medium-3 events">
-            <div class="event-date"><span>JUN</span><br><span>16</span></div>
-            <p class="event-title"><a href="http://events.uthsc.edu/events/index.php?com=detail&amp;eID=2369">Film Series-The Soloist</a></p>
-            <p class="event-time">5:30pm - 8:00pm</p>
-            <p class="event-location"><a data-dropdown="location-drop4" aria-controls="location-drop4" aria-expanded="false">Location</a></p>
-            <div id="location-drop4" data-dropdown-content aria-hidden="true" tabindex="-1" class="f-dropdown content">
-              <p>Benjamin Hooks Library</p><br>3030 Poplar<br>Memphis, TN 38111
-            </div>
-          </div>
-        </div>
+        <div id="events" class="row"><?php readfile("http://events.uthsc.edu/widgets/uthsc_homepage_2015.php"); ?></div>
         <div class="row">
           <div class="columns small-centered small-10">
             <blockquote>
