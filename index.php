@@ -317,36 +317,38 @@
               <div class="columns medium-4">
                 <h3>Future</h3>
                 <ul>
-                  <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-                  <li><a href="#">Aliquam tincidunt mauris eu risus.</a></li>
-                  <li><a href="#">Vestibulum auctor dapibus neque.</a></li>
-                  <li><a href="#">Nunc dignissim risus id metus.</a></li>
-                  <li><a href="#">Cras ornare tristique elit.</a></li>
-                  <li><a href="#">Vivamus vestibulum nulla nec ante.</a></li>
-                  <li><a href="#">Praesent placerat risus quis eros.</a></li>
+                  <li><a href="/admissions/">Admissions</a></li>
+                  <li><a href="/admissions/application-deadlines.php">Application Deadlines</a></li>
+                  <li><a href="/admissions/degrees-offered.php">Degrees Offered</a></li>
+                  <li><a href="/finaid/">Financial Aid</a></li>
+                  <li><a href="/maps/">Maps and Directions</a></li>
+                  <li><a href="/international/">International Students</a></li>
+                  <li><a href="/futurestudents/">More...</a></li>
                 </ul>
               </div>
               <div class="columns medium-4">
                 <h3>Current</h3>
                 <ul>
-                  <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-                  <li><a href="#">Aliquam tincidunt mauris eu risus.</a></li>
-                  <li><a href="#">Vestibulum auctor dapibus neque.</a></li>
-                  <li><a href="#">Nunc dignissim risus id metus.</a></li>
-                  <li><a href="#">Cras ornare tristique elit.</a></li>
-                  <li><a href="#">Vivamus vestibulum nulla nec ante.</a></li>
-                  <li><a href="#">Praesent placerat risus quis eros.</a></li>
+                  <li><a href="/registrar/academic_calendar.php">Academic Calendar</a></li>
+                  <li><a href="/registrar/students.php#catalogs">Academic Catalog</a></li>
+                  <li><a href="/banner/">Banner Self-Service</a></li>
+                  <li><a href="/centerscope/">CenterScope</a></li>
+                  <li><a href="/oss/">One Stop Shop</a></li>
+                  <li><a href="/studentlife/">Student Life/SGAEC</a></li>
+                  <li><a href="/volshop/">VolShop</a></li>
+                  <li><a href="/registrar/">Registrar</a></li>
+                  <li><a href="/finance/bursar/">Bursar&rsquo;s Office</a></li>
+                  <li><a href="/students/">More...</a></li>
                 </ul>
               </div>
               <div class="columns medium-4">
                 <h3>Residents</h3>
                 <ul>
-                  <li><a href="#">Cras iaculis ultricies nulla.</a></li>
-                  <li><a href="#">Donec quis dui at dolor tempor interdum.</a></li>
-                  <li><a href="#">Vivamus molestie gravida turpis.</a></li>
-                  <li><a href="#">Fusce lobortis lorem at ipsum semper sagittis.</a></li>
-                  <li><a href="#">Nam convallis pellentesque nisl.</a></li>
-                  <li><a href="#">Integer malesuada commodo nulla.</a></li>
+                  <li><a href="/GME/">Graduate Medical Education (GME)</a></li>
+                  <li><a href="/dentistry/Grad/programs.php">Dentistry</a></li>
+                  <li><a href="/pharmacy/dcp/residencyfellowship/cprp/">Pharmacy</a></li>
+                  <li><a href="/hospitals/">Affiliated Hospitals</a></li>
+                  <li><a href="/residency/">More...</a></li>
                 </ul>
               </div>
             </div>
@@ -380,10 +382,12 @@
               <div class="columns small-9">
                 <h2 class="news-box-h2">News<br><span class="news-box-for">for Research</span></h2>
               </div>
-              <div class="columns small-12"></div>
-            </div><?php readfile("http://news.uthsc.edu/news-html/redesign-news-research.php"); ?>
+              <div class="columns small-12"><?php readfile("http://news.uthsc.edu/news-html/redesign-news-research.php"); ?></div>
+            </div>
           </div>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-9">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
+          <div data-equalizer-watch="data-equalizer-watch" style="padding: 40vh 0;text-align: center;margin-top: 15px;background-image: url('_resources/2015/images/flask.png');background-repeat: no-repeat;background-size: 50%;background-position: 50%;" class="columns medium-9 panel">
+            <p>Research specific content will be in this space.<br>See the<a href="#education"> Education</a> section for example.</p>
+          </div>
         </div>
         <!-- Clinical Care-->
         <div id="clinical-care" class="hero"><img src="_resources/2015/images/mission-clinical-care.jpg" alt="xxxx" , data-magellan-destination="clinical-care"></div>
@@ -396,10 +400,12 @@
               <div class="columns small-9">
                 <h2 class="news-box-h2">News<br><span class="news-box-for">for Clinical Care</span></h2>
               </div>
-              <div class="columns small-12"></div>
-            </div><?php readfile("http://news.uthsc.edu/news-html/redesign-news-clinical-care.php"); ?>
+              <div class="columns small-12"><?php readfile("http://news.uthsc.edu/news-html/redesign-news-clinical-care.php"); ?></div>
+            </div>
           </div>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-9">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
+          <div data-equalizer-watch="data-equalizer-watch" style="padding: 40vh 0;text-align: center;margin-top: 15px;background-image: url('_resources/2015/images/medkit.png');background-repeat: no-repeat;background-size: 50%;background-position: 50%;" class="columns medium-9 panel">
+            <p>Clinical Care specific content will be in this space.<br>See the<a href="#education"> Education</a> section for example.</p>
+          </div>
         </div>
         <!-- Public Service-->
         <div id="public-service" class="hero"><img src="_resources/2015/images/mission-public-service.jpg" alt="xxxx" , data-magellan-destination="public-service"></div>
@@ -412,16 +418,18 @@
               <div class="columns small-9">
                 <h2 class="news-box-h2">News<br><span class="news-box-for">for Public Service</span></h2>
               </div>
-              <div class="columns small-12"></div>
-            </div><?php readfile("http://news.uthsc.edu/news-html/redesign-news-public-service.php"); ?>
+              <div class="columns small-12"><?php readfile("http://news.uthsc.edu/news-html/redesign-news-public-service.php"); ?></div>
+            </div>
           </div>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-9">Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.</div>
+          <div data-equalizer-watch="data-equalizer-watch" style="padding: 40vh 0;text-align: center;margin-top: 15px;background-image: url('_resources/2015/images/globe.png');background-repeat: no-repeat;background-size: 50%;background-position: 50%;" class="columns medium-9 panel">
+            <p>Public Service specific content will be in this space.<br>See the<a href="#education"> Education</a> section for example.</p>
+          </div>
         </div>
       </div>
       <hr>
       <!-- Social Row-->
       <div data-equalizer="data-equalizer" class="row collapse text-center">
-        <div data-equalizer-watch="data-equalizer-watch" style="padding:1.25rem;" class="columns medium-4 panel">
+        <div data-equalizer-watch="data-equalizer-watch" style="padding:1.25rem;" class="columns medium-4">
           <h5><i class="fa fa-facebook fa-2x"> Facebook</i></h5>
           <div data-href="https://www.facebook.com/uthsc" data-width="500" data-hide-cover="true" data-show-facepile="false" data-show-posts="true" class="fb-page">
             <div class="fb-xfbml-parse-ignore">
@@ -429,16 +437,12 @@
             </div>
           </div>
         </div>
-        <div data-equalizer-watch="data-equalizer-watch" style="padding:1.25rem;" class="columns medium-3 panel">
+        <div data-equalizer-watch="data-equalizer-watch" style="padding:1.25rem;" class="columns medium-4">
           <h5><i class="fa fa-twitter fa-2x"> Twitter</i></h5><a data-dnt="true" href="https://twitter.com/uthsc" data-widget-id="595570516766883840" class="twitter-timeline">Tweets by @uthsc
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></a>
         </div>
-        <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 panel">
-          <h6><i class="fa fa-instagram fa-2x"> Instagram</i></h6><iframe src="http://widget.websta.me/in/uthsc/?s=100&w=2&h=2&b=1&p=5" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:230px; height: 230px" ></iframe> <!-- websta - web.stagram.com -->
-        </div>
-        <div data-equalizer-watch="data-equalizer-watch" class="columns medium-2 panel">
-          <h5><i class="fa fa-pinterest fa-2x"> Pinterest</i></h5><a data-pin-do="embedUser" href="http://www.pinterest.com/uthsc/" data-pin-scale-width="60" data-pin-scale-height="200" data-pin-board-width="200">Visit UTHSC&apos;s profile on Pinterest.
-            <script type="text/javascript" async="" defer="" src="//assets.pinterest.com/js/pinit.js"></script></a>
+        <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4">
+          <h5><i class="fa fa-instagram fa-2x"> Instagram</i></h5><iframe src="http://widget.websta.me/in/uthsc/?s=100&w=2&h=2&b=1&p=5" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:230px; height: 230px" ></iframe> <!-- websta - web.stagram.com -->
         </div>
       </div>
       <footer></footer>
