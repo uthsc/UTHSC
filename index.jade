@@ -126,20 +126,18 @@ html.no-js(lang="en")
                                     img(src='_resources/2015/images/mission-clinical-care.jpg' alt='xxxx')
                                  .columns.mission-name
                                      h2.tab-header Clinical Care
-                                 .columns.mission-content
-                                    p Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci. Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci. Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.
-                                    .button.small Button 1
-                                    .button.small Button 2
-                                    .button.secondary.small Button 3
+                                include template-files/homepage-content/clinical-care
+                            .small-news
+                                include template-files/homepage-content/clinical-care-news
                         section#panel2-4.content(role='tabpanel', aria-hidden='true')
                             .row
                                  .columns.mission-image
                                     img(src='_resources/2015/images/mission-public-service.jpg' alt='xxxx')
                                  .columns.mission-name
                                      h2.tab-header Public Service
-                                 .columns.mission-content
-                                    p Nam volutpat, lacus vel iaculis interdum, lectus lectus ornare nisi, eu sagittis sapien tellus non erat. Ut lectus urna, condimentum at tristique in, dictum nec orci.
-                                    .button.secondary.small Button 1
+                                include template-files/homepage-content/public-service
+                            .small-news
+                                include template-files/homepage-content/public-service-news
             #about
                 #numbers.row.text-center(data-equalizer='data-equalizer')
                     .columns.numbers.foam-hand.medium-3(data-equalizer-watch='data-equalizer-watch')
