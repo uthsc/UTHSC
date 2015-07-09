@@ -234,22 +234,8 @@ html.no-js(lang="en")
                 .hero-name-stripe
                 .row(data-equalizer="data-equalizer")
                     h2.hero-text Public Service
-                    .columns.medium-3.news-box(data-equalizer-watch="data-equalizer-watch")
-                        .row
-                            .columns.small-3
-                                i.fa.fa-newspaper-o.fa-3x
-                            .columns.small-9
-                                h2.news-box-h2 News
-                                    br
-                                    span.news-box-for for Public Service
-                            .columns.small-12
-                                | <?php readfile("http://news.uthsc.edu/news-html/redesign-news-public-service.php"); ?>
-                    .columns.medium-9.panel(data-equalizer-watch="data-equalizer-watch" style="padding: 40vh 0;text-align: center;margin-top: 15px;background-image: url('_resources/2015/images/globe.png');background-repeat: no-repeat;background-size: 50%;background-position: 50%;")
-                        p Public Service specific content will be in this space.
-                            br
-                            | See the
-                            a(href='#education')  Education
-                            |  section for example.
+                    include template-files/homepage-content/public-service-news
+                    include template-files/homepage-content/public-service
             hr
             // Social Row
             .row.collapse.text-center(data-equalizer="data-equalizer")
