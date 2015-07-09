@@ -27,8 +27,14 @@
   .tabs-content {
     border: 2px solid #00a5e3;
     background-color: #f5f5f5;
+    .college-image {
+      margin-bottom: 2rem;
+    }
+    .small-news .news-box {
+      padding: 0 !important;
+    }
   }
-  .tabs-content .columns:not(.mission-image) {
+  .tabs-content .columns:not(.mission-image):not(.college-image) {
     padding: 0 2rem;
   }
   .columns.mission-image {
