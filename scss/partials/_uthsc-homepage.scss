@@ -181,6 +181,9 @@
 
   #events {
     margin: 1.7rem auto;
+    .events:last-of-type {
+      float: left;
+    }
   }
   .event-date {
     border: 1px solid #bbb;
