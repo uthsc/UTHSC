@@ -86,7 +86,7 @@ html.no-js(lang="en")
                                     i.fa.fa-arrow-circle-up.fa-2x
                                     p.subheader To Top
             // tabs
-            .row.show-for-small-down
+            .row.show-for-small-down.content-area
                 .columns.small-centered
                     ul.tabs(data-tab='', role='tablist')
                         li.tab-title.active.text-center(role='presentational'): a(href='#panel2-1', role='tab', tabindex='0', aria-selected='true', controls='panel2-1'): i.fa.fa-graduation-cap.fa-2x
@@ -138,7 +138,7 @@ html.no-js(lang="en")
                                 include template-files/homepage-content/public-service
                             .small-news
                                 include template-files/homepage-content/public-service-news
-            #about
+            #about.content-area
                 #numbers.row.text-center(data-equalizer='data-equalizer')
                     .columns.numbers.foam-hand.medium-3(data-equalizer-watch='data-equalizer-watch')
                         h2 #1
@@ -193,7 +193,7 @@ html.no-js(lang="en")
                                 | Could the design processes we&rsquo;ve come to rely on, particularly in relation to responsive design, have hindered our creativity?
                             cite Andrew Clarke
                 // Hero Images for Mission Sets
-            .hide-for-small
+            .hide-for-small.content-area
                 // Education
                 #education.hero: img(src='_resources/2015/images/mission-education.jpg' alt='xxxx', data-magellan-destination='education')
                 .hero-name-stripe

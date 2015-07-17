@@ -177,7 +177,7 @@
         </div>
       </div>
       <!-- tabs-->
-      <div class="row show-for-small-down">
+      <div class="row show-for-small-down content-area">
         <div class="columns small-centered">
           <ul data-tab="" role="tablist" class="tabs">
             <li role="presentational" class="tab-title active text-center"><a href="#panel2-1" role="tab" tabindex="0" aria-selected="true" controls="panel2-1"><i class="fa fa-graduation-cap fa-2x"></i></a></li>
@@ -320,7 +320,7 @@
           </div>
         </div>
       </div>
-      <div id="about">
+      <div id="about" class="content-area">
         <div id="numbers" data-equalizer="data-equalizer" class="row text-center">
           <div data-equalizer-watch="data-equalizer-watch" class="columns numbers foam-hand medium-3">
             <h2>#1</h2>
@@ -372,7 +372,7 @@
         </div>
         <!-- Hero Images for Mission Sets-->
       </div>
-      <div class="hide-for-small">
+      <div class="hide-for-small content-area">
         <!-- Education-->
         <div id="education" class="hero"><img src="_resources/2015/images/mission-education.jpg" alt="xxxx" data-magellan-destination="education"></div>
         <div class="hero-name-stripe"></div>
