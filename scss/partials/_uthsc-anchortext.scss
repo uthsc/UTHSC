@@ -4,21 +4,22 @@
     text-decoration: none;
 
     background-image: linear-gradient(to top,
-            rgba(0,0,0,0) 11%,
-            rgba(0,0,0,.3) 11%,
-            rgba(0,0,0,.3) 16%,
-            rgba(0,0,0,0) 16%
+            rgba(0,0,0,0) 13%,
+            rgba(0,0,0,.3) 13%,
+            rgba(0,0,0,.3) 18%,
+            rgba(0,0,0,0) 18%
     );
 
     &:hover{
       background-image: linear-gradient(to top,
-              rgba(0,0,0,0) 11%,
-              rgba(0,106,77,1) 11%,
-              rgba(0,106,77,1) 16%,
-              rgba(0,0,0,0) 16%
+              rgba(0,0,0,0) 13%,
+              rgba(0,106,77,1) 13%,
+              rgba(0,106,77,1) 18%,
+              rgba(0,0,0,0) 18%
       );
     }
     text-shadow: -1px 0 0 white, 1px 0 0 white;
+    padding: 1px 0;
   }
 
   //fix background on panels
