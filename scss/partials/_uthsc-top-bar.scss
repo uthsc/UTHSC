@@ -1,12 +1,12 @@
 .top-bar {
   background-color: $uthsc-first-bookend-color;
-  .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button), .top-bar-section li:not(.has-form):hover {
-      background-color: $uthsc-bg-double-hover;
-    }
   button.secondary, .button.secondary {
     height: 1.875rem !important;
     position: relative !important;
     top: 0px !important;
+  }
+  .top-bar-section li:not(.has-form) a:hover, .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button), .top-bar-section li:not(.has-form):hover {
+    background-color: $uthsc-bg-double-hover;
   }
   .top-bar-section .has-dropdown > a, .top-bar-section ul li > a.button {
     background-color: $oil;
@@ -15,12 +15,12 @@
     }
   }
   section.top-bar-section {
-      margin-bottom: 0;
+    margin-bottom: 0;
   }
   .search-bar-large {
     width:190px;
   }
-  }
+}
 .top-bar-section ul li.has-dropdown ul.dropdown li a span {
   position: absolute;
   left: 2.7em;
