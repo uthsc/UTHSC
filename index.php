@@ -177,7 +177,7 @@
         </div>
       </div>
       <!-- tabs-->
-      <div class="row show-for-small-down content-area">
+      <div class="row show-for-small-down">
         <div class="columns small-centered">
           <ul data-tab="" role="tablist" class="tabs">
             <li role="presentational" class="tab-title active text-center"><a href="#panel2-1" role="tab" tabindex="0" aria-selected="true" controls="panel2-1"><i class="fa fa-graduation-cap fa-2x"></i></a></li>
@@ -185,14 +185,16 @@
             <li role="presentational" class="tab-title text-center"><a href="#panel2-3" role="tab" tabindex="0" aria-selected="false" controls="panel2-3"><i class="fa fa-medkit fa-2x"></i></a></li>
             <li role="presentational" class="tab-title text-center"><a href="#panel2-4" role="tab" tabindex="0" aria-selected="false" controls="panel2-4"><i class="fa fa-globe fa-2x"></i></a></li>
           </ul>
-          <div class="tabs-content">
+          <div class="tabs-content content-area">
             <section id="panel2-1" role="tabpanel" aria-hidden="false" class="content active">
               <div class="row">
                 <div class="columns mission-image"><img src="_resources/2015/images/mission-education.jpg" alt="xxxx"></div>
                 <div class="columns mission-name">
                   <h2 class="tab-header">Education</h2>
                 </div>
-                <div data-equalizer-watch="data-equalizer-watch" class="columns medium-9"><img src="_resources/2015/images/numbers.png">
+                <div data-equalizer-watch="data-equalizer-watch" class="columns medium-9">
+                  <div class="show-for-small-only"><img src="_resources/2015/images/numbers.png"></div>
+                  <div class="show-for-medium-up"><img src="_resources/2015/images/numbers.png" style="padding: 2vw 6vw 0;"></div>
                   <hr style="width: 80%;margin: 3% 10%;">
                   <h2>Students</h2>
                   <div class="row">
@@ -322,7 +324,7 @@
       </div>
       <div id="about" class="content-area">
         <div id="numbers" data-equalizer="data-equalizer" class="row text-center">
-          <div data-equalizer-watch="data-equalizer-watch" class="columns numbers billions medium-3">
+          <div data-equalizer-watch="data-equalizer-watch" class="columns numbers medium-3">
             <h2>$2.7</h2>
             <p>Billion</p>
             <p>contributed to the<br><span>Tennessee economy</span></p>
@@ -341,7 +343,7 @@
             </div>
             <p><span style="position: relative; top: -2.7rem;">Across Tennessee</span></p>
           </div>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 numbers millions">
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 numbers">
             <h2>$200</h2>
             <p>Million</p>
             <p>in sponsored programs<br><span>in fiscal 2014</span></p>
@@ -387,7 +389,9 @@
               <div class="columns small-12"><?php readfile("http://news.uthsc.edu/news-html/redesign-news-education.php"); ?></div>
             </div>
           </div>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-9"><img src="_resources/2015/images/numbers.png">
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-9">
+            <div class="show-for-small-only"><img src="_resources/2015/images/numbers.png"></div>
+            <div class="show-for-medium-up"><img src="_resources/2015/images/numbers.png" style="padding: 2vw 6vw 0;"></div>
             <hr style="width: 80%;margin: 3% 10%;">
             <h2>Students</h2>
             <div class="row">
