@@ -322,10 +322,10 @@
       </div>
       <div id="about" class="content-area">
         <div id="numbers" data-equalizer="data-equalizer" class="row text-center">
-          <div data-equalizer-watch="data-equalizer-watch" class="columns numbers foam-hand medium-3">
-            <h2>#1</h2>
-            <p>UT School</p>
-            <p>in the city of<br><span>Memphis</span></p>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns numbers billions medium-3">
+            <h2>$2.7</h2>
+            <p>Billion</p>
+            <p>contributed to the<br><span>Tennessee economy</span></p>
           </div>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-6">
             <div class="row numbers tennessee">
@@ -341,10 +341,10 @@
             </div>
             <p><span style="position: relative; top: -2.7rem;">Across Tennessee</span></p>
           </div>
-          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 numbers pharmacy">
-            <h2>17th</h2>
-            <p>College of Pharmacy</p>
-            <p>Ranking in the<br><span>U.S.</span></p>
+          <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 numbers millions">
+            <h2>$200</h2>
+            <p>Million</p>
+            <p>in sponsored programs<br><span>in fiscal 2014</span></p>
           </div>
         </div>
         <div class="row">
