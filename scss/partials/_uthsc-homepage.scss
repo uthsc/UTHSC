@@ -135,6 +135,7 @@
     color: #b06010;
     letter-spacing: 6px;
     font-size: 1rem;
+    font-variant-ligatures: no-common-ligatures;
   }
   .event-list p:before {
     content: '\f073\ ';
