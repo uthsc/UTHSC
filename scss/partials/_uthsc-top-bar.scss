@@ -3,6 +3,11 @@
   .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button), .top-bar-section li:not(.has-form):hover {
       background-color: $uthsc-bg-double-hover;
     }
+  button.secondary, .button.secondary {
+    height: 1.875rem !important;
+    position: relative !important;
+    top: 0px !important;
+  }
   .top-bar-section .has-dropdown > a, .top-bar-section ul li > a.button {
     background-color: $oil;
     &:hover {
