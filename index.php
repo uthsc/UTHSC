@@ -196,10 +196,10 @@
                   <div class="show-for-small-only"><img src="_resources/2015/images/numbers.png"></div>
                   <div class="show-for-medium-up"><img src="_resources/2015/images/numbers.png" style="padding: 2vw 6vw 0;"></div>
                   <hr style="width: 80%;margin: 3% 10%;">
-                  <h2>Students</h2>
+                  <h3>Students</h3>
                   <div class="row">
                     <div class="columns medium-4">
-                      <h3>Future</h3>
+                      <h4>Future</h4>
                       <ul>
                         <li><a href="/admissions/">Admissions</a></li>
                         <li><a href="/admissions/application-deadlines.php">Application Deadlines</a></li>
@@ -211,7 +211,7 @@
                       </ul>
                     </div>
                     <div class="columns medium-4">
-                      <h3>Current</h3>
+                      <h4>Current</h4>
                       <ul>
                         <li><a href="/registrar/academic_calendar.php">Academic Calendar</a></li>
                         <li><a href="/registrar/students.php#catalogs">Academic Catalog</a></li>
@@ -226,7 +226,7 @@
                       </ul>
                     </div>
                     <div class="columns medium-4">
-                      <h3>Residents</h3>
+                      <h4>Residents</h4>
                       <ul>
                         <li><a href="/GME/">Graduate Medical Education (GME)</a></li>
                         <li><a href="/dentistry/Grad/programs.php">Dentistry</a></li>
@@ -238,17 +238,14 @@
                   </div>
                 </div>
                 <div class="columns collapse college-image">
-                  <h2>Colleges</h2><a href="/dentistry/"><img src="_resources/2015/images/colleges-arches-01.jpg"></a><a href="/grad/"><img src="_resources/2015/images/colleges-arches-02.jpg"></a><a href="/health-professions/"><img src="_resources/2015/images/colleges-arches-03.jpg"></a><a href="/medicine/"><img src="_resources/2015/images/colleges-arches-04.jpg"></a><a href="/nursing/"><img src="_resources/2015/images/colleges-arches-05.jpg"></a><a href="/pharmacy/"><img src="_resources/2015/images/colleges-arches-06.jpg"></a>
+                  <h3>Colleges</h3><a href="/dentistry/"><img src="_resources/2015/images/colleges-arches-01.jpg"></a><a href="/grad/"><img src="_resources/2015/images/colleges-arches-02.jpg"></a><a href="/health-professions/"><img src="_resources/2015/images/colleges-arches-03.jpg"></a><a href="/medicine/"><img src="_resources/2015/images/colleges-arches-04.jpg"></a><a href="/nursing/"><img src="_resources/2015/images/colleges-arches-05.jpg"></a><a href="/pharmacy/"><img src="_resources/2015/images/colleges-arches-06.jpg"></a>
                 </div>
-                <div class="small-news">
-                  <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 news-box">
-                    <div class="row">
-                      <div class="columns small-3"><i class="fa fa-newspaper-o fa-3x"></i></div>
-                      <div class="columns small-9">
-                        <h2 class="news-box-h2">News<br><span class="news-box-for">for Education</span></h2>
-                      </div>
-                      <div class="columns small-12"><?php readfile("http://news.uthsc.edu/news-html/redesign-news-education.php"); ?></div>
+                <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 news-box">
+                  <div class="row">
+                    <div class="columns small-11">
+                      <h3><i class="fa fa-newspaper-o"> News<br><span class="news-box-for">for Education</span></i></h3>
                     </div>
+                    <div class="columns small-12"><?php readfile("http://news.uthsc.edu/news-html/redesign-news-education.php"); ?></div>
                   </div>
                 </div>
               </div>
@@ -263,15 +260,12 @@
               <div data-equalizer-watch="data-equalizer-watch" style="padding: 40vh 0;text-align: center;margin-top: 15px;background-image: url('_resources/2015/images/flask.png');background-repeat: no-repeat;background-size: 50%;background-position: 50%;" class="columns medium-9 panel">
                 <p>Research specific content will be in this space.<br>See the<a href="#education"> Education</a> section for example.</p>
               </div>
-              <div class="small-news">
-                <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 news-box">
-                  <div class="row">
-                    <div class="columns small-3"><i class="fa fa-newspaper-o fa-3x"></i></div>
-                    <div class="columns small-9">
-                      <h2 class="news-box-h2">News<br><span class="news-box-for">for Research</span></h2>
-                    </div>
-                    <div class="columns small-12"><?php readfile("http://news.uthsc.edu/news-html/redesign-news-research.php"); ?></div>
+              <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 news-box">
+                <div class="row">
+                  <div class="columns small-11">
+                    <h3><i class="fa fa-newspaper-o"> News<br><span class="news-box-for">for Research</span></i></h3>
                   </div>
+                  <div class="columns small-12"><?php readfile("http://news.uthsc.edu/news-html/redesign-news-research.php"); ?></div>
                 </div>
               </div>
             </section>
@@ -285,15 +279,12 @@
               <div data-equalizer-watch="data-equalizer-watch" style="padding: 40vh 0;text-align: center;margin-top: 15px;background-image: url('_resources/2015/images/medkit.png');background-repeat: no-repeat;background-size: 50%;background-position: 50%;" class="columns medium-9 panel">
                 <p>Clinical Care specific content will be in this space.<br>See the<a href="#education"> Education</a> section for example.</p>
               </div>
-              <div class="small-news">
-                <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 news-box">
-                  <div class="row">
-                    <div class="columns small-3"><i class="fa fa-newspaper-o fa-3x"></i></div>
-                    <div class="columns small-9">
-                      <h2 class="news-box-h2">News<br><span class="news-box-for">for Clinical Care</span></h2>
-                    </div>
-                    <div class="columns small-12"><?php readfile("http://news.uthsc.edu/news-html/redesign-news-clinical-care.php"); ?></div>
+              <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 news-box">
+                <div class="row">
+                  <div class="columns small-11">
+                    <h3><i class="fa fa-newspaper-o"> News<br><span class="news-box-for">for Clinical Care</span></i></h3>
                   </div>
+                  <div class="columns small-12"><?php readfile("http://news.uthsc.edu/news-html/redesign-news-clinical-care.php"); ?></div>
                 </div>
               </div>
             </section>
@@ -307,15 +298,12 @@
               <div data-equalizer-watch="data-equalizer-watch" style="padding: 40vh 0;text-align: center;margin-top: 15px;background-image: url('_resources/2015/images/globe.png');background-repeat: no-repeat;background-size: 50%;background-position: 50%;" class="columns medium-9 panel">
                 <p>Public Service specific content will be in this space.<br>See the<a href="#education"> Education</a> section for example.</p>
               </div>
-              <div class="small-news">
-                <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 news-box">
-                  <div class="row">
-                    <div class="columns small-3"><i class="fa fa-newspaper-o fa-3x"></i></div>
-                    <div class="columns small-9">
-                      <h2 class="news-box-h2">News<br><span class="news-box-for">for Public Service</span></h2>
-                    </div>
-                    <div class="columns small-12"><?php readfile("http://news.uthsc.edu/news-html/redesign-news-public-service.php"); ?></div>
+              <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 news-box">
+                <div class="row">
+                  <div class="columns small-11">
+                    <h3><i class="fa fa-newspaper-o"> News<br><span class="news-box-for">for Public Service</span></i></h3>
                   </div>
+                  <div class="columns small-12"><?php readfile("http://news.uthsc.edu/news-html/redesign-news-public-service.php"); ?></div>
                 </div>
               </div>
             </section>
@@ -382,9 +370,8 @@
           <h2 class="hero-text">Education</h2>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 news-box">
             <div class="row">
-              <div class="columns small-3"><i class="fa fa-newspaper-o fa-3x"></i></div>
-              <div class="columns small-9">
-                <h2 class="news-box-h2">News<br><span class="news-box-for">for Education</span></h2>
+              <div class="columns small-11">
+                <h3><i class="fa fa-newspaper-o"> News<br><span class="news-box-for">for Education</span></i></h3>
               </div>
               <div class="columns small-12"><?php readfile("http://news.uthsc.edu/news-html/redesign-news-education.php"); ?></div>
             </div>
@@ -393,10 +380,10 @@
             <div class="show-for-small-only"><img src="_resources/2015/images/numbers.png"></div>
             <div class="show-for-medium-up"><img src="_resources/2015/images/numbers.png" style="padding: 2vw 6vw 0;"></div>
             <hr style="width: 80%;margin: 3% 10%;">
-            <h2>Students</h2>
+            <h3>Students</h3>
             <div class="row">
               <div class="columns medium-4">
-                <h3>Future</h3>
+                <h4>Future</h4>
                 <ul>
                   <li><a href="/admissions/">Admissions</a></li>
                   <li><a href="/admissions/application-deadlines.php">Application Deadlines</a></li>
@@ -408,7 +395,7 @@
                 </ul>
               </div>
               <div class="columns medium-4">
-                <h3>Current</h3>
+                <h4>Current</h4>
                 <ul>
                   <li><a href="/registrar/academic_calendar.php">Academic Calendar</a></li>
                   <li><a href="/registrar/students.php#catalogs">Academic Catalog</a></li>
@@ -423,7 +410,7 @@
                 </ul>
               </div>
               <div class="columns medium-4">
-                <h3>Residents</h3>
+                <h4>Residents</h4>
                 <ul>
                   <li><a href="/GME/">Graduate Medical Education (GME)</a></li>
                   <li><a href="/dentistry/Grad/programs.php">Dentistry</a></li>
@@ -459,9 +446,8 @@
           <h2 class="hero-text">Research</h2>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 news-box">
             <div class="row">
-              <div class="columns small-3"><i class="fa fa-newspaper-o fa-3x"></i></div>
-              <div class="columns small-9">
-                <h2 class="news-box-h2">News<br><span class="news-box-for">for Research</span></h2>
+              <div class="columns small-11">
+                <h3><i class="fa fa-newspaper-o"> News<br><span class="news-box-for">for Research</span></i></h3>
               </div>
               <div class="columns small-12"><?php readfile("http://news.uthsc.edu/news-html/redesign-news-research.php"); ?></div>
             </div>
@@ -477,9 +463,8 @@
           <h2 class="hero-text">Clinical Care</h2>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 news-box">
             <div class="row">
-              <div class="columns small-3"><i class="fa fa-newspaper-o fa-3x"></i></div>
-              <div class="columns small-9">
-                <h2 class="news-box-h2">News<br><span class="news-box-for">for Clinical Care</span></h2>
+              <div class="columns small-11">
+                <h3><i class="fa fa-newspaper-o"> News<br><span class="news-box-for">for Clinical Care</span></i></h3>
               </div>
               <div class="columns small-12"><?php readfile("http://news.uthsc.edu/news-html/redesign-news-clinical-care.php"); ?></div>
             </div>
@@ -495,9 +480,8 @@
           <h2 class="hero-text">Public Service</h2>
           <div data-equalizer-watch="data-equalizer-watch" class="columns medium-3 news-box">
             <div class="row">
-              <div class="columns small-3"><i class="fa fa-newspaper-o fa-3x"></i></div>
-              <div class="columns small-9">
-                <h2 class="news-box-h2">News<br><span class="news-box-for">for Public Service</span></h2>
+              <div class="columns small-11">
+                <h3><i class="fa fa-newspaper-o"> News<br><span class="news-box-for">for Public Service</span></i></h3>
               </div>
               <div class="columns small-12"><?php readfile("http://news.uthsc.edu/news-html/redesign-news-public-service.php"); ?></div>
             </div>
