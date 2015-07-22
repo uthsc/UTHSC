@@ -132,17 +132,19 @@
     font-size: 1rem;
     font-variant-ligatures: no-common-ligatures;
   }
-  .event-list p:before {
-    content: '\f073\ ';
-    font-family: fontawesome;
-  }
-  .event-list p {
-    font-size: 11px;
-  }
-  .inline-list {
-    margin: 0 !important;
+  #events {
+    .event-list p:before {
+      content: '\f073\ ';
+      font-family: fontawesome;
+    }
+    .event-list p {
+      font-size: 11px;
+    }
     .events {
       margin: 5px;
+    }
+    .inline-list {
+      margin: 0 !important;
     }
   }
   blockquote {
