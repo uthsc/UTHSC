@@ -141,6 +141,9 @@
   }
   .inline-list {
     margin: 0 !important;
+    .events {
+      margin: 5px;
+    }
   }
   blockquote {
     border-left: 0;
