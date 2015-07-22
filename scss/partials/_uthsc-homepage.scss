@@ -156,6 +156,7 @@
       line-height: 3.6vw !important;
       @media #{$small-only} {
         font-size: 5vw;
+        line-height: 6vw !important;
       }
       span:first-of-type:before {
         font-family: fontawesome;
