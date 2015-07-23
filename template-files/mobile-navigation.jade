@@ -1,0 +1,6 @@
+#mobile-navigation.hide-for-large-up
+    button.nav-toggler.toggle-push-left.left
+    button.nav-toggler.toggle-push-right.right
+    | <?php if (strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')) { ?>
+    .bottom-nav-bar
+    | <?php } ?>

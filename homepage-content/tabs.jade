@@ -1,0 +1,49 @@
+// tabs
+.row.show-for-small-down
+    .columns.small-centered
+        ul.tabs(data-tab='', role='tablist')
+            li.tab-title.active.text-center(role='presentational'): a(href='#panel2-1', role='tab', tabindex='0', aria-selected='true', controls='panel2-1'): i.fa.fa-graduation-cap.fa-2x
+            li.tab-title.text-center(role='presentational'): a(href='#panel2-2', role='tab', tabindex='0', aria-selected='false', controls='panel2-2'): i.fa.fa-flask.fa-2x
+            li.tab-title.text-center(role='presentational'): a(href='#panel2-3', role='tab', tabindex='0', aria-selected='false', controls='panel2-3'): i.fa.fa-medkit.fa-2x
+            li.tab-title.text-center(role='presentational'): a(href='#panel2-4', role='tab', tabindex='0', aria-selected='false', controls='panel2-4'): i.fa.fa-globe.fa-2x
+        .tabs-content.content-area
+            section#panel2-1.content.active(role='tabpanel', aria-hidden='false')
+                .row
+                    .columns.mission-image
+                        img(src='_resources/2015/images/mission-education.jpg' alt='xxxx')
+                    .columns.mission-name
+                        h2.tab-header Education
+                    include education
+                    .columns.collapse.college-image
+                        h3 Colleges
+                        a(href="/dentistry/"): img(src='_resources/2015/images/colleges-arches-01.jpg')
+                        a(href="/grad/"): img(src='_resources/2015/images/colleges-arches-02.jpg')
+                        a(href="/health-professions/"): img(src='_resources/2015/images/colleges-arches-03.jpg')
+                        a(href="/medicine/"): img(src='_resources/2015/images/colleges-arches-04.jpg')
+                        a(href="/nursing/"): img(src='_resources/2015/images/colleges-arches-05.jpg')
+                        a(href="/pharmacy/"): img(src='_resources/2015/images/colleges-arches-06.jpg')
+                    include education-news
+            section#panel2-2.content(role='tabpanel', aria-hidden='true')
+                .row
+                     .columns.mission-image
+                        img(src='_resources/2015/images/mission-research.jpg' alt='xxxx')
+                     .columns.mission-name
+                         h2.tab-header Research
+                    include research
+                include research-news
+            section#panel2-3.content(role='tabpanel', aria-hidden='true')
+                .row
+                     .columns.mission-image
+                        img(src='_resources/2015/images/mission-clinical-care.jpg' alt='xxxx')
+                     .columns.mission-name
+                         h2.tab-header Clinical Care
+                    include clinical-care
+                include clinical-care-news
+            section#panel2-4.content(role='tabpanel', aria-hidden='true')
+                .row
+                     .columns.mission-image
+                        img(src='_resources/2015/images/mission-public-service.jpg' alt='xxxx')
+                     .columns.mission-name
+                         h2.tab-header Public Service
+                    include public-service
+                include public-service-news
