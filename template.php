@@ -382,7 +382,7 @@
         <div class="uthsc-footer-bottom">
           <div class="row collapse">
             <div class="columns text-center"><br>
-              <p>&copy; <?php echo date("Y") ?> The University of Tennessee<br>Health Science Center<br> Memphis, Tennessee 38163<br> Main: 901-448-5500<br> TDD: 901-448-7382</p><br><a href="mailto:webmaster@uthsc.edu" class="button radius secondary tiny"><i class="fa fa-envelope fa-3x two-line-button-icon"></i><span class="two-line-button-text">Email<br>Webmaster</span></a>
+              <p>&copy; <?php echo date("Y") ?> The University of Tennessee<br>Health Science Center<br> Memphis, Tennessee 38163<br> Main: 901-448-5500<br> TDD: 901-448-7382<br> Last Published: <?php echo date("F j, Y") ?></p><br><a href="mailto:webmaster@uthsc.edu" class="button radius secondary tiny"><i class="fa fa-envelope fa-3x two-line-button-icon"></i><span class="two-line-button-text">Email<br>Webmaster</span></a>
 <a href="/password/" class="button radius secondary tiny"><i class="fa fa-key fa-3x two-line-button-icon"></i><span class="two-line-button-text">Edit<br>Password</span></a><br>
               <div class="social-icon">
 <a href="http://facebook.com/uthsc"><i class="fa fa-facebook fa-2x fa-inverse"></i></a>
