@@ -462,7 +462,16 @@
     </div>
     <script type="text/javascript" src="_resources/2015/js/jquery.min.js"></script>
     <script type="text/javascript" src="_resources/2015/js/uthsc.foundation.min.js"></script>
-    <script type="text/javascript">(function($){$(document).foundation();})(jQuery);</script>
+    <script type="text/javascript">
+      (function($){
+          $(document).foundation({
+              "magellan-expedition": {
+                  active_class: 'gellin' // specify the class used for active sections
+              }
+          });
+      })(jQuery);
+    </script>
+    <script type="text/javascript">$(document).foundation('equalizer', 'reflow');</script>
     <script src="_resources/2015/js/uthsc.min.js"></script>
   </body>
 </html>
