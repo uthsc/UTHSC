@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UTHSC Navigation</title>
+    <title>University of Tennessee Health Science Center</title>
     <link rel="stylesheet" type="text/css" href="_resources/2015/css/uthsc.css">
     <link rel="stylesheet" type="text/css" href="_resources/2015/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300">
