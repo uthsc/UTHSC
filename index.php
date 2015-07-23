@@ -360,8 +360,8 @@
             </blockquote>
           </div>
         </div>
-        <!-- Hero Images for Mission Sets-->
       </div>
+      <!-- Hero Images for Mission Sets-->
       <div class="hide-for-small content-area">
         <!-- Education-->
         <div id="education" class="hero"><img src="_resources/2015/images/mission-education.jpg" alt="xxxx" data-magellan-destination="education"></div>
