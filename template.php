@@ -389,8 +389,8 @@
 <a href="http://twitter.com/uthsc"><i class="fa fa-twitter fa-2x fa-inverse"></i></a>
 <a href="http://instagram.com/uthsc"><i class="fa fa-instagram fa-2x fa-inverse"></i></a>
 <a href="http://linkedin.com/company/university-of-tennessee-health-science-center"><i class="fa fa-linkedin fa-2x fa-inverse"></i></a>
-<a href="http://pinterest.com/uthsc/"><i class="fa fa-youtube fa-2x fa-inverse"></i></a>
-<a href="http://youtube.com/user/uthsc"><i class="fa fa-pinterest fa-2x fa-inverse"></i></a>
+<a href="http://youtube.com/user/uthsc"><i class="fa fa-youtube fa-2x fa-inverse"></i></a>
+<a href="http://pinterest.com/uthsc/"><i class="fa fa-pinterest fa-2x fa-inverse"></i></a>
               </div><br>
             </div>
           </div>
