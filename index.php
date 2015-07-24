@@ -196,44 +196,48 @@
                   <div class="show-for-small-only"><img src="_resources/2015/images/numbers.png"></div>
                   <div class="show-for-medium-up"><img src="_resources/2015/images/numbers.png" style="padding: 2vw 6vw 0;"></div>
                   <hr style="width: 80%;margin: 3% 10%;">
-                  <h3>Students</h3>
                   <div class="row">
-                    <div class="columns medium-4">
-                      <h4>Future</h4>
-                      <ul>
-                        <li><a href="/admissions/">Admissions</a></li>
-                        <li><a href="/admissions/application-deadlines.php">Application Deadlines</a></li>
-                        <li><a href="/admissions/degrees-offered.php">Degrees Offered</a></li>
-                        <li><a href="/finaid/">Financial Aid</a></li>
-                        <li><a href="/maps/">Maps and Directions</a></li>
-                        <li><a href="/international/">International Students</a></li>
-                        <li><a href="/futurestudents/">More...</a></li>
-                      </ul>
-                    </div>
-                    <div class="columns medium-4">
-                      <h4>Current</h4>
-                      <ul>
-                        <li><a href="/registrar/academic_calendar.php">Academic Calendar</a></li>
-                        <li><a href="/registrar/students.php#catalogs">Academic Catalog</a></li>
-                        <li><a href="/banner/">Banner Self-Service</a></li>
-                        <li><a href="/centerscope/">CenterScope</a></li>
-                        <li><a href="/oss/">One Stop Shop</a></li>
-                        <li><a href="/studentlife/">Student Life/SGAEC</a></li>
-                        <li><a href="/volshop/">VolShop</a></li>
-                        <li><a href="/registrar/">Registrar</a></li>
-                        <li><a href="/finance/bursar/">Bursar&rsquo;s Office</a></li>
-                        <li><a href="/students/">More...</a></li>
-                      </ul>
-                    </div>
-                    <div class="columns medium-4">
-                      <h4>Residents</h4>
-                      <ul>
-                        <li><a href="/GME/">Graduate Medical Education (GME)</a></li>
-                        <li><a href="/dentistry/Grad/programs.php">Dentistry</a></li>
-                        <li><a href="/pharmacy/dcp/residencyfellowship/cprp/">Pharmacy</a></li>
-                        <li><a href="/hospitals/">Affiliated Hospitals</a></li>
-                        <li><a href="/residency/">More...</a></li>
-                      </ul>
+                    <div class="columns medium-10 medium-centered">
+                      <h3>Students</h3>
+                      <div class="row">
+                        <div class="columns medium-4">
+                          <h4>Future</h4>
+                          <ul>
+                            <li><a href="/admissions/">Admissions</a></li>
+                            <li><a href="/admissions/application-deadlines.php">Application Deadlines</a></li>
+                            <li><a href="/admissions/degrees-offered.php">Degrees Offered</a></li>
+                            <li><a href="/finaid/">Financial Aid</a></li>
+                            <li><a href="/maps/">Maps and Directions</a></li>
+                            <li><a href="/international/">International Students</a></li>
+                            <li><a href="/futurestudents/">More...</a></li>
+                          </ul>
+                        </div>
+                        <div class="columns medium-4">
+                          <h4>Current</h4>
+                          <ul>
+                            <li><a href="/registrar/academic_calendar.php">Academic Calendar</a></li>
+                            <li><a href="/registrar/students.php#catalogs">Academic Catalog</a></li>
+                            <li><a href="/banner/">Banner Self-Service</a></li>
+                            <li><a href="/centerscope/">CenterScope</a></li>
+                            <li><a href="/oss/">One Stop Shop</a></li>
+                            <li><a href="/studentlife/">Student Life/SGAEC</a></li>
+                            <li><a href="/volshop/">VolShop</a></li>
+                            <li><a href="/registrar/">Registrar</a></li>
+                            <li><a href="/finance/bursar/">Bursar&rsquo;s Office</a></li>
+                            <li><a href="/students/">More...</a></li>
+                          </ul>
+                        </div>
+                        <div class="columns medium-4">
+                          <h4>Residents</h4>
+                          <ul>
+                            <li><a href="/GME/">Graduate Medical Education (GME)</a></li>
+                            <li><a href="/dentistry/Grad/programs.php">Dentistry</a></li>
+                            <li><a href="/pharmacy/dcp/residencyfellowship/cprp/">Pharmacy</a></li>
+                            <li><a href="/hospitals/">Affiliated Hospitals</a></li>
+                            <li><a href="/residency/">More...</a></li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -353,11 +357,18 @@
         </div>
         <div id="events" class="row"><?php readfile("http://events.uthsc.edu/widgets/uthsc_homepage_2015.php"); ?></div>
         <div class="row">
-          <div class="columns small-centered small-10">
-            <blockquote>
-              <p><span class="quotemarks"></span>Could the design processes we&rsquo;ve come to rely on, particularly in relation to responsive design, have hindered our creativity?</p>
-              <cite>Andrew Clarke</cite>
-            </blockquote>
+          <div class="columns small-centered small-8">
+            <div class="row blockquote collapse">
+              <div class="columns small-3">
+                <h2><i class="fa fa-5x fa-quote-left quotemark"></i></h2>
+              </div>
+              <div class="columns small-9">
+                <blockquote>
+                  <p>Could the design processes we&rsquo;ve come to rely on, particularly in relation to responsive design, have hindered our creativity?</p>
+                  <cite>Andrew Clarke</cite>
+                </blockquote>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -380,44 +391,48 @@
             <div class="show-for-small-only"><img src="_resources/2015/images/numbers.png"></div>
             <div class="show-for-medium-up"><img src="_resources/2015/images/numbers.png" style="padding: 2vw 6vw 0;"></div>
             <hr style="width: 80%;margin: 3% 10%;">
-            <h3>Students</h3>
             <div class="row">
-              <div class="columns medium-4">
-                <h4>Future</h4>
-                <ul>
-                  <li><a href="/admissions/">Admissions</a></li>
-                  <li><a href="/admissions/application-deadlines.php">Application Deadlines</a></li>
-                  <li><a href="/admissions/degrees-offered.php">Degrees Offered</a></li>
-                  <li><a href="/finaid/">Financial Aid</a></li>
-                  <li><a href="/maps/">Maps and Directions</a></li>
-                  <li><a href="/international/">International Students</a></li>
-                  <li><a href="/futurestudents/">More...</a></li>
-                </ul>
-              </div>
-              <div class="columns medium-4">
-                <h4>Current</h4>
-                <ul>
-                  <li><a href="/registrar/academic_calendar.php">Academic Calendar</a></li>
-                  <li><a href="/registrar/students.php#catalogs">Academic Catalog</a></li>
-                  <li><a href="/banner/">Banner Self-Service</a></li>
-                  <li><a href="/centerscope/">CenterScope</a></li>
-                  <li><a href="/oss/">One Stop Shop</a></li>
-                  <li><a href="/studentlife/">Student Life/SGAEC</a></li>
-                  <li><a href="/volshop/">VolShop</a></li>
-                  <li><a href="/registrar/">Registrar</a></li>
-                  <li><a href="/finance/bursar/">Bursar&rsquo;s Office</a></li>
-                  <li><a href="/students/">More...</a></li>
-                </ul>
-              </div>
-              <div class="columns medium-4">
-                <h4>Residents</h4>
-                <ul>
-                  <li><a href="/GME/">Graduate Medical Education (GME)</a></li>
-                  <li><a href="/dentistry/Grad/programs.php">Dentistry</a></li>
-                  <li><a href="/pharmacy/dcp/residencyfellowship/cprp/">Pharmacy</a></li>
-                  <li><a href="/hospitals/">Affiliated Hospitals</a></li>
-                  <li><a href="/residency/">More...</a></li>
-                </ul>
+              <div class="columns medium-10 medium-centered">
+                <h3>Students</h3>
+                <div class="row">
+                  <div class="columns medium-4">
+                    <h4>Future</h4>
+                    <ul>
+                      <li><a href="/admissions/">Admissions</a></li>
+                      <li><a href="/admissions/application-deadlines.php">Application Deadlines</a></li>
+                      <li><a href="/admissions/degrees-offered.php">Degrees Offered</a></li>
+                      <li><a href="/finaid/">Financial Aid</a></li>
+                      <li><a href="/maps/">Maps and Directions</a></li>
+                      <li><a href="/international/">International Students</a></li>
+                      <li><a href="/futurestudents/">More...</a></li>
+                    </ul>
+                  </div>
+                  <div class="columns medium-4">
+                    <h4>Current</h4>
+                    <ul>
+                      <li><a href="/registrar/academic_calendar.php">Academic Calendar</a></li>
+                      <li><a href="/registrar/students.php#catalogs">Academic Catalog</a></li>
+                      <li><a href="/banner/">Banner Self-Service</a></li>
+                      <li><a href="/centerscope/">CenterScope</a></li>
+                      <li><a href="/oss/">One Stop Shop</a></li>
+                      <li><a href="/studentlife/">Student Life/SGAEC</a></li>
+                      <li><a href="/volshop/">VolShop</a></li>
+                      <li><a href="/registrar/">Registrar</a></li>
+                      <li><a href="/finance/bursar/">Bursar&rsquo;s Office</a></li>
+                      <li><a href="/students/">More...</a></li>
+                    </ul>
+                  </div>
+                  <div class="columns medium-4">
+                    <h4>Residents</h4>
+                    <ul>
+                      <li><a href="/GME/">Graduate Medical Education (GME)</a></li>
+                      <li><a href="/dentistry/Grad/programs.php">Dentistry</a></li>
+                      <li><a href="/pharmacy/dcp/residencyfellowship/cprp/">Pharmacy</a></li>
+                      <li><a href="/hospitals/">Affiliated Hospitals</a></li>
+                      <li><a href="/residency/">More...</a></li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
