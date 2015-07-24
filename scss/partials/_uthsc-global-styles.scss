@@ -24,9 +24,6 @@ body {
 li a {
   font-weight: normal;
 }
-p a, li a:not(nav) {
-  font-weight: $font-weight-bold;
-}
 
 em {
   font-style: $font-weight-italic;

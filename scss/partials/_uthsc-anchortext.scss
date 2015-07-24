@@ -9,7 +9,7 @@
             rgba(0,0,0,.3) 18%,
             rgba(0,0,0,0) 18%
     );
-
+    font-weight: $font-weight-bold;
     &:hover{
       background-image: linear-gradient(to top,
               rgba(0,0,0,0) 13%,
