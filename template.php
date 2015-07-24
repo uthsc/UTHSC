@@ -312,7 +312,7 @@
       </div>
       <!--Content Row 1-->
       <div class="row">
-        <div class="large-12 columns">
+        <div class="large-12 columns content-area">
           <div class="panel">
             <h3>Content Row 1</h3>
             <p>This is a full width row with a panel in it.</p>
@@ -320,7 +320,7 @@
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
           </div>
           <!-- Content Row 2-->
-          <div class="row">
+          <div class="row content-area">
             <div class="large-4 columns">
               <h3>Content Row 2</h3>
               <h5>One Third</h5>
@@ -341,7 +341,7 @@
             </div>
           </div>
           <!-- Content Row 3-->
-          <div class="row">
+          <div class="row content-area">
             <div class="large-4 columns">
               <h3>Content Row 3</h3>
               <h5>One Third</h5>
