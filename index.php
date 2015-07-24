@@ -509,20 +509,21 @@
       <hr>
       <!-- Social Row-->
       <div id="social-row" data-equalizer="data-equalizer" class="row collapse text-center">
-        <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 social-site">
+        <div class="columns medium-4 social-site">
           <h5><i class="fa fa-facebook fa-2x"> Facebook</i></h5>
-          <div data-href="https://www.facebook.com/uthsc" data-width="500" data-hide-cover="true" data-show-facepile="false" data-show-posts="true" class="fb-page">
+          <div data-href="https://www.facebook.com/uthsc" data-width="500" data-hide-cover="true" data-show-facepile="false" data-show-posts="true" data-equalizer-watch="data-equalizer-watch" class="fb-page">
             <div class="fb-xfbml-parse-ignore">
               <blockquote cite="https://www.facebook.com/uthsc"><a href="https://www.facebook.com/uthsc">University of Tennessee Health Science Center</a></blockquote>
             </div>
           </div>
         </div>
-        <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 social-site">
-          <h5><i class="fa fa-twitter fa-2x"> Twitter</i></h5><a data-dnt="true" href="https://twitter.com/uthsc" data-widget-id="595570516766883840" class="twitter-timeline">Tweets by @uthsc
+        <div class="columns medium-4 social-site">
+          <h5><i class="fa fa-twitter fa-2x"> Twitter</i></h5><a data-dnt="true" href="https://twitter.com/uthsc" data-widget-id="614465323593539584" data-equalizer-watch="data-equalizer-watch" class="twitter-timeline">Tweets by @uthsc
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></a>
         </div>
-        <div data-equalizer-watch="data-equalizer-watch" class="columns medium-4 social-site">
-          <h5><i class="fa fa-instagram fa-2x"> Instagram</i></h5><iframe src="http://widget.websta.me/in/uthsc/?s=100&w=2&h=2&b=1&p=5" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:230px; height: 230px" ></iframe> <!-- websta - web.stagram.com -->
+        <div class="columns medium-4 social-site">
+          <h5><i class="fa fa-instagram fa-2x"> Instagram</i></h5>
+          <div data-equalizer-watch="data-equalizer-watch" class="div"><iframe src="http://widget.websta.me/in/uthsc/?s=120&w=2&h=4&b=1&p=5" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:270px; height: 600px" ></iframe> <!-- websta - web.stagram.com --></div>
         </div>
       </div>
       <footer></footer>
