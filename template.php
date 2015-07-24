@@ -303,7 +303,7 @@
         </ul>
       </nav>
       <!-- Hero Image-->
-      <div class="hero"><img src="_resources/2015/images/memphis-skyline.jpg"></div>
+      <div class="hero"><img src="_resources/2015/images/uthsc-campus-dunn.jpg"></div>
       <!-- Page Heading-->
       <div class="row">
         <div class="large-12 columns">
