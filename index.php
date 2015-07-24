@@ -187,7 +187,7 @@
           </ul>
           <div class="tabs-content content-area">
             <section id="panel2-1" role="tabpanel" aria-hidden="false" class="content active">
-              <div class="row">
+              <div class="row collapse">
                 <div class="columns mission-image"><img src="_resources/2015/images/mission-education.jpg" alt="xxxx"></div>
                 <div class="columns mission-name">
                   <h2 class="tab-header">Education</h2>
@@ -255,7 +255,7 @@
               </div>
             </section>
             <section id="panel2-2" role="tabpanel" aria-hidden="true" class="content">
-              <div class="row">
+              <div class="row collapse">
                 <div class="columns mission-image"><img src="_resources/2015/images/mission-research.jpg" alt="xxxx"></div>
                 <div class="columns mission-name">
                   <h2 class="tab-header">Research</h2>
@@ -274,7 +274,7 @@
               </div>
             </section>
             <section id="panel2-3" role="tabpanel" aria-hidden="true" class="content">
-              <div class="row">
+              <div class="row collapse">
                 <div class="columns mission-image"><img src="_resources/2015/images/mission-clinical-care.jpg" alt="xxxx"></div>
                 <div class="columns mission-name">
                   <h2 class="tab-header">Clinical Care</h2>
@@ -293,7 +293,7 @@
               </div>
             </section>
             <section id="panel2-4" role="tabpanel" aria-hidden="true" class="content">
-              <div class="row">
+              <div class="row collapse">
                 <div class="columns mission-image"><img src="_resources/2015/images/mission-public-service.jpg" alt="xxxx"></div>
                 <div class="columns mission-name">
                   <h2 class="tab-header">Public Service</h2>
