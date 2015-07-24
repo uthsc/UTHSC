@@ -1,3 +1,12 @@
-.hero img {
-  width: 100%;
+.hero {
+  img {
+    width: 100%;
+  }
+  &.hero-one {
+    background-image: url('../images/uthsc-campus-mooney.jpg');
+    width: 100%;
+    height: 50vh;
+    background-position: 50%;
+    background-size: cover;
+  }
 }
