@@ -21,9 +21,8 @@ body {
   font-weight: $font-normal;
   font-style: $font-normal;
 }
-
-p a {
-  font-weight: $font-weight-bold;
+li a {
+  font-weight: normal;
 }
 
 em {
@@ -51,6 +50,8 @@ figure {
   border-radius: 3px;
   overflow: hidden;
   margin: 0;
+  max-width: 302px;
+  max-height: 302px;
   figcaption {
     padding: 5px;
     font-size: 0.85em;
@@ -68,5 +69,29 @@ input[type='text'] {
 @media #{$small-only} {
   .image-40, .image-40 img {
     width: 100%;
+  }
+}
+
+li.has-form.search-bar-large, .search-bar.has-form {
+  input.search {
+    width: 80%;
+    float: left;
+  }
+  &.mobile input.search{
+    margin: 0;
+  }
+  &.mobile a.button.tiny {
+    background-color: $monsoon;
+    padding: 7px 0 8px;
+    margin:0;
+  }
+  &.tablet a.button.tiny {
+    background-color: $monsoon;
+    padding: 12px 0;
+    margin:0;
+  }
+  a {
+    width: 20%;
+    float: left;
   }
 }

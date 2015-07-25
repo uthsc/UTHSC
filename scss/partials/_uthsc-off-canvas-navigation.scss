@@ -48,7 +48,11 @@ section.toggle {
     position: absolute;
   }
 }
-
+#fb-root > nav > ul > li:not(.not-a-link) > a {
+  font-size: inherit;
+  padding: 0;
+  font-weight: inherit;
+}
 .offcanvas-nav {
 
   &.menu {
@@ -103,7 +107,7 @@ section.toggle {
       }
     }
 
-    .button {
+    .button, {
 
       &.inverse {
         background-color: $gainsboro;
@@ -129,14 +133,19 @@ section.toggle {
 
       &.menu {
         margin: 0;
-        padding-left: 25px;
+        padding: 0 0 0 17px;
 
         .fa {
-          width: 44px;
+          width: 37px;
         }
       }
     }
-
+    li.not-a-link.menu > a {
+      padding: 7px 7px 7px 28px;
+    }
+    li.not-a-link.menu > a > i {
+      padding-right: 13px;
+    }
     .uthsc-split-button.inverse {
       background-color: $gainsboro;
       color: $uthsc-green;
@@ -183,11 +192,6 @@ section.toggle {
         &:last-child:after {
           content: "";
         }
-      }
-
-      li:last-child a:before {
-        content: "Current Page";
-        font-weight: $font-weight-bold;
       }
     }
 

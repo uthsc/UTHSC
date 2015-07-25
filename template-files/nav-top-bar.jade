@@ -1,0 +1,60 @@
+//Top Bar Navigation
+nav.top-bar.show-for-large-up(data-topbar='data-topbar', role='navigation')
+    ul.title-area
+        li.name
+        // Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone
+        li.toggle-topbar.menu-icon
+            a(href='#')
+                span Menu
+    // Left Top Bar Section
+    section.top-bar-section.left
+        ul
+            li: a(href='#') Students
+            li: a(href='#') Faculty &amp; Staff
+            li: a(href='#') Alumni
+            li: a(href='#') Visitors
+            li: a(href='#') Patients
+    // Right Top Bar Section
+    section.top-bar-section.right
+        ul
+            li.has-dropdown
+                a.button.label(href='#') Our Mission
+                ul.dropdown
+                    li: a(href='#')
+                        i.fa.fa-graduation-cap
+                        span Education
+                    li: a(href='#')
+                        i.fa.fa-flask
+                        span Research
+                    li: a(href='#')
+                        i.fa.fa-medkit
+                        span Clinical Care
+                    li: a(href='#')
+                        i.fa.fa-globe
+                        span Public Service
+                    li: a(href='#')  Mission Statement
+            li.has-dropdown
+                a.button.label(href='#')
+                    i.fa.fa-university
+                    |  Resources
+                ul.dropdown
+                    li: a(href='#') Banner
+                    li: a(href='#') Blackboard
+                    li: a(href='#') Calendar
+                    li: a(href='#') Career Opportunities
+                    li: a(href='#') iLogin
+                    li: a(href='#') Maps
+                    li: a(href='#') MyUT
+                    li: a(href='#') News
+                    li: a(href='#') Webmail
+            li.button.menu.secondary.label
+                i.fa.fa-gift
+                |  Make a Gift
+            li
+                a.button.top-bar-button.label(href='template.php')
+                    i.fa.fa-road
+                    |  Take a Tour
+            li.has-form.search-bar-large
+                input.search(type='text' placeholder="Search")
+                a.button.tiny(href="#")
+                    i.fa.fa-search

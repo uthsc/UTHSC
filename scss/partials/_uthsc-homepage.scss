@@ -1,0 +1,228 @@
+.homepage {
+  .hero {
+    margin-top: 1rem;
+  }
+  .tabs {
+    margin-top: -2px;
+  }
+  .tabs dd > a, .tabs .tab-title > a {
+    padding: 0;
+    padding-bottom: .75rem;
+  }
+  h2.tab-header {
+    color: $secondary-color;
+  }
+  ul.tabs li {
+    width: 25%;
+    padding-top: 1rem;
+    &.tab-title.active {
+      background-color: $white-smoke;
+      position: relative;
+      top: 2px;
+      border: 2px solid #00a5e3;
+      border-bottom: none;
+      border-top: none;
+      a {
+        background-color: transparent;
+      }
+    }
+  }
+  .tabs-content {
+    border: 2px solid #00a5e3;
+    background-color: #f5f5f5;
+    .college-image {
+      margin-bottom: 2rem;
+    }
+    .small-news .news-box {
+      padding: 0 !important;
+    }
+  }
+  .tabs-content .columns:not(.mission-image):not(.college-image) {
+    padding: 0 1rem;
+  }
+  .columns.mission-image {
+    margin-top: -15px;
+  }
+  #mobile-navigation {
+    button {
+      width: 100%;
+    }
+  }
+  .toggle-push-right {
+    background-image: url("../images/full-width-menu-button.png");
+    background-repeat: no-repeat;
+  }
+  .fullscreen {
+    height: calc(90vh - 105px);
+    background-image: url("../images/fullscreen-students.jpg");
+    background-size: cover;
+    background-position-x: 100%;
+    background-position-y: 80%;
+    background-repeat: no-repeat;
+  }
+  // Flags
+  //  .fullscreen {
+  //    width: 100%;
+  //    height: calc(90vh - 105px);
+  //    background-image: url("../images/campus-flags.jpg");
+  //    background-size: cover;
+  //    background-position-y: 50%;
+  //    background-repeat: no-repeat;
+  //  }
+
+  .news-box {
+    h3 {
+      margin: 5px 0 0 0;
+      .news-box-for {
+        font-size: 0.8rem;
+        float: left;
+        padding-left: 67px;
+        color: $steel;
+      }
+    }
+    a {
+      &:not(:last-child):after {
+        content: "";
+        display: block;
+        height: 1px;
+        width: 90%;
+        margin: 8px;
+        background: #ccc;
+      }
+    }
+    p {
+      margin-bottom: 0;
+      font-size: .9rem;
+      padding: 0 1rem 0 0;
+    }
+  }
+  .hero-name-stripe {
+    height: 7vh;
+    background-color: rgba(0, 106, 77, 0.7);
+    position: relative;
+    bottom: 7vh;
+  }
+  h2.hero-text {
+    font-size: 7vh;
+    color: white;
+    position: relative;
+    bottom: 16vh;
+    margin-bottom: -17vh;
+    text-align: center;
+  }
+  #numbers h2 {
+    font-weight: bolder;
+    font-size: 4rem;
+    font-family: inherit;
+    line-height: 5rem;
+    margin-bottom: 0;
+    letter-spacing: -2px;
+    color: #ced0b4;
+    margin: 0;
+  }
+  #numbers p {
+    font-size: 0.75rem;
+    font-weight: lighter;
+  }
+  #numbers p:first-of-type {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  #numbers span {
+    font-weight: bold;
+    color: #b06010;
+    letter-spacing: 6px;
+    font-size: 1rem;
+    font-variant-ligatures: no-common-ligatures;
+  }
+  #events {
+    .event-list p:before {
+      content: '\f073\ ';
+      font-family: fontawesome;
+    }
+    .event-list p {
+      font-size: 11px;
+    }
+    .events {
+      margin: 5px 0;
+    }
+    .inline-list {
+      margin: 0 !important;
+    }
+  }
+  .blockquote {
+    .quotemark {
+      color: $gainsboro;
+    }
+    blockquote {
+      border-left: 0;
+      p {
+        font-size: 1.7vw;
+        letter-spacing: 0;
+        line-height: 3.6vw !important;
+        @media #{$small-only} {
+          font-size: 5vw;
+          line-height: 6vw !important;
+        }
+      }
+      cite {
+        text-align: right;
+      }
+    }
+  }
+
+  #events {
+    margin: 1.7rem auto;
+    .events:last-of-type {
+      float: left;
+    }
+  }
+  .event-date {
+    border: 1px solid #bbb;
+    padding: .5rem;
+    width: 4.5rem;
+    height: 4.4rem;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 1.7rem;
+    border-radius: 7px;
+    background-color: lightgrey;
+    color: #444;
+    font-weight: bold;
+    float: left;
+    margin-right: 0.7rem;
+  }
+  .events p {
+    margin: 0;
+    line-height: 1.2rem;
+    font-size: .85rem;
+  }
+  p.event-title {
+    padding-top: 0.5rem;
+  }
+  .numbers {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    margin: 1.5rem 0px !important;
+    &.tennessee {
+      background: url("http://uthsc.edu/test/redesign/nwinn1/_resources/2015/images/uthsc-tennessee-gray.png");
+      &:hover {
+        background: url("http://uthsc.edu/test/redesign/nwinn1/_resources/2015/images/uthsc-tennessee-color.png");
+      }
+    }
+    &.pharmacy {
+      background: url("http://uthsc.edu/test/redesign/nwinn1/_resources/2015/images/numbers-pharmacy-seal.png");
+    }
+    &.foam-hand {
+      background: url("http://uthsc.edu/test/redesign/nwinn1/_resources/2015/images/numbers-foam-hand.png");
+    }
+    &.billions {
+      background: url("http://uthsc.edu/test/redesign/nwinn1/_resources/2015/images/numbers-billion-b.png");
+    }
+    &.millions {
+      background: url("http://uthsc.edu/test/redesign/nwinn1/_resources/2015/images/numbers-million-m.png");
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.homepage {
+  .magellan {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 0;
+    .sub-nav {
+      margin-left: 18vw;
+      padding-top: 1.1vh;
+      dd {
+        width: 16vw;
+        margin: 0;
+        &.gellin a {
+          color: $uthsc-blue !important;
+          background-color: transparent !important;
+        }
+        &.to-top {
+          float:right;
+          margin-top: 1.5vh;
+          width: 8vw;
+          p.subheader {
+            font-size: 0.9rem;
+          }
+        }
+      p {
+        font-weight: bold;
+        color: inherit;
+        margin-bottom: 0;
+        &.subheader {
+          font-size: 1.5vw;
+        }
+      }
+      }
+      a {
+        color: rgba(0, 0, 0, 0.7);
+        padding: 0;
+        &:hover {
+          color: $uthsc-bg-double-hover !important;
+        }
+      }
+    }
+  }
+  .more-chevron {
+    font-size: 1.5vw;
+    line-height: 1;
+    padding-top: 3.5vh;
+    color: rgba(255,255,255, .85) !important;
+  }
+}

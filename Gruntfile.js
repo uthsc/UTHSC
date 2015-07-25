@@ -11,6 +11,7 @@ module.exports = function (grunt) {
                     }
                 },
                 files: {
+                    "template.php": ["template.jade"],
                     "index.php": ["index.jade"]
                 }
             }
@@ -110,11 +111,11 @@ module.exports = function (grunt) {
 
             sass: {
                 files: 'scss/**/*.scss',
-                tasks: ['sass']
+                tasks: ['sass','copy:css']
             },
             uglify: {
                 files: 'js/scripts/**/*.js',
-                tasks: ['concat','uglify']
+                tasks: ['concat','uglify','copy:js']
             },
             jade: {
                 files: '*.jade',

@@ -1,0 +1,11 @@
+//Breadcrumbs
+nav#breadcrumbs.show-for-large-up(role='navigation')
+    .row
+        .columns
+            //p#breadcrumblabel You are here:</p>
+            ol(aria-labelledby='breadcrumblabel')
+                li: a.home-icon(href='index.php', title='Go to the UTHSC Homepage')
+                        i.uthsc-home-icon-breadcrumbs.fa.fa-home.fa-2x
+                li: a(href='index.html', title='Go to the Section Homepage') Section
+                li: a(href='products.html', title='Go to the Page Parent') Page Parent
+                li.not-a-link: a.current Current Page
