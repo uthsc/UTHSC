@@ -6241,7 +6241,8 @@ body.pmr-open #wrapper {
     #uthsc-navigation-alt > ul > li > a {
       width: 100%;
       display: table-cell;
-      vertical-align: middle; }
+      vertical-align: middle;
+      font-weight: 100; }
   #uthsc-navigation-alt > ul > li > ul {
     margin-left: 0;
     margin-top: 0.2em;
